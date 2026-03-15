@@ -2,7 +2,7 @@ name: Process Profile Submission
 
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 
 jobs:
   process:
