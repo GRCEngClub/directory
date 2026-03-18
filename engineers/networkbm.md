@@ -8,6 +8,8 @@ specializations:
   - Offensive Security
   - Python & Rust
 
+# OPTIONAL FIELDS - Remove or leave blank if not applicable
+location: Washington D.C
 
 # Social Links (optional)
 linkedin: https://www.linkedin.com/in/brian-montiel-95b38b239/
@@ -19,6 +21,7 @@ frameworks:
   - SOC 2
   - FedRAMP
   - GovRAMP
+  - NIST 800-53
 
 # Professional certifications (optional)
 certifications:
@@ -33,12 +36,22 @@ certifications:
 available_for:
   - collaboration
   - open-source
+  - hiring
 
 # Notable projects (optional)
 projects:
   - name: FedRAMP KSI Trust Center Demo
     url: https://github.com/networkbm/fedramp20x-ksi-trust-center
     description: A FedRAMP20x demo Trust Center created for fun and practice. This Trust Center includes status mapping, evidence tracking, assessor validation, and visual dashboards.
+  - name: AI integrated Pentest Note app
+    url: https://github.com/networkbm/pentest-deephat-ai
+    description: A local-first pentest and CTF notebook with AI assistance (DeepHat via Hugging Face), Markdown editing, screenshot uploads, and exportable notes.
+  - name: OCR screenshot renamer tool
+    url: https://github.com/networkbm/OCR-Screenshot-Renamer
+    description: An easier way to rename all your screenshots at once.
+  - name: Audit screenshot organizer
+    url: https://github.com/networkbm/audit-screenshot-organizer
+    description: A Python GUI app that automatically organizes screenshots into session-based folders for audit and assessment work.
 ---
 
 ## About Me
