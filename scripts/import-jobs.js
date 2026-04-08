@@ -1,6 +1,6 @@
 const fs = require("fs/promises");
 const path = require("path");
-const { greenhouseBoards: catalogGreenhouseBoards, ashbyBoards: catalogAshbyBoards } = require("./job-board-sources");
+const { greenhouseBoards: catalogGreenhouseBoards, ashbyBoards: catalogAshbyBoards, workableBoards: catalogWorkableBoards } = require("./job-board-sources");
 
 const ROOT = process.cwd();
 const IMPORT_ROOT = path.join(ROOT, "jobs", "imported");
@@ -593,6 +593,57 @@ async function importAshby() {
   return imported;
 }
 
+function normalizeWorkableJob(boardSlug, job) {
+  const body = htmlToMarkdown(job.description || "");
+  const summary = stripHtml(job.description || "");
+  const locationParts = [job.city, job.state, job.country].filter(Boolean);
+  const location = locationParts.join(", ") || "Remote";
+  const text = [job.title, boardSlug, location, summary].join(" ");
+  if (!looksRelevant(job.title, text)) return null;
+
+  const postedDate = toIsoDate(job.published_on || job.created_at);
+  const slug = slugify(["workable", boardSlug, job.shortcode, job.title].join("-"));
+
+  return buildNormalizedJob({
+    title: job.title,
+    company: titleCaseFromSlug(boardSlug),
+    slug,
+    source: "Workable",
+    sources: ["Workable"],
+    source_url: "https://apply.workable.com/" + boardSlug,
+    role_url: job.url || "",
+    apply_url: job.application_url || job.url || "",
+    posted_date: postedDate,
+    expires_date: addDays(postedDate, 30),
+    location,
+    work_modes: job.telecommuting ? ["Remote"] : /remote/i.test(location + " " + summary) ? ["Remote"] : ["Hybrid / On-site"],
+    job_types: [normalizeJobType(job.employment_type)],
+    summary,
+    body
+  });
+}
+
+async function importWorkable() {
+  const boards = configuredBoards("WORKABLE_BOARDS", catalogWorkableBoards);
+  if (!boards.length) return [];
+
+  const imported = [];
+  for (const board of boards) {
+    try {
+      const payload = await fetchJson("https://www.workable.com/api/accounts/" + encodeURIComponent(board) + "?details=true");
+      const jobs = Array.isArray(payload.jobs) ? payload.jobs : [];
+      jobs.forEach((job) => {
+        const normalized = normalizeWorkableJob(board, job);
+        if (normalized) imported.push(normalized);
+      });
+    } catch (error) {
+      console.warn("[workable] skipped board " + board + ": " + (error.message || error));
+    }
+  }
+
+  return imported;
+}
+
 async function runSource(key, enabled, importer) {
   if (!enabled) {
     console.log("[" + key + "] skipped");
@@ -612,10 +663,11 @@ async function main() {
   total += await runSource("remoteok", envFlag("REMOTEOK_ENABLED", true), importRemoteOk);
   total += await runSource("greenhouse", configuredBoards("GREENHOUSE_BOARDS", catalogGreenhouseBoards).length > 0, importGreenhouse);
   total += await runSource("ashby", configuredBoards("ASHBY_JOB_BOARDS", catalogAshbyBoards).length > 0, importAshby);
+  total += await runSource("workable", configuredBoards("WORKABLE_BOARDS", catalogWorkableBoards).length > 0, importWorkable);
 
   if (total === 0) {
     console.log("No jobs matched the current GRC filters.");
-    console.log("Tip: curated Greenhouse and Ashby boards are checked into the repo. Add GREENHOUSE_BOARDS or ASHBY_JOB_BOARDS to extend the board list.");
+    console.log("Tip: curated Greenhouse, Ashby, and Workable boards are checked into the repo. Add GREENHOUSE_BOARDS, ASHBY_JOB_BOARDS, or WORKABLE_BOARDS to extend the board list.");
   }
 }
 

@@ -35,5 +35,27 @@ module.exports = {
     "serverobotics",
     "socure",
     "writer"
+  ],
+  workableBoards: [
+    "1kosmos",
+    "aretum",
+    "assurity-trusted-solutions",
+    "avint",
+    "classwallet",
+    "crewai",
+    "emergent-group",
+    "euronet",
+    "financeit",
+    "jacobian",
+    "luminance-1",
+    "mealsuite",
+    "optasia",
+    "qodeworld",
+    "runware",
+    "sword-group",
+    "tecsys",
+    "the-mill-adventure",
+    "unifize",
+    "zerofox"
   ]
 };
