@@ -60,6 +60,9 @@ What you'll do
 
 Qualifications
 
+- Minimum three (3)+ years of experience required in listed tasks
+- Bachelor's degree
+
 - Experience administering and supporting GRC solutions in a federal or highly regulated environment.
 - Hands‑on experience supporting system migrations or enhancements within GRC platforms, including assisting with control mappings and data transformation.
 - Experience developing or supporting automated data integrations using APIs or similar mechanisms.

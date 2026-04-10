@@ -58,6 +58,9 @@ What you'll do
 
 Qualifications
 
+- Four (4)+ years of experience in listed tasks
+- Master’s degree
+
 - Demonstrated proficiency in developing, designing, and maintaining dashboards and reports using data visualization tools such as Power BI.
 - Experience with Power Automate for automating workflows and data collection.
 - Familiarity with the ServiceNow platform, particularly its reporting and dashboarding capabilities.

@@ -60,6 +60,9 @@ What you'll do
 
 Qualifications
 
+- Eight (8)+ years of experience in listed tasks
+- Master’s degree
+
 - Significant experience in the deployment, administration, and optimization of GRC solutions within a federal or highly regulated context.
 - Proven track record of migrating systems and common control programs between GRC platforms, including the transformation logic for control implementation statements and inheritance configurations.
 - Hands-on experience using APIs or other automated integrations to synchronize data between GRC systems and other enterprise security solutions.

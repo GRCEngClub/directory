@@ -18,9 +18,9 @@ job_types:
   - "Contract"
 specializations:
   - "Compliance Automation"
-  - "Risk Management"
   - "Security Governance"
   - "Audit & Assurance"
+  - "Identity & Access Management"
 frameworks:
   - "ISO 27001"
 languages: []
@@ -52,20 +52,22 @@ As a Cyber Security Governance Analyst, you will:
 
 Requirements
 
-- Experience working within cyber security governance, risk, or security controls roles.
-- Strong understanding of security frameworks such as ISO 27001, NIST, or similar.
-- Experience developing or contributing to security policies, standards, or governance frameworks.
-- Ability to translate security requirements into practical processes and guidance for business teams.
-- Experience working in regulated environments such as energy, utilities, or financial services.
-- Strong stakeholder engagement skills, with the ability to work across technical and non-technical teams.
-- Excellent documentation skills, with a structured and detail-oriented approach.
+- Experience working within cyber security governance, policy, or security controls-focused roles.
+- Strong understanding of security frameworks such as ISO 27001, NIST, and ideally exposure to CAF / Enhanced CAF.
+- Experience writing or contributing to cyber security policies, standards and procedures.
+- Ability to translate complex technical security concepts into simple, business-friendly language.
+- Experience defining or working with process flows, governance structures and RACI models.
+- Strong documentation skills, with a structured and detail-oriented approach.
+- Experience working with stakeholders across both technical and non-technical teams.
+- Exposure to regulated environments such as energy, utilities, critical infrastructure or financial services.
 
 It would be great if you also had:
 
-- Experience developing or implementing configuration management or secure configuration standards.
-- Exposure to change management processes and governance forums such as CAB.
-- Understanding of security controls across areas such as access management, configuration, or asset management.
-- Experience supporting the rollout or embedding of new governance processes across an organisation.
+- Exposure to OT (Operational Technology) or industrial environments.
+- Understanding of secure configuration principles or experience supporting configuration standards.
+- Experience working with or contributing to a Configuration Management Plan.
+- Experience supporting governance forums such as CAB or broader change governance processes.
+- Experience supporting the rollout of new policies or governance processes across an organisation.
 
 Benefits
 

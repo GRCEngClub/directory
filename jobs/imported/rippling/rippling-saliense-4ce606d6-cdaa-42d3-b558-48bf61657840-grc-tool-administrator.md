@@ -65,6 +65,9 @@ What you'll do
 
 Qualifications
 
+- Minimum five (5) years of experience in listed tasks
+- Bachelor’s degree
+
 - Experience administering multiple GRC platforms including RegScale and CSAM.
 - Experience supporting RMF authorization, ATO, and continuous monitoring.
 - Demonstrated experience supporting GRC system migrations or platform enhancements.

@@ -63,6 +63,9 @@ What you'll do
 
 Qualifications
 
+- 5+ years of experience in listed tasks
+- Bachelor’s degree
+
 - Hands-on experience integrating RegScale with AWS cloud security and compliance services in federal or highly regulated environments.
 - Experience working with identity platforms such as Okta to support access control, access reviews, and identity-related compliance requirements.
 - Experience with integrating asset inventory platforms such as Axonius to support asset management, exposure visibility, and audit readiness.

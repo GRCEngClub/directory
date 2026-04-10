@@ -60,6 +60,8 @@ What you'll do
 
 Qualifications
 
+- Minimum four (4) years of experience required
+- Bachelors Degree required
 - Very strong working knowledge of NIST RMF, NIST SP 800-53 Rev. 5, and FISMA.
 - Experience using CSAM and/or RegScale in a federal or regulated environment.
 - Experience supporting RMF system migrations and tool modernizations.

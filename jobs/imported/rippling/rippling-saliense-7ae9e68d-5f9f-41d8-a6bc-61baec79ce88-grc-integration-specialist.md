@@ -62,6 +62,9 @@ What you'll do
 
 Qualifications
 
+- Minimum five (5)+ years of experience with listed tasks
+- Bachelor’s degree
+
 - Experience designing and supporting integrations for GRC platforms within federal or highly regulated environments.
 - Hands-on experience developing APIs, data pipelines, or automated interfaces to exchange data between GRC systems and other enterprise security or IT tools.
 - Experience supporting GRC system migrations or data transformations, including mapping control, risk, and assessment data between platforms.
