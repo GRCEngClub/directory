@@ -2,20 +2,20 @@
 
 ### Profile Summary
 
-- **Name:** <!-- Your full name -->
-- **GitHub:** <!-- Your GitHub username -->
-- **Specializations:** <!-- e.g., Cloud Security, Compliance Automation -->
+- **Name:** Akeem Williams <!-- Your full name -->
+- **GitHub:** ajwill85 <!-- Your GitHub username -->
+- **Specializations:** GRC Engineering, AI Governance, Compliance Automation, Cloud Security, Risk Management, Audit & Assurance, Third-Party Risk, Privacy <!-- e.g., Cloud Security, Compliance Automation -->
 
 ### Contributor Checklist
 
 Please verify the following before submitting:
 
-- [ ] I have read the [CONTRIBUTING.md](../../CONTRIBUTING.md) guidelines
-- [ ] My profile filename matches my GitHub username (`engineers/{github-username}.md`)
-- [ ] I have filled out all required fields (name, github, specializations)
-- [ ] My bio is professional and accurate
-- [ ] I am submitting this profile for myself (not someone else)
-- [ ] I agree to the [Code of Conduct](../../CODE_OF_CONDUCT.md)
+- [x] I have read the [CONTRIBUTING.md](../../CONTRIBUTING.md) guidelines
+- [x] My profile filename matches my GitHub username (`engineers/{github-username}.md`)
+- [x] I have filled out all required fields (name, github, specializations)
+- [x] My bio is professional and accurate
+- [x] I am submitting this profile for myself (not someone else)
+- [x] I agree to the [Code of Conduct](../../CODE_OF_CONDUCT.md)
 
 ### Additional Notes
 
