@@ -1,17 +1,17 @@
 ---
 title: "Governance, Risk & Compliance (GRC) Manager"
 company: "Sigmacomputing"
-slug: "greenhouse-sigmacomputing-7690372003-governance-risk-and-compliance-grc-manager"
+slug: "greenhouse-sigmacomputing-7714468003-governance-risk-and-compliance-grc-manager"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/sigmacomputing/jobs?content=true"
-role_url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690372003"
-apply_url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7690372003"
-posted_date: "2026-04-06"
-expires_date: "2026-05-06"
-location: "San francisco, CA"
+role_url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7714468003"
+apply_url: "https://job-boards.greenhouse.io/sigmacomputing/jobs/7714468003"
+posted_date: "2026-04-25"
+expires_date: "2026-05-25"
+location: "New York City, NY"
 work_modes:
   - "Remote"
 job_types:
