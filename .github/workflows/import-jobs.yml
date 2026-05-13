@@ -39,8 +39,6 @@ jobs:
           git pull --rebase origin main
           git push
 
-      - name: Notify Slack of new jobs
-        if: success()
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: node scripts/notify-slack.js
+      # Slack job digests are now handled by the Hermes gateway cron job.
+      # Keeping notification logic out of this workflow prevents duplicate posts
+      # from the legacy ET's Bot webhook.
