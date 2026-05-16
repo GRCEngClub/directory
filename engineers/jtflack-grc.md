@@ -71,7 +71,7 @@ projects:
   - name: "Inheritance"
     url: "https://jtflack-grc.github.io/inheritance/"
     description: "Inheritance is an interactive governance and risk simulation platform designed to explore complex decision-making in animal welfare systems. The simulator allows users to test how funding choices, policy interventions, enforcement strategies, and resource constraints influence real-world outcomes for non-human animals"
-    -name: "Decision-Ready Risk Canvas"
+  - name: "Decision-Ready Risk Canvas"
     url: "https://jtflack-grc.github.io/decision-ready/"
     description: "The project was created as a companion artifact to the article “Audit-Ready Is Not Decision-Ready,” and is intended to demonstrate how governance work can move from risk display toward decision support. It is especially oriented toward legacy systems, IBM i / midrange environments, operational resilience, audit evidence, modernization risk, and cyber risk quantification practices."
 ---
