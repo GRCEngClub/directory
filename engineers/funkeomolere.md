@@ -56,7 +56,6 @@ projects:
 
 ## About Me
 
-About Me:
 I lead compliance programmes across some of the most complex regulatory environments in EMEA. ISO 27001, TISAX, BSI C5, Spain ENS, ISMAP, Cyber Essentials Plus, DORA, NIS2, third party risk, privacy risk. Not checkbox exercises. Programmes that are built to scale, survive audits, and actually reduce risk.
 I came into this field through a non-traditional route and that has made me a better practitioner. I understand how risk shows up in real environments, how to work with engineering and product teams who don't speak compliance, and how to get organisations audit ready without grinding them to a halt.
 Right now I'm focused on what comes next for GRC. Building automation, engineering repeatability into assurance workflows, and closing the gap between compliance and the teams that have to live inside it. I share the work publicly because I think this field needs more practitioners who build in the open.
