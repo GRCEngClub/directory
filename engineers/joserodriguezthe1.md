@@ -32,7 +32,7 @@ certifications:
   - "CISM"
   - "SEC+"
   - "AWS CCP"
-  - "AWC AI Practitioner"
+  - "AWS AI Practitioner"
   - "CGEP"
 available_for:
   - "mentoring"
@@ -44,7 +44,7 @@ available_for:
 
 ## About Me
 
-'m a Cybersecurity Specialist and United States Marine Corps veteran with over eight years of experience securing mission-critical systems across federal, defense, and healthcare environments. My career has been built on a foundation of discipline, attention to detail, and a deep commitment to protecting the people and missions that depend on secure information systems. I currently hold an active Top-Secret clearance and bring proven expertise across the full Risk Management Framework (RMF) lifecycle, from control selection and assessment through authorization and continuous monitoring.
+I'm a Cybersecurity Specialist and United States Marine Corps veteran with over eight years of experience securing mission-critical systems across federal, defense, and healthcare environments. My career has been built on a foundation of discipline, attention to detail, and a deep commitment to protecting the people and missions that depend on secure information systems. I currently hold an active Top-Secret clearance and bring proven expertise across the full Risk Management Framework (RMF) lifecycle, from control selection and assessment through authorization and continuous monitoring.
 
 My passion lies in Governance, Risk, and Compliance, where strategy, policy, and technical execution come together. Most recently, as a Senior Cybersecurity Supervisor with COLSA supporting the Naval Air Warfare Training Systems Division, I led security operations for a team of more than 20 cybersecurity analysts and system security representatives, managing RMF packages in eMASS that resulted in consecutive ATO approvals. Earlier in my career as an Information System Security Officer at Naval Medical Center Camp Lejeune, I served as the primary cybersecurity advisor to program managers and senior leadership, where I learned firsthand how strong governance directly enables mission success.
 
