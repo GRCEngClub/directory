@@ -16,7 +16,7 @@ languages:
 
 # OPTIONAL FIELDS - Remove or leave blank if not applicable
 title: Sr. AI Information Security Analyst
-company: Invoca
+company: Human Risk Intelligence
 location: Remote, US
 
 portfolio: https://ajwill.ai/
@@ -24,6 +24,7 @@ portfolio: https://ajwill.ai/
 frameworks:
   - ISO 42001
   - ISO 27001
+  - ISO 27701
   - SOC 2
   - PCI-DSS
   - NIST CSF
@@ -39,10 +40,9 @@ certifications:
   - CISSP
   - ISO 27001 Lead Auditor
   - ISO 42001 Lead Auditor
+  - ISO 27701 Lead Auditor
   - TAISE
   - AWS Certified Cloud Practitioner
-  - SSAP
-  - GSLC
   - OneTrust Fellow of Privacy Technology
   - Verified Vanta Admin
 
@@ -69,10 +69,10 @@ projects:
 
 ## About Me
 
-I'm a GRC Engineer and ISO Lead Auditor specializing in Cloud Security, AI governance, privacy controls, and compliance automation. I bridge the gap between compliance requirements and technical implementation, turning regulatory frameworks into automated, enforceable controls.
+I'm a GRC professional specializing in AI governance, compliance automation, and Third-Party Risk Management (TPRM) in cloud-native SaaS environments. I bridge the gap between compliance requirements and technical implementation, turning regulatory frameworks into automated, enforceable controls.
 
 I am passionate about learning and testing out new technologies in the field of security and AI. Recent projects include creating a GRC AI Governance Framework, using AWS  services to monitor and enforce AI, security, and privacy controls in the cloud.
 
 ## Get in Touch
 
-If you would like to discuss GRC Engineering, AI Risk, or Human Risk Management, feel free to reach out using the contact form on my portfolio website.
+If you would like to discuss GRC Engineering, AI Risk and Governance, or need help preparing for ISO Audits, feel free to reach out using the contact form on my portfolio website.
