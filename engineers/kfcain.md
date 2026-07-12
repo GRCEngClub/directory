@@ -32,10 +32,11 @@ languages:
   - "Python"
   - "SQL"
 certifications:
-  - "Security+"
-  - "CISSP"
+  - "CompTIA Security+"
+  - "ISC2 CISSP"
   - "ISO 27001 Lead Auditor"
   - "ISO 42001 Lead Auditor"
+  - "ISACA CMMC Certified Professional (CCP)"
 available_for:
   - "mentoring"
   - "consulting"
