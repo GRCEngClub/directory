@@ -20,6 +20,8 @@ frameworks:
   - "ISO 27001"
   - "ISO 27017"
   - "ISO 27018"
+  - "ISO 27701"
+  - "ISO 22301"
   - "ISO 42001"
   - "NIST 800-53"
   - "NIST 800-171"
@@ -50,12 +52,12 @@ Beyond my professional endeavors, I am deeply passionate about 𝘀𝘁𝗮𝗿�
 
 ## Experience Highlights
 
-- Led Secured AI Assisted coding for a startup and enabled Shift left and value realisation faster,
-- Set up a Cybersecurity department as vCISO devloped policies, processes, and tools to align with Business goals
-- Conducted various cybersecurity workshops for leaders and teams, Audit and Assurance, Delived Fractional CISO & DPO Services  to Web3, NFT, Crypto Assests, banks, fintech, and InsureTech
-- Helped in preparing for Certification Audits, ISO 27001: 2022, ISO 27701, ISO 23001, SOC 2
-- For community organisation delived Cybersecurity and privacy awarness training
+- Led secure AI-assisted coding for a startup, enabling shift-left practices and faster value realization.
+- Established a cybersecurity department as a vCISO and developed policies, processes, and tools aligned with business goals.
+- Conducted cybersecurity, audit, and assurance workshops for leaders and teams. Delivered fractional CISO and DPO services to Web3, NFT, crypto asset, banking, fintech, and InsurTech organizations.
+- Helped organizations prepare for ISO 27001:2022, ISO 27701, ISO 22301, and SOC 2 certification audits.
+- Delivered cybersecurity and privacy awareness training for community organizations.
 
 ## Get in Touch
 
-Linkedin DM
+Feel free to reach out via LinkedIn DM.
