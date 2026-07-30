@@ -627,7 +627,10 @@ function canonicalizeApplyUrl(value) {
 }
 
 function extractApplyUrlFromJobFile(content) {
-  const match = String(content || "").match(/^apply_url:\s*(.+)$/m);
+  const frontmatter = String(content || "").match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (!frontmatter) return "";
+
+  const match = frontmatter[1].match(/^apply_url:\s*(.+)$/m);
   if (!match) return "";
 
   let value = match[1].trim();
@@ -766,9 +769,15 @@ async function collectSpeedrunJobs(fetcher, options) {
       searchRequests.push(url.toString());
     }
   });
-  const payloads = await Promise.all(searchRequests.map(function(url) {
-    return fetcher(url);
-  }));
+  const payloads = (await Promise.all(searchRequests.map(function(url) {
+    return fetcher(url).catch(function(error) {
+      console.warn("[speedrun] failed search " + url + ": " + error.message);
+      return null;
+    });
+  }))).filter(Boolean);
+  if (searchRequests.length && payloads.length === 0) {
+    throw new Error("All Speedrun search requests failed");
+  }
   const candidates = mergeSpeedrunCandidates(payloads);
   const imported = [];
   const batchSize = 8;

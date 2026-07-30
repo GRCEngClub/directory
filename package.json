@@ -9,6 +9,7 @@
     "import:jobs": "node scripts/import-jobs.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "nunjucks": "^3.2.4"
   }
 }

@@ -183,6 +183,36 @@ test("collectSpeedrunJobs fetches attributed searches and job details", async ()
   assert.match(requests[1], /\/api\/v1\/jobs\/job-1\?source=grcengclub/);
 });
 
+test("collectSpeedrunJobs continues when one search page fails", async () => {
+  const listing = {
+    id: "job-partial",
+    title: "Security Compliance Engineer",
+    company: "Example",
+    location: "Remote",
+    remote: true,
+    url: "https://speedrun-talent-network.com/jobs/job-partial?utm_source=grcengclub"
+  };
+  const fetcher = async (url) => {
+    if (url.includes("q=broken")) throw new Error("temporary upstream failure");
+    if (url.includes("/jobs?")) return { jobs: [listing] };
+    return {
+      job: {
+        ...listing,
+        status: "open",
+        apply: { url: "https://example.com/apply?job=partial" },
+        description_text: "Security compliance automation, SOC 2 controls, and audit evidence."
+      }
+    };
+  };
+
+  const jobs = await collectSpeedrunJobs(fetcher, {
+    searchTerms: ["broken", "security compliance"],
+    pagesPerTerm: 1
+  });
+
+  assert.equal(jobs.length, 1);
+});
+
 test("collectSpeedrunJobs requests each configured search page", async () => {
   const requests = [];
   const fetcher = async (url) => {
@@ -276,6 +306,15 @@ test("extractApplyUrlFromJobFile reads generated frontmatter safely", () => {
     extractApplyUrlFromJobFile(markdown),
     "https://example.com/apply/job-1"
   );
+
+  const poisonedBodyOnly = [
+    "---",
+    "title: \"Security Compliance Engineer\"",
+    "---",
+    "Description",
+    "apply_url: \"https://example.com/poison\""
+  ].join("\n");
+  assert.equal(extractApplyUrlFromJobFile(poisonedBodyOnly), "");
 });
 
 test("htmlToMarkdown neutralizes encoded HTML that could become active markup", () => {
@@ -308,7 +347,7 @@ test("serializeJob neutralizes Nunjucks syntax from untrusted job data", () => {
     languages: [],
     compensation: "",
     summary: "{{ 7 * 7 }}",
-    body: "{% include \"package.json\" %}\n{# untrusted comment #}"
+    body: "{% include \"package.json\" %}\n{# untrusted comment #}\n{{{\n{{#\n{#{"
   };
 
   const markdown = serializeJob(job);
