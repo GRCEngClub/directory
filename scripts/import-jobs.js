@@ -160,6 +160,9 @@ function htmlToMarkdown(value) {
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, "\"")
     .replace(/&#39;/g, "'")
+    // Entity decoding above can reintroduce active HTML; keep Markdown text-only.
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
     .replace(/\r/g, "")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n{3,}/g, "\n\n");
@@ -373,8 +376,18 @@ function titleMayBeRelevant(title) {
   return includesAny(t, signals);
 }
 
+// Imported descriptions are untrusted. Eleventy evaluates Nunjucks syntax in
+// Markdown files, so neutralize opening delimiters before writing any field.
+function escapeTemplateSyntax(value) {
+  return String(value || "")
+    .replace(/</g, "&lt;")
+    .replace(/\{\{/g, "&#123;&#123;")
+    .replace(/\{%/g, "&#123;%")
+    .replace(/\{#/g, "&#123;#");
+}
+
 function yamlString(value) {
-  return JSON.stringify(String(value || ""));
+  return JSON.stringify(escapeTemplateSyntax(value));
 }
 
 function yamlList(key, values) {
@@ -441,7 +454,7 @@ function serializeJob(job) {
     "summary: " + yamlString(job.summary || ""),
     "---",
     "",
-    job.body || "No description was provided by the upstream source."
+    escapeTemplateSyntax(job.body || "No description was provided by the upstream source.")
   ];
 
   return frontmatter.join("\n") + "\n";
@@ -580,6 +593,236 @@ function normalizeAshbyJob(boardName, job) {
     summary,
     body: description
   });
+}
+
+function safeHttpUrl(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+
+  try {
+    const url = new URL(raw);
+    return ["http:", "https:"].includes(url.protocol) ? url.toString() : "";
+  } catch (_error) {
+    return "";
+  }
+}
+
+function canonicalizeApplyUrl(value) {
+  const raw = safeHttpUrl(value);
+  if (!raw) return "";
+
+  try {
+    const url = new URL(raw);
+    const trackingParameters = /^(?:utm_.+|ref|referrer|source|src|gh_src|lever-source|tracking|trk)$/i;
+    [...url.searchParams.keys()].forEach(function(key) {
+      if (trackingParameters.test(key)) url.searchParams.delete(key);
+    });
+    url.searchParams.sort();
+    url.hash = "";
+    url.pathname = url.pathname.replace(/\/+$/, "") || "/";
+    return url.toString().replace(/\/$/, "");
+  } catch (_error) {
+    return "";
+  }
+}
+
+function extractApplyUrlFromJobFile(content) {
+  const match = String(content || "").match(/^apply_url:\s*(.+)$/m);
+  if (!match) return "";
+
+  let value = match[1].trim();
+  try {
+    value = JSON.parse(value);
+  } catch (_error) {
+    value = value.replace(/^['"]|['"]$/g, "");
+  }
+  return canonicalizeApplyUrl(value);
+}
+
+function mergeSpeedrunCandidates(payloads) {
+  const candidates = [];
+  const seen = new Set();
+
+  (payloads || []).forEach(function(payload) {
+    const jobs = payload && Array.isArray(payload.jobs) ? payload.jobs : [];
+    jobs.forEach(function(job) {
+      const id = String(job && job.id || "");
+      if (!id || seen.has(id) || !titleMayBeRelevant(job.title)) return;
+      seen.add(id);
+      candidates.push(job);
+    });
+  });
+
+  return candidates;
+}
+
+function speedrunLooksRelevant(title, text) {
+  const titleText = String(title || "").toLowerCase();
+  const fullText = String(text || "").toLowerCase();
+  const nonGrcTitleTerms = [
+    "cost accounting", "blockchain compliance", "import compliance",
+    "export compliance", "trade compliance", "marine compliance",
+    "aviation compliance", "product compliance", "quality compliance",
+    "tax compliance", "environmental compliance", "safety compliance",
+    "regulatory affairs", "kyc", "aml", "anti-money laundering"
+  ];
+  if (includesAny(titleText, nonGrcTitleTerms)) return false;
+  if (!looksRelevant(title, text)) return false;
+
+  const technicalTitleSignals = [
+    "grc", "security compliance", "security & compliance",
+    "security and compliance", "security governance", "technology risk",
+    "cyber risk", "privacy engineering", "privacy compliance",
+    "controls assurance", "security assurance", "third-party risk",
+    "vendor risk", "risk and compliance", "risk & compliance",
+    "it compliance", "compliance automation", "fedramp", "cmmc"
+  ];
+  const technicalContentPhrases = [
+    "governance, risk", "governance risk",
+    "information security", "cybersecurity", "security program",
+    "security compliance", "security controls", "third-party risk",
+    "vendor risk", "customer trust", "trust center", "audit evidence",
+    "evidence collection", "identity and access", "identity & access"
+  ];
+  const frameworkOrToolSignal = /\b(?:grc|nist|fedramp|cmmc|hipaa|gdpr|drata|vanta)\b|\bsoc\s*2\b|\biso\s*27001\b|\bpci(?:\s|-)?dss\b/i;
+
+  return includesAny(titleText, technicalTitleSignals)
+    || includesAny(fullText, technicalContentPhrases)
+    || frameworkOrToolSignal.test(fullText);
+}
+
+function normalizeSpeedrunJob(listing, detail) {
+  const data = detail || {};
+  if (data.status && data.status !== "open") return null;
+
+  const title = data.title || listing.title;
+  const company = data.company || listing.company || "Unknown company";
+  const location = data.location || listing.location || "Remote";
+  const rawDescription = data.description_text || "";
+  const body = htmlToMarkdown(rawDescription);
+  const text = [title, company, location, body].join(" ");
+  if (!speedrunLooksRelevant(title, text)) return null;
+
+  const id = String(data.id || listing.id || "");
+  const postedDate = toIsoDate(data.published_at || listing.published_at || Date.now());
+  const roleUrl = safeHttpUrl(listing.url)
+    || safeHttpUrl(data.url)
+    || safeHttpUrl(data.apply && data.apply.url);
+  if (!roleUrl) return null;
+  const slug = slugify(["speedrun", company, id.slice(0, 8), title].join("-")).slice(0, 120);
+  if (!slug) return null;
+
+  return buildNormalizedJob({
+    title,
+    company,
+    slug,
+    source: "a16z Speedrun",
+    sources: ["a16z Speedrun"],
+    source_url: "https://speedrun-talent-network.com/api/v1/jobs",
+    role_url: roleUrl,
+    apply_url: roleUrl,
+    posted_date: postedDate,
+    expires_date: addDays(postedDate, 30),
+    location,
+    work_modes: (data.remote || listing.remote || /remote/i.test(String(data.workplace_type || listing.workplace_type || "")))
+      ? ["Remote"]
+      : ["Hybrid / On-site"],
+    job_types: [normalizeJobType(data.employment_type || listing.employment_type)],
+    compensation: data.comp_summary || formatCompensation(data.comp_min, data.comp_max, data.comp_currency || "USD"),
+    summary: rawDescription,
+    body
+  });
+}
+
+const SPEEDRUN_API_BASE = "https://speedrun-talent-network.com/api/v1";
+const SPEEDRUN_SEARCH_TERMS = [
+  "compliance",
+  "grc",
+  "security governance",
+  "technology risk",
+  "third-party risk",
+  "vendor risk",
+  "security assurance",
+  "privacy engineering",
+  "fedramp",
+  "cmmc",
+  "controls assurance"
+];
+
+async function collectSpeedrunJobs(fetcher, options) {
+  const settings = options || {};
+  const searchTerms = settings.searchTerms || SPEEDRUN_SEARCH_TERMS;
+  const pagesPerTerm = settings.pagesPerTerm || 2;
+  const existingApplyUrls = settings.existingApplyUrls || new Set();
+  const seenApplyUrls = new Set(existingApplyUrls);
+  const searchRequests = [];
+  searchTerms.forEach(function(term) {
+    for (let page = 0; page < pagesPerTerm; page++) {
+      const url = new URL(SPEEDRUN_API_BASE + "/jobs");
+      url.searchParams.set("q", term);
+      url.searchParams.set("sort", "rel");
+      url.searchParams.set("page", String(page));
+      url.searchParams.set("source", "grcengclub");
+      searchRequests.push(url.toString());
+    }
+  });
+  const payloads = await Promise.all(searchRequests.map(function(url) {
+    return fetcher(url);
+  }));
+  const candidates = mergeSpeedrunCandidates(payloads);
+  const imported = [];
+  const batchSize = 8;
+
+  for (let i = 0; i < candidates.length; i += batchSize) {
+    const batch = candidates.slice(i, i + batchSize);
+    const details = await Promise.all(batch.map(function(listing) {
+      const detailUrl = SPEEDRUN_API_BASE + "/jobs/" + encodeURIComponent(listing.id) + "?source=grcengclub";
+      return fetcher(detailUrl).catch(function(error) {
+        console.warn("[speedrun] failed to fetch detail for " + listing.id + ": " + error.message);
+        return null;
+      });
+    }));
+
+    details.forEach(function(payload, index) {
+      if (!payload || !payload.job) return;
+      const detail = payload.job;
+      const upstreamApplyUrl = canonicalizeApplyUrl(detail.apply && detail.apply.url);
+      if (upstreamApplyUrl && seenApplyUrls.has(upstreamApplyUrl)) return;
+      const normalized = normalizeSpeedrunJob(batch[index], detail);
+      if (normalized) {
+        imported.push(normalized);
+        if (upstreamApplyUrl) seenApplyUrls.add(upstreamApplyUrl);
+      }
+    });
+  }
+
+  return imported;
+}
+
+async function importSpeedrun() {
+  const existingApplyUrls = new Set();
+  let entries = [];
+  try {
+    entries = await fs.readdir(IMPORT_ROOT, { recursive: true });
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  const files = entries.filter(function(entry) {
+    const normalized = String(entry).replace(/\\/g, "/");
+    return normalized.endsWith(".md") && !normalized.startsWith("speedrun/");
+  });
+  const contents = await Promise.all(files.map(function(entry) {
+    return fs.readFile(path.join(IMPORT_ROOT, entry), "utf8");
+  }));
+  contents.forEach(function(content) {
+    const applyUrl = extractApplyUrlFromJobFile(content);
+    if (applyUrl) existingApplyUrls.add(applyUrl);
+  });
+
+  const jobs = await collectSpeedrunJobs(fetchJson, { existingApplyUrls });
+  console.log("[speedrun] filtered against " + existingApplyUrls.size + " existing apply URLs");
+  return jobs;
 }
 
 async function importRemoteOk() {
@@ -890,10 +1133,11 @@ async function main() {
   total += await runSource("workable", configuredBoards("WORKABLE_BOARDS", catalogWorkableBoards).length > 0, importWorkable);
   total += await runSource("lever", configuredBoards("LEVER_BOARDS", catalogLeverBoards).length > 0, importLever);
   total += await runSource("rippling", configuredBoards("RIPPLING_BOARDS", catalogRipplingBoards).length > 0, importRippling);
+  total += await runSource("speedrun", envFlag("SPEEDRUN_ENABLED", true), importSpeedrun);
 
   if (total === 0) {
     console.log("No jobs matched the current GRC filters.");
-    console.log("Tip: curated Greenhouse, Ashby, Workable, Lever, and Rippling boards are checked into the repo.");
+    console.log("Tip: curated ATS boards and the a16z Speedrun API are checked automatically.");
   }
 }
 
@@ -905,7 +1149,14 @@ if (require.main === module) {
 }
 
 module.exports = {
+  canonicalizeApplyUrl,
+  collectSpeedrunJobs,
+  extractApplyUrlFromJobFile,
   extractCompensation,
   htmlToMarkdown,
-  looksRelevant
+  importSpeedrun,
+  looksRelevant,
+  mergeSpeedrunCandidates,
+  normalizeSpeedrunJob,
+  serializeJob
 };

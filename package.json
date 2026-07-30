@@ -5,6 +5,7 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
+    "test": "node --test tests/*.test.js",
     "import:jobs": "node scripts/import-jobs.js"
   },
   "devDependencies": {
