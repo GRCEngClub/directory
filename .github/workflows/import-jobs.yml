@@ -2,8 +2,8 @@ name: Import Jobs
 
 on:
   schedule:
-    # Daily at 11:17 UTC. The explicit day range preserves the existing cadence.
-    - cron: '17 11 * * 0-6'
+    # Daily at 09:17 UTC, leaving a buffer before the 12:00 UTC Slack digest.
+    - cron: '17 9 * * 0-6'
   workflow_dispatch:
 
 jobs:
