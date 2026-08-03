@@ -971,18 +971,18 @@ a:hover {
 }
 
 @media (min-width: 900px) {
-  .directory:not(.jobs-directory) {
+  .directory:not(.jobs-directory):not(.chapters-directory) {
     max-width: none;
     padding-left: 0;
     padding-right: 0;
   }
-  .directory:not(.jobs-directory) .directory-toolbar,
-  .directory:not(.jobs-directory) .card-grid {
+  .directory:not(.jobs-directory):not(.chapters-directory) .directory-toolbar,
+  .directory:not(.jobs-directory):not(.chapters-directory) .card-grid {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-  .directory:not(.jobs-directory) .directory-toolbar {
+  .directory:not(.jobs-directory):not(.chapters-directory) .directory-toolbar {
     display: grid;
     grid-template-columns: minmax(250px, 1.25fr) minmax(150px, 0.7fr) minmax(210px, 1fr) minmax(210px, 1fr) minmax(190px, 0.85fr);
     gap: 1rem;
@@ -996,7 +996,7 @@ a:hover {
     border-radius: var(--radius) var(--radius) 0 0;
     background: var(--bg-tertiary);
   }
-  .directory:not(.jobs-directory) .card-grid {
+  .directory:not(.jobs-directory):not(.chapters-directory) .card-grid {
     display: block;
     border: 1px solid var(--border-subtle);
     border-top: none;
