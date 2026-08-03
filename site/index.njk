@@ -12,6 +12,7 @@ permalink: /index.html
 </section>
 
 {% set activeJobs = collections.jobs %}
+{% set chapterLeads = collections.chapters %}
 
 {% include "partials/filter-bar.njk" %}
 
@@ -29,6 +30,29 @@ permalink: /index.html
     {% endfor %}
   </div>
   <p id="no-results" class="no-results" style="display:none" aria-live="polite">No engineers match your filters. Try removing a filter or broadening your search.</p>
+</section>
+
+<section class="jobs-preview chapters-preview">
+  <div class="jobs-preview-header">
+    <div>
+      <p class="jobs-kicker">Chapter Leads</p>
+      <h2>GRC Engineering chapter leads</h2>
+      <p class="jobs-preview-copy">Meet the local leaders organizing GRC Engineering Club chapters — presidents, VPs, and founding teams building community city by city.</p>
+    </div>
+    <a href="/chapters/" class="btn btn-outline">Browse chapter leads</a>
+  </div>
+
+  {% if chapterLeads.length %}
+  <div class="card-grid chapters-preview-grid">
+    {% for chapter in chapterLeads %}
+      {% if loop.index0 < 3 %}
+        {% include "partials/chapter-card.njk" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="jobs-preview-empty">Chapter lead listings are coming soon. See <a href="https://grcengclub.com/chapters" target="_blank" rel="noopener">grcengclub.com/chapters</a> to start or join a chapter.</p>
+  {% endif %}
 </section>
 
 <section class="jobs-preview">

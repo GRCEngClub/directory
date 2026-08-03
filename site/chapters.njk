@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+title: Chapter Leads - GRC Engineer Directory
+permalink: /chapters/index.html
+description: Meet the GRC Engineering Club chapter leads organizing local communities around the world.
+---
+<section class="jobs-hero chapters-hero">
+  <div class="jobs-hero-inner">
+    <p class="jobs-kicker">Chapter Leads</p>
+    <h1>GRC Engineering chapter leads</h1>
+    <p class="jobs-hero-copy">Local leaders organizing GRC Engineering Club chapters in cities around the world. Find a chapter near you, meet the founding team, and connect with the people building community on the ground.</p>
+    <div class="chapter-page-actions">
+      <a href="https://grcengclub.com/chapters" class="btn btn-primary" target="_blank" rel="noopener">Start a chapter</a>
+      <a href="/" class="btn btn-outline">Browse engineers</a>
+    </div>
+  </div>
+</section>
+
+{% include "partials/chapter-filter-bar.njk" %}
+
+<section class="directory chapters-directory">
+  {% if collections.chapters.length %}
+  <div class="directory-toolbar chapters-toolbar">
+    <span>Chapter</span>
+    <span>Leads</span>
+    <span>Actions</span>
+  </div>
+  <div class="card-grid chapters-grid">
+    {% for chapter in collections.chapters %}
+      {% include "partials/chapter-card.njk" %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="jobs-empty">
+    <h2>No chapter leads listed yet</h2>
+    <p>Add a chapter file under <code>chapters/</code> using <code>chapters/_template.md</code> to list its leadership team here.</p>
+  </div>
+  {% endif %}
+
+  <p id="no-results" class="no-results" style="display:none" aria-live="polite">No chapters match your filters. Try removing a filter or broadening the search.</p>
+</section>
+
+<script src="/site/assets/js/chapters-search.js"></script>
+<script src="/site/assets/js/filter-scroll.js"></script>

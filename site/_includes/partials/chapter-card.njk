@@ -1,0 +1,65 @@
+{% set leads = chapter.data.leads or [] %}
+<article
+  class="card chapter-card"
+  data-city="{{ chapter.data.city | lower }}"
+  data-region="{{ (chapter.data.region or '') | lower }}"
+  data-country="{{ (chapter.data.country or '') | lower }}"
+  data-status="{{ (chapter.data.status or '') | lower }}"
+  data-leads="{% for lead in leads %}{{ lead.name }}{% if not loop.last %},{% endif %}{% endfor %}"
+  data-roles="{% for lead in leads %}{{ lead.role }}{% if not loop.last %},{% endif %}{% endfor %}"
+>
+  <div class="chapter-card-top">
+    <div>
+      <p class="chapter-status chapter-status-{{ chapter.data.status | slugify }}">{{ chapter.data.status }}</p>
+      <a href="{{ chapter.url }}" class="card-name chapter-card-city">{{ chapter.data.city }}</a>
+      {% if chapter.data.region or chapter.data.country %}
+      <p class="chapter-card-location">
+        {% if chapter.data.region %}{{ chapter.data.region }}{% endif %}
+        {% if chapter.data.region and chapter.data.country %} · {% endif %}
+        {% if chapter.data.country %}{{ chapter.data.country }}{% endif %}
+      </p>
+      {% endif %}
+    </div>
+    {% if chapter.data.members %}
+    <p class="chapter-card-members"><strong>{{ chapter.data.members }}</strong> members</p>
+    {% endif %}
+  </div>
+
+  {% if chapter.data.summary %}
+  <p class="chapter-card-summary">{{ chapter.data.summary }}</p>
+  {% endif %}
+
+  <div class="chapter-card-leads" aria-label="Chapter leads">
+    {% for lead in leads %}
+    <div class="chapter-card-lead">
+      {% if lead.github %}
+      <img
+        src="https://github.com/{{ lead.github }}.png?size=80"
+        alt=""
+        class="chapter-card-lead-avatar"
+        width="36"
+        height="36"
+        loading="lazy"
+      >
+      {% else %}
+      <span class="chapter-card-lead-avatar chapter-lead-avatar-fallback" aria-hidden="true">{{ lead.name[0] }}</span>
+      {% endif %}
+      <div>
+        {% if lead.github %}
+        <a href="/engineers/{{ lead.github }}/" class="chapter-card-lead-name">{{ lead.name }}</a>
+        {% else %}
+        <span class="chapter-card-lead-name">{{ lead.name }}</span>
+        {% endif %}
+        <p class="chapter-lead-role">{{ lead.role }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="chapter-card-actions">
+    <a href="{{ chapter.url }}" class="btn btn-outline btn-compact">View leads</a>
+    {% if chapter.data.chapter_url %}
+    <a href="{{ chapter.data.chapter_url }}" class="btn btn-primary btn-compact" target="_blank" rel="noopener">Chapter page</a>
+    {% endif %}
+  </div>
+</article>

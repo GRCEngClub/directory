@@ -1,0 +1,45 @@
+<aside class="filters" id="filters" aria-label="Filter chapter leads">
+  <div class="filters-inner">
+    <div class="controls-bar">
+      <div class="controls-left">
+        <label class="search-wrap" for="search">
+          <span class="sr-only">Search chapter leads</span>
+          <input
+            type="search"
+            id="search"
+            class="search-input"
+            placeholder="Search by city, lead name, or role..."
+            autocomplete="off"
+          >
+        </label>
+        <div class="controls-meta" aria-label="Chapter coverage">
+          <span class="controls-count"><strong id="result-count">{{ collections.chapters.length }}</strong> chapters</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-groups">
+      <div class="filter-group">
+        <div class="filter-group-header">
+          <span>Status</span>
+        </div>
+        <div class="filter-chips" data-filter="status">
+          {% for status in collections.chapters | uniqueValues("status") %}
+          <button type="button" class="filter-chip" data-value="{{ status | lower }}">{{ status }}</button>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-group-header">
+          <span>Region</span>
+        </div>
+        <div class="filter-chips" data-filter="region">
+          {% for region in collections.chapters | uniqueValues("region") %}
+          <button type="button" class="filter-chip" data-value="{{ region | lower }}">{{ region }}</button>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>

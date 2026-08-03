@@ -1113,6 +1113,225 @@ a:hover {
   }
 }
 
+/* Chapters */
+.chapters-hero .chapter-page-actions {
+  margin-top: 1.25rem;
+}
+.chapters-preview {
+  padding-top: 1.5rem;
+}
+.chapters-preview-grid,
+.chapters-grid {
+  align-items: stretch;
+}
+.chapter-card {
+  display: grid;
+  gap: 1rem;
+}
+.chapter-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: start;
+}
+.chapter-card-city {
+  display: inline-block;
+  font-size: 1.15rem;
+  margin-top: 0.2rem;
+}
+.chapter-card-location,
+.chapter-card-summary,
+.chapter-lead-role {
+  color: var(--text-secondary);
+}
+.chapter-card-location {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+.chapter-card-summary {
+  margin: 0;
+  line-height: 1.45;
+}
+.chapter-card-members {
+  margin: 0;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.chapter-card-members strong {
+  display: block;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+.chapter-status {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-primary);
+}
+.chapter-status-official {
+  color: var(--available-color);
+}
+.chapter-status-open {
+  color: var(--text-secondary);
+}
+.chapter-card-leads {
+  display: grid;
+  gap: 0.75rem;
+}
+.chapter-card-lead {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  min-width: 0;
+}
+.chapter-card-lead-avatar,
+.chapter-lead-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--bg-tertiary);
+}
+.chapter-lead-avatar-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+.chapter-card-lead-name {
+  color: var(--text-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+.chapter-card-lead-name:hover {
+  color: var(--brand-primary);
+}
+.chapter-lead-role {
+  margin: 0.1rem 0 0;
+  font-size: 0.85rem;
+}
+.chapter-card-actions,
+.chapter-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.chapter-card-actions {
+  margin-top: auto;
+  padding-top: 0.25rem;
+}
+.chapter-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+.chapter-page-back {
+  margin-bottom: 1.25rem;
+}
+.chapter-page-back a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+.chapter-page-back a:hover {
+  color: var(--brand-primary);
+}
+.chapter-page-header {
+  background:
+    radial-gradient(circle at top right, var(--brand-primary-20), transparent 42%),
+    var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.chapter-page-header h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.05;
+  margin: 0.35rem 0 0.85rem;
+}
+.chapter-page-summary {
+  max-width: 60ch;
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+.chapter-page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.chapter-page-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.chapter-page-section h2 {
+  margin: 0 0 1rem;
+}
+.chapter-lead-grid {
+  display: grid;
+  gap: 1rem;
+}
+.chapter-lead-card {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--border-subtle);
+}
+.chapter-lead-card:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+.chapter-lead-avatar {
+  width: 64px;
+  height: 64px;
+}
+.chapter-lead-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+.chapter-lead-links a {
+  color: var(--brand-primary);
+  text-decoration: none;
+}
+.chapter-lead-links a:hover {
+  text-decoration: underline;
+}
+.chapter-page-body :first-child {
+  margin-top: 0;
+}
+.chapters-directory {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+.chapters-toolbar {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .chapters-preview-grid,
+  .chapters-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 /* Jobs */
 .jobs-hero,
 .jobs-preview,
@@ -2177,9 +2396,21 @@ a:hover {
   .jobs-hero,
   .jobs-preview,
   .jobs-notes,
-  .job-page {
+  .job-page,
+  .chapters-directory,
+  .chapter-page {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .chapter-card-top {
+    flex-direction: column;
+  }
+  .chapter-card-members {
+    text-align: left;
+  }
+  .chapter-card-members strong {
+    display: inline;
+    margin-right: 0.25rem;
   }
   .jobs-preview-header {
     flex-direction: column;

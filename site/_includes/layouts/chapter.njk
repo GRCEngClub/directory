@@ -1,0 +1,76 @@
+---
+layout: layouts/base.njk
+---
+{% set leads = leads or [] %}
+<article class="chapter-page">
+  <div class="chapter-page-back">
+    <a href="/chapters/">&larr; Back to chapter leads</a>
+  </div>
+
+  <header class="chapter-page-header">
+    <p class="jobs-kicker">Chapter Leads</p>
+    <p class="chapter-status chapter-status-{{ status | slugify }}">{{ status }}</p>
+    <h1>{{ city }}</h1>
+    {% if summary %}
+    <p class="chapter-page-summary">{{ summary }}</p>
+    {% endif %}
+    <div class="chapter-page-meta">
+      {% if region %}<span>{{ region }}</span>{% endif %}
+      {% if country %}<span>{{ country }}</span>{% endif %}
+      {% if members %}<span>{{ members }} members</span>{% endif %}
+      {% if meetings %}<span>{{ meetings }}</span>{% endif %}
+    </div>
+    <div class="chapter-page-actions">
+      {% if chapter_url %}
+      <a href="{{ chapter_url }}" class="btn btn-primary" target="_blank" rel="noopener">Visit chapter page</a>
+      {% endif %}
+      <a href="https://grcengclub.com/chapters" class="btn btn-outline" target="_blank" rel="noopener">Start a chapter</a>
+    </div>
+  </header>
+
+  <section class="chapter-page-section">
+    <h2>Leadership team</h2>
+    <div class="chapter-lead-grid">
+      {% for lead in leads %}
+      <article class="chapter-lead-card">
+        {% if lead.github %}
+        <img
+          src="https://github.com/{{ lead.github }}.png?size=120"
+          alt="{{ lead.name }}"
+          class="chapter-lead-avatar"
+          width="64"
+          height="64"
+          loading="lazy"
+        >
+        {% else %}
+        <div class="chapter-lead-avatar chapter-lead-avatar-fallback" aria-hidden="true">{{ lead.name[0] }}</div>
+        {% endif %}
+        <div>
+          {% if lead.github %}
+          <a href="/engineers/{{ lead.github }}/" class="card-name">{{ lead.name }}</a>
+          {% else %}
+          <p class="card-name">{{ lead.name }}</p>
+          {% endif %}
+          <p class="chapter-lead-role">{{ lead.role }}</p>
+          <div class="chapter-lead-links">
+            {% if lead.github %}
+            <a href="/engineers/{{ lead.github }}/">Directory profile</a>
+            <a href="https://github.com/{{ lead.github }}" target="_blank" rel="noopener">GitHub</a>
+            {% endif %}
+            {% if lead.linkedin %}
+            <a href="{{ lead.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if content %}
+  <section class="chapter-page-section chapter-page-body">
+    <h2>About this chapter</h2>
+    {{ content | safe }}
+  </section>
+  {% endif %}
+</article>

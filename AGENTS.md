@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is an Eleventy-powered static site for the GRC Engineer Directory. Content lives in `engineers/*.md`; each file is one profile page and must follow the schema in `engineers/_template.md`. Site templates and page sources live under `site/`, especially `site/_includes/layouts/`, `site/_includes/partials/`, and `site/_data/`. Frontend assets are in `site/assets/css/` and `site/assets/js/`. Build output is generated into `_site/` and should not be committed by hand. Automation and validation rules live in `.github/workflows/`.
+This repository is an Eleventy-powered static site for the GRC Engineer Directory. Content lives in `engineers/*.md`; each file is one profile page and must follow the schema in `engineers/_template.md`. Chapter lead listings live in `chapters/*.md` and follow `chapters/_template.md`. Site templates and page sources live under `site/`, especially `site/_includes/layouts/`, `site/_includes/partials/`, and `site/_data/`. Frontend assets are in `site/assets/css/` and `site/assets/js/`. Build output is generated into `_site/` and should not be committed by hand. Automation and validation rules live in `.github/workflows/`.
 
 ## Build, Test, and Development Commands
 Install dependencies once with `npm install`. Use `npm run serve` to start Eleventy with live reload at `http://localhost:8080`. Use `npm run build` to generate the production site in `_site/`. There is no separate unit test suite; the main local verification step is a clean build plus checking the rendered pages in the dev server.

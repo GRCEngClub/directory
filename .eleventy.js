@@ -55,6 +55,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("engineers/_template.md");
   eleventyConfig.ignores.add("jobs/_template.md");
   eleventyConfig.ignores.add("jobs/**/_template.md");
+  eleventyConfig.ignores.add("chapters/_template.md");
 
   eleventyConfig.addCollection("engineers", function (api) {
     return api
@@ -75,6 +76,19 @@ module.exports = function (eleventyConfig) {
       .filter((item) => !String(item.page.fileSlug || "").startsWith("_"))
       .filter((item) => isLiveJob(item.data))
       .sort(sortByRecent);
+  });
+
+  eleventyConfig.addCollection("chapters", function (api) {
+    return api
+      .getFilteredByGlob("chapters/*.md")
+      .filter((item) => item.page.fileSlug !== "_template")
+      .sort((a, b) => {
+        const statusRank = { official: 0, provisional: 1, open: 2 };
+        const aRank = statusRank[String(a.data.status || "").toLowerCase()] ?? 9;
+        const bRank = statusRank[String(b.data.status || "").toLowerCase()] ?? 9;
+        if (aRank !== bRank) return aRank - bRank;
+        return String(a.data.city || "").localeCompare(String(b.data.city || ""));
+      });
   });
 
   eleventyConfig.addPassthroughCopy("site/assets");
