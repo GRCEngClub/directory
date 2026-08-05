@@ -17,18 +17,17 @@ frameworks:
   - "ISO 27701"
   - "ISO 42001"
   - "NIST 800-53"
-  - "SOC2"
+  - "SOC 2"
 languages:
   - "PowerShell"
   - "Python"
-  - "JSON"
   - "Terraform"
   - "SQL"
 certifications:
   - "ISO 27001 Lead Implementer"
   - "ISO 27001 Lead Auditor"
   - "ISO 27701 Lead Auditor"
-  - "ISO 42001 Lead Audito"
+  - "ISO 42001 Lead Auditor"
 available_for:
   - "speaking"
   - "consulting"
