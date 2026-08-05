@@ -1,43 +1,51 @@
-<aside class="filters" id="filters" aria-label="Filter chapter leads">
-  <div class="filters-inner">
+<aside class="filters" id="chapter-filters" aria-label="Filter chapter leads">
+  <div class="filters-expanded-panel">
+    <div class="controls-header">
+      <p class="results-count" aria-live="polite" aria-atomic="true">
+        <span id="result-count">{{ collections.chapters.length }}</span> of {{ collections.chapters.length }} chapters
+      </p>
+    </div>
+
     <div class="controls-bar">
-      <div class="controls-left">
-        <label class="search-wrap" for="search">
-          <span class="sr-only">Search chapter leads</span>
-          <input
-            type="search"
-            id="search"
-            class="search-input"
-            placeholder="Search by city, lead name, or role..."
-            autocomplete="off"
-          >
-        </label>
-        <div class="controls-meta" aria-label="Chapter coverage">
-          <span class="controls-count"><strong id="result-count">{{ collections.chapters.length }}</strong> chapters</span>
-        </div>
+      <div class="search-box">
+        <input
+          type="search"
+          id="chapter-search-input"
+          placeholder="Search by city, lead name, or role..."
+          aria-label="Search chapter leads"
+          autocomplete="off"
+        >
       </div>
     </div>
 
-    <div class="filter-groups">
-      <div class="filter-group">
-        <div class="filter-group-header">
-          <span>Status</span>
-        </div>
-        <div class="filter-chips" data-filter="status">
-          {% for status in collections.chapters | uniqueValues("status") %}
-          <button type="button" class="filter-chip" data-value="{{ status | lower }}">{{ status }}</button>
-          {% endfor %}
-        </div>
+    <div class="filter-workbench">
+      <div class="filter-workbench-header">
+        <span>Filter by</span>
       </div>
 
-      <div class="filter-group">
-        <div class="filter-group-header">
-          <span>Region</span>
+      <div class="filter-groups">
+        <div class="filter-group open" data-group="status">
+          <button type="button" class="filter-group-header" aria-expanded="true">
+            <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            <span>Status</span>
+          </button>
+          <div class="filter-chips" data-filter="status">
+            {% for status in collections.chapters | uniqueValues("status") %}
+            <button type="button" class="chip" data-value="{{ status | lower }}" aria-pressed="false">{{ status }}</button>
+            {% endfor %}
+          </div>
         </div>
-        <div class="filter-chips" data-filter="region">
-          {% for region in collections.chapters | uniqueValues("region") %}
-          <button type="button" class="filter-chip" data-value="{{ region | lower }}">{{ region }}</button>
-          {% endfor %}
+
+        <div class="filter-group" data-group="region">
+          <button type="button" class="filter-group-header" aria-expanded="false">
+            <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            <span>Region</span>
+          </button>
+          <div class="filter-chips" data-filter="region">
+            {% for region in collections.chapters | uniqueValues("region") %}
+            <button type="button" class="chip" data-value="{{ region | lower }}" aria-pressed="false">{{ region }}</button>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>

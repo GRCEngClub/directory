@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/raleigh
-members: 7
+
 meetings: Quarterly, Research Triangle venues
 summary: The Research Triangle is one of the club's biggest clusters, and its chapter runs on hands-on build sessions.
 leads:

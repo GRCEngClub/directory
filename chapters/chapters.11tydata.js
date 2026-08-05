@@ -10,6 +10,10 @@ module.exports = {
   tags: "chapters-content",
   eleventyComputed: {
     slug: (data) => data.slug || data.page.fileSlug,
+    title: (data) =>
+      data.city
+        ? data.city + " Chapter Leads - GRC Engineer Directory"
+        : "Chapter Leads - GRC Engineer Directory",
     status: (data) => data.status || "provisional",
     leads: (data) => asArray(data.leads).filter((lead) => lead && lead.name),
     description: (data) =>

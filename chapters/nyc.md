@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/nyc
-members: 6
+
 meetings: Bi-monthly
 summary: Finance, fintech, and Big 4 density — more GRC practitioners per square mile than anywhere on earth.
 leads:

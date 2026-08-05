@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/los-angeles
-members: 0
+
 meetings: Monthly
 summary: LA's IT and cyber community already runs deep — now GRC Engineering gets its own room.
 leads:

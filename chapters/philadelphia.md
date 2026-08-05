@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/philadelphia
-members: 2
+
 meetings: Meeting schedule coming soon
 summary: A financial hub in NYC's orbit with major insurers and enterprises headquartered downtown.
 leads:

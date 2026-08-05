@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/nashville
-members: 3
+
 meetings: Monthly
 summary: A community for cybersecurity professionals who want to move beyond documentation and into automation.
 leads:

@@ -1114,6 +1114,13 @@ a:hover {
 }
 
 /* Chapters */
+#chapter-filters .filter-groups {
+  min-height: 6rem;
+}
+#chapter-filters .filter-group.open .filter-chips {
+  grid-row: 1 / 3;
+  max-height: 6rem;
+}
 .chapters-hero .chapter-page-actions {
   margin-top: 1.25rem;
 }

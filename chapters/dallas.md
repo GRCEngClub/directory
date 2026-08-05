@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/dallas
-members: 2
+
 meetings: Monthly virtual, quarterly in-person
 summary: An anticheckbox tour stop with Texas-sized opportunity for a founding chapter team.
 leads:

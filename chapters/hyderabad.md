@@ -5,7 +5,7 @@ status: provisional
 country: India
 region: Asia
 chapter_url: https://grcengclub.com/chapters/hyderabad
-members: 2
+
 meetings: Monthly virtual, twice-yearly in person
 summary: One of India's biggest tech hubs — the club's first chapter in Asia.
 leads:

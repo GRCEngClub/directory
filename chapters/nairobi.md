@@ -5,7 +5,7 @@ status: provisional
 country: Kenya
 region: Africa
 chapter_url: https://grcengclub.com/chapters/nairobi
-members: 4
+
 meetings: Meeting schedule coming soon
 summary: The club's first chapter in Africa, launched with a full founding team in East Africa's tech capital.
 leads:

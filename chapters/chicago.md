@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/chicago
-members: 5
+
 meetings: Monthly
 summary: Top-five Fortune 500 headquarters density and a security scene to match.
 leads:

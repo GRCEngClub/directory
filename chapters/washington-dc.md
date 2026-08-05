@@ -5,7 +5,7 @@ status: official
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/washington-dc
-members: 20
+
 meetings: Monthly virtual, quarterly in person
 summary: The federal compliance capital of the world, covering NOVA, Reston, Fort Washington, and the broader DMV.
 leads:

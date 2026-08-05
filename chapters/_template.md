@@ -19,7 +19,7 @@ leads:
     linkedin: https://linkedin.com/in/their-profile
 
 # OPTIONAL
-members: 0
+
 meetings: Monthly
 ---
 

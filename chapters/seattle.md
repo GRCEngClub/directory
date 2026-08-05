@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/seattle
-members: 1
+
 meetings: Monthly, in-person
 summary: Aerospace and defense compliance plus a real slice of government cloud infrastructure.
 leads:

@@ -5,7 +5,7 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/detroit-metro
-members: 1
+
 meetings: Monthly
 summary: Ann Arbor talent and Lansing state-government security across Novi, Troy, Livonia, and Plymouth.
 leads:
