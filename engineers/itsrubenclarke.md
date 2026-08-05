@@ -7,20 +7,28 @@ specializations:
   - "Security Governance"
   - "Vulnerability Management"
 title: "Information Security Consultant"
-company: "ADL Consulting"
+company: 
 location: "Manchester, United Kingdom"
 linkedin: "https://www.linkedin.com/in/itsrubenclarke/"
 blog: "https://medium.com/@itsrubenclarke"
 frameworks:
   - "GDPR"
   - "ISO 27001"
+  - "ISO 27701"
   - "ISO 42001"
   - "NIST 800-53"
+  - "SOC2"
 languages:
   - "PowerShell"
   - "Python"
+  - "JSON"
+  - "Terraform"
+  - "SQL"
 certifications:
   - "ISO 27001 Lead Implementer"
+  - "ISO 27001 Lead Auditor"
+  - "ISO 27701 Lead Auditor"
+  - "ISO 42001 Lead Audito"
 available_for:
   - "speaking"
   - "consulting"
@@ -44,7 +52,9 @@ These days I focus on ISO 27001, risk management and supplier assurance, helping
 
 ## Experience Highlights
 
-- Starting the Arcane Link Podcast
+- Scaled a global ambassador program to over 300 active members
+- Launched the Arcane Link Podcast
+- Specialised as a British Army Paratrooper
 
 ## Get in Touch
 
