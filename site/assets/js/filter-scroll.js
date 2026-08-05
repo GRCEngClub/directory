@@ -7,6 +7,7 @@
   var backdrop = filters.querySelector("[data-filter-dismiss]");
   var toggleButtons = Array.from(filters.querySelectorAll("[data-filter-toggle]"));
   var shortcutLabels = Array.from(filters.querySelectorAll(".filter-shortcut"));
+  if (!toggleButtons.length) return;
   var manuallyCollapsed = true;
   var lastTrigger = null;
   var inertedElements = [];
