@@ -132,6 +132,7 @@ layout: layouts/base.njk
 
       <div class="profile-side-card">
         <h2>Contact</h2>
+        <p class="profile-side-text">Sign in to GitHub to edit this profile and submit the change as your pull request.</p>
         <div class="profile-cta-links">
           {% for social in socials %}
             {% set val = socialData[social.key] %}
@@ -146,6 +147,7 @@ layout: layouts/base.njk
               {% endif %}
             {% endif %}
           {% endfor %}
+          <a href="https://github.com/GRCEngClub/directory/edit/main/engineers/{{ github }}.md" class="btn btn-outline" target="_blank" rel="noopener">Edit your profile on GitHub</a>
         </div>
         <button class="profile-share-btn" id="share-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg><span>Share this profile</span></button>
         <span class="share-status" id="share-status" aria-live="polite"></span>

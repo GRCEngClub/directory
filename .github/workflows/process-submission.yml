@@ -6,8 +6,10 @@ on:
 
 jobs:
   process:
-    # Trigger on issues that look like profile submissions
-    if: startsWith(github.event.issue.title, 'New Profile:')
+    # New submissions create automated PRs; update issues redirect owners to GitHub editing.
+    if: >-
+      startsWith(github.event.issue.title, 'New Profile:') ||
+      startsWith(github.event.issue.title, 'Update Profile:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -15,11 +17,86 @@ jobs:
       issues: write
     steps:
       - name: Process submission and create PR
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         with:
           script: |
             const issue = context.payload.issue;
             const body = issue.body || '';
+            const isUpdateSubmission = issue.title.startsWith('Update Profile:');
+
+            async function findExistingProfileByGithub(targetUsername) {
+              const entries = await github.rest.repos.getContent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: 'engineers',
+                ref: 'main'
+              });
+
+              for (const entry of entries.data) {
+                if (entry.type !== 'file' || !entry.name.endsWith('.md') || entry.name === '_template.md') {
+                  continue;
+                }
+
+                const file = await github.rest.repos.getContent({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  path: entry.path,
+                  ref: 'main'
+                });
+
+                const fileContent = Buffer.from(file.data.content, 'base64').toString('utf8');
+                const fileGithubMatch = fileContent.match(/^github:\s*"?(.*?)"?$/m);
+                if (!fileGithubMatch) continue;
+
+                if (fileGithubMatch[1].trim().toLowerCase() === targetUsername) {
+                  return entry.path;
+                }
+              }
+
+              return null;
+            }
+
+            if (isUpdateSubmission) {
+              const username = issue.title.slice('Update Profile:'.length).trim();
+              const normalizedUsername = username.toLowerCase();
+              const validUsername = /^(?!.*--)[a-z0-9](?:[a-z0-9-]{0,37}[a-z0-9])?$/.test(normalizedUsername);
+              const existingProfilePath = validUsername
+                ? await findExistingProfileByGithub(normalizedUsername)
+                : null;
+
+              if (existingProfilePath) {
+                const editUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/edit/main/${existingProfilePath}`;
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `⚠️ Update your profile on GitHub so the change is authenticated to your account and submitted as your pull request: ${editUrl}`
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: 'closed',
+                  state_reason: 'completed'
+                });
+                return;
+              }
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `⚠️ No existing profile was found for **@${username || 'unknown'}**. Use the [new-profile submission form](https://directory.grcengclub.com/submit/) instead.`
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'not_planned'
+              });
+              return;
+            }
 
             function parseSubmissionBody(issueBody) {
               const encodedMatch = issueBody.match(
@@ -142,45 +219,14 @@ jobs:
               // Label may not exist yet — not critical
             }
 
-            async function findExistingProfileByGithub() {
-              const entries = await github.rest.repos.getContent({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                path: 'engineers',
-                ref: 'main'
-              });
-
-              for (const entry of entries.data) {
-                if (entry.type !== 'file' || !entry.name.endsWith('.md') || entry.name === '_template.md') {
-                  continue;
-                }
-
-                const file = await github.rest.repos.getContent({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  path: entry.path,
-                  ref: 'main'
-                });
-
-                const fileContent = Buffer.from(file.data.content, 'base64').toString('utf8');
-                const fileGithubMatch = fileContent.match(/^github:\s*"?(.*?)"?$/m);
-                if (!fileGithubMatch) continue;
-
-                if (fileGithubMatch[1].trim().toLowerCase() === normalizedUsername) {
-                  return entry.path;
-                }
-              }
-
-              return null;
-            }
-
-            const existingProfilePath = await findExistingProfileByGithub();
+            const existingProfilePath = await findExistingProfileByGithub(normalizedUsername);
             if (existingProfilePath) {
+              const editUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/edit/main/${existingProfilePath}`;
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `⚠️ A profile for **@${username}** already exists at \`${existingProfilePath}\`. If you'd like to update it, please open a pull request editing that file directly.`
+                body: `⚠️ A profile for **@${username}** already exists at \`${existingProfilePath}\`. Update your profile on GitHub so the change is authenticated to your account and submitted as your pull request: ${editUrl}`
               });
               await github.rest.issues.update({
                 owner: context.repo.owner,
