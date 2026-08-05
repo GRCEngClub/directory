@@ -1,0 +1,43 @@
+name: Sync Chapters
+
+# Keeps chapters/*.md in step with the club site's source of truth
+# (src/content/chapters.json in ajy0127/grcengclub) so new provisional
+# chapters show up here without anyone hand-writing a file.
+#
+# Requires the GRCENGCLUB_READ_TOKEN secret: a fine-grained PAT with
+# read-only Contents access to ajy0127/grcengclub (it's a private repo).
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync-chapters:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Fetch chapters.json from the club site repo
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer ${{ secrets.GRCENGCLUB_READ_TOKEN }}" \
+            -H "Accept: application/vnd.github.raw" \
+            -o /tmp/chapters.json \
+            "https://api.github.com/repos/ajy0127/grcengclub/contents/src/content/chapters.json?ref=main"
+
+      - name: Regenerate chapter files
+        run: node scripts/sync-chapters.js /tmp/chapters.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add chapters/
+          git diff --staged --quiet || git commit -m "data: auto-sync chapters from grcengclub.com"
+          git pull --rebase origin main
+          git push
