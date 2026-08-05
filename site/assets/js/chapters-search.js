@@ -1,8 +1,9 @@
 (function () {
   var filterRoot = document.getElementById("chapter-filters");
-  var searchInput = document.getElementById("chapter-search-input");
+  var searchInput = document.getElementById("search-input");
   var cardGrid = document.querySelector(".chapters-directory .card-grid");
   var resultCount = document.getElementById("result-count");
+  var compactResultCount = filterRoot ? filterRoot.querySelector("[data-compact-results]") : null;
   var noResults = document.getElementById("no-results");
   if (!filterRoot || !cardGrid) return;
 
@@ -49,6 +50,7 @@
     });
 
     if (resultCount) resultCount.textContent = String(visible);
+    if (compactResultCount) compactResultCount.textContent = String(visible);
     if (noResults) noResults.style.display = visible ? "none" : "block";
   }
 

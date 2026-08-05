@@ -1,16 +1,36 @@
 <aside class="filters" id="chapter-filters" aria-label="Filter chapter leads">
-  <div class="filters-expanded-panel">
+  <div class="filters-compact-bar">
+    <span class="filter-compact-label"><strong data-compact-results>{{ collections.chapters.length }}</strong> chapters</span>
+    <button class="filter-toggle filter-command-trigger" type="button" data-filter-toggle aria-expanded="false" aria-controls="filter-panel">
+      <span>Search &amp; filter</span>
+      <kbd class="filter-shortcut" aria-hidden="true">⌘K</kbd>
+    </button>
+  </div>
+
+  <button class="filter-palette-backdrop" type="button" data-filter-dismiss tabindex="-1" aria-hidden="true" aria-label="Close search and filters"></button>
+
+  <div class="filters-expanded-panel" id="filter-panel">
     <div class="controls-header">
-      <p class="results-count" aria-live="polite" aria-atomic="true">
-        <span id="result-count">{{ collections.chapters.length }}</span> of {{ collections.chapters.length }} chapters
-      </p>
+      <div class="filter-palette-heading">
+        <p class="filter-palette-title">Search chapter leads</p>
+        <p class="results-count" aria-live="polite" aria-atomic="true">
+          <span id="result-count">{{ collections.chapters.length }}</span> of {{ collections.chapters.length }} chapters
+        </p>
+      </div>
+      <div class="controls-actions">
+        <div class="controls-meta" aria-label="Chapter directory coverage">
+          <span>{{ collections.chapters | uniqueValues("region") | length }} regions</span>
+          <span>{{ collections.chapters | uniqueValues("country") | length }} countries</span>
+        </div>
+        <button class="filter-toggle filter-palette-close" type="button" data-filter-toggle aria-expanded="true" aria-controls="filter-panel" aria-label="Close chapter search and filters">Close</button>
+      </div>
     </div>
 
-    <div class="controls-bar">
+    <div class="controls-bar chapter-controls-bar">
       <div class="search-box">
         <input
           type="search"
-          id="chapter-search-input"
+          id="search-input"
           placeholder="Search by city, lead name, or role..."
           aria-label="Search chapter leads"
           autocomplete="off"
