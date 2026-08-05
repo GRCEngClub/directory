@@ -21,6 +21,7 @@ specializations:
 title: "System Engineer"
 location: "High Point, NC"
 linkedin: "https://www.linkedin.com/in/john-flack"
+portfolio: "https://jtflack-grc.github.io/portfolio/"
 frameworks:
   - "COBIT"
   - "CSA STAR"
