@@ -23,6 +23,4 @@ leads:
 meetings: Monthly
 ---
 
-## About this chapter
-
 Brief notes about the chapter's focus, meeting style, or local GRC scene.

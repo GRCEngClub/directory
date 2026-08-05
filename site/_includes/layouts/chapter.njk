@@ -67,7 +67,7 @@ layout: layouts/base.njk
     </div>
   </section>
 
-  {% if content %}
+  {% if content | trim %}
   <section class="chapter-page-section chapter-page-body">
     <h2>About this chapter</h2>
     {{ content | safe }}
