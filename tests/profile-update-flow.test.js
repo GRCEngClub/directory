@@ -30,86 +30,104 @@ async function runWorkflow(issue, github) {
   });
 }
 
-test('update issues are redirected to the authenticated GitHub edit flow', function () {
+test('submission workflow accepts new profiles only', function () {
   const workflow = source('.github/workflows/process-submission.yml');
-  const redirectIndex = workflow.indexOf('Update your profile on GitHub');
-  const updateHandlerIndex = workflow.indexOf('if (isUpdateSubmission)');
-  const payloadParsingIndex = workflow.indexOf('let content;');
-  const branchIndex = workflow.indexOf('// --- Create branch ---');
 
   assert.match(
     workflow,
-    /startsWith\(github\.event\.issue\.title, 'Update Profile:'\)/
+    /if: startsWith\(github\.event\.issue\.title, 'New Profile:'\)/
   );
-  assert.match(
-    workflow,
-    /https:\/\/github\.com\/\$\{context\.repo\.owner\}\/\$\{context\.repo\.repo\}\/edit\/main\/\$\{existingProfilePath\}/
-  );
-  assert.ok(redirectIndex > -1, 'workflow must explain that updates happen on GitHub');
-  assert.ok(
-    updateHandlerIndex > -1 && updateHandlerIndex < payloadParsingIndex,
-    'update issues must be routed before issue payload parsing'
-  );
-  assert.ok(redirectIndex < branchIndex, 'update redirect must happen before branch creation');
+  assert.doesNotMatch(workflow, /Update Profile:/);
 });
 
-test('malformed update issue is closed with the exact GitHub edit link and no repository mutation', async function () {
-  const comments = [];
-  const updates = [];
+test('valid new profile submission creates the automated pull request', async function () {
+  const calls = {
+    refs: [],
+    files: [],
+    pulls: [],
+    comments: [],
+    updates: []
+  };
+  const markdown = [
+    '---',
+    'name: "New Engineer"',
+    'github: "new-engineer"',
+    'specializations:',
+    '  - "Cloud Security"',
+    '---',
+    ''
+  ].join('\n');
+  const encoded = Buffer.from(JSON.stringify({ version: 1, markdown })).toString('base64');
+  const issue = {
+    number: 404,
+    title: 'New Profile: new-engineer',
+    body: `<!-- PROFILE_SUBMISSION_START -->\n${encoded}\n<!-- PROFILE_SUBMISSION_END -->`
+  };
   const github = {
     rest: {
       repos: {
         async getContent(options) {
-          if (options.path === 'engineers') {
-            return {
-              data: [
-                { type: 'file', name: 'itsrubenclarke.md', path: 'engineers/itsrubenclarke.md' }
-              ]
-            };
-          }
-          assert.equal(options.path, 'engineers/itsrubenclarke.md');
-          return {
-            data: {
-              content: Buffer.from('github: "itsrubenclarke"\n').toString('base64')
-            }
-          };
+          assert.equal(options.path, 'engineers');
+          return { data: [] };
+        },
+        async createOrUpdateFileContents(options) {
+          calls.files.push(options);
+        }
+      },
+      git: {
+        async getRef(options) {
+          assert.equal(options.ref, 'heads/main');
+          return { data: { object: { sha: 'main-sha' } } };
+        },
+        async createRef(options) {
+          calls.refs.push(options);
+        },
+        async deleteRef() {
+          throw new Error('unexpected branch deletion');
+        }
+      },
+      pulls: {
+        async create(options) {
+          calls.pulls.push(options);
+          return { data: { html_url: 'https://github.com/GRCEngClub/directory/pull/999' } };
         }
       },
       issues: {
+        async addLabels() {},
         async createComment(options) {
-          comments.push(options.body);
+          calls.comments.push(options);
         },
         async update(options) {
-          updates.push(options);
+          calls.updates.push(options);
         }
-      },
-      git: new Proxy({}, {
-        get() {
-          throw new Error('update issue reached Git branch mutation');
-        }
-      }),
-      pulls: new Proxy({}, {
-        get() {
-          throw new Error('update issue reached pull-request creation');
-        }
-      })
+      }
     }
   };
 
-  await runWorkflow(
-    { number: 130, title: 'Update Profile: itsrubenclarke', body: '' },
-    github
-  );
+  await runWorkflow(issue, github);
 
-  assert.deepEqual(comments, [
-    '⚠️ Update your profile on GitHub so the change is authenticated to your account and submitted as your pull request: https://github.com/GRCEngClub/directory/edit/main/engineers/itsrubenclarke.md'
-  ]);
-  assert.equal(updates.length, 1);
-  assert.equal(updates[0].state, 'closed');
-  assert.equal(updates[0].state_reason, 'completed');
+  assert.equal(calls.refs.length, 1);
+  assert.equal(calls.refs[0].ref, 'refs/heads/profile/new-engineer');
+  assert.equal(calls.refs[0].sha, 'main-sha');
+  assert.equal(calls.files.length, 1);
+  assert.equal(calls.files[0].path, 'engineers/new-engineer.md');
+  assert.equal(calls.files[0].branch, 'profile/new-engineer');
+  assert.equal(calls.pulls.length, 1);
+  assert.equal(calls.pulls[0].head, 'profile/new-engineer');
+  assert.equal(calls.pulls[0].base, 'main');
+  assert.match(calls.comments[0].body, /pull\/999/);
+  assert.equal(calls.updates[0].state, 'closed');
+  assert.equal(calls.updates[0].state_reason, 'completed');
 });
 
-test('profile pages expose an exact GitHub edit link', function () {
+test('web submission client can create new-profile issues only', function () {
+  const submitScript = source('site/assets/js/submit.js');
+
+  assert.match(submitScript, /var issueTitle = 'New Profile: ' \+ formData\.github;/);
+  assert.doesNotMatch(submitScript, /Update Profile:/);
+});
+
+test('existing profile changes link directly to the GitHub PR backend', function () {
   const profile = source('site/_includes/layouts/profile.njk');
 
   assert.match(
@@ -123,7 +141,7 @@ test('profile pages expose an exact GitHub edit link', function () {
   );
 });
 
-test('submission form states that existing profiles are updated on GitHub', function () {
+test('new-profile form directs existing members to GitHub pull requests', function () {
   const submit = source('site/submit.njk');
 
   assert.match(submit, /Already in the directory\?/);

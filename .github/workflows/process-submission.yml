@@ -6,10 +6,8 @@ on:
 
 jobs:
   process:
-    # New submissions create automated PRs; update issues redirect owners to GitHub editing.
-    if: >-
-      startsWith(github.event.issue.title, 'New Profile:') ||
-      startsWith(github.event.issue.title, 'Update Profile:')
+    # Trigger only on new profile submissions. Updates must be owner-authored PRs.
+    if: startsWith(github.event.issue.title, 'New Profile:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,7 +20,6 @@ jobs:
           script: |
             const issue = context.payload.issue;
             const body = issue.body || '';
-            const isUpdateSubmission = issue.title.startsWith('Update Profile:');
 
             async function findExistingProfileByGithub(targetUsername) {
               const entries = await github.rest.repos.getContent({
@@ -54,48 +51,6 @@ jobs:
               }
 
               return null;
-            }
-
-            if (isUpdateSubmission) {
-              const username = issue.title.slice('Update Profile:'.length).trim();
-              const normalizedUsername = username.toLowerCase();
-              const validUsername = /^(?!.*--)[a-z0-9](?:[a-z0-9-]{0,37}[a-z0-9])?$/.test(normalizedUsername);
-              const existingProfilePath = validUsername
-                ? await findExistingProfileByGithub(normalizedUsername)
-                : null;
-
-              if (existingProfilePath) {
-                const editUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/edit/main/${existingProfilePath}`;
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issue.number,
-                  body: `⚠️ Update your profile on GitHub so the change is authenticated to your account and submitted as your pull request: ${editUrl}`
-                });
-                await github.rest.issues.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issue.number,
-                  state: 'closed',
-                  state_reason: 'completed'
-                });
-                return;
-              }
-
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                body: `⚠️ No existing profile was found for **@${username || 'unknown'}**. Use the [new-profile submission form](https://directory.grcengclub.com/submit/) instead.`
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
-              return;
             }
 
             function parseSubmissionBody(issueBody) {
