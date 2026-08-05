@@ -1,6 +1,6 @@
 ---
 name: "Benjamin Hobbs"
-github: "bennybuildbetter"
+github: "benjamin-s-hobbs"
 specializations:
   - "Audit & Assurance"
   - "Cloud Security"
@@ -64,8 +64,6 @@ projects:
   - name: "GRC Engineering Portfolio"
     url: "https://github.com/benjamin-s-hobbs/GRCEportfolio"
     description: "Built a secure CI/CD pipeline to automate real-time audit-grade evidence gathering, reducing audit prep time by up to 85%.  Created secure Cloud IaC using Terraform. Configured artifact signing using Cosign. Automated Security Gates via GitHub Actions (grc-gate workflow) utilizing OPA, Rego, and Conftest. Configured machine-readable documentation via OSCAL."
-  - name: "ISO 27001 ISMS Certification"
-    description: "ISO 27001 ISMS Certification Supported and Implemented a certification process for a ISO 27001 Information Security Management System.  Drafted 45 policies for review and approval, and created artifacts for ISMS structure. Gathered evidence and supervised submission of evidence for 81 custom controls across 3 separate locations. Supported in-person and virtual meetings for internal and external audits with senior leadership and audit team. Conducted 6 quarterly access reviews for 14 in-scope systems."
 ---
 
 ## About Me
