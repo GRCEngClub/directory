@@ -5,15 +5,12 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/hartford
-
 meetings: Meeting schedule coming soon
-summary: Connecticut's insurance capital meets compliance engineering across Hartford, Westbrook, and the shoreline.
+summary: Connecticut runs deep in the club - three members between Hartford, Westbrook, and the shoreline. Insurance capital, meet compliance engineering.
 leads:
   - name: Tiffany Walker-Roper
     role: President
-    github: tiffanymwr15
   - name: Michelle Cummings
     role: Vice President
+    linkedin: https://www.linkedin.com/in/michellecummings17/
 ---
-
-Hartford connects insurance-heavy GRC work with the club's engineering practice.

@@ -5,15 +5,12 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/raleigh
-
 meetings: Quarterly, Research Triangle venues
-summary: The Research Triangle is one of the club's biggest clusters, and its chapter runs on hands-on build sessions.
+summary: The Research Triangle is one of the club's biggest clusters, and its chapter runs on hands-on build sessions, not lectures.
 leads:
   - name: John Flack
     role: President
-    github: jtflack-grc
+    linkedin: https://www.linkedin.com/in/john-flack
   - name: Adarian Dewberry
     role: Vice President
 ---
-
-Raleigh focuses on practical build sessions across the Research Triangle.

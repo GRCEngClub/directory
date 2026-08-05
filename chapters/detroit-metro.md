@@ -5,15 +5,13 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/detroit-metro
-
 meetings: Monthly
-summary: Ann Arbor talent and Lansing state-government security across Novi, Troy, Livonia, and Plymouth.
+summary: "From the Big House to the Breslin: one Detroit Metro chapter. Ann Arbor's college-town talent and Lansing's state government security anchor a corridor that runs through Novi, Troy, Livonia, and Plymouth. We don't do pretty. We do Detroit GRC."
 leads:
   - name: Mike Hiltz
     role: President
+    linkedin: https://www.linkedin.com/in/mhiltz/
   - name: Zahid Kamil
     role: Vice President
-    github: ZahidKamil
+    linkedin: https://www.linkedin.com/in/zahid-kamil
 ---
-
-Detroit Metro is one chapter for a corridor that does not do pretty — it does Detroit GRC.

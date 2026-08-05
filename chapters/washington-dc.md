@@ -5,18 +5,15 @@ status: official
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/washington-dc
-
 meetings: Monthly virtual, quarterly in person
-summary: The federal compliance capital of the world, covering NOVA, Reston, Fort Washington, and the broader DMV.
+summary: NOVA, Reston, Fort Washington - the DMV showed up harder than any other metro. The federal compliance capital of the world has a full founding leadership team.
 leads:
   - name: Gopal Kharbanda
     role: President
+    linkedin: https://www.linkedin.com/in/gokhart/
   - name: Jonathan Perez
     role: Vice President
-    github: GRCJP
   - name: Dex-Xavier Copeland
     role: Head of Growth & Training
-    github: dexcopeland
+    linkedin: https://www.linkedin.com/in/dexcopeland/
 ---
-
-The DMV chapter launched with a full founding leadership team and is the club's first official chapter.

@@ -5,16 +5,13 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/austin
-
 meetings: Monthly
-summary: A dense tech sector, big state-agency GRC, and a security community ready for the engineering side.
+summary: A dense tech sector, big state-agency GRC, and a security community ready for the engineering side. Austin's founding team came pre-assembled.
 leads:
   - name: Angeline Williams
     role: President
-    github: angie-in-the-cloud
+    linkedin: https://www.linkedin.com/in/angeline-williams/
   - name: Jose Ruiz-Vazquez
     role: Vice President
-    github: joseruiz1571
+    linkedin: https://www.linkedin.com/in/joseruiz1571
 ---
-
-Austin's founding team came pre-assembled and is building toward official chapter status.

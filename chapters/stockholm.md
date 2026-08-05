@@ -5,12 +5,10 @@ status: provisional
 country: Sweden
 region: Europe
 chapter_url: https://grcengclub.com/chapters/stockholm
-
 meetings: Quarterly
-summary: The club's first Nordic chapter in a global AI hub that was doing GRC engineering before the term existed.
+summary: "A global AI hub alongside SF, London, and Paris. Spotify, Klarna, Voi, Einride, Lovable: Stockholm was doing GRC engineering before the term existed. The club's first Nordic chapter, led by a former Spotify compliance engineering PM."
 leads:
   - name: Nikola Glad Latinovic
     role: President
+    linkedin: https://www.linkedin.com/in/nikolalatinovic
 ---
-
-Stockholm anchors the Nordic chapter network for compliance engineering and AI-era GRC.

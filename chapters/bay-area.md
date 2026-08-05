@@ -5,12 +5,10 @@ status: provisional
 country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/bay-area
-
 meetings: Monthly
-summary: The Bay builds the tools — this chapter builds the practice across San Francisco and Oakland.
+summary: San Francisco and Oakland each have a club member. The Bay builds the tools - a chapter here builds the practice.
 leads:
   - name: Sierra Montoya
     role: President
+    linkedin: https://www.linkedin.com/in/sierramontoyaturco/
 ---
-
-The SF Bay Area chapter turns tool builders into a local GRC engineering community.
