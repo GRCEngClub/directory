@@ -28,3 +28,9 @@ test("chapter search binds to the shared palette input and compact result count"
   assert.match(script, /getElementById\("search-input"\)/);
   assert.match(script, /querySelector\("\[data-compact-results\]"\)/);
 });
+
+test("chapter filters avoid an empty mobile workbench header", () => {
+  const partial = read("site/_includes/partials/chapter-filter-bar.njk");
+
+  assert.doesNotMatch(partial, /class="filter-workbench-header"/);
+});
