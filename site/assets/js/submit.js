@@ -54,6 +54,12 @@
     return (value || '').trim();
   }
 
+  // Users often paste highlights that already start with "- ", "* ", or "• ";
+  // strip those so the generator's own "- " prefix doesn't double up.
+  function stripLeadingBullet(line) {
+    return line.replace(/^[-*•]+\s+/, '');
+  }
+
   function showStep(n) {
     $$('.form-step').forEach(function (el) {
       el.hidden = Number(el.dataset.step) !== n;
@@ -560,7 +566,7 @@
       lines.push('## Experience Highlights');
       lines.push('');
       data.highlights.split('\n').forEach(function (line) {
-        var trimmed = line.trim();
+        var trimmed = stripLeadingBullet(line.trim());
         if (trimmed) lines.push('- ' + trimmed);
       });
       lines.push('');
@@ -698,7 +704,7 @@
     if (data.highlights) {
       html += '<div class="profile-body"><h2>Experience Highlights</h2><ul>';
       data.highlights.split('\n').forEach(function (line) {
-        var trimmed = line.trim();
+        var trimmed = stripLeadingBullet(line.trim());
         if (trimmed) html += '<li>' + escHtml(trimmed) + '</li>';
       });
       html += '</ul></div>';
