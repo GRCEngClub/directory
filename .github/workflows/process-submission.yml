@@ -3,11 +3,19 @@ name: Process Profile Submission
 on:
   issues:
     types: [opened, reopened]
+  # Manual retry path: if a run fails (e.g. runner outage) the issue stays open
+  # and never re-triggers, so let maintainers reprocess it by issue number.
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number of the profile submission to (re)process"
+        required: true
+        type: number
 
 jobs:
   process:
     # Trigger only on new profile submissions. Updates must be owner-authored PRs.
-    if: startsWith(github.event.issue.title, 'New Profile:')
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'New Profile:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,8 +26,41 @@ jobs:
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         with:
           script: |
-            const issue = context.payload.issue;
+            let issue = context.payload.issue;
+            if (!issue) {
+              const issueNumber = Number(context.payload.inputs && context.payload.inputs.issue_number);
+              if (!Number.isInteger(issueNumber) || issueNumber <= 0) {
+                core.setFailed('workflow_dispatch requires a valid issue_number input.');
+                return;
+              }
+              const response = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber
+              });
+              issue = response.data;
+              if (!issue.title.startsWith('New Profile:')) {
+                core.setFailed(`Issue #${issueNumber} is not a profile submission (title must start with "New Profile:").`);
+                return;
+              }
+            }
             const body = issue.body || '';
+
+            async function rejectSubmission(message) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: message
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'not_planned'
+              });
+            }
 
             async function findExistingProfileByGithub(targetUsername) {
               const entries = await github.rest.repos.getContent({
@@ -80,62 +121,49 @@ jobs:
             try {
               content = parseSubmissionBody(body);
             } catch (error) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                body: '❌ We could not decode the submission payload in this issue. Please return to the [submission form](https://directory.grcengclub.com/submit/), copy a fresh payload, and submit a new issue.'
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
+              await rejectSubmission('❌ We could not decode the submission payload in this issue. Please return to the [submission form](https://directory.grcengclub.com/submit/), copy a fresh payload, and submit a new issue.');
               return;
             }
 
             if (!content) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                body: '❌ Could not find a valid submission payload in this issue. Please return to the [submission form](https://directory.grcengclub.com/submit/), paste the copied payload into the issue body, and submit a new issue.'
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
+              await rejectSubmission('❌ Could not find a valid submission payload in this issue. Please return to the [submission form](https://directory.grcengclub.com/submit/), paste the copied payload into the issue body, and submit a new issue.');
               return;
             }
 
             // --- Parse required fields from YAML frontmatter ---
             const ghMatch = content.match(/^github:\s*"([^"]+)"/m);
             if (!ghMatch) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                body: '❌ Could not find a valid `github` username in the profile. Please resubmit using the [submission form](https://directory.grcengclub.com/submit/).'
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
+              await rejectSubmission('❌ Could not find a valid `github` username in the profile. Please resubmit using the [submission form](https://directory.grcengclub.com/submit/).');
               return;
             }
             const username = ghMatch[1].trim();
             const normalizedUsername = username.toLowerCase();
 
+            // The username becomes a file path and must satisfy the same rule
+            // the validation workflow enforces.
+            if (!/^[A-Za-z0-9]([A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/.test(username)) {
+              await rejectSubmission(`❌ \`${username}\` is not a valid GitHub username (1-39 alphanumeric characters or hyphens, no leading/trailing hyphen). Please resubmit using the [submission form](https://directory.grcengclub.com/submit/).`);
+              return;
+            }
+
             const nameMatch = content.match(/^name:\s*"([^"]+)"/m);
-            const profileName = nameMatch ? nameMatch[1] : username;
+            if (!nameMatch) {
+              await rejectSubmission('❌ Could not find a valid `name` in the profile. Please resubmit using the [submission form](https://directory.grcengclub.com/submit/).');
+              return;
+            }
+            const profileName = nameMatch[1];
+
+            // Mirror the checks in validate-submission.yml so PRs opened by this
+            // workflow are sound even before their CI runs are approved.
+            if (!/^specializations:\s*\n(?:[ \t]+-[ \t]+.+\n?)+/m.test(content)) {
+              await rejectSubmission('❌ The profile must list at least one specialization. Please resubmit using the [submission form](https://directory.grcengclub.com/submit/).');
+              return;
+            }
+
+            if (/<script|<iframe|<embed|<object|onerror=|onload=|onclick=|onmouseover=|javascript:/i.test(content)) {
+              await rejectSubmission('❌ The submission contains HTML that is not allowed in profiles. Please remove any embedded HTML and resubmit using the [submission form](https://directory.grcengclub.com/submit/).');
+              return;
+            }
 
             // --- Reject placeholder/template submissions ---
             const placeholders = [
@@ -144,23 +172,13 @@ jobs:
               'YOUR-GITHUB-USERNAME',
             ];
             if (placeholders.includes(username) || placeholders.includes(profileName)) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                body: '❌ This submission still contains placeholder values from the template. Please fill in your actual name and GitHub username, then resubmit using the [submission form](https://directory.grcengclub.com/submit/).'
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
+              await rejectSubmission('❌ This submission still contains placeholder values from the template. Please fill in your actual name and GitHub username, then resubmit using the [submission form](https://directory.grcengclub.com/submit/).');
               return;
             }
 
-            const filename = `engineers/${normalizedUsername}.md`;
+            // Filename must match the frontmatter `github` value exactly —
+            // validate-submission.yml rejects any casing mismatch.
+            const filename = `engineers/${username}.md`;
 
             // --- Label the issue for bookkeeping ---
             try {
@@ -210,17 +228,15 @@ jobs:
               });
             } catch (e) {
               if (e.status === 422) {
-                // Branch already exists — delete and recreate
-                await github.rest.git.deleteRef({
+                // Branch already exists (e.g. an earlier run died midway) —
+                // reset it to main. Deleting it instead would auto-close any
+                // open PR attached to the branch.
+                await github.rest.git.updateRef({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  ref: `heads/${branchName}`
-                });
-                await github.rest.git.createRef({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  ref: `refs/heads/${branchName}`,
-                  sha: mainRef.data.object.sha
+                  ref: `heads/${branchName}`,
+                  sha: mainRef.data.object.sha,
+                  force: true
                 });
               } else {
                 throw e;
@@ -237,22 +253,36 @@ jobs:
               branch: branchName
             });
 
-            // --- Open PR ---
-            const pr = await github.rest.pulls.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Add profile: ${profileName} (@${username})`,
-              head: branchName,
-              base: 'main',
-              body: `Automated PR from #${issue.number}\n\nAdds engineer directory profile for @${username}.`
-            });
+            // --- Open PR (reuse the existing one when reprocessing) ---
+            let pr;
+            try {
+              const created = await github.rest.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Add profile: ${profileName} (@${username})`,
+                head: branchName,
+                base: 'main',
+                body: `Automated PR from #${issue.number}\n\nAdds engineer directory profile for @${username}.`
+              });
+              pr = created.data;
+            } catch (e) {
+              if (e.status !== 422) throw e;
+              const existing = await github.rest.pulls.list({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                head: `${context.repo.owner}:${branchName}`,
+                state: 'open'
+              });
+              if (existing.data.length === 0) throw e;
+              pr = existing.data[0];
+            }
 
             // --- Comment with PR link and close issue ---
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
-              body: `✅ Your profile PR has been created: ${pr.data.html_url}\n\nA maintainer will review and merge it shortly!`
+              body: `✅ Your profile PR has been created: ${pr.html_url}\n\nA maintainer will review and merge it shortly!`
             });
 
             await github.rest.issues.update({
