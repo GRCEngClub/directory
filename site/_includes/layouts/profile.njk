@@ -109,7 +109,11 @@ layout: layouts/base.njk
         <div class="project-list">
           {% for p in projects %}
           <div class="project-card">
+            {% if p.url %}
             <a href="{{ p.url }}" target="_blank" rel="noopener" class="project-name" aria-label="{{ p.name }} (opens in new tab)">{{ p.name }} <span class="external-icon" aria-hidden="true">↗</span></a>
+            {% else %}
+            <span class="project-name">{{ p.name }}</span>
+            {% endif %}
             {% if p.description %}<p class="project-desc">{{ p.description }}</p>{% endif %}
           </div>
           {% endfor %}
