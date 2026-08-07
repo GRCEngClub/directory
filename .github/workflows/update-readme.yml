@@ -9,6 +9,12 @@ on:
       - '!engineers/_template.md'
   workflow_dispatch:
 
+# Serialize runs: concurrent pushes to main race each other on `git push`
+# and the loser fails.
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -21,7 +27,7 @@ jobs:
 
       - name: Install yq
         run: |
-          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/v4.44.1/yq_linux_amd64
           sudo chmod +x /usr/local/bin/yq
 
       - name: Generate engineer table
