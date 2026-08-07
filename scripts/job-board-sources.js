@@ -4,12 +4,14 @@ module.exports = {
     "appliedintuition",
     "anthropic",
     "cerebrassystems",
+    "charliehealth",
     "cloudflare",
     "discord",
     "everlaw",
     "fireblocks",
     "idme",
     "ionq",
+    "ninjatrader",
     "robinhood",
     "sigmacomputing",
     "spycloud",
@@ -19,6 +21,7 @@ module.exports = {
   ],
   ashbyBoards: [
     "1password",
+    "antithesis",
     "atlan",
     "confluent",
     "Crusoe",
@@ -32,9 +35,11 @@ module.exports = {
     "Notion",
     "ramp",
     "replit",
+    "Second-Front-Systems",
     "serverobotics",
     "socure",
-    "writer"
+    "writer",
+    "Zania"
   ],
   workableBoards: [
     "1kosmos",
