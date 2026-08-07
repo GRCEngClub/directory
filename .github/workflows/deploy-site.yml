@@ -11,8 +11,10 @@ on:
       - '.eleventy.js'
       - 'package.json'
       - 'package-lock.json'
+  # Pushes made with GITHUB_TOKEN don't fire the push trigger above, so
+  # workflows that commit site content need to be listed here explicitly.
   workflow_run:
-    workflows: ['Import Jobs']
+    workflows: ['Import Jobs', 'Sync Chapters']
     types: [completed]
   workflow_dispatch:
 
