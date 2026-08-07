@@ -30,8 +30,8 @@ In my time in the industry so far, I have seen how inefficient some internal tea
 
 ## Experience Highlights
 
-- - Leads 10+ SOC 1 and SOC 2 engagements a year.
-- - Working through the CGE curriculum and learning by doing.
+- Leads 10+ SOC 1 and SOC 2 engagements a year.
+- Working through the CGE curriculum and learning by doing.
 
 ## Get in Touch
 
