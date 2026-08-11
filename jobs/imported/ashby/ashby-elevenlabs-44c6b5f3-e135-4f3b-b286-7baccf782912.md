@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - Spain"
+title: "Forward Deployed Engineer - Software Engineer - Belgium"
 company: "Elevenlabs"
-slug: "ashby-elevenlabs-7664e3c4-2336-4d1a-90cf-91d1268de10d"
+slug: "ashby-elevenlabs-44c6b5f3-e135-4f3b-b286-7baccf782912"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d"
-apply_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d/application"
+role_url: "https://jobs.ashbyhq.com/elevenlabs/44c6b5f3-e135-4f3b-b286-7baccf782912"
+apply_url: "https://jobs.ashbyhq.com/elevenlabs/44c6b5f3-e135-4f3b-b286-7baccf782912/application"
 posted_date: "2026-08-11"
 expires_date: "2026-09-10"
-location: "Spain"
+location: "Belgium"
 work_modes:
   - "Remote"
 job_types:
@@ -72,10 +72,6 @@ What you will do:
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
 - Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions.
-
-## Location
-
-This candidate should be able to commute to Madrid ~3x per week.
 
 #LI-remote
 

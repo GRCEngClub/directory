@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - Spain"
+title: "Forward Deployed Engineer - Software Engineer - France"
 company: "Elevenlabs"
-slug: "ashby-elevenlabs-7664e3c4-2336-4d1a-90cf-91d1268de10d"
+slug: "ashby-elevenlabs-38e0b741-5bfa-4481-891e-e95b503d4aff"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d"
-apply_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d/application"
+role_url: "https://jobs.ashbyhq.com/elevenlabs/38e0b741-5bfa-4481-891e-e95b503d4aff"
+apply_url: "https://jobs.ashbyhq.com/elevenlabs/38e0b741-5bfa-4481-891e-e95b503d4aff/application"
 posted_date: "2026-08-11"
 expires_date: "2026-09-10"
-location: "Spain"
+location: "France"
 work_modes:
   - "Remote"
 job_types:
@@ -55,6 +55,31 @@ Everything we do is the result of the creativity and commitment of our team - bu
 - Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.
 - Co-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.
 
+This role is remote, so it can be executed globally.
+
+## About ElevenLabs
+
+ElevenLabs is a research and product company defining the frontier of Audio AI. Millions of individuals use ElevenLabs to read articles, voice over their videos, and reclaim voices lost from disability. And the leading developers and enterprises use ElevenLabs to create AI agents for support, sales, and education.
+
+ElevenLabs launched in January 2023 with the first AI model to cross the threshold of human-like speech. In January 2025, we raised a $180 million Series C round, valuing ElevenLabs at $3.3 billion. The round was co-led by Andreessen Horowitz and ICONIQ Growth, with continued support from the leading names in tech, including Nat Friedman, Daniel Gross, Instagram co-founder Mike Krieger, Oculus VR co-founder Brendan Iribe, DeepMind and Inflection co-founder Mustafa Suleyman, and many others.
+
+ElevenLabs is only 2 years old and scaling rapidly. We are just getting started. If you want to work hard and have an incredible impact, we would love to hear from you.
+
+## How we work
+
+- High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.
+- Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.
+- AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.
+- Excellence everywhere: Everything we do should match the quality of our AI models.
+- Global team: We prioritize your talent, not your location. We are remote first with optional in-person offices in London, New York, San Francisco, Tokyo, and Warsaw.
+
+## What we offer
+
+- Learning & development : Annual discretionary stipend towards professional development.
+- Social travel : Annual discretionary stipend to meet up with colleagues each year, however you choose.
+- Annual company offsite: We bring the entire company together at a new location every year.
+- Coworking : If you’re not located near one of our main hubs, we offer a monthly coworking stipend.
+
 ## About the role
 
 You’ll use your creativity, problem-solving, and technical expertise to design tailored solutions that make a real impact.
@@ -72,10 +97,6 @@ What you will do:
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
 - Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions.
-
-## Location
-
-This candidate should be able to commute to Madrid ~3x per week.
 
 #LI-remote
 

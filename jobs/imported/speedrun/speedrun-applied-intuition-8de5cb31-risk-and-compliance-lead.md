@@ -27,7 +27,7 @@ frameworks:
   - "NIST 800-53"
 languages:
   - "Rust"
-compensation: "$190K – $250K • Offers Equity"
+compensation: "$160K – $190K • Offers Equity"
 summary: "About Applied Intuition Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the..."
 ---
 
@@ -81,6 +81,5 @@ Nice to have:
 
 Compensation at Applied Intuition for eligible roles includes base salary, equity, and benefits. Base salary is a single component of the total compensation package, which may also include equity in the form of options and/or restricted stock units, comprehensive health, dental, vision, life and disability insurance coverage, 401k retirement benefits with employer match, learning and wellness stipends, and paid time off. Note that benefits are subject to change and may vary based on jurisdiction of employment.
 Applied Intuition pay ranges reflect the minimum and maximum intended target base salary for new hire salaries for the position. The actual base salary offered to a successful candidate will additionally be influenced by a variety of factors including experience, credentials & certifications, educational attainment, skill level requirements, interview performance, and the level and scope of the position.
-Please reference the job posting’s subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the location listed is: $160,000 - $190,000 USD annually.
 Don’t meet every single requirement? If you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.
 Applied Intuition is an equal opportunity employer and federal contractor or subcontractor. Consequently, the parties agree that, as applicable, they will abide by the requirements of 41 CFR 60-1.4(a), 41 CFR 60-300.5(a) and 41 CFR 60-741.5(a) and that these laws are incorporated herein by reference. These regulations prohibit discrimination against qualified individuals based on their status as protected veterans or individuals with disabilities, and prohibit discrimination against all individuals based on their race, color, religion, sex, sexual orientation, gender identity or national origin. These regulations require that covered prime contractors and subcontractors take affirmative action to employ and advance in employment individuals without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status or disability. The parties also agree that, as applicable, they will abide by the requirements of Executive Order 13496 (29 CFR Part 471, Appendix A to Subpart A), relating to the notice of employee rights under federal labor laws.

@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/antithesis?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/antithesis/2950b76f-0ef5-4834-8a34-dabdf3c7fc41"
 apply_url: "https://jobs.ashbyhq.com/antithesis/2950b76f-0ef5-4834-8a34-dabdf3c7fc41/application"
-posted_date: "2026-08-09"
-expires_date: "2026-09-08"
+posted_date: "2026-08-11"
+expires_date: "2026-09-10"
 location: "Vienna, VA, USA"
 work_modes:
   - "Hybrid / On-site"

@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/2ca618b4-2223-47ca-b1f0-84ac101fcd90"
 apply_url: "https://jobs.ashbyhq.com/Notion/2ca618b4-2223-47ca-b1f0-84ac101fcd90/application"
-posted_date: "2026-08-09"
-expires_date: "2026-09-08"
+posted_date: "2026-08-11"
+expires_date: "2026-09-10"
 location: "Paris, France"
 work_modes:
   - "Hybrid / On-site"
