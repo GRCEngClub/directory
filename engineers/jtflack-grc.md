@@ -4,7 +4,7 @@ github: "jtflack-grc"
 title: "Systems & Security Engineer"
 location: "High Point, NC"
 linkedin: "https://www.linkedin.com/in/john-flack"
-portfolio: "https://jtflack-grc.github.io/portfolio/"
+website: "https://jtflack-grc.github.io/portfolio/"
 
 specializations:
   - "Audit & Assurance"
