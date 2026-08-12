@@ -64,11 +64,7 @@ projects:
 
   - name: OSCAL Continuous Compliance Pipeline
     url: https://github.com/GRCJP/OSCAL-Conversion-and-Compliance-Pipeline
-    description: Continuous compliance pipeline that converts SSPs to OSCAL, then discovers, assesses, reconciles claims against live tool evidence, and raises POA&Ms from real gaps. A living authorization package, not a one-time export.
-
-  - name: OSCAL Pipeline Workshop
-    url: https://github.com/GRCJP/oscal-pipeline-workshop
-    description: Hands-on workshop mapping OSCAL models to discover, assess, reconcile claims vs evidence, and maintain continuous compliance on a schedule.
+    description: Continuous compliance pipeline that converts SSPs to OSCAL, then discovers, assesses, reconciles claims against live tool evidence, and raises POA&Ms from real gaps. A living authorization package, not a one-time export. Hands-on companion workshop - https://github.com/GRCJP/oscal-pipeline-workshop.
 
   - name: Sensitive Data Training Platform
     url: https://github.com/GRCJP/Security-Awareness---Privacy
