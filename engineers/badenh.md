@@ -2,10 +2,10 @@
 name: "Baden Hughes"
 github: "badenh"
 specializations:
+  - "AWS"
   - "Cloud Security"
   - "Compliance Automation"
   - "AI Governance"
-  - "AWS"
 frameworks:
   - "CSA STAR"
   - "ISO 27001"
@@ -15,9 +15,14 @@ frameworks:
   - "NIST AI RMF"
   - "NIST CSF"
   - "NIST RMF"
+  - "SCF"
+  - "AIUC-1"
+  - "ISM"
 languages:
   - "OSCAL"
   - "Python"
+  - "Terraform"
+  - "CloudFormation"
 available_for:
   - "mentoring"
   - "speaking"
@@ -39,11 +44,15 @@ projects:
   - name: "NSIZM OSCAL"
     url: "https://github.com/badenh/nzism-oscal"
     description: "Unofficial version of New Zealand's Information Security Manual in OSCAL format"
+    - name "AWS Service Matrix"
+    url:
+"https://awsservicematrix.info"
+    description: "Unofficial but live, data-driven version of AWS services availability and differences by region"
 ---
 
 ## About Me
 
-I've done "security" for about 30 years, but always as a part of a larger set of responsibilities in product development and/or technology operations. The last few years I've more specifically active in security & compliance engineering, both as a leader/manager in a consulting business, and as a hands-on practitioner. Recent work focuses on AWS (as a partner and contracted service provider with a focus on Landing Zone Accelerators). I'm currently on a bit of a streak putting out public/free or open source contributions related to my home region (Australia/New Zealand).
+I've done "security" for about 30 years, but always as a part of a larger set of responsibilities in product development and/or technology operations. The last few years I've more specifically active in security & compliance engineering, both as a leader/manager in a consulting business, and as a hands-on practitioner. Recent work focuses on AWS (as a partner and contracted service provider with a focus on Landing Zone Accelerators -  LZA and LZA UC). I'm currently on a bit of a streak putting out public/free or open source contributions related to my home region (Australia/New Zealand).
 
 ## Get in Touch
 
