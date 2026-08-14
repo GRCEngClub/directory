@@ -44,7 +44,7 @@ projects:
   - name: "NSIZM OSCAL"
     url: "https://github.com/badenh/nzism-oscal"
     description: "Unofficial version of New Zealand's Information Security Manual in OSCAL format"
-    - name "AWS Service Matrix"
+    - name: "AWS Service Matrix"
     url:
 "https://awsservicematrix.info"
     description: "Unofficial but live, data-driven version of AWS services availability and differences by region"
