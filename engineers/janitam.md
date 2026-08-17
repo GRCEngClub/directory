@@ -6,16 +6,18 @@ specializations:
   - "Compliance Automation"
   - "Risk Management"
   - "Security Architecture"
-  - "Solutions Architecture"
 title: "Product Architect, Payments & Compliance"
 location: "Melbourne, FL"
 linkedin: "https://www.linkedin.com/in/janitam/"
 blog: "https://janita.me"
 frameworks:
-  - "HIPAA"
   - "NIST 800-53"
   - "NIST CSF"
   - "PCI-DSS"
+certifications:
+  - "CGE-AUD, Certified GRC Engineer Auditor Specialty, GRC Engineering Club"
+  - "CGE-P, Certified GRC Engineer Practitioner, GRC Engineering Club (in progress)"
+  - "AWS Certified Solutions Architect, Associate"
 languages:
   - "Bash"
   - "JavaScript"
@@ -29,11 +31,18 @@ available_for:
   - "consulting"
   - "freelance"
   - "collaboration"
+  - "open-source"
+  - "hiring"
+  - "speaking"
+projects:
+  - name: "infra-modules"
+    url: "https://github.com/JanitaM/infra-modules"
+    description: "Reusable Terraform modules and Conftest/OPA policies, built to learn policy as code and give future projects a pre-vetted starting point."
 ---
 
 ## About Me
 
-My GRC experience comes from the engineering side rather than the audit side. For four years I was a Product Architect in payments, designing billing, authentication, and systems that had to live inside PCI-DSS and HIPAA constraints, where compliance was not a review at the end but a constraint on every design decision. 
+My GRC experience comes from the engineering side rather than the audit side. For four years I was a Product Architect in payments, designing billing, authentication, and systems that had to live inside PCI-DSS constraints, where compliance was not a review at the end but a constraint on every design decision. 
 
 Working closely with our GRC team is what pulled me toward GRC engineering specifically. The part I like is the translation work: turning undocumented practices into controls a team can actually execute against. The engineering team is not being negligent on purpose, we just don't know better. 
 
