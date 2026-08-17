@@ -75,7 +75,13 @@ function main() {
     process.exit(1);
   }
 
-  const data = JSON.parse(fs.readFileSync(src, "utf8"));
+  const resolvedSrc = path.resolve(src);
+  if (!resolvedSrc.endsWith(".json")) {
+    console.error("Error: input file must have a .json extension");
+    process.exit(1);
+  }
+
+  const data = JSON.parse(fs.readFileSync(resolvedSrc, "utf8"));
   const live = data.chapters.filter((c) => c.leaders && c.leaders.length > 0);
   if (live.length < MIN_LIVE_CHAPTERS) {
     console.error(
