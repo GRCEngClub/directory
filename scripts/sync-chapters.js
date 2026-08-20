@@ -28,6 +28,42 @@ const REGION = {
 // must not mass-delete chapter pages.
 const MIN_LIVE_CHAPTERS = 15;
 
+// The sync-chapters workflow always hands us a file inside /tmp
+// (see .github/workflows/sync-chapters.yml). Treat that as the only
+// approved input location and refuse to read anything outside it.
+const INPUT_DIR = "/tmp";
+
+// Resolve the caller-provided input path against the approved input directory
+// and refuse anything that escapes it. path.resolve + a .json suffix check are
+// not enough on their own: they still permit absolute paths, ../ traversal, and
+// symlinks that point elsewhere. We canonicalize with fs.realpathSync so a
+// symlinked file cannot smuggle us outside the boundary, then verify
+// containment with path.relative before the file is ever read.
+function resolveInputPath(src, inputDir = INPUT_DIR) {
+  // realpath the boundary too: on macOS /tmp is itself a symlink to
+  // /private/tmp, so both sides must be canonicalized to compare.
+  const baseReal = fs.realpathSync(inputDir);
+  const candidate = path.resolve(baseReal, src);
+
+  // Canonicalize the target if it exists so a symlinked file that points
+  // outside the boundary is caught; fall back to the lexical path otherwise.
+  let resolved;
+  try {
+    resolved = fs.realpathSync(candidate);
+  } catch {
+    resolved = candidate;
+  }
+
+  const rel = path.relative(baseReal, resolved);
+  if (rel === ".." || rel.startsWith(".." + path.sep) || path.isAbsolute(rel)) {
+    throw new Error(`input file must be inside ${inputDir}`);
+  }
+  if (!resolved.endsWith(".json")) {
+    throw new Error("input file must have a .json extension");
+  }
+  return resolved;
+}
+
 function yamlStr(value) {
   const needsQuote =
     value.includes(": ") ||
@@ -75,9 +111,11 @@ function main() {
     process.exit(1);
   }
 
-  const resolvedSrc = path.resolve(src);
-  if (!resolvedSrc.endsWith(".json")) {
-    console.error("Error: input file must have a .json extension");
+  let resolvedSrc;
+  try {
+    resolvedSrc = resolveInputPath(src);
+  } catch (err) {
+    console.error(`Error: ${err.message}`);
     process.exit(1);
   }
 
@@ -113,4 +151,8 @@ function main() {
   console.log(`synced ${wrote} chapters, removed ${removed}`);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { resolveInputPath, render, yamlStr };
