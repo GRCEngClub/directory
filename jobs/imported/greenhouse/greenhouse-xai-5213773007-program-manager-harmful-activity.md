@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5213773007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5213773007"
-posted_date: "2026-08-18"
-expires_date: "2026-09-17"
+posted_date: "2026-08-19"
+expires_date: "2026-09-18"
 location: "Bastrop, Texas; New York, New York; Palo Alto, California"
 work_modes:
   - "Hybrid / On-site"

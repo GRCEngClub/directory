@@ -1,14 +1,14 @@
 ---
-title: "Security GRC Specialist"
+title: "Security & Compliance Manager"
 company: "Phylo"
-slug: "speedrun-phylo-aecb8cff-security-grc-specialist"
+slug: "speedrun-phylo-aecb8cff-security-and-compliance-manager"
 status: "published"
 source: "a16z Speedrun"
 sources:
   - "a16z Speedrun"
 source_url: "https://speedrun-talent-network.com/api/v1/jobs"
-role_url: "https://speedrun-talent-network.com/jobs/security-grc-specialist-phylo-aecb8cff?utm_source=grcengclub&utm_medium=agent"
-apply_url: "https://speedrun-talent-network.com/jobs/security-grc-specialist-phylo-aecb8cff?utm_source=grcengclub&utm_medium=agent"
+role_url: "https://speedrun-talent-network.com/jobs/security-compliance-manager-phylo-aecb8cff?utm_source=grcengclub&utm_medium=agent"
+apply_url: "https://speedrun-talent-network.com/jobs/security-compliance-manager-phylo-aecb8cff?utm_source=grcengclub&utm_medium=agent"
 posted_date: "2026-07-30"
 expires_date: "2026-08-29"
 location: "Toronto (hybrid)"
@@ -40,7 +40,7 @@ Our growing team brings together world class researchers and engineers across AI
 About the Role
 We’re hiring a hands-on Security & Compliance Lead to build and scale Phylo’s security, privacy, and compliance program. You’ll own our compliance roadmap, lead audits and customer reviews, and work closely with engineering to turn requirements into practical controls.
 
-What you’ll do as a Security GRC Specialist at Phylo:
+What you’ll do as a Security & Compliance Manager at Phylo:
 
 - Own Phylo’s security and compliance roadmap.
 

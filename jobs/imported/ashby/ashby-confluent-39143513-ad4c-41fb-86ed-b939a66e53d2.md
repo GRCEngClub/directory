@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/confluent?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/confluent/39143513-ad4c-41fb-86ed-b939a66e53d2"
 apply_url: "https://jobs.ashbyhq.com/confluent/39143513-ad4c-41fb-86ed-b939a66e53d2/application"
-posted_date: "2026-08-19"
-expires_date: "2026-09-18"
+posted_date: "2026-08-20"
+expires_date: "2026-09-19"
 location: "Remote, United States"
 work_modes:
   - "Remote"

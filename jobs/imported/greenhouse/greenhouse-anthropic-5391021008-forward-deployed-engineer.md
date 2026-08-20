@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
-posted_date: "2026-08-17"
-expires_date: "2026-09-16"
+posted_date: "2026-08-19"
+expires_date: "2026-09-18"
 location: "Paris, France"
 work_modes:
   - "Hybrid / On-site"
@@ -43,7 +43,7 @@ summary: "About Anthropic Anthropic’s mission is to create reliable, interpret
 &lt;/ul&gt;
 &lt;div&gt;&lt;strong&gt;Profil recherché :&lt;/strong&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;Vous avez plus de 4 ans d'expérience dans un poste technique en contact avec la clientèle, par exemple en tant qu'ingénieur en déploiement avancé, ou en tant qu'ingénieur logiciel avec une expérience de conseil. Les anciens fondateurs techniques sont également encouragés à poser leur candidature.&lt;/li&gt;
+&lt;li&gt;Vous avez plus de 8 ans d'expérience dans un poste technique en contact avec la clientèle, par exemple en tant qu'ingénieur en déploiement avancé, ou en tant qu'ingénieur logiciel avec une expérience de conseil. Les anciens fondateurs techniques sont également encouragés à poser leur candidature.&lt;/li&gt;
 &lt;li&gt;Vous avez de l'expérience en production avec des LLM, incluant l'ingénierie avancée des prompts, le développement d'agents, les cadres d'évaluation et le déploiement à grande échelle.&lt;/li&gt;
 &lt;li&gt;Vous avez de solides compétences en programmation avec une maîtrise de Python (et idéalement d'un ou plusieurs autres langages comme TypeScript, Java, etc.) et une expérience de l'expédition d'applications de production.&lt;/li&gt;
 &lt;/ul&gt;
@@ -62,7 +62,7 @@ summary: "About Anthropic Anthropic’s mission is to create reliable, interpret
 &lt;/ul&gt;
 &lt;div&gt;&lt;strong&gt;You May Be a Good Fit If You Have&lt;/strong&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;4+ years of experience in a technical, customer facing role such as Forward Deployed Engineer, or as a Software Engineer with consulting experience. Former technical founders are also encouraged to apply.&lt;/li&gt;
+&lt;li&gt;8+ years of experience in a technical, customer facing role such as Forward Deployed Engineer, or as a Software Engineer with consulting experience. Former technical founders are also encouraged to apply.&lt;/li&gt;
 &lt;li&gt;Native French speaker with fluent English proficiency&lt;/li&gt;
 &lt;li&gt;Production experience with LLMs including advanced prompt engineering, agent development, evaluation frameworks, and deployment at scale.&lt;/li&gt;
 &lt;li&gt;Strong programming skills with proficiency in Python (and ideally in one or more additional languages like TypeScript, Java, etc) and experience shipping production applications&lt;/li&gt;

@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391016008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391016008"
-posted_date: "2026-08-18"
-expires_date: "2026-09-17"
+posted_date: "2026-08-19"
+expires_date: "2026-09-18"
 location: "Munich, Germany"
 work_modes:
   - "Hybrid / On-site"
@@ -43,7 +43,7 @@ summary: "About Anthropic Anthropic’s mission is to create reliable, interpret
 &lt;/ul&gt;
 &lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;You May Be a Good Fit If You Have&lt;/strong&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;4+ years of experience in a technical, customer facing role such as Forward Deployed Engineer, or as a Software Engineer with consulting experience. Former technical founders are also encouraged to apply.&lt;/li&gt;
+&lt;li&gt;8+ years of experience in a technical, customer facing role such as Forward Deployed Engineer, or as a Software Engineer with consulting experience. Former technical founders are also encouraged to apply.&lt;/li&gt;
 &lt;li&gt;Native German speaker with fluent English proficiency&lt;/li&gt;
 &lt;li&gt;Production experience with LLMs including advanced prompt engineering, agent development, evaluation frameworks, and deployment at scale.&lt;/li&gt;
 &lt;li&gt;Strong programming skills with proficiency in Python (and ideally in one or more additional languages like TypeScript, Java, etc) and experience shipping production applications&lt;/li&gt;

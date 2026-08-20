@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/hims-and-hers?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/hims-and-hers/08e9239c-ce87-42f7-8e48-4b3dfa4ec35d"
 apply_url: "https://jobs.ashbyhq.com/hims-and-hers/08e9239c-ce87-42f7-8e48-4b3dfa4ec35d/application"
-posted_date: "2026-08-19"
-expires_date: "2026-09-18"
+posted_date: "2026-08-20"
+expires_date: "2026-09-19"
 location: "Menlo Park, California"
 work_modes:
   - "Remote"
