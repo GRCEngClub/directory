@@ -42,9 +42,9 @@ projects:
 
 ## About Me
 
-My GRC experience comes from the engineering side rather than the audit side. For four years I was a Product Architect in payments, designing billing, authentication, and systems that had to live inside PCI-DSS constraints, where compliance was not a review at the end but a constraint on every design decision. 
+My GRC experience comes from the engineering side rather than the audit side. For four years I was a Product Architect in payments, designing billing, authentication, and systems that had to live inside PCI-DSS constraints, where compliance was not a review at the end but a constraint on every design decision.
 
-Working closely with our GRC team is what pulled me toward GRC engineering specifically. The part I like is the translation work: turning undocumented practices into controls a team can actually execute against. The engineering team is not being negligent on purpose, we just don't know better. 
+Working closely with our GRC team is what pulled me toward GRC engineering specifically. The part I like is the translation work: turning undocumented practices into controls a team can actually execute against. The engineering team is not being negligent on purpose, we just don't know better.
 
 I hold the CGE-AUD and AWS Solutions Architect Associate certs. I am working through the CGE-P.
 
