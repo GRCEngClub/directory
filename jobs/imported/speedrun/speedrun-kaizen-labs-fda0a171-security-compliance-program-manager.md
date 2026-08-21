@@ -28,7 +28,7 @@ frameworks:
 languages:
   - "OSCAL"
   - "Rust"
-compensation: "$130K – $175K • Offers Equity • Multiple Ranges"
+compensation: "$145K – $190K • Offers Equity • Multiple Ranges"
 summary: "Government technology has failed the public for decades, and Americans have been conditioned to expect websites from the 90s for essential public services. Kaizen exists to..."
 ---
 

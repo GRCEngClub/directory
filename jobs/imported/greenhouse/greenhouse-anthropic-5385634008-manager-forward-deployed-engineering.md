@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
-posted_date: "2026-08-17"
-expires_date: "2026-09-16"
+posted_date: "2026-08-20"
+expires_date: "2026-09-19"
 location: "London, UK"
 work_modes:
   - "Hybrid / On-site"

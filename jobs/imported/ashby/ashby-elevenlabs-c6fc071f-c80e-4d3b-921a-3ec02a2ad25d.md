@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d/application"
-posted_date: "2026-08-20"
-expires_date: "2026-09-19"
+posted_date: "2026-08-21"
+expires_date: "2026-09-20"
 location: "Sweden"
 work_modes:
   - "Remote"
@@ -73,7 +73,7 @@ What you will do:
 
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
-- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions.
+- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in Sweden, with a preference of Stockholm. Expect regular travel for customer onsites. Fluency in English and Swedish and a deep understanding of the regional and cultural nuances is required.
 
 #LI-remote
 

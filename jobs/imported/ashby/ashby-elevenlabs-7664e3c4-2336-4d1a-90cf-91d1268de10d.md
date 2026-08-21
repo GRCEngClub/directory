@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/7664e3c4-2336-4d1a-90cf-91d1268de10d/application"
-posted_date: "2026-08-20"
-expires_date: "2026-09-19"
+posted_date: "2026-08-21"
+expires_date: "2026-09-20"
 location: "Spain"
 work_modes:
   - "Remote"
@@ -75,7 +75,7 @@ What you will do:
 
 ## Location
 
-This candidate should be able to commute to Madrid ~3x per week.
+This role is remote-first, so it can be executed from anywhere in Spain, with a preference of Madrid. Expect regular travel for customer onsites. Fluency in English and Spanish and a deep understanding of the regional and cultural nuances is required.
 
 #LI-remote
 

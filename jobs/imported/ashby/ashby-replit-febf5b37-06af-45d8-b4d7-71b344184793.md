@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/replit?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/replit/febf5b37-06af-45d8-b4d7-71b344184793"
 apply_url: "https://jobs.ashbyhq.com/replit/febf5b37-06af-45d8-b4d7-71b344184793/application"
-posted_date: "2026-08-20"
-expires_date: "2026-09-19"
+posted_date: "2026-08-21"
+expires_date: "2026-09-20"
 location: "Foster City, CA"
 work_modes:
   - "Hybrid / On-site"

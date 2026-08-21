@@ -1,7 +1,7 @@
 ---
-title: "Solution Architect | GRC (Remote) "
+title: "Sr. Consultant | GRC/AI/Privacy (Remote) "
 company: "Trace3"
-slug: "greenhouse-trace3-8109157-solution-architect-grc-remote"
+slug: "greenhouse-trace3-8109157-sr-consultant-grc-ai-privacy-remote"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,9 +9,9 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/trace3/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/trace3/jobs/8109157"
 apply_url: "https://job-boards.greenhouse.io/trace3/jobs/8109157"
-posted_date: "2026-08-05"
-expires_date: "2026-09-04"
-location: "Dallas, TX"
+posted_date: "2026-08-20"
+expires_date: "2026-09-19"
+location: "Atlanta, GA"
 work_modes:
   - "Hybrid / On-site"
 job_types:
