@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5250063008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5250063008"
-posted_date: "2026-08-03"
-expires_date: "2026-09-02"
+posted_date: "2026-08-21"
+expires_date: "2026-09-20"
 location: "San Francisco, CA | New York City, NY | Washington, DC"
 work_modes:
   - "Hybrid / On-site"

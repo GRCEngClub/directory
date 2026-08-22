@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/9a849c30-11ad-44ad-86e5-ecb7cc4b7934"
 apply_url: "https://jobs.ashbyhq.com/Notion/9a849c30-11ad-44ad-86e5-ecb7cc4b7934/application"
-posted_date: "2026-08-21"
-expires_date: "2026-09-20"
+posted_date: "2026-08-22"
+expires_date: "2026-09-21"
 location: "Tokyo, Japan "
 work_modes:
   - "Hybrid / On-site"

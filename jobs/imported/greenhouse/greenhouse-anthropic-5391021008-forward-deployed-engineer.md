@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
-posted_date: "2026-08-19"
-expires_date: "2026-09-18"
+posted_date: "2026-08-21"
+expires_date: "2026-09-20"
 location: "Paris, France"
 work_modes:
   - "Hybrid / On-site"
