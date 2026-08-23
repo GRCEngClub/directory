@@ -9,8 +9,14 @@ layout: layouts/base.njk
   "jobTitle": {{ (title or '') | dump | safe }},
   {% if company %}"worksFor": { "@type": "Organization", "name": {{ company | dump | safe }} },{% endif %}
   {% if location %}"address": { "@type": "PostalAddress", "addressLocality": {{ location | dump | safe }} },{% endif %}
-  "url": "https://grc-engineering-club.github.io/engineers/{{ github }}/",
-  "image": "https://github.com/{{ github }}.png"
+  "url": "https://directory.grcengclub.com/engineers/{{ github }}/",
+  "image": "https://github.com/{{ github }}.png",
+  "memberOf": { "@type": "Organization", "name": "GRC Engineering Club", "url": "https://grcengclub.com" },
+  "sameAs": [
+    "https://github.com/{{ github }}"{% if linkedin %},
+    {{ linkedin | dump | safe }}{% endif %}{% if website %},
+    {{ website | dump | safe }}{% endif %}
+  ]
 }
 </script>
 {% set socialData = {

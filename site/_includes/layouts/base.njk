@@ -1,10 +1,23 @@
+{%- set pageTitle = seoTitle if seoTitle else (name + " - GRC Engineer Directory" if name else (title or "GRC Engineer Directory")) -%}
+{%- set pageDesc = seoDescription or description or "Find GRC engineers to hire by specialization, framework expertise, and availability." -%}
+{%- set pageUrl = "https://directory.grcengclub.com" + page.url -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ name + " - GRC Engineer Directory" if name else (title or "GRC Engineer Directory") }}</title>
-  <meta name="description" content="{{ description or 'Find GRC engineers to hire by specialization, framework expertise, and availability.' }}">
+  <title>{{ pageTitle }}</title>
+  <meta name="description" content="{{ pageDesc }}">
+  <link rel="canonical" href="{{ pageUrl }}">
+  <meta property="og:type" content="{{ "profile" if isEngineerProfile else "website" }}">
+  <meta property="og:site_name" content="GRC Engineer Directory">
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ pageDesc }}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  {% if isEngineerProfile and github %}<meta property="og:image" content="https://github.com/{{ github }}.png?size=400">{% endif %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ pageTitle }}">
+  <meta name="twitter:description" content="{{ pageDesc }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
