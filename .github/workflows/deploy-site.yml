@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'engineers/*.md'
+      # engineers.11tydata.js computes each profile's SEO title/description,
+      # so a change there alters every built profile page.
+      - 'engineers/*.js'
       - 'chapters/**'
       - 'jobs/**'
       - 'site/**'

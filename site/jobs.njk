@@ -1,8 +1,9 @@
 ---
 layout: layouts/base.njk
-title: Open GRC Engineering Roles
 permalink: /jobs/index.html
-description: A GRC Engineering Club community resource for browsing open GRC engineering roles alongside the member directory.
+eleventyComputed:
+  title: "{{ collections.jobs.length }} Open GRC Engineering Jobs | GRC Engineer Directory"
+  description: "Browse {{ collections.jobs.length }} open GRC engineering, IT audit, and compliance roles by framework, specialization, and work mode. A free GRC Engineering Club job board."
 ---
 <section class="jobs-hero">
   <div class="jobs-hero-inner">
