@@ -22,6 +22,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/site/assets/css/style.css">
+  <!-- GA4: same property as grcengclub.com so directory traffic is no longer
+       invisible in analytics. The /seo report tooling excludes this hostname
+       from marketing-site metrics and reports it separately, so adding this
+       does not distort grcengclub.com trend lines. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0NXL2H9M8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-K0NXL2H9M8');
+  </script>
   <script>
     (function() {
       var saved = localStorage.getItem('theme');
