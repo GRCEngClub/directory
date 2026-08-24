@@ -58,7 +58,11 @@ projects:
 
   - name: Evidence Warehouse
     url: https://github.com/0xBahalaNa/evidence-warehouse
-    description: In active development — dbt and DuckDB staging models over collector outputs, with row-count reconciliation and completeness tests as the control layer. Treats audit evidence as a data product for GRC Engineering pipelines.
+    description: "dbt and DuckDB staging models over collector output, with completeness and reconciliation tests as the control layer: a silently failing collector fails the build. Findings land against a per-source contract and resolve to one queryable mart with lineage from source through staging. Treats audit evidence as a data product. v1.0 shipped August 2026."
+
+  - name: IAM Access Review
+    url: https://github.com/0xBahalaNa/iam-access-review
+    description: "A user access review run as a data pipeline. Six identity extracts land in SQLite and reconcile against HR as the population of record, then SQL control checks find terminated-but-active accounts, orphaned and dormant access, ownerless groups, and direct assignments. A recursive CTE flattens nested groups so privileged reach is the effective answer rather than the direct-membership one. Emits an auditor-ready evidence packet with SHA-256 input hashes that regenerates byte-identical. SOX ITGC framing, crosswalked to AC-2, AC-6(7), and SOC 2 CC6. v1.0 shipped August 2026."
 
   - name: SOC 2 / ISO 27001 / NIST 800-53 Crosswalk
     url: https://github.com/0xBahalaNa/soc2-iso-27001-nist-800-53-rev-5-crosswalk
