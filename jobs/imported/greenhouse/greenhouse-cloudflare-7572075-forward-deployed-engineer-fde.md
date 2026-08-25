@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
-posted_date: "2026-08-06"
-expires_date: "2026-09-05"
+posted_date: "2026-08-24"
+expires_date: "2026-09-23"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -25,15 +25,13 @@ frameworks: []
 languages:
   - "Terraform"
   - "Rust"
-compensation: "$167,000 - $230,000"
+compensation: "$184,000 - $253,000"
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;div&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&nbsp;&lt;/p&gt;
-&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Locations:&nbsp;&lt;/strong&gt;Austin/TX, Dallas/TX, Atlanta/GA, Denver and NYC&lt;/p&gt;
+&lt;div class="content-intro"&gt;&lt;h3&gt;About Us&lt;/h3&gt;
+&lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
+&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Locations:&nbsp;&lt;/strong&gt;Austin/TX, Dallas/TX, Atlanta/GA, NYC&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Role Summary&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As a Forward Deployed Engineer (FDE), you will be a dedicated Cloudflare expert directly embedded within the team of one of our most strategic and fast-paced customers. You will serve as the primary technical resource, architecting complex multi-stage migrations and providing the hands-on configuration necessary to drive the success of unique web infrastructure requirements. We are looking for a proactive, high-trust partner who thrives in agile environments, acts as a bridge to internal product teams, and possesses a deep passion for the future of AI-driven security.&lt;/p&gt;
 &lt;h4&gt;&lt;strong&gt;Role Responsibilities&lt;/strong&gt;&lt;/h4&gt;
@@ -64,7 +62,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;&lt;strong&gt;Financial Acumen:&lt;/strong&gt; Experience managing or advising on project-based fund pools to maximize the value of a customer's strategic investment.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Compensation may be adjusted depending on work location.&nbsp;&lt;br&gt;This role is eligible to earn incentive compensation under Cloudflare’s Sales Compensation Plan. The estimated annual salary range includes the on-target incentive compensation that may be attained in this role under the Sales Compensation Plan.&lt;br&gt;&lt;br&gt;For Colorado based hires: Estimated annual salary of $167,000 - $230,000&lt;br&gt;For New York City, New Jersey based hires: Estimated annual salary of $184,000 - $253,000&lt;br&gt;&lt;br&gt;&lt;strong&gt;Equity&lt;/strong&gt;&lt;br&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;br&gt;Cloudflare offers a complete package of benefits and programs to support you and your family.&nbsp; Our benefits programs can help you pay health care expenses, support caregiving, build capital for the future and make life a little easier and fun!&nbsp; The below is a description of our benefits for employees in the United States, and benefits may vary for employees based outside the U.S.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Health &amp; Welfare Benefits&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compensation may be adjusted depending on work location.&nbsp;&lt;br&gt;This role is eligible to earn incentive compensation under Cloudflare’s Sales Compensation Plan. The estimated annual salary range includes the on-target incentive compensation that may be attained in this role under the Sales Compensation Plan.&lt;br&gt;&lt;br&gt;For New York City, New Jersey based hires: Estimated annual salary of $184,000 - $253,000&lt;br&gt;&lt;br&gt;&lt;strong&gt;Equity&lt;/strong&gt;&lt;br&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;br&gt;Cloudflare offers a complete package of benefits and programs to support you and your family.&nbsp; Our benefits programs can help you pay health care expenses, support caregiving, build capital for the future and make life a little easier and fun!&nbsp; The below is a description of our benefits for employees in the United States, and benefits may vary for employees based outside the U.S.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Health &amp; Welfare Benefits&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Medical/Rx Insurance&lt;/li&gt;
 &lt;li&gt;Dental Insurance&lt;/li&gt;
@@ -86,7 +84,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;ul&gt;
 &lt;li&gt;Flexible paid time off covering vacation and sick leave&lt;/li&gt;
 &lt;li&gt;Leave programs, including parental, pregnancy health, medical, and bereavement leave&lt;/li&gt;
-&lt;/ul&gt;&lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;What Makes Cloudflare Special?&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.cloudflare.com/protecting-free-expression-online/"&gt;&lt;strong&gt;Project Galileo&lt;/strong&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;: Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cloudflare.com/athenian/"&gt;Athenian Project&lt;/a&gt;&lt;/strong&gt;&lt;span style="font-weight: 400;"&gt;: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states.&lt;/span&gt;&lt;/p&gt;

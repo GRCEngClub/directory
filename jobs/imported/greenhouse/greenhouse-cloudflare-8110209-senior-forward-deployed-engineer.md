@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209"
-posted_date: "2026-08-06"
-expires_date: "2026-09-05"
+posted_date: "2026-08-24"
+expires_date: "2026-09-23"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -29,11 +29,9 @@ compensation: ""
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;div&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&nbsp;&lt;/p&gt;
-&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;h2&gt;Available Locations&lt;/h2&gt;
+&lt;div class="content-intro"&gt;&lt;h3&gt;About Us&lt;/h3&gt;
+&lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
+&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Available Locations&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Sweden&lt;/li&gt;
 &lt;/ul&gt;
@@ -80,7 +78,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;h2&gt;Compensation&lt;/h2&gt;
 &lt;p&gt;For Sweden based hires: Estimated annual salary is between SEK 760,000 - SEK 1,240,000.&lt;/p&gt;
 &lt;h3&gt;Equity&lt;/h3&gt;
-&lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;strong&gt;What Makes Cloudflare Special?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.cloudflare.com/protecting-free-expression-online/"&gt;&lt;strong&gt;Project Galileo&lt;/strong&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;: Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cloudflare.com/athenian/"&gt;Athenian Project&lt;/a&gt;&lt;/strong&gt;&lt;span style="font-weight: 400;"&gt;: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states.&lt;/span&gt;&lt;/p&gt;

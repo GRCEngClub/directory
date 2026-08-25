@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d/application"
-posted_date: "2026-08-24"
-expires_date: "2026-09-23"
+posted_date: "2026-08-25"
+expires_date: "2026-09-24"
 location: "Sweden"
 work_modes:
   - "Remote"
