@@ -35,6 +35,7 @@ The mission of Thinking Machines is to build AI that extends human will and judg
 About the Role
 We're looking for a GRC Lead who personally drives our certifications (SOC 2, ISO 27001, FedRAMP and others as we grow) from scoping through audit close, and runs our compliance processes day to day. You'll collect the evidence, write the control documentation, and sit across from the auditor yourself.
 You'll work closely with security, legal, safety, and engineering to answer compliance and risk questions directly, using your own technical understanding of how our systems work. Day to day, you'll be managing audits, controls, and risk assessments. Alongside that, you'll be building the roadmap for what this function needs to look like in a year.
+
 What You'll Do
 
 - Own our certification roadmap end to end: scope each certification, build the control set, collect and organize evidence, and represent TML directly to auditors through to close.

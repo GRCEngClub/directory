@@ -86,7 +86,7 @@ summary: "Forward Deployed Engineer Sigma's vision is to create an insight-drive
 &lt;li&gt;Dog friendly office&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Sigma is an equal opportunity employer. We are committed to building a smart and strong team regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender, gender identity or expression, veteran, or any other protected status. We look forward to learning how your experience can enable all of us to grow.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note: &lt;/strong&gt;We have an in-office work environment in all our offices in SF, NYC, London and Sydney.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note: &lt;/strong&gt;We have an in-office work environment in all our offices in SF, NYC, London and Sydney. All roles have a 25% travel expectation unless explicitly stated otherwise.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Our Privacy Practices&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;When you submit a job application on this site, Sigma processes your personal data for the purposes of evaluating your candidacy for employment at Sigma and as otherwise needed throughout the recruitment and hiring process. Please review Sigma’s &lt;a href="https://www.sigmacomputing.com/legal/candidate-privacy-notice"&gt;Candidate Privacy Notice&lt;/a&gt; for more details. Please note that your personal data may be transferred to a country other than the one in which it was provided (including to the USA, the UK, and Canada, Australia).&nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sigma’s use of AI&lt;/strong&gt;&lt;/p&gt;

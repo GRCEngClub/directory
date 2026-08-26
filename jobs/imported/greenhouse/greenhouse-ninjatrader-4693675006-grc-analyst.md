@@ -1,7 +1,7 @@
 ---
-title: "GRC Engineer"
+title: "GRC Analyst"
 company: "Ninjatrader"
-slug: "greenhouse-ninjatrader-4693675006-grc-engineer"
+slug: "greenhouse-ninjatrader-4693675006-grc-analyst"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/ninjatrader/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/ninjatrader/jobs/4693675006"
 apply_url: "https://job-boards.greenhouse.io/ninjatrader/jobs/4693675006"
-posted_date: "2026-08-18"
-expires_date: "2026-09-17"
+posted_date: "2026-08-25"
+expires_date: "2026-09-24"
 location: "Chicago, IL"
 work_modes:
   - "Remote"
@@ -42,7 +42,7 @@ summary: "Disclaimer: Please be advised that the most accurate and up-to-date in
 &lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;&lt;span data-contrast="auto"&gt;But we're not stopping there. We're constantly evolving, pushing boundaries, and modernizing the futures industry. Our commitment to innovation means users will always have access to dynamic tools, real-time support, and a community of like-minded traders.&nbsp;&lt;/span&gt;&lt;span data-ccp-props="{"201341983":0,"335559739":160,"335559740":259}"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;&lt;span data-contrast="auto"&gt;So, why work at NinjaTrader? Here, you're not just part of a team; you're part of a movement. We empower employees to reach new heights in their careers by providing a dynamic culture focused on social connection, professional development, and employee recognition initiatives. Sounds too good to be true?&nbsp;&lt;/span&gt;&lt;a href="https://www.greatplacetowork.com/certified-company/7025362"&gt;&lt;span data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;Take it from our employees.&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span data-ccp-props="{"201341983":0,"335559739":160,"335559740":259}"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;&lt;span data-contrast="auto"&gt;Join us as we redefine what's possible in trading, advocate for our customers, and continue our journey toward becoming the world's top retail-focused trading platform in the world. &lt;/span&gt;&lt;span data-ccp-props="{"201341983":0,"335559739":160,"335559740":259}"&gt;&nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt; color: rgb(255, 66, 0);"&gt;What you'll do:&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;We're looking for a mid-level GRC Engineer to help us scale our compliance program through automation and run audits across SOC 2, ISO 27001, and SOX. This is a hands-on, technical role where you'll spend as much time writing code and integrating systems as you do reviewing controls. You'll serve as the bridge between Security, Engineering, and the business by transforming manual, evidence-heavy compliance work into automated, repeatable processes while helping leadership understand and prioritize risk.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;We're looking for a mid-level GRC Analyst to help us scale our compliance program through automation and run audits across SOC 2, ISO 27001, and SOX. This is a hands-on, technical role where you'll spend as much time writing code and integrating systems as you do reviewing controls. You'll serve as the bridge between Security, Engineering, and the business by transforming manual, evidence-heavy compliance work into automated, repeatable processes while helping leadership understand and prioritize risk.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;This role is ideal for someone with GRC or security experience who wants to move beyond spreadsheets and checklists into building the tooling that makes a compliance program efficient, scalable, and audit-ready year-round.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;In this role you will:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"&gt;Automation &amp; Tooling&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;

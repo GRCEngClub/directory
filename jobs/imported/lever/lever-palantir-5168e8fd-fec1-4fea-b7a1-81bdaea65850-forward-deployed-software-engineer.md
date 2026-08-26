@@ -17,39 +17,28 @@ work_modes:
 job_types:
   - "Full-time"
 specializations:
+  - "Compliance Automation"
   - "Risk Management"
-  - "Forward Deployed Engineering"
+  - "Privacy"
+  - "Vulnerability Management"
 frameworks: []
 languages:
   - "Python"
   - "JavaScript"
+  - "Rust"
 compensation: ""
-summary: "The Role The Original Forward Deployed Software Engineer At Palantir, the Forward Deployed Software Engineer (FDSE) role isn&rsquo;t just a job title: it&rsquo;s the blueprint. We..."
+summary: "The Role The Forward Deployed Engineer Forward Deployed Engineering is a radical commitment to the outcome. This is Palantir&rsquo;s operating ethos. We pioneered this unique..."
 ---
 
 The Role
 
-The Original Forward Deployed Software Engineer
+The Forward Deployed Engineer
 
-At Palantir, the Forward Deployed Software Engineer (FDSE) role isn&rsquo;t just a job title: it&rsquo;s the blueprint. We pioneered this unique position, embedding talented engineers directly with our customers to tackle their most pressing challenges head-on. As an FDSE, you&rsquo;ll be at the intersection of world-changing problems and impactful technology, shaping solutions where they matter most.
-
-FDSEs work side by side with our customers, rapidly understanding their toughest issues; architecting and building solutions that leverage business-critical data and the latest advancements in AI to solve them. Whether it&rsquo;s &ldquo;How do we predict and mitigate wildfire risks to optimize power grids?&rdquo; or &ldquo;How can we analyze and adapt a global food supply chain to deliver life-saving aid on time?&rdquo;, you&rsquo;ll use your technical expertise, creativity, and problem-solving skills to drive real-world impact.
-
-You&rsquo;ll have the rare opportunity to gain deep insight into and directly influence some of the world&rsquo;s most critical industries and institutions. By building on Palantir&rsquo;s powerful platforms leveraging integrated cutting-edge AI, you&rsquo;ll help organizations unlock the full potential of their data to make smarter, faster decisions.
+Forward Deployed Engineering is a radical commitment to the outcome. This is Palantir&rsquo;s operating ethos. We pioneered this unique position, embedding engineers directly with our customers to tackle their most pressing challenges head-on. As an FDE, you&rsquo;ll be at the intersection of world-changing problems and impactful technology, shaping solutions where they matter most. From hospital beds to factory floors, Forward Deployed Engineers (FDEs) embed themselves in the customer&rsquo;s reality until the problem is theirs. This requires walking many miles in a customer&rsquo;s shoes, building past the perimeter of what the product currently offers, and deviating from every pre-existing formula to solve the problem. Whether that problem is &ldquo;How do we predict and mitigate wildfire risks across a power grid?&rdquo; or &ldquo;How can we analyze and adapt a global supply chain to deliver critical parts on time?&rdquo;, you&rsquo;ll use your technical expertise, creativity, and problem-solving skills to drive real-world impact.
 
 Core Responsibilities
 
-As an FDSE, you&rsquo;ll experience the autonomy of a startup, with the resources, mentorship, and stability of an established tech company. Your contributions will have a direct impact on our customers&rsquo; missions and the real world. You&rsquo;ll work in small, agile teams and own the end-to-end execution and implementation of high-stakes projects, including:
-
-&bull; Collaborating with fellow engineers on architecture and design decisions
-
-&bull; Wrangling massive-scale data and using AI to accelerate and enhance critical operations
-
-&bull; Developing custom applications tailored to customer needs
-
-&bull; Engaging directly with customer stakeholders, from technical teams to executives
-
-&bull; Shaping team strategy and driving projects from ideation to deployment, increasing your pain threshold to deliver real value
+To solve mission-critical problems by deploying software and AI into the high stakes operations of the world&rsquo;s leading institutions. This requires a ruthless commitment to truth-seeking and prioritizing real outcomes. The work is difficult. The stakes are real. You will work in small, high-trust teams and own projects end-to-end, from the first conversation with a customer, to shipping the product that changes how they operate. You will embed with the customer, the chaos, and the consequences, and will be entrusted with real ownership to: - Collaborate with engineers to make architecture and design decisions - Wrestle with data at a scale that breaks assumptions and demands invention - Build custom applications, LLM workflows, and production solutions engineered for a specific customer's reality - Own relationships with stakeholders from the users in the weeds to the executives making the calls
 
 A World-Changing Company
 
@@ -57,19 +46,25 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 ### What We Value
 
-- Strong engineering background, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics, and Data Science.
+The drive to solve your customer’s problem. This can translate to:
 
-- A highly analytical mindset and eagerness to solve technical problems with data structures, storage systems, cloud infrastructure, front-end frameworks, and other technical tools.
+- Going where you’re needed most — Embed where and when it matters. Expect 25–50% travel, depending on team and location.
 
-- Experience or interest in working with and using large scale data to solve valuable business problems.
+- Agency — You learn continuously, make decisions with incomplete information, and don't wait to be told what to do next.
 
-- Strong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.
+- Embracing the ambiguity — You operate effectively in teams that mix technical and non-technical people, in environments where the objectives shift, the users push back, and the solution demands iteration.
 
-- Demonstrated ability to collaborate effectively in teams of technical and non-technical individuals, and comfortable working in a rapidly changing environment with dynamic objectives and iteration with users.
+- Intrinsic motivations — You solve hard technical problems (data structures, storage systems, cloud infrastructure, front-end frameworks) not because you were assigned to, but because that's what it takes to achieve your outcomes.
 
-- Ability to continuously learn, work independently, and make decisions with minimal supervision.
+- Ruthless goal orientation — You do not operate within a product’s existing boundaries and limitations. You push past them, rewrite them, or discard them entirely.
 
-- Willingness and interest to travel as needed to client sites. Ability to travel 25-50% preferred, but requirements vary by team and location.
+### What We Require
+
+- Engineering degree, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics, and Data Science. - Proficiency with one or more programming languages, such as Python, Java, C++, TypeScript/JavaScript, or similar. - 6+ months of relevant, post-college work experience - Experience developing secure applications, including applying secure coding practices, vulnerability management, access controls, permissions, and privacy considerations throughout the software development lifecycle.
+
+### To apply, submit the following:
+
+- An updated resume / CV - please do so in PDF format. - Thoughtful responses to our application questions.
 
 Life at Palantir
 
