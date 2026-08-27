@@ -1,32 +1,29 @@
 ---
-title: "Senior Security Compliance Specialist"
+title: "Forward Deployed Engineer, Professional Services"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-8077641-senior-security-compliance-specialist"
+slug: "greenhouse-cloudflare-8043339-forward-deployed-engineer-professional-services"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-role_url: "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
-apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
-posted_date: "2026-08-27"
-expires_date: "2026-09-26"
+role_url: "https://boards.greenhouse.io/cloudflare/jobs/8043339?gh_jid=8043339"
+apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8043339?gh_jid=8043339"
+posted_date: "2026-08-26"
+expires_date: "2026-09-25"
 location: "Distributed"
 work_modes:
-  - "Remote"
+  - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
-  - "Compliance Automation"
-  - "Risk Management"
-  - "Security Governance"
-  - "Audit & Assurance"
-frameworks:
-  - "FedRAMP"
-  - "SOC 2"
-  - "PCI-DSS"
-  - "HITRUST"
+  - "Cloud Security"
+  - "Identity & Access Management"
+  - "Privacy"
+  - "Security Operations"
+frameworks: []
 languages:
+  - "Terraform"
   - "Rust"
 compensation: ""
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
@@ -34,35 +31,36 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 
 &lt;div class="content-intro"&gt;&lt;h3&gt;About Us&lt;/h3&gt;
 &lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
-&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Location - &lt;/strong&gt;Canada; Remote&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Job Title - &lt;/strong&gt;Senior Security Compliance Specialist&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Team&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Security Compliance is a critical business function at Cloudflare. Compliance certifications allow our customers to be confident in the security and privacy of our products, while also providing frameworks for well-tuned information security management systems and programs. These standards provide clarity to Cloudflare’s teams on how to incorporate security principles in the management of systems, the development of products, and the expansion of our business footprint.&lt;/p&gt;
-&lt;p&gt;This is an opportunity to join a world-class security organization within a billion-dollar business. You will join as a member focused on leading Cloudflare through the Canadian Centre for Cyber Security (CCCS) Cloud Service Provider (CSP) Information Technology (ITS) Assessment Process. This team is part of the Governance, Risk, and Compliance team and is part of the greater Security Team reporting to Cloudflare’s Chief Security Officer.&lt;/p&gt;
-&lt;p&gt;&nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Location - UK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Role Summary&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a Forward Deployed Engineer (FDE) at Cloudflare, you will serve as a senior technical expert and advisor for our most strategic and complex customers. This role balances deep technical expertise with hands-on, onsite engagement, where you will architect solutions, optimize performance, and drive business success by helping customers maximize the value of Cloudflare’s platform. You will collaborate cross-functionally with Sales, Support, Product, and Engineering to advocate for customer needs and influence our product roadmap. We are looking for a seasoned technologist who thrives on solving real-world challenges and acting as a trusted advisor within our customers' unique environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Role Responsibilities&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Lead Cloudflare through the CCCS CSP ITS Assessment process&lt;/li&gt;
-&lt;li&gt;Update and maintain CCCS requirements within Cloudflare’s Common Control Framework&lt;/li&gt;
-&lt;li&gt;Work cross-functionally with Engineering, Legal, Product, and operational teams to drive security control implementation for the organization&lt;/li&gt;
-&lt;li&gt;Improve the maturity of Cloudflare’s Security Compliance program&lt;/li&gt;
-&lt;li&gt;Help guide our overall security policy and governance architecture&lt;/li&gt;
-&lt;li&gt;Have input into the overall security compliance strategy&lt;/li&gt;
+&lt;li&gt;Serve as a trusted advisor to key enterprise customers, providing strategic recommendations and technical insights to drive success with Cloudflare’s solutions, specifically Workers and Workers AI platforms.&lt;/li&gt;
+&lt;li&gt;Lead architectural discussions, design sessions, and solution reviews to ensure the optimal application of Cloudflare’s offerings in customer environments.&lt;/li&gt;
+&lt;li&gt;Diagnose complex technical issues and deliver effective, strategic solutions in close collaboration with support and product teams.&lt;/li&gt;
+&lt;li&gt;Manage and navigate complex configurations, utilizing Infrastructure as Code (Terraform) to ensure operational stability for customers.&lt;/li&gt;
+&lt;li&gt;Partner with Sales, Customer Success, Support, Partners, Product Management, and Engineering to ensure customer insights directly influence the product roadmap and enhance the overall experience.&lt;/li&gt;
+&lt;li&gt;Advise customers on industry best practices for security, network optimization, scalability, and performance tuning tailored to their specific operational needs.&lt;/li&gt;
+&lt;li&gt;Stay current with industry trends and evolving Cloudflare solutions to provide forward-thinking guidance and configuration enhancements.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Examples of desirable skills, knowledge and experience&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Role Requirements (Must-Have Skills)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;5+ years of experience working in Security Compliance&lt;/li&gt;
-&lt;li&gt;Led the pursuit of, or maintained a CCCS Medium / PBMM certification&lt;/li&gt;
-&lt;li&gt;Deep understanding of the CCCS CSP ITS assessment processes&lt;/li&gt;
-&lt;li&gt;Deep understanding of CCCS requirements&lt;/li&gt;
-&lt;li&gt;Familiarity with additional security standards and frameworks such as ISO 27000, SOC 2, PCI DSS, HITRUST, FedRAMP&lt;/li&gt;
-&lt;li&gt;Ability to work cross-functionally with internal stakeholders and strong communications skills&lt;/li&gt;
-&lt;li&gt;Ability to work closely with auditors and articulate technical concepts&lt;/li&gt;
-&lt;li&gt;Ability to work efficiently and independently in a fast-paced, high-volume environment&lt;/li&gt;
-&lt;li&gt;Willingness to travel occasionally to engage with regulators and auditors&lt;/li&gt;
+&lt;li&gt;In Depth Experience in a technical customer-facing role such as Solutions Architect or Technical Account Manager, ideally within cloud networking, security, or web infrastructure.&lt;/li&gt;
+&lt;li&gt;Extensive knowledge of Cloudflare’s Application and Security portfolio (DNS, WAF, DDoS, Bot Management, CDN) and cloud infrastructure.&lt;/li&gt;
+&lt;li&gt;Hands-on experience protecting and securing web applications, APIs, and web services using WAF, DDoS, DNS, and Bot Management tools.&lt;/li&gt;
+&lt;li&gt;Proven ability to work with Cloudflare products within Enterprise-level accounts.&lt;/li&gt;
+&lt;li&gt;Exceptional written and verbal communication skills, with the ability to present complex topics effectively to both technical and non-technical audiences.&lt;/li&gt;
+&lt;li&gt;Strong consultative skills with a track record of successfully solving complex technical problems in customer environments.&lt;/li&gt;
+&lt;li&gt;Ability to translate customer requirements into practical, scalable solutions that align with Cloudflare’s technology stack.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Nice-to-Have Skills&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hands-on experience with coding, Cloudflare Workers, and Workers AI.&lt;/li&gt;
+&lt;li&gt;Prior experience in customer onsite placement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.cloudflare.com/protecting-free-expression-online/"&gt;&lt;strong&gt;Project Galileo&lt;/strong&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;: Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cloudflare.com/athenian/"&gt;Athenian Project&lt;/a&gt;&lt;/strong&gt;&lt;span style="font-weight: 400;"&gt;: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states.&lt;/span&gt;&lt;/p&gt;

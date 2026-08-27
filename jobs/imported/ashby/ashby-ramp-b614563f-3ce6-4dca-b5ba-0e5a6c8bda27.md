@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
 apply_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27/application"
-posted_date: "2026-08-26"
-expires_date: "2026-09-25"
+posted_date: "2026-08-27"
+expires_date: "2026-09-26"
 location: "New York, NY (HQ)"
 work_modes:
   - "Hybrid / On-site"
@@ -74,7 +74,7 @@ This is a deeply client-facing role. You will spend significant time with custom
 - Comfort working across APIs, integrations, data pipelines, customer systems, and cloud infrastructure.
 - Experience with cloud architecture on AWS, GCP, or Azure, and distributed systems patterns.
 - Experience building LLM systems, including RAG, agents, monitoring, and evals.
-- Willingness to travel up to ~75% as needed, flexible based on project needs and client needs
+- Willingness to travel up to ~50% as needed, flexible based on project needs and client needs
 - Nice to have: Familiarity with finance operations workflows such as AP, procurement, expenses, close, reconciliation, and reporting.
 
 ## Benefits available to all full-time Ramp employees (Global)

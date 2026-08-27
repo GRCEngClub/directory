@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer (FDE) - Seattle"
+title: "Forward Deployed Engineer (FDE), Legal-NYC"
 company: "Openai"
-slug: "ashby-openai-dc17edac-2993-4318-812a-14864c6f4658"
+slug: "ashby-openai-51977acc-b1f8-48af-bde6-95ddba936d65"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/dc17edac-2993-4318-812a-14864c6f4658"
-apply_url: "https://jobs.ashbyhq.com/openai/dc17edac-2993-4318-812a-14864c6f4658/application"
+role_url: "https://jobs.ashbyhq.com/openai/51977acc-b1f8-48af-bde6-95ddba936d65"
+apply_url: "https://jobs.ashbyhq.com/openai/51977acc-b1f8-48af-bde6-95ddba936d65/application"
 posted_date: "2026-08-27"
 expires_date: "2026-09-26"
-location: "Seattle"
+location: "New York City"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -27,43 +27,41 @@ languages:
   - "JavaScript"
   - "Rust"
 compensation: ""
-summary: "About the team OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of..."
+summary: "About the team OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve..."
 ---
 
-About the team
+## About the team
 
-OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of customer delivery and core platform development.
+OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).
 
-About the role
+## About the role
 
-Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontier models in production alongside our most strategic customers. You will own discovery, technical scoping, system design, build, and production rollout, partnering directly with customer engineering and domain teams.
+We are hiring a Forward Deployed Engineer (FDE) to build and deploy AI systems for legal work. You will embed deeply with customers—often working closely with senior legal practitioners—to identify the right first use case, rapidly prototype a solution, and prove measurable value. Early engagements may focus on creating a “hero” workflow that shows how OpenAI’s models can support legal analysis, drafting, research, or real-time work with complex case records.
 
-You will measure success through production adoption, measurable workflow impact, and eval-driven feedback that changes product and model roadmaps. You’ll work closely with our Product, Research, Partnerships, GRC, Security, and GTM teams.
+You will own the technical work from discovery and proof of concept through production adoption, while translating customer workflows and constraints into clear product feedback. As the motion matures, you will turn successful deployments into repeatable patterns that can scale across larger accounts and the broader legal market.
 
-This role is based in Seattle. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
+This role is based in San Francisco or New York City. We use a hybrid work model of three days in the office per week and offer relocation assistance. Travel up to 50% may be required.
 
-In this role you will
+## In this role, you will
 
-- Own technical delivery across multiple deployments from first prototype to stable production
+- Embed with law firms and legal teams to understand their workflows, identify high-value opportunities, and select the right initial use cases to prove value.
 - Build full-stack systems that deliver customer value and sharpen how we learn
 - Embed closely with customer teams, understand their needs, and guide adoption of what you build
-- Scope work, sequence delivery, and remove blockers early
 - Make trade-offs between scope, speed, and quality; adjust plans to protect delivery
 - Contribute directly in the code when progress or clarity depends on it
 - Codify working patterns into tools, playbooks, or building blocks that others can use
 - Share field feedback that helps Research and Product understand where the models succeed and where they can improve
-- Keep teams moving through clarity and follow-through
 
-You might thrive in this role if you
+## You might thrive in this role if you
 
-- Bring 5+ years of engineering or technical deployment experience that includes customer-facing work
-- Have scoped and delivered complex systems in fast-moving or ambiguous environments
-- Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks
-- Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience
-- Simplify complexity and make fast, sound decisions under pressure
-- Communicate clearly with engineers, product teams, and customer stakeholders
-- Spot risks early and adjust without slowing down
-- Model calm and judgment when the stakes are high
+- Bring 5+ years of software engineering, ML engineering, or technical deployment experience with customer-facing ownership in financial services or adjacent regulated industries.
+- Have experience with legal technology, legal services, compliance-heavy workflows, or professional services; this is helpful but not required.
+- Have owned complex AI or data-driven systems end-to-end, from scoping through production adoption, in environments where errors carry real financial or regulatory consequences.
+- Write and review production-grade code across backend and frontend systems using Python, JavaScript, or comparable stacks.
+- Have deployed systems powered by LLMs or generative models and understand how model behavior, evaluation, and guardrails affect user trust and business outcomes.
+- Communicate clearly across engineering, product, risk, compliance, and executive stakeholders, translating technical trade-offs into decision quality and risk posture.
+- Apply systems thinking with high execution standards, turning incidents, escalations, and failures into improved operating standards and repeatable deployment patterns.
+- Stay calm and decisive when delivery is urgent, ambiguous, and high-stakes.
 
 About OpenAI
 

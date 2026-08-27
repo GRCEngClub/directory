@@ -28,10 +28,12 @@ frameworks:
   - "GDPR"
 languages: []
 compensation: "$225,000 - $350,000"
-summary: "The mission of Thinking Machines is to build AI that extends human will and judgment. About the Role We're looking for a GRC Lead who personally drives our certifications (SOC 2,..."
+summary: "About Thinking Machines The mission of Thinking Machines is to build AI that extends human will and judgment. We are training frontier models with Inkling, developing Tinker to..."
 ---
 
-The mission of Thinking Machines is to build AI that extends human will and judgment.
+About Thinking Machines
+The mission of Thinking Machines is to build AI that extends human will and judgment. We are training frontier models with Inkling, developing Tinker to let people make models their own, and crafting interfaces that broaden human-AI communication. We believe the future worth building is human, and we're hiring people who want to build it.
+
 About the Role
 We're looking for a GRC Lead who personally drives our certifications (SOC 2, ISO 27001, FedRAMP and others as we grow) from scoping through audit close, and runs our compliance processes day to day. You'll collect the evidence, write the control documentation, and sit across from the auditor yourself.
 You'll work closely with security, legal, safety, and engineering to answer compliance and risk questions directly, using your own technical understanding of how our systems work. Day to day, you'll be managing audits, controls, and risk assessments. Alongside that, you'll be building the roadmap for what this function needs to look like in a year.

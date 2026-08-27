@@ -1,5 +1,5 @@
 ---
-title: "Forward Deployed Engineer, GTM, Japan"
+title: "Forward Deployed Engineer"
 company: "Notion"
 slug: "ashby-notion-4bc0802c-b5e0-411c-be01-daaea2bc3ae0"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/4bc0802c-b5e0-411c-be01-daaea2bc3ae0"
 apply_url: "https://jobs.ashbyhq.com/Notion/4bc0802c-b5e0-411c-be01-daaea2bc3ae0/application"
-posted_date: "2026-08-26"
-expires_date: "2026-09-25"
+posted_date: "2026-08-27"
+expires_date: "2026-09-26"
 location: "Tokyo, Japan "
 work_modes:
   - "Hybrid / On-site"

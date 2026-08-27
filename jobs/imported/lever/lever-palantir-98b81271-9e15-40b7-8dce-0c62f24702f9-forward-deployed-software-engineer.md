@@ -67,7 +67,7 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 - Lithuanian Security Clearance or the ability to obtain one
 
-- Ability to travel 70-90% of the time
+- Ability to travel 10-20% of the time
 
 - Open to relocation within Europe
 
