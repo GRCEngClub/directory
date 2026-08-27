@@ -32,6 +32,9 @@ available_for:
   - "freelance"
   - "collaboration"
 projects:
+  - name: "AWS Landing Zone Accelerator and Australia's Information Security Manual (ISM)"
+    url: "https://aws.amazon.com/blogs/security/fast-track-ism-ready-cloud-environments-and-irap-assessments-with-landing-zone-accelerator-on-aws/"
+    description: "Analysis of AWS LZA coverage of Australia's ISM control pack, including AWS Security Blog post and published AWS Artifact report"
   - name: "ISMexplorer"
     url: "https://ismexplorer.org"
     description: "Tool for tracking the evolution of Australia's Information Security Manual (ISM) across quarterly updates"
