@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/855748b0-4452-4331-bdec-d2aa0dbc782f"
 apply_url: "https://jobs.ashbyhq.com/Notion/855748b0-4452-4331-bdec-d2aa0dbc782f/application"
-posted_date: "2026-08-27"
-expires_date: "2026-09-26"
+posted_date: "2026-08-28"
+expires_date: "2026-09-27"
 location: "San Francisco, California"
 work_modes:
   - "Hybrid / On-site"

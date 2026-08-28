@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/replit?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/replit/febf5b37-06af-45d8-b4d7-71b344184793"
 apply_url: "https://jobs.ashbyhq.com/replit/febf5b37-06af-45d8-b4d7-71b344184793/application"
-posted_date: "2026-08-27"
-expires_date: "2026-09-26"
+posted_date: "2026-08-28"
+expires_date: "2026-09-27"
 location: "Foster City, CA"
 work_modes:
   - "Hybrid / On-site"
@@ -99,10 +99,10 @@ Full-Time Employee Benefits Include:
 
 Want to learn more about what we are up to?
 
-- Meet the Replit Agent (https://www.youtube.com/watch?v=IYiVPrxY8-Y)
-- Replit: Make an app for that (https://www.youtube.com/watch?v=4zd9hzngFwY)
-- Replit Blog (https://blog.replit.com/)
-- Amjad TED Talk (https://youtu.be/kCudFI4tcpg?si=l4ViCejV_f2RZkDi)
+- Self-driving Company (https://replit.com/blog/self-driving-company)
+- Replit Agent at Scale (https://replit.com/blog/evaluating-and-improving-agent-at-scale)
+- AI Adoption (https://replit.com/blog/ai-adoption)
+- Build Open-Source Apps (https://replit.com/build/open-source-app-builder)
 
 Interviewing + Culture at Replit
 
