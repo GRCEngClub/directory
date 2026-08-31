@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Second-Front-Systems?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Second-Front-Systems/59afd994-6c52-4000-b24a-9f19d2102a14"
 apply_url: "https://jobs.ashbyhq.com/Second-Front-Systems/59afd994-6c52-4000-b24a-9f19d2102a14/application"
-posted_date: "2026-08-30"
-expires_date: "2026-09-29"
+posted_date: "2026-08-31"
+expires_date: "2026-09-30"
 location: "Remote"
 work_modes:
   - "Remote"

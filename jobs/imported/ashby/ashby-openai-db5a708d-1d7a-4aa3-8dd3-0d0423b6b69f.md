@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f"
 apply_url: "https://jobs.ashbyhq.com/openai/db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f/application"
-posted_date: "2026-08-30"
-expires_date: "2026-09-29"
+posted_date: "2026-08-31"
+expires_date: "2026-09-30"
 location: "Washington, DC"
 work_modes:
   - "Hybrid / On-site"

@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/fa4fc307-a0fb-47aa-9336-f202f2265440"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/fa4fc307-a0fb-47aa-9336-f202f2265440/application"
-posted_date: "2026-08-30"
-expires_date: "2026-09-29"
+posted_date: "2026-08-31"
+expires_date: "2026-09-30"
 location: "UAE "
 work_modes:
   - "Remote"
