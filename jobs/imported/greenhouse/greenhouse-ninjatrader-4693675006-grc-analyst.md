@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/ninjatrader/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/ninjatrader/jobs/4693675006"
 apply_url: "https://job-boards.greenhouse.io/ninjatrader/jobs/4693675006"
-posted_date: "2026-08-25"
-expires_date: "2026-09-24"
+posted_date: "2026-09-01"
+expires_date: "2026-10-01"
 location: "Chicago, IL"
 work_modes:
   - "Remote"

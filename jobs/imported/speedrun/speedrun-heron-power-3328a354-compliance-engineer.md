@@ -1,14 +1,14 @@
 ---
-title: "Lead Compliance Engineer"
+title: "Compliance Engineer"
 company: "Heron Power"
-slug: "speedrun-heron-power-3328a354-lead-compliance-engineer"
+slug: "speedrun-heron-power-3328a354-compliance-engineer"
 status: "published"
 source: "a16z Speedrun"
 sources:
   - "a16z Speedrun"
 source_url: "https://speedrun-talent-network.com/api/v1/jobs"
-role_url: "https://speedrun-talent-network.com/jobs/lead-compliance-engineer-heron-power-3328a354?utm_source=grcengclub&utm_medium=agent"
-apply_url: "https://speedrun-talent-network.com/jobs/lead-compliance-engineer-heron-power-3328a354?utm_source=grcengclub&utm_medium=agent"
+role_url: "https://speedrun-talent-network.com/jobs/compliance-engineer-heron-power-3328a354?utm_source=grcengclub&utm_medium=agent"
+apply_url: "https://speedrun-talent-network.com/jobs/compliance-engineer-heron-power-3328a354?utm_source=grcengclub&utm_medium=agent"
 posted_date: "2026-02-24"
 expires_date: "2026-03-26"
 location: "Scotts Valley"
@@ -23,7 +23,7 @@ specializations:
 frameworks: []
 languages:
   - "Python"
-compensation: "$150,000 - $198,000"
+compensation: "$130,000 - $198,000"
 summary: "What to Expect Heron Power is a startup company building cutting-edge power electronics for the 21st-century grid. We aim to debottleneck the growth of electricity generation and..."
 ---
 
@@ -33,7 +33,7 @@ Our first focus goal is to build better converters (inverters & rectifiers) to c
 We understand that no one individual knows everything. We will all learn a lot together and from each other. We strive to build a collaborative, enriching environment conducive to personal, technical, and career growth. You can expect to work in a dynamic and collaborative environment, driven by first principles engineering, solving difficult problems.
 
 Job Overview
-As a Lead Compliance Engineer, you will drive and manage the full product safety and compliance lifecycle across our product portfolio. This role is responsible for leading compliance strategy from early engagement in codes and standards development through certification, market launch, and ongoing sustaining improvements. You will lead the responsibility for identifying all regulatory and technical hurdles Heron’s products must clear on the path to global market. Then, in collaboration with the design engineering team, will demonstrate Heron's products meet or exceed all requirements, achieve all certifications, and successfully enter target markets.
+As a Compliance Engineer, you will drive and manage the full product safety and compliance lifecycle across our product portfolio. This role is responsible for leading compliance strategy from early engagement in codes and standards development through certification, market launch, and ongoing sustaining improvements. You will lead the responsibility for identifying all regulatory and technical hurdles Heron’s products must clear on the path to global market. Then, in collaboration with the design engineering team, will demonstrate Heron's products meet or exceed all requirements, achieve all certifications, and successfully enter target markets.
 
 How You Will Contribute
 
@@ -62,13 +62,13 @@ How You Will Contribute
 - Develop infrastructure planning aligning with product roadmap
 
 What You Will Bring
-We have a short list of must-have requirements. We prioritize candidates with a strong grip on first principles, hands-on skills, and initiative.
+We have a short list of must-have requirements. We prioritize candidates with a strong grip on first principles, hands-on skills, and a sense of initiative. Domain-specific knowledge and experience will help determine the career level for each hire.
 
 Must-Have Requirements
 
 - Master’s degree in electrical engineering, mechanical engineering or equivalent
 
-- More than 7 years’ experience in regulatory and compliance certification for solar, wind, battery or other power electronics products
+- 4+ years’ experience in regulatory and compliance certification for solar, wind, battery or other power electronics products
 
 - Deep understanding and familiarity with relevant UL/IEC/EN, IEEE, and ISO standards and how they inform the design and certification process of grid-connected power electronics systems
 
@@ -101,4 +101,4 @@ Nice-to-Haves
 - Working experience of UL1741, UL 347a, IEC 62109-1, IEC 62109-2, IEC 62040, IEC 62477, UL 9540, UL 1998, UL 840, UL 2891, UL5500, IEEE 1547, IEEE 2800
 
 If you are passionate about technology and enjoy working in a fast-paced environment, we would love to hear from you. Join us in accelerating the electrification of everything at Heron Power.
-Heron Power provides competitive compensation (salary and equity) and benefits. The salary for this role ranges from $150,000 to $198,000 per year.
+Heron Power provides competitive compensation (salary and equity) and benefits. The salary for this role ranges from $130,000 to $198,000 per year.

@@ -30,10 +30,10 @@ languages:
   - "OSCAL"
   - "Rust"
 compensation: "$89,000 - $149,000"
-summary: "Why Join Us Coalfire builds and operates FedRAMP-compliant cloud environments for software companies entering the federal market. We&rsquo;re looking for an Engagement Architect..."
+summary: "Position Summary Coalfire builds and operates FedRAMP-compliant cloud environments for software companies entering the federal market. We&rsquo;re looking for an Engagement..."
 ---
 
-### Why Join Us Coalfire builds and operates FedRAMP-compliant cloud environments for software companies entering the federal market. We&rsquo;re looking for an Engagement Architect to serve as the technical owner of a client engagement&mdash;taking a signed contract and carrying it through architecture build, security control implementation, and a verified transition into managed operations. You&rsquo;ll own active engagements: deep enough to be accountable for every technical outcome, focused enough to do it well. If you&rsquo;re driven by a desire to innovate, excel at operational excellence, and thrive in a collaborative environment, come be part of a team committed to making the world a safer place.
+### Position Summary Coalfire builds and operates FedRAMP-compliant cloud environments for software companies entering the federal market. We&rsquo;re looking for an Engagement Architect to serve as the technical owner of a client engagement&mdash;taking a signed contract and carrying it through architecture build, security control implementation, and a verified transition into managed operations. You&rsquo;ll own active engagements: deep enough to be accountable for every technical outcome, focused enough to do it well. If you&rsquo;re driven by a desire to innovate, excel at operational excellence, and thrive in a collaborative environment, come be part of a team committed to making the world a safer place.
 
 About Coalfire
 
@@ -45,15 +45,31 @@ We are thought leaders, consultants, and cybersecurity experts, but above all el
 
 ### What You'll Do
 
-- Own client engagements end-to-end: from contract signature through environment build, control implementation, automated evidence pipelines, and handoff to managed operations. - Instantiate Coalfire’s reference architecture for the contracted certification level and cloud platform, adapting it to the client’s application and boundary. - Lead implementation of security controls and the automation that continuously validates them—the evidence a modern FedRAMP certification runs on. - Coordinate Coalfire’s engineering teams as they deploy their capabilities (identity, monitoring, change management, and more) into your engagement. - Drive the build through defined quality gates, with a clean, measurable transition to operations—every in-scope control implemented, validated, and stable. - Serve as the client’s primary technical counterpart: run technical working sessions, manage milestones and risks, and keep scope honest. - Document architecture decisions and feed lessons from each build back into Coalfire’s standards. WORK ENVIRONMENT/TRAVEL REQUIRED: Travel: Approximately 10–25%, driven by client needs U.S. citizenship is desired, as this position supports U.S. federal compliance programs.
+- Own client engagements end-to-end: from contract signature through environment build, control implementation, automated evidence pipelines, and handoff to managed operations.
+
+- Instantiate Coalfire’s reference architecture for the contracted certification level and cloud platform, adapting it to the client’s application and boundary.
+
+- Lead implementation of security controls and the automation that continuously validates them—the evidence a modern FedRAMP certification runs on.
+
+- Coordinate Coalfire’s engineering teams as they deploy their capabilities (identity, monitoring, change management, and more) into your engagement.
+
+- Drive the build through defined quality gates, with a clean, measurable transition to operations—every in-scope control implemented, validated, and stable.
+
+- Serve as the client’s primary technical counterpart: run technical working sessions, manage milestones and risks, and keep scope honest.
+
+- Document architecture decisions and feed lessons from each build back into Coalfire’s standards.
+
+- Ability to travel 10–25%, driven by client needs
+
+- U.S. citizenship is desired, as this position supports U.S. federal compliance programs.
 
 ### What You'll Bring
 
-· BS or above in a related Information Technology field or equivalent combination of education and experience · 8+ years in cloud engineering or architecture, including 3+ years leading technical delivery for external clients · Experience leading FedRAMP builds or authorizations—or equivalent depth in another regulated cloud regime (DoD impact levels, StateRAMP, PCI, HIPAA) · Hands-on skill across infrastructure-as-code, identity and access management, logging and monitoring, and cloud networking on at least one major cloud platform (AWS, Azure, or GCP) · Strong client-facing communication—able to explain an architecture decision to an engineer, a project sponsor, or an assessor · Sound judgment about scope, risk, and when to escalate · Excellent organizational and problem-solving skills · Effective documentation skills, including technical diagrams and written descriptions · Ability to work independently and as part of a team with a professional attitude and demeanor · Critical thinking, and the ability to balance security requirements with mission needs REQUIRED CERTIFICATIONS: · Professional-level certification in AWS, Azure, or GCP
+- BS or above in a related Information Technology field or equivalent combination of education and experience - 8+ years in cloud engineering or architecture, including 3+ years leading technical delivery for external clients - Experience leading FedRAMP builds or authorizations—or equivalent depth in another regulated cloud regime (DoD impact levels, StateRAMP, PCI, HIPAA) - Hands-on skill across infrastructure-as-code, identity and access management, logging and monitoring, and cloud networking on at least one major cloud platform (AWS, Azure, or GCP) - Strong client-facing communication—able to explain an architecture decision to an engineer, a project sponsor, or an assessor - Sound judgment about scope, risk, and when to escalate - Excellent organizational and problem-solving skills - Effective documentation skills, including technical diagrams and written description - Ability to work independently and as part of a team with a professional attitude and demeanor - Critical thinking, and the ability to balance security requirements with mission needs - Professional-level certification in AWS, Azure, or GCP
 
 ### Bonus Points:
 
-· Familiarity with FedRAMP 20x, Key Security Indicators (KSIs), and machine-readable compliance artifacts (OSCAL or JSON) · Experience with productized or fixed-price delivery models · Relevant certifications such as cloud platform professional/security certifications or CISSP · Familiarity with configuration baseline standards such as CIS Benchmarks & DISA STIG · Familiarity with frameworks such as FedRAMP, FISMA, HIPAA, HITRUST, or PCI
+- Familiarity with FedRAMP 20x, Key Security Indicators (KSIs), and machine-readable compliance artifacts (OSCAL or JSON) - Experience with productized or fixed-price delivery models - Relevant certifications such as cloud platform professional/security certifications or CISSP - Familiarity with configuration baseline standards such as CIS Benchmarks & DISA STIG - Familiarity with frameworks such as FedRAMP, FISMA, HIPAA, HITRUST, or PCI
 
 Why You’ll Want to Join Us
 
