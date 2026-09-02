@@ -59,7 +59,7 @@ projects:
 
 ## About Me
 
-I've done "security" for about 30 years, but always as a part of a larger set of responsibilities in product development and/or technology operations. The last few years I've more specifically active in security & compliance engineering, both as a leader/manager in a consulting business, and as a hands-on practitioner. Supported customers to implement and certify against ISO 27001, SOC 2, NIST CSF and more. Built a bunch of custom frameworks for GRC automation tools. Recent work focuses on AWS (as a partner and contracted service provider with a focus on Landing Zone Accelerators -  LZA and LZA UC). Open-source-wise, I'm currently on a bit of a streak putting out public/free or open source contributions related to my home region (Australia/New Zealand) and close by (ASEAN - South East Asia).
+I've done "security" for about 30 years, but always as a part of a larger set of responsibilities in product development and/or technology operations. The last few years I've been more specifically active in security & compliance engineering, both as a leader/manager in a consulting business, and as a hands-on practitioner. Supported customers to implement ISO 27001, SOC 2, NIST CSF, work through audits/attestations/assessments and more. Built a bunch of custom frameworks for GRC automation tools and done lots of data integration and crosswalking. My more recent work focuses on AWS (as a partner and contracted service provider with a focus on Landing Zone Accelerators -  LZA and LZA UC). I'm currently on a bit of a streak putting out public/free or open source contributions related to security and compliance standards and frameworks in my home region (Australia/New Zealand) and close by (ASEAN - South East Asia).
 
 ## Get in Touch
 
