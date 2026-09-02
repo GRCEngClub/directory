@@ -1,7 +1,7 @@
 ---
-title: "Sr. Security Engineer - GRC EU/UK Regulation & Data Protection"
+title: "Sr. Security Engineer - GRC Fintech & Financial Services EU/UK "
 company: "Xai"
-slug: "greenhouse-xai-5209985007-sr-security-engineer-grc-eu-uk-regulation-and-data-protection"
+slug: "greenhouse-xai-5209985007-sr-security-engineer-grc-fintech-and-financial-services-eu-uk"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5209985007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5209985007"
-posted_date: "2026-08-27"
-expires_date: "2026-09-26"
+posted_date: "2026-09-01"
+expires_date: "2026-10-01"
 location: "Dublin, Ireland; London, England, United Kingdom"
 work_modes:
   - "Hybrid / On-site"
@@ -52,7 +52,7 @@ summary: "SpaceXAI’s mission is to create AI systems that can accurately under
 &lt;h3&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;BASIC QUALIFICATIONS:&lt;/span&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Bachelor's degree in computer science, Information Security, Cybersecurity, or in an engineering/STEM field.&lt;/li&gt;
-&lt;li&gt;5+ years of experience in GRC, information security compliance, or technology audit roles in fintech, banking, payments, or other heavily regulated environments with EU and/or UK exposure.&lt;/li&gt;
+&lt;li&gt;8+ years of experience in GRC, information security compliance, or technology audit roles in fintech, banking, payments, or other heavily regulated environments with EU and/or UK exposure.&lt;/li&gt;
 &lt;li&gt;Hands-on experience implementing or operating controls against several of the following: DORA, the EU AI Act, NIS2, PSD2/PSR, or UK PRA/FCA operational resilience expectations — not only reading the requirements.&lt;/li&gt;
 &lt;li&gt;Familiar with data privacy regulations applicable to the EU/UK region (e.g., EU GDPR, UK GDPR, UK Data Protection Act 2018) sufficient to liaise with Privacy counterparts.&lt;/li&gt;
 &lt;li&gt;Experience with Compliance-as-Code practices and GRC automation tooling (e.g., Vanta, or similar), with a bias toward continuous monitoring and reducing manual evidence collection.&lt;/li&gt;
@@ -60,7 +60,7 @@ summary: "SpaceXAI’s mission is to create AI systems that can accurately under
 &lt;/ul&gt;
 &lt;h3&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/span&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;7+ years of information security compliance, GRC engineering, or technology audit-related experience in fintech or financial services with a primary EU/UK focus.&lt;/li&gt;
+&lt;li&gt;10+ years of information security compliance, GRC engineering, or technology audit-related experience in fintech or financial services with a primary EU/UK focus.&lt;/li&gt;
 &lt;li&gt;Hands-on experience implementing technical controls (e.g., IAM, logging and monitoring, encryption, network segmentation, infrastructure hardening) and integrating compliance checks into CI/CD pipelines.&lt;/li&gt;
 &lt;li&gt;Experience supporting ISO 27001 and/or SOC 2 programs alongside EU/UK regulatory obligations.&lt;/li&gt;
 &lt;li&gt;Familiar with GDPR concepts that commonly intersect with information security (e.g., security of processing, breach notification timelines, encryption/pseudonymization as security measures) when collaborating with DPO/Legal/Privacy functions.&lt;/li&gt;

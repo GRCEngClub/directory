@@ -15,7 +15,7 @@ location: "Remote (Gurugram, HR, IN)"
 work_modes:
   - "Remote"
 job_types:
-  - "Contractor / 1099"
+  - "Full-time"
 specializations:
   - "Compliance Automation"
   - "Risk Management"

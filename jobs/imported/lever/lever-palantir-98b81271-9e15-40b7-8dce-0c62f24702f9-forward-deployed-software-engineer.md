@@ -69,8 +69,6 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 - Ability to travel 10-20% of the time
 
-- Open to relocation within Europe
-
 - Fluency in English
 
 Salary
