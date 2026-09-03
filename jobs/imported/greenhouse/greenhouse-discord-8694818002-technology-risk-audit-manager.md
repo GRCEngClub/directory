@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/discord/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/discord/jobs/8694818002"
 apply_url: "https://job-boards.greenhouse.io/discord/jobs/8694818002"
-posted_date: "2026-08-14"
-expires_date: "2026-09-13"
+posted_date: "2026-09-02"
+expires_date: "2026-10-02"
 location: "San Francisco Bay Area"
 work_modes:
   - "Hybrid / On-site"

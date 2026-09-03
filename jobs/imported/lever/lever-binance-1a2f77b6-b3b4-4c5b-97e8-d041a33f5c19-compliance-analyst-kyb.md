@@ -11,7 +11,7 @@ role_url: "https://jobs.lever.co/binance/1a2f77b6-b3b4-4c5b-97e8-d041a33f5c19"
 apply_url: "https://jobs.lever.co/binance/1a2f77b6-b3b4-4c5b-97e8-d041a33f5c19/apply"
 posted_date: "2026-09-01"
 expires_date: "2026-10-01"
-location: "United Kingdom, London"
+location: "Asia"
 work_modes:
   - "Remote"
 job_types:
