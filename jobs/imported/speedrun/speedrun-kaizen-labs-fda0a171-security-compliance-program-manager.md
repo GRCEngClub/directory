@@ -29,13 +29,16 @@ languages:
   - "OSCAL"
   - "Rust"
 compensation: "$145K – $190K • Offers Equity • Multiple Ranges"
-summary: "Government technology has failed the public for decades, and Americans have been conditioned to expect websites from the 90s for essential public services. Kaizen exists to..."
+summary: "Government technology has failed citizens, public servants, and service members for decades. Kaizen powers America’s application layer. We replace the legacy systems federal..."
 ---
 
-Government technology has failed the public for decades, and Americans have been conditioned to expect websites from the 90s for essential public services.
-Kaizen exists to strengthen trust in American public services by building technology that residents and public servants are proud to use. We partner with local, state, and federal agencies to replace legacy systems with modern, AI-native software that is worthy of the people they serve. We started in outdoor recreation, and now we're building toward something much larger — the software layer that powers how Americans access any government service.
-Our platform reaches 55 million Americans across 50+ agencies. Our goal: build technology that touches the lives of 100 million residents by the end of the year.
-Founded in 2022 and based in New York City, Kaizen has raised $35 million from NEA, a16z, Accel, 776, and Carpenter Capital. We're builders, designers, and operators who believe that beautifully designed software shouldn't be a luxury in government. It's how you earn trust back.
+Government technology has failed citizens, public servants, and service members for decades.
+
+Kaizen powers America’s application layer. We replace the legacy systems federal agencies run on with modern software, built with craft. The ticketing platform a resident uses to visit a presidential library. The marketplace DoW uses for counter-drone procurement to protect lives and critical infrastructure. The system a Veteran uses to access benefits. We build systems of record, of national consequence. Our AI-native modules and harness allow us to do so in weeks and months, not years.
+
+This year, our revenue has grown 35x. Next year, our software will serve over 100 million Americans across dozens of federal agencies.
+
+Founded in 2022 and based in New York City and DC, Kaizen has raised $35 million from NEA, a16z, Accel, 776, and Carpenter Capital.
 The Role
 Authorization status gates what Kaizen can bid and deliver. We have active federal contracts across civilian and defense agencies, and every pursuit in our pipeline turns on it. We are standing up a dedicated compliance function to own the obligations, the paperwork of record, and the accuracy of everything we submit.
 You will build and run that function, working directly with the engineering lead, the incoming security engineer, and the executive team.

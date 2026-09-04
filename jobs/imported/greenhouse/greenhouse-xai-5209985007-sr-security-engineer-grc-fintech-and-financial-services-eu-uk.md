@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5209985007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5209985007"
-posted_date: "2026-09-01"
-expires_date: "2026-10-01"
+posted_date: "2026-09-04"
+expires_date: "2026-10-04"
 location: "Dublin, Ireland; London, England, United Kingdom"
 work_modes:
   - "Hybrid / On-site"

@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Zania?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f"
 apply_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f/application"
-posted_date: "2026-09-03"
-expires_date: "2026-10-03"
+posted_date: "2026-09-04"
+expires_date: "2026-10-04"
 location: "Palo Alto, CA"
 work_modes:
   - "Hybrid / On-site"

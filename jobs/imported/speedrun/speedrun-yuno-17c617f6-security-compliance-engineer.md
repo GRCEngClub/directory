@@ -24,8 +24,8 @@ specializations:
 frameworks:
   - "SOC 2"
   - "ISO 27001"
+  - "ISO 42001"
   - "PCI-DSS"
-  - "GDPR"
 languages:
   - "Python"
   - "Terraform"
@@ -45,62 +45,80 @@ About The Role
 
 We are orchestrating the best high-performing team!
 
-As a Security Compliance Engineer at Yuno, you will play a key role in ensuring our security and privacy programs meet the highest industry standards. In this role, you will actively contribute to ISO 27001, ISO 27701, SOC 2, and PCI DSS audits from a technical perspective, translating compliance and privacy requirements into scalable, measurable, and auditable technical controls. You will collaborate closely with Engineering and DevOps teams to implement cloud security controls across AWS and GCP, build internal security tooling using Python, and support privacy-focused initiatives that enable Yuno to operate securely and compliantly in the global payments ecosystem.
+As a Security Compliance Engineer at Yuno, you will play a key role in ensuring our security and privacy programs meet the highest industry standards. In this role, you will actively contribute to ISOs, SOC 2, and PCI DSS audits from a technical perspective, translating compliance and privacy requirements into auditable technical controls. You will collaborate closely with Engineering and DevOps teams to implement cloud security controls across AWS and GCP, build internal security tooling using Python, and support privacy-focused initiatives that enable Yuno to operate securely and compliantly in the global payments ecosystem.
 
 Your Contribution Will Be
 
-- Actively participate in ISO 27001, ISO 27701, SOC 2 and PCI DSS audit processes, contributing from a technical and implementation perspective as part of the Security team.
+-
+Actively participate in ISO 27001/27701, ISO 42001, SOC 2 and PCI DSS audit processes, contributing from a technical and implementation perspective as part of the Security team.
 
-- Translate security, compliance, and privacy requirements into scalable technical controls, ensuring they are enforceable, measurable, and auditable.
+-
+Translate security, compliance, and privacy requirements into scalable technical controls, ensuring they are enforceable, measurable, and auditable.
 
-- Design, build, and maintain secure and scalable internal security solutions and tools using Python to support security operations and strengthen technical controls.
+-
+Develop and maintain internal security tools using Python, supporting security operations and contributing to stronger technical controls.
 
-- Work with Engineering and DevOps teams to implement and validate cloud security controls in AWS and GCP aligned with audit requirements.
-
-- Contribute to privacy-related technical initiatives, including data mapping, control automation, and alignment with privacy frameworks and data protection regulations (e.g., ISO 27701, GDPR, and similar).
+-
+Work with Engineering and DevOps teams to implement and validate cloud security controls in AWS and GCP aligned with audit requirements.
 
 Skills You Need
 
 Minimum Qualifications
 
-- Practical experience working with ISO 27001 audits and translating controls into technical implementations.
+-
+Practical experience working with ISO audits and translating controls into technical implementations.
 
-- Familiarity with SOC 2 and PCI DSS frameworks from an engineering perspective.
+-
+Experience in fintech, payments, or highly regulated environments
 
-- Understanding of privacy requirements and frameworks.
+-
+Familiarity with SOC 2 or PCI DSS frameworks from an engineering perspective.
 
-- Proficiency in Python for developing secure and maintainable tooling.
+-
+Understanding of privacy requirements and frameworks.
 
-- Solid knowledge of AWS and/or GCP security services (IAM, logging, monitoring, WAF, etc.).
+-
+Working knowledge of Python, with the ability to build and maintain simple tooling.
 
-- Strong collaboration skills and English fluency.
+-
+Solid knowledge of AWS and/or GCP security services (WAF, Guard Duty, Security Hub, monitoring, etc.).
+
+-
+Strong collaboration skills and English fluency.
 
 Preferred Qualifications
 
-- Experience with Kubernetes, container security, or CI/CD pipelines.
+-
+Familiarity with kubernetes or container security.
 
-- Infrastructure as Code experience (Terraform, CloudFormation).
+-
+Familiarity with infrastructure as Code (Terraform, CloudFormation).
 
-- Familiarity with vendor risk management and third-party security reviews.
+-
+Experience with vendor risk management and third-party security reviews.
 
-- Experience in fintech, payments, or highly regulated environments.
-
-- Familiarity with emerging architectures (e.g., serverless, event-driven, AI integrations).
+-
+Familiarity with emerging architectures (e.g., serverless, event-driven, AI integrations).
 
 What We Offer at Yuno
 
-- Competitive Compensation.
+-
+Competitive Compensation.
 
-- Remote Work – You can work from everywhere!
+-
+Remote Work – You can work from everywhere!
 
-- Home Office Bonus – A one-time allowance to help you create your ideal home office.
+-
+Home Office Bonus – A one-time allowance to help you create your ideal home office.
 
-- Work Equipment.
+-
+Work Equipment.
 
-- Stock Options.
+-
+Stock Options.
 
-- Health Plan wherever you are.
+-
+Health Plan wherever you are.
 
-- Flexible Days Off.
-
-- Language, Professional, and Personal Growth courses.
+-
+Flexible Days Off.
