@@ -6,7 +6,6 @@ specializations:
   - "Cloud Security"
   - "Compliance Automation"
   - "AI Governance"
-  - "Australia-New Zealand-South East Asia"
 frameworks:
   - "CSA STAR"
   - "CSA CCM"
