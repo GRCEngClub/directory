@@ -78,7 +78,7 @@ The last few years I've been more specifically active in security & compliance e
 
 My more recent work focuses on AWS (as a partner and contracted service provider with a focus on Landing Zone Accelerators -  LZA and LZA UC). 
 
-I'm currently on a bit of a streak putting out public/free or open source contributions related to security and compliance standards and frameworks in my home region (Australia/New Zealand) and close by (ASEAN - South East Asia).
+I'm currently on a bit of a streak putting out public/free or open-source contributions related to security and compliance standards and frameworks in my home region (Australia/New Zealand) and close by (ASEAN - South East Asia).
 
 ## Get in Touch
 
