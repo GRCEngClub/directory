@@ -1,5 +1,5 @@
 ---
-title: "Forward Deployed Engineer, Applied AI"
+title: "Forward Deployed Engineer II, Applied AI"
 company: "Junipersquare"
 slug: "ashby-junipersquare-c50425b0-16e5-47ac-a829-5547e2ccaff6"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/junipersquare/c50425b0-16e5-47ac-a829-5547e2ccaff6"
 apply_url: "https://jobs.ashbyhq.com/junipersquare/c50425b0-16e5-47ac-a829-5547e2ccaff6/application"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-05"
+expires_date: "2026-10-05"
 location: "USA"
 work_modes:
   - "Remote"
