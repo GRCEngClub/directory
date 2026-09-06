@@ -2,7 +2,7 @@
 name: "Jose Ruiz-Vazquez"
 github: "joseruiz1571"
 specializations:
-  - "AI GRC Engineering"
+  - "AI Governance"
 location: "Austin, Texas, United States"
 linkedin: "https://linkedin.com/in/joseruiz1571"
 blog: "https://controlledvocabulary.substack.com/"
