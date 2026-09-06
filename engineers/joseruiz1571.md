@@ -20,7 +20,7 @@ certifications:
   - "Certified GRC Engineer - Practitioner"
   - "Certified GRC Engineer - Auditor Specialty"
   - "Certified AI Governance Professional"
-  - "ISO/IEC 42001:2022 Lead Auditor"
+  - "ISO/IEC 42001:2023 Lead Auditor"
   - "ISO/IEC 27701:2025 Lead Auditor"
   - "ISO/IEC 27001:2022 Lead Auditor"
   - "AWS Certified AI Practitioner"
