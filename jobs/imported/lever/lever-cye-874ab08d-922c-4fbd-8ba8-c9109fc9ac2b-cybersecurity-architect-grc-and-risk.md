@@ -39,6 +39,4 @@ Cye is seeking a Cybersecurity Architect (GRC & Risk) to join our cybersecurity 
 
 - 3-4 years in cybersecurity GRC, IT risk, compliance, audit/assurance, or related process ‑ oriented security roles. - Strong understanding of governance, risk management, and operational processes. - Familiarity with cybersecurity frameworks (NIST CSF, ISO 27001 concepts), risk assessment, mitigation planning, and third ‑ party risk management. - Basic conceptual understanding of cloud/SaaS shared responsibility models. - Ability to communicate technical issues in business ‑ aligned language. - Hands-on experience with security controls – an advantage. - Strong writing, communication, and facilitation skills. - Comfortable collaborating with internal stakeholders and external customers.
 
-About us
-
 Cye helps security and risk leaders gain a clear, defensible view of their cyber exposure, grounded in financial impact and real-world attack paths. By continuously quantifying exposure and validating it in context, organizations can establish a strong baseline, prioritize decisions with confidence, and track measurable reduction over time.
