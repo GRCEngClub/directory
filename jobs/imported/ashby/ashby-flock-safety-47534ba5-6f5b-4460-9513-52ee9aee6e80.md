@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Flock Safety?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Flock%20Safety/47534ba5-6f5b-4460-9513-52ee9aee6e80"
 apply_url: "https://jobs.ashbyhq.com/Flock%20Safety/47534ba5-6f5b-4460-9513-52ee9aee6e80/application"
-posted_date: "2026-09-08"
-expires_date: "2026-10-08"
+posted_date: "2026-09-09"
+expires_date: "2026-10-09"
 location: "Remote - USA"
 work_modes:
   - "Remote"
@@ -27,12 +27,12 @@ frameworks:
 languages:
   - "Rust"
 compensation: "$130,000 - $145,000"
-summary: "The Problem As Flock scales its public safety platforms across cloud infrastructure and business operations, transforming compliance from a periodic audit exercise into a..."
+summary: "The Problem As Flock scales its public safety platforms across cloud infrastructure and business operations, transforming compliance into an automated capability is essential...."
 ---
 
 # The Problem
 
-As Flock scales its public safety platforms across cloud infrastructure and business operations, transforming compliance from a periodic audit exercise into a continuous, automated capability is essential. Maintaining customer trust and regulatory alignment across SOC 2, ISO, and privacy frameworks requires an engineering-driven approach to assurance. You will build scalable compliance processes, automate audit evidence collection, and embed continuous compliance frameworks directly into engineering and business workflows.
+As Flock scales its public safety platforms across cloud infrastructure and business operations, transforming compliance into an automated capability is essential. Maintaining customer trust and regulatory alignment across SOC 2, ISO, and privacy frameworks requires an engineering-driven approach to assurance. You will build scalable compliance processes, automate audit evidence collection, and embed continuous compliance frameworks directly into engineering and business workflows.
 
 # What You'll Own
 
@@ -68,8 +68,8 @@ Every community deserves to be safe. Flock builds the technology that makes that
 
 📍Some problems get solved faster in the same room, so we prioritize candidates in Atlanta and Boston. Hub-based roles mean real in-person time with your coworkers. Remote roles exist, and when a posting is open to remote work, it says so.
 
-🌟 the impossible takes every kind of mind. Flock is an equal opportunity employer, and we know the best solutions come from diverse perspectives, experiences, and skills working together with mutual respect. Everyone is welcome to apply. If you need assistance or an accommodation due to a disability, email recruiting@flocksafety.com (mailto:recruiting@flocksafety.com); your information stays confidential and is used only to arrange the right accommodation for your interviews.
+🌟 The impossible takes every kind of mind. Flock is an equal opportunity employer, and we know the best solutions come from diverse perspectives, experiences, and skills working together with mutual respect. Everyone is welcome to apply. If you need assistance or an accommodation due to a disability, email recruiting@flocksafety.com (mailto:recruiting@flocksafety.com); your information stays confidential and is used only to arrange the right accommodation for your interviews.
 
-💰 On compensation: we pay fairly for the work. Base salary is determined by job-related experience, education, training, and market indicators. The range in this posting covers base salary only and doesn't include equity, sales bonus plans where applicable, or benefits. The range may be adjusted over time, and this posting may span more than one career level.
+💰 On compensation. We pay fairly for the work. Base salary is determined by job-related experience, education, training, and market indicators. The range in this posting covers base salary only and doesn't include equity, sales bonus plans where applicable, or benefits. The range may be adjusted over time, and this posting may span more than one career level.
 
-📣 One last thing: all legitimate communication from Flock comes from an email ending in @flocksafety.com (http://flocksafety.com) or noreply@ashbyhq.com (mailto:noreply@ashbyhq.com). We never make offers through messaging apps or third parties, and we never request payment or sensitive personal information during hiring. If you encounter suspicious outreach about a Flock role, report it to recruiting@flocksafety.com (mailto:recruiting@flocksafety.com).
+📣 One last thing. All legitimate communication from Flock comes from an email ending in @flocksafety.com (http://flocksafety.com) or noreply@ashbyhq.com (mailto:noreply@ashbyhq.com). We never make offers through messaging apps or third parties, and we never request payment or sensitive personal information during hiring. If you encounter suspicious outreach about a Flock role, report it to recruiting@flocksafety.com (mailto:recruiting@flocksafety.com).

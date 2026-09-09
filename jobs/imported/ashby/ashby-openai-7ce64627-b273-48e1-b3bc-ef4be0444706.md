@@ -1,29 +1,30 @@
 ---
-title: "Forward Deployed Software Engineer - SF"
+title: "Forward Deployed Engineer - London (Spanish-speaking)"
 company: "Openai"
-slug: "ashby-openai-00207abc-49b7-465c-a219-f7c1140f8047"
+slug: "ashby-openai-7ce64627-b273-48e1-b3bc-ef4be0444706"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047"
-apply_url: "https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047/application"
+role_url: "https://jobs.ashbyhq.com/openai/7ce64627-b273-48e1-b3bc-ef4be0444706"
+apply_url: "https://jobs.ashbyhq.com/openai/7ce64627-b273-48e1-b3bc-ef4be0444706/application"
 posted_date: "2026-09-09"
 expires_date: "2026-10-09"
-location: "San Francisco"
+location: "London, UK"
 work_modes:
   - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
   - "Compliance Automation"
+  - "Risk Management"
   - "Security Governance"
   - "Cloud Security"
-  - "Privacy"
 frameworks: []
 languages:
-  - "SQL"
+  - "Python"
+  - "JavaScript"
   - "Rust"
 compensation: ""
 summary: "About the team OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of..."
@@ -33,29 +34,37 @@ About the team
 
 OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of customer delivery and core platform development.
 
-About the Role
+About the role
 
-We are looking for customer-focused software engineers to build effective custom software that leverages OpenAI’s APIs to solve real customer problems. As an FDSWE, you will work with our customers and OpenAI Forward Deployed Engineers to design and implement scalable solutions that solve their most difficult problems. You will design abstractions to solve customer problems, and then use them to scale our speed and quality of delivery across all Forward Deployed engagements.
+Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontier models in production alongside our most strategic customers. You will own discovery, technical scoping, system design, build, and production rollout, partnering directly with customer engineering and domain teams.
 
-You will collaborate closely with Sales, Solutions Engineering, Solutions Architects, and Customer Success Managers who work on the same account. You will also work with our Research and Applied Product and Engineering teams to provide insightful customer feedback.
+You will measure success through production adoption, measurable workflow impact, and eval-driven feedback that changes product and model roadmaps. You’ll work closely with our Product, Research, Partnerships, GRC, Security, and GTM teams.
 
-This role is based in San Francisco. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
+This role is based in London. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
 
-In this role, you will:
+In this role you will
 
-- Embed deeply with strategic customers to understand their business challenges and technical requirements in detail.
-- Design, architect, and develop full-stack solutions using an experiment-driven, iterative approach.
-- Prepare detailed scopes of work and project plans for both proof-of-concept prototypes and full production deployments.
-- Work hands-on with customers' technical teams as a technical expert and trusted advisor, coding side-by-side to drive projects to completion on their infrastructure.
-- Collaborate with Product, Research and Applied teams to ensure seamless customer experiences, project success and actionable product feedback
-- Contribute to internal knowledge bases, codifying best practices and sharing insights gained from customer engagements to scale the Forward Deployed Engineering function.
+- Own technical delivery across multiple deployments from first prototype to stable production
+- Build full-stack systems that deliver customer value and sharpen how we learn
+- Embed closely with customer teams, understand their needs, and guide adoption of what you build
+- Scope work, sequence delivery, and remove blockers early
+- Make trade-offs between scope, speed, and quality; adjust plans to protect delivery
+- Contribute directly in the code when progress or clarity depends on it
+- Codify working patterns into tools, playbooks, or building blocks that others can use
+- Share field feedback that helps Research and Product understand where the models succeed and where they can improve
+- Keep teams moving through clarity and follow-through
 
-You’ll thrive in this role if you:
+You might thrive in this role if you
 
-- 7+ years of professional full stack engineering experience (excluding internships) in relevant roles at tech and product-driven companies - customer-facing experience is highly desirable
-- Former founder, or early engineer at a startup who has built a product from scratch is a plus
-- Experience with relational databases like Postgres/MySQL
-- Have a bias for action and willingness to work iteratively with your customers to deliver the right solution that solves their problem.
+- Bring 6+ years of engineering or technical deployment experience that includes customer-facing work
+- Professional fluency in Spanish and English is required, as this role supports Spanish-speaking customers
+- Have scoped and delivered complex systems in fast-moving or ambiguous environments
+- Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks
+- Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience
+- Simplify complexity and make fast, sound decisions under pressure
+- Communicate clearly with engineers, product teams, and customer stakeholders
+- Spot risks early and adjust without slowing down
+- Model calm and judgment when the stakes are high
 
 About OpenAI
 

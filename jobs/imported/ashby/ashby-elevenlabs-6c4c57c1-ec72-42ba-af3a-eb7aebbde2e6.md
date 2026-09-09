@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - Italy"
+title: "Forward Deployed Engineer - Software Engineer - North America"
 company: "Elevenlabs"
-slug: "ashby-elevenlabs-cd610558-4a8e-4746-81c1-10e3902f5576"
+slug: "ashby-elevenlabs-6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/elevenlabs/cd610558-4a8e-4746-81c1-10e3902f5576"
-apply_url: "https://jobs.ashbyhq.com/elevenlabs/cd610558-4a8e-4746-81c1-10e3902f5576/application"
+role_url: "https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6"
+apply_url: "https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6/application"
 posted_date: "2026-09-09"
 expires_date: "2026-10-09"
-location: "Italy"
+location: "San Francisco"
 work_modes:
   - "Remote"
 job_types:
@@ -55,8 +55,6 @@ Everything we do is the result of the creativity and commitment of our team - bu
 - Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.
 - Co-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.
 
-This role is remote, so it can be executed globally.
-
 ## About the role
 
 You’ll use your creativity, problem-solving, and technical expertise to design tailored solutions that make a real impact.
@@ -73,7 +71,7 @@ What you will do:
 
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
-- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in Italy, with a preference of Milan. Expect regular travel for customer onsites. Fluency in English and Italian and a deep understanding of the regional and cultural nuances is required.
+- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in the United States. There is a preference for candidates to be based in New York or San Francisco, with the option to work out of our office. Expect regular travel for customer onsites.
 
 #LI-remote
 

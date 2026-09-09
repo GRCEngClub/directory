@@ -1,30 +1,28 @@
 ---
-title: "Software Engineer, Forward Deployed AI Solutions"
+title: "Software Engineer, Forward Deployed"
 company: "Ramp"
-slug: "ashby-ramp-b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
+slug: "ashby-ramp-9916e9da-7491-4c99-afd1-e4b8158fa58b"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
-apply_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27/application"
+role_url: "https://jobs.ashbyhq.com/ramp/9916e9da-7491-4c99-afd1-e4b8158fa58b"
+apply_url: "https://jobs.ashbyhq.com/ramp/9916e9da-7491-4c99-afd1-e4b8158fa58b/application"
 posted_date: "2026-09-09"
 expires_date: "2026-10-09"
-location: "New York, NY (HQ)"
+location: "San Francisco, CA"
 work_modes:
   - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
   - "Risk Management"
-  - "Audit & Assurance"
-  - "Cloud Security"
   - "Identity & Access Management"
+  - "Privacy"
+  - "Forward Deployed Engineering"
 frameworks: []
-languages:
-  - "Python"
-  - "JavaScript"
+languages: []
 compensation: ""
 summary: "About Ramp Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in..."
 ---
@@ -43,39 +41,23 @@ If you want to build systems that directly shape how companies move and manage b
 
 # About the Role
 
-As a software engineer on the AI Solutions team, you will co-lead customer engagements with an AI Solutions Strategist . The Strategist owns business discovery, ROI narrative, stakeholder alignment, and rollout planning. The engineer owns technical discovery, solution design, prototyping, implementation, and production readiness.
+As a Software Engineer, Forward Deployed, you’ll solve the hardest problems standing between Ramp and the world’s largest and most complex companies — shaping and shipping the product capabilities that unlock our growth upmarket. You'll be part of our Core FDE org, which is an agent-first, high-pace, customer-facing engineering team. On FDE, you will interact directly with customers and deliver solutions end to end — understanding pain points, shaping product decisions, and building agents that autonomously expand Ramp's capabilities.
 
-This is a deeply client-facing role. You will spend significant time with customers and end users, moving projects from bootcamp and workflow discovery through implementation, launch, and steady production usage.
+Check out our Engineering Blog (https://engineering.ramp.com/) and FDE post (https://engineering.ramp.com/post/forward-deployed-engineering) for more context on our work!
 
 ## What You’ll Do
 
-- Translate customer goals into clear system requirements and non-functional requirements covering security, privacy, reliability, performance, scalability, and cost.
-- Partner directly with customers to understand current workflows, constraints, systems, data quality, and adoption blockers.
-- Create and maintain solution architecture artifacts: System context and data flow diagrams
-- Integration plan across Ramp and customer systems
-- Security model covering permissions, access patterns, and auditability
-- Evaluation plan covering quality metrics, acceptance tests, and red-teaming
-- Operational plan covering monitoring, alerting, incident response, and runbooks
-
-- Leverage core Ramp primitives to build efficiently, reusing existing product capabilities wherever possible.
-- Prototype and validate workflows with end users to de-risk the approach and prove product-market fit.
-- Drive projects from bootcamp and technical discovery through implementation, production launch, and operational handoff.
-- Ensure deployed workflows are reliable, supportable, measurable, and adopted by customer teams.
-- Convert deployments into reusable patterns, components, and playbooks for future AI Solutions projects.
+- Deliver software end to end that meet the needs of our largest customers — understanding user pain points, scoping product specs, and building agents that autonomously implement solutions.
+- Collaborate closely with Sales, Solutions, Customer Success, and Account Management to close deals, activate customers, and expand the value Ramp provides over time.
+- Drive the core product engineering roadmap through our embedding model — specializing within a core product area to develop deep domain expertise and make prioritization calls on when to build a custom solution vs. accelerate a broader initiative.
 
 ## What You Need
 
-- Experience shipping production software in high-ownership environments.
-- Ability to work directly with enterprise customers from discovery through production implementation.
-- Experience in solutions architecture, technical consulting, forward deployed engineering, or pre-sales engineering.
-- Strong fundamentals in ML/GenAI, including problem decomposition, evaluation, and deployment trade-offs.
-- Strong coding ability in at least one of: Python, TypeScript/JavaScript, Java, Go, or similar.
-- Ability to design secure, scalable systems and produce clear technical documentation.
-- Comfort working across APIs, integrations, data pipelines, customer systems, and cloud infrastructure.
-- Experience with cloud architecture on AWS, GCP, or Azure, and distributed systems patterns.
-- Experience building LLM systems, including RAG, agents, monitoring, and evals.
-- Willingness to travel up to ~50% as needed, flexible based on project needs and client needs
-- Nice to have: Familiarity with finance operations workflows such as AP, procurement, expenses, close, reconciliation, and reporting.
+- 3+ years of software engineering experience preferred
+- Extensive experience building with and for agents
+- Track record of shipping high-quality products at scale
+- Comfort and excitement to be customer-facing
+- Desire to work in a fast-paced environment, continuously grow, and master your craft
 
 ## Benefits available to all full-time Ramp employees (Global)
 
