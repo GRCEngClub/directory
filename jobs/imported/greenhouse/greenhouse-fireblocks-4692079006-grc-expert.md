@@ -27,10 +27,10 @@ frameworks:
 languages:
   - "Rust"
 compensation: ""
-summary: "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network..."
+summary: "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;p&gt;The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more.&nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class="content-intro"&gt;&nbsp;&lt;/div&gt;
+&lt;div class="content-intro"&gt;&lt;p&gt;Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide.&lt;/p&gt;&lt;/div&gt;&lt;div class="content-intro"&gt;&nbsp;&lt;/div&gt;
 &lt;p class="p1"&gt;&lt;strong&gt;About the Role-&lt;/strong&gt;&lt;/p&gt;
 &lt;p class="p1"&gt;We are looking for a passionate and experienced EU Governance, Risk, and Compliance (GRC) expert to lead our company’s efforts in aligning with the Digital Operational Resilience Act (DORA) and Markets in Crypto-Assets Regulation (MiCA) in the European Union. This role is critical in driving our security and compliance programs, ensuring they not only meet regulatory standards but also enhance trust and confidence among our customers and stakeholders.&lt;/p&gt;
 &lt;p class="p1"&gt;As the EU GRC Manager, you will spearhead the implementation of security frameworks that align with DORA and MiCA, act as the primary liaison with our European customers on compliance matters, and collaborate with cross-functional teams to embed regulatory compliance into our operations.&lt;/p&gt;

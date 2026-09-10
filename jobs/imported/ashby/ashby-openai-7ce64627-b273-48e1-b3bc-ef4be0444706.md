@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/7ce64627-b273-48e1-b3bc-ef4be0444706"
 apply_url: "https://jobs.ashbyhq.com/openai/7ce64627-b273-48e1-b3bc-ef4be0444706/application"
-posted_date: "2026-09-09"
-expires_date: "2026-10-09"
+posted_date: "2026-09-10"
+expires_date: "2026-10-10"
 location: "London, UK"
 work_modes:
   - "Hybrid / On-site"
