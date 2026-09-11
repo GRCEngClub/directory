@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/66e76c14-bb6e-4e26-a333-744bbe35abbb"
 apply_url: "https://jobs.ashbyhq.com/openai/66e76c14-bb6e-4e26-a333-744bbe35abbb/application"
-posted_date: "2026-09-10"
-expires_date: "2026-10-10"
+posted_date: "2026-09-11"
+expires_date: "2026-10-11"
 location: "San Francisco"
 work_modes:
   - "Hybrid / On-site"
@@ -25,18 +25,18 @@ frameworks: []
 languages:
   - "Rust"
 compensation: ""
-summary: "About the team ​​Preparedness is a critical Safety Research team at OpenAI, which is focused on mitigating AI threats to global security that could scale to an extreme level of..."
+summary: "About the team Models are becoming increasingly capable—moving from tools that assist humans to agents that can plan, execute, and adapt in the real world. Mitigating the frontier..."
 ---
 
 ## About the team
 
-​​Preparedness is a critical Safety Research team at OpenAI, which is focused on mitigating AI threats to global security (https://openai.com/index/updating-our-preparedness-framework/) that could scale to an extreme level of severity.
+Models are becoming increasingly capable—moving from tools that assist humans to agents that can plan, execute, and adapt in the real world. Mitigating the frontier risks resulting from these capabilities is paramount to OpenAI’s ability to continue deploying models safely.
 
-Our work involves:
+The Preparedness team is dedicated to addressing these critical risks. Our work includes:
 
 - Measurement. Monitoring and predicting the evolving capabilities of frontier AI systems.
-- Mitigation. Keeping misuse safeguards, alignment tools, and security measures on track to adequately address extreme threats that might arise in the future.
-- Coordination. Setting mitigation targets by maintaining OpenAI’s preparedness framework (https://openai.com/index/updating-our-preparedness-framework/), and partnering with other staff to achieve these targets.
+- Mitigation. Keeping misuse and misalignment safeguards, alignment tools, and security measures on track to adequately address extreme threats that might arise in the future.
+- Coordination. Setting mitigation targets by maintaining OpenAI’spreparedness framework (https://openai.com/index/updating-our-preparedness-framework/), and partnering with other staff to achieve these targets.
 
 This is urgent, fast-paced work that has far-reaching implications for the company and for society.
 

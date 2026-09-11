@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-10"
+expires_date: "2026-10-10"
 location: "Distributed"
 work_modes:
   - "Remote"
@@ -28,7 +28,7 @@ frameworks:
   - "HITRUST"
 languages:
   - "Rust"
-compensation: "$109,000 - $150,000"
+compensation: ""
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
 ---
 
@@ -62,11 +62,11 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;Ability to work efficiently and independently in a fast-paced, high-volume environment&lt;/li&gt;
 &lt;li&gt;Willingness to travel occasionally to engage with regulators and auditors&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;
 &lt;h3 data-path-to-node="0"&gt;&lt;strong data-path-to-node="0" data-index-in-node="0"&gt;Compensation&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul data-path-to-node="1"&gt;
 &lt;li&gt;
-&lt;p data-path-to-node="1,0,0"&gt;For Toronto based hires: Estimated annual salary is between CAD $109,000 - $150,000.&lt;/p&gt;
+&lt;p data-path-to-node="1,0,0"&gt;For Toronto based hires: Estimated annual salary is between CAD $109,000 - 150,000&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 data-path-to-node="2"&gt;&lt;strong data-path-to-node="2" data-index-in-node="0"&gt;Equity&lt;/strong&gt;&lt;/h3&gt;
