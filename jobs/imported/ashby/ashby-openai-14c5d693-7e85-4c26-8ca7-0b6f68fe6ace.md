@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/14c5d693-7e85-4c26-8ca7-0b6f68fe6ace"
 apply_url: "https://jobs.ashbyhq.com/openai/14c5d693-7e85-4c26-8ca7-0b6f68fe6ace/application"
-posted_date: "2026-09-11"
-expires_date: "2026-10-11"
+posted_date: "2026-09-12"
+expires_date: "2026-10-12"
 location: "Madrid, Spain"
 work_modes:
   - "Hybrid / On-site"

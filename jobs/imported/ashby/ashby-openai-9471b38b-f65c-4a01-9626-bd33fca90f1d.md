@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - Seoul"
+title: "Forward Deployed Engineer (FDE) - NYC"
 company: "Openai"
-slug: "ashby-openai-b43339a1-e830-4761-a193-3438f34f9ebb"
+slug: "ashby-openai-9471b38b-f65c-4a01-9626-bd33fca90f1d"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/b43339a1-e830-4761-a193-3438f34f9ebb"
-apply_url: "https://jobs.ashbyhq.com/openai/b43339a1-e830-4761-a193-3438f34f9ebb/application"
+role_url: "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d"
+apply_url: "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d/application"
 posted_date: "2026-09-12"
 expires_date: "2026-10-12"
-location: "Seoul, South Korea"
+location: "New York City"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -40,30 +40,30 @@ Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontie
 
 You will measure success through production adoption, measurable workflow impact, and eval-driven feedback that changes product and model roadmaps. You’ll work closely with our Product, Research, Partnerships, GRC, Security, and GTM teams.
 
-This role is based in Seoul. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. 50% travel is expected.
+This role is based in New York. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
 
 In this role you will
 
-- Own technical delivery across multiple deployments from first prototype to stable production.
-- Build full-stack systems that deliver customer value and sharpen how we learn.
-- Embed closely with customer teams, understand their needs, and guide adoption of what you build.
-- Scope work, sequence delivery, and remove blockers early.
-- Make trade-offs between scope, speed, and quality; adjust plans to protect delivery.
-- Contribute directly in the code when progress or clarity depends on it.
-- Codify working patterns into tools, playbooks, or building blocks that others can use.
-- Share field feedback that helps Research and Product understand where the models succeed and where they can improve.
-- Keep teams moving through clarity and follow-through.
+- Own technical delivery across multiple deployments from first prototype to stable production
+- Build full-stack systems that deliver customer value and sharpen how we learn
+- Embed closely with customer teams, understand their needs, and guide adoption of what you build
+- Scope work, sequence delivery, and remove blockers early
+- Make trade-offs between scope, speed, and quality; adjust plans to protect delivery
+- Contribute directly in the code when progress or clarity depends on it
+- Codify working patterns into tools, playbooks, or building blocks that others can use
+- Share field feedback that helps Research and Product understand where the models succeed and where they can improve
+- Keep teams moving through clarity and follow-through
 
 You might thrive in this role if you
 
-- Bring 5+ years of engineering or technical deployment experience that includes customer-facing work.
-- Have scoped and delivered complex systems in fast-moving or ambiguous environments.
-- Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks.
-- Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience.
-- Simplify complexity and make fast, sound decisions under pressure.
-- Communicate clearly with engineers, product teams, and customer stakeholders.
-- Spot risks early and adjust without slowing down.
-- Model calm and judgment when the stakes are high.
+- Bring 5+ years of engineering or technical deployment experience that includes customer-facing work
+- Have scoped and delivered complex systems in fast-moving or ambiguous environments
+- Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks
+- Have built or deployed systems powered by LLMs or generative models and understand how model behavior affects product experience
+- Simplify complexity and make fast, sound decisions under pressure
+- Communicate clearly with engineers, product teams, and customer stakeholders
+- Spot risks early and adjust without slowing down
+- Model calm and judgment when the stakes are high
 
 About OpenAI
 

@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/socure?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/socure/ac623889-7cbb-4951-aa04-3a0f74178dda"
 apply_url: "https://jobs.ashbyhq.com/socure/ac623889-7cbb-4951-aa04-3a0f74178dda/application"
-posted_date: "2026-09-11"
-expires_date: "2026-10-11"
+posted_date: "2026-09-12"
+expires_date: "2026-10-12"
 location: "Hub - Washington DC"
 work_modes:
   - "Hybrid / On-site"

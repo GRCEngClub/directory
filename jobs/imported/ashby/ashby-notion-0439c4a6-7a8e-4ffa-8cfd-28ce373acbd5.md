@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/0439c4a6-7a8e-4ffa-8cfd-28ce373acbd5"
 apply_url: "https://jobs.ashbyhq.com/Notion/0439c4a6-7a8e-4ffa-8cfd-28ce373acbd5/application"
-posted_date: "2026-09-11"
-expires_date: "2026-10-11"
+posted_date: "2026-09-12"
+expires_date: "2026-10-12"
 location: "London, United Kingdom"
 work_modes:
   - "Hybrid / On-site"

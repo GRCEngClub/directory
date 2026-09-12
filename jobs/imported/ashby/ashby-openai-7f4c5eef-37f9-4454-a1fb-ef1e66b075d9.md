@@ -1,16 +1,16 @@
 ---
 title: "Forward Deployed Engineer (FDE) - Seattle"
 company: "Openai"
-slug: "ashby-openai-dc17edac-2993-4318-812a-14864c6f4658"
+slug: "ashby-openai-7f4c5eef-37f9-4454-a1fb-ef1e66b075d9"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/dc17edac-2993-4318-812a-14864c6f4658"
-apply_url: "https://jobs.ashbyhq.com/openai/dc17edac-2993-4318-812a-14864c6f4658/application"
-posted_date: "2026-09-11"
-expires_date: "2026-10-11"
+role_url: "https://jobs.ashbyhq.com/openai/7f4c5eef-37f9-4454-a1fb-ef1e66b075d9"
+apply_url: "https://jobs.ashbyhq.com/openai/7f4c5eef-37f9-4454-a1fb-ef1e66b075d9/application"
+posted_date: "2026-09-12"
+expires_date: "2026-10-12"
 location: "Seattle"
 work_modes:
   - "Hybrid / On-site"

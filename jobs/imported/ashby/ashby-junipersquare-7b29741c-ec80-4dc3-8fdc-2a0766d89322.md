@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/junipersquare/7b29741c-ec80-4dc3-8fdc-2a0766d89322"
 apply_url: "https://jobs.ashbyhq.com/junipersquare/7b29741c-ec80-4dc3-8fdc-2a0766d89322/application"
-posted_date: "2026-09-11"
-expires_date: "2026-10-11"
+posted_date: "2026-09-12"
+expires_date: "2026-10-12"
 location: "USA"
 work_modes:
   - "Remote"
