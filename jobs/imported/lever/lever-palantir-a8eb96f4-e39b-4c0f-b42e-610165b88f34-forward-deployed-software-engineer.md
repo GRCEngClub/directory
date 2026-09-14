@@ -69,7 +69,7 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 - Fluency in German
 
-- Security clearance or the ability to obtain a clearance
+- Security clearance or the ability to obtain a clearance.
 
 Life at Palantir
 
