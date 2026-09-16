@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8045914?gh_jid=8045914"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8045914?gh_jid=8045914"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-16"
+expires_date: "2026-10-16"
 location: "Hybrid"
 work_modes:
   - "Remote"
@@ -62,6 +62,12 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;&lt;strong&gt;Community &amp; Passion:&lt;/strong&gt; Demonstrated passion for security and software development, such as personal projects, open-source contributions, or active participation in the security research community.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cloudflare Native:&lt;/strong&gt; You’ve built something with our developer platform using our products (e.g., &lt;strong&gt;Cloudflare Workers, R2, D1, or Workers AI&lt;/strong&gt;). You understand our ecosystem because you’ve used it.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compensation may be adjusted depending on work location.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span data-sheets-root="1"&gt;For Portugal based hires: Estimated annual salary of €52,000 - €72&lt;span class="cell-value"&gt;,000&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span data-sheets-root="1"&gt;&lt;span class="cell-value"&gt;The final offer will be inclusive of time exemption, in alignment with the applicable law and collective bargaining agreements.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Equity&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;
