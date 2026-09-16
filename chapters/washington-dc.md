@@ -13,7 +13,14 @@ leads:
     linkedin: https://www.linkedin.com/in/gokhart/
   - name: Jonathan Perez
     role: Vice President
+    linkedin: https://www.linkedin.com/in/cyberjp/
   - name: Dex-Xavier Copeland
     role: Head of Growth & Training
     linkedin: https://www.linkedin.com/in/dexcopeland/
+  - name: Nicole Pounds
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/nicole-pounds-cissp-cisa-cge-p-38242a97
+  - name: Grace Michaels Adjeli
+    role: Treasurer
+    linkedin: https://www.linkedin.com/in/graceadjeli/
 ---

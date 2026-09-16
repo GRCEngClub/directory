@@ -11,4 +11,6 @@ leads:
   - name: Ahmed Mohamed
     role: President
     linkedin: http://www.linkedin.com/in/ahmed-mohamed-grc
+  - name: Zubeyda Farah
+    role: Vice President
 ---

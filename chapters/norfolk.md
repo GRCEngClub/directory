@@ -11,4 +11,7 @@ leads:
   - name: Johnny Vaughan
     role: President
     linkedin: https://www.linkedin.com/in/johnnyvaughan2
+  - name: Peter Fenton
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/--peter/
 ---

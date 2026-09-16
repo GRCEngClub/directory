@@ -14,4 +14,7 @@ leads:
   - name: Conor Chaney
     role: Vice President
     linkedin: https://www.linkedin.com/in/conor-chaney/
+  - name: Saurabh Singh
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/saurabhsinghprofile/
 ---

@@ -11,4 +11,7 @@ leads:
   - name: James Gilchrest
     role: President
     linkedin: https://www.linkedin.com/in/gilly-ak/
+  - name: Bjorn Nielsen
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/bjorn-h-nielsen/
 ---

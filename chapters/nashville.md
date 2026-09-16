@@ -11,4 +11,7 @@ leads:
   - name: Jonathan Steward
     role: President
     linkedin: https://www.linkedin.com/in/jonathansteward97
+  - name: Philip Alger
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/palaric
 ---

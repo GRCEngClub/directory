@@ -14,4 +14,10 @@ leads:
   - name: Antoine Boone
     role: Vice President
     linkedin: https://www.linkedin.com/in/antoine-boone-824945114
+  - name: Anthony Daniels II
+    role: Communications Lead
+    linkedin: https://www.linkedin.com/in/anthony-daniels-ii
+  - name: Seraphim Omisade
+    role: Director of Membership
+    linkedin: https://www.linkedin.com/in/seraphomi
 ---

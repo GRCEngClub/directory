@@ -11,4 +11,6 @@ leads:
   - name: Yash Gorasiya
     role: President
     linkedin: https://www.linkedin.com/in/yash-gorasiya/
+  - name: Princess Okoro
+    role: Vice President
 ---

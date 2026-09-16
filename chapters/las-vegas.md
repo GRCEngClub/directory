@@ -11,4 +11,7 @@ leads:
   - name: Travis Duncan
     role: President
     linkedin: https://www.linkedin.com/in/travis-w-duncan
+  - name: Nate Boyle
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/n8cboyle
 ---

@@ -11,4 +11,7 @@ leads:
   - name: Jascha Wachsmuth-Temme
     role: President
     linkedin: https://www.linkedin.com/in/jascha-wachsmuth-temme/
+  - name: Alin Nica
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/alinnica/
 ---

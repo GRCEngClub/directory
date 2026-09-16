@@ -11,4 +11,7 @@ leads:
   - name: Sierra Montoya
     role: President
     linkedin: https://www.linkedin.com/in/sierramontoyaturco/
+  - name: Akeem Williams
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/williamsakeem/
 ---

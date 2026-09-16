@@ -1,7 +1,7 @@
 ---
 city: Bengaluru
 slug: bangalore
-status: provisional
+status: official
 country: India
 region: Asia
 chapter_url: https://grcengclub.com/chapters/bangalore
@@ -11,4 +11,16 @@ leads:
   - name: Garima Kakkar
     role: President
     linkedin: https://www.linkedin.com/in/garima-kakkar-54456b60/
+  - name: Gowri K
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/gowri-k-cissp-ccsp-03a6392a/
+  - name: Somesh Rasal
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/somesh-rasal/
+  - name: Karthik Ramamoorthy
+    role: Director of Practitioner Development
+    linkedin: https://www.linkedin.com/in/karthik-ramamoorthy-cissp-cisa-cipm/
+  - name: Deepan Barathi
+    role: Director of Events
+    linkedin: https://www.linkedin.com/in/deepan-barathi-47794b18/
 ---
