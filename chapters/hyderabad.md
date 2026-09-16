@@ -12,4 +12,7 @@ leads:
     role: President
   - name: Manisha Kotha
     role: Vice President
+  - name: Khalid Ahmed
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/khalidbafana/
 ---

@@ -22,6 +22,11 @@ const REGION = {
   Qatar: "Asia",
   Singapore: "Asia",
   Australia: "Oceania",
+  Finland: "Europe",
+  Spain: "Europe",
+  Japan: "Asia",
+  "Saudi Arabia": "Asia",
+  "United Arab Emirates": "Asia",
 };
 
 // Refuse to run on implausibly small input: a truncated or broken download

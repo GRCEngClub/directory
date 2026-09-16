@@ -6,11 +6,11 @@ country: United States
 region: North America
 chapter_url: https://grcengclub.com/chapters/detroit-metro
 meetings: Monthly
-summary: "From the Big House to the Breslin: one Detroit Metro chapter. Ann Arbor's college-town talent and Lansing's state government security anchor a corridor that runs through Novi, Troy, Livonia, and Plymouth. We don't do pretty. We do Detroit GRC."
+summary: Based in Detroit and serving the broader Metro Detroit and Southeast Michigan community. From Detroit to Troy, Novi, Livonia, Plymouth, Ann Arbor, and surrounding areas, we're bringing together GRC, cybersecurity, risk, and technology professionals to learn, connect, and build. We don't just talk GRC. We build Detroit GRC.
 leads:
-  - name: Mike Hiltz
+  - name: Zakariya Noor
     role: President
-    linkedin: https://www.linkedin.com/in/mhiltz/
+    linkedin: https://www.linkedin.com/in/zakariyanoor
   - name: Zahid Kamil
     role: Vice President
     linkedin: https://www.linkedin.com/in/zahid-kamil

@@ -11,4 +11,13 @@ leads:
   - name: Dwight Turner
     role: President
     linkedin: https://www.linkedin.com/in/dwightgrcp/
+  - name: Princeton Baker
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/princetonbaker/
+  - name: Dara Thomas
+    role: Director of Membership
+    linkedin: https://www.linkedin.com/in/darafthomas/
+  - name: Tommy King-Marshall
+    role: Director of Events
+    linkedin: https://www.linkedin.com/in/tommymarshallcse/
 ---

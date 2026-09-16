@@ -13,4 +13,5 @@ leads:
     linkedin: https://www.linkedin.com/in/jonl-qgrc
   - name: Chris Honda
     role: Vice President
+    linkedin: https://www.linkedin.com/in/ichirohonda/
 ---

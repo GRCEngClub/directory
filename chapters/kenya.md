@@ -1,7 +1,7 @@
 ---
 city: Kenya
 slug: kenya
-status: provisional
+status: official
 country: Kenya
 region: Africa
 chapter_url: https://grcengclub.com/chapters/kenya
