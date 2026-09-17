@@ -1,16 +1,16 @@
 ---
-title: "Compliance Analyst - KYB"
+title: "Compliance Analyst (Corporate Enhanced Due Diligence)"
 company: "Binance"
-slug: "lever-binance-1a2f77b6-b3b4-4c5b-97e8-d041a33f5c19-compliance-analyst-kyb"
+slug: "lever-binance-f423658e-e2ce-4797-b9ba-0f7309e366fb-compliance-analyst-corporate-enhanced-due-diligence"
 status: "published"
 source: "Lever"
 sources:
   - "Lever"
 source_url: "https://jobs.lever.co/binance"
-role_url: "https://jobs.lever.co/binance/1a2f77b6-b3b4-4c5b-97e8-d041a33f5c19"
-apply_url: "https://jobs.lever.co/binance/1a2f77b6-b3b4-4c5b-97e8-d041a33f5c19/apply"
-posted_date: "2026-09-01"
-expires_date: "2026-10-01"
+role_url: "https://jobs.lever.co/binance/f423658e-e2ce-4797-b9ba-0f7309e366fb"
+apply_url: "https://jobs.lever.co/binance/f423658e-e2ce-4797-b9ba-0f7309e366fb/apply"
+posted_date: "2026-09-17"
+expires_date: "2026-10-17"
 location: "Asia"
 work_modes:
   - "Remote"
@@ -19,7 +19,6 @@ job_types:
 specializations:
   - "Compliance Automation"
   - "Risk Management"
-  - "Cloud Security"
   - "Privacy"
 frameworks: []
 languages:
@@ -32,43 +31,13 @@ Binance is a leading global blockchain ecosystem behind the world’s largest cr
 
 Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, Web3 features, and more. We leverage the power of digital assets and blockchain to build an inclusive financial ecosystem to advance the freedom of money and improve financial access for people around the world.
 
-### Responsabilities:
+### Job Description:
 
-- Act as a point of escalation and subject matter expert for Corporate onboarding cases;
+- Completion of EDD reviews for high risk customers. - Assessing high-risk customer transaction activity to ensure it is commensurate with the nature of the business. - Conducting risk assessments on new and existing customers. - Leading projects related to EDD enhancements. - Remain current on global EDD standards such as FATF, as well as local requirements in regions that the company operates. - Provide AML/CFT subject matter expertise. - Manage high risk customer escalations from the first line of defence and other business units. - Drafting of documentation including, but not limited to policies, programs, procedures, guidance documents, training materials, and impact assessment/analysis. - Training of other employees.
 
-- Ability to take on and lead special assignments and projects;
+### Job Requirement:
 
-- Take the lead on adhoc QA checks to support the regional team;
-
-- Identify and propose procedure and process enhancements;
-
-- Work with the team lead and Manager for ongoing assessments, assisting with compliance reviews, and ongoing or ad hoc reviews;
-
-- Work closely with MLRO’s, Account Managers/ VIP and other key stakeholders within the business;
-
-- Proficiency in compliance applications and programmes such as Worldcheck etc;
-
-- Good knowledge on provisions of local laws, directives, regulations and otherwise standards applicable to subject persons and knowledge of upcoming regulation of virtual currency policies is a strong plus;
-
-- Good proficiency in conducting customer risk assessments, periodic/trigger reviews and enhanced due diligence;
-
-- Identification and documentation of unusual activity or AML flags;
-
-- Participate in internal and external training programs related to AML/CFT and other subjects that may form part of the day to day work requirements.
-
-### Requirements:
-
-- At least 3+ years’ directly related experience in a compliance role with a substantial knowledge of relevant rules and regulations and the day-to-day compliance affairs;
-
-- Strong experience in corporate onboarding and different corporate structure types;
-
-- Demonstrated ability to write effectively;
-
-- Superior organizational skills;
-
-- Strong communication skills;
-
-- ACAMS desirable.
+- 3+ years of EDD experience - ACAMs, ACFCS or other industry leading certification - Bilingual English/Mandarin is required to be able to coordinate with overseas partners and stakeholders. - Knowledge and experience with global CDD/EDD requirements - Deep understanding of AML/CFT and sanctions risks - Knowledge of global licensing requirements related to financial services and crypto related business activities - Experience with complex beneficial ownership structures - Excellent communication, analytical, logical thinking, problem solving, and writing skills
 
 Why Binance
 
