@@ -1,7 +1,7 @@
 ---
-title: "Forward Deployed Engineer, Hebrew speaker"
+title: "Sr. Forward Deployed Engineer, Hebrew speaker"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-7778816-forward-deployed-engineer-hebrew-speaker"
+slug: "greenhouse-cloudflare-7778816-sr-forward-deployed-engineer-hebrew-speaker"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/7778816?gh_jid=7778816"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/7778816?gh_jid=7778816"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-18"
+expires_date: "2026-10-18"
 location: "Hybrid"
 work_modes:
   - "Remote"
@@ -34,8 +34,8 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
 &lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Location: Netherlands (remote)&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;Cloudflare’s Forward Deployed Engineers (FDEs) operate at the intersection of product engineering and customer impact.&lt;/p&gt;
-&lt;p&gt;As an FDE, you will be embedded within one of Cloudflare’s most strategic global customers, working side-by-side with their engineering teams to build and deploy solutions using Cloudflare’s platform. Unlike traditional Solutions Architects or consultants, you will write production code, shape technical architecture, and directly influence how Cloudflare products are used at massive scale.&lt;/p&gt;
+&lt;p&gt;Cloudflare’s Sr. Forward Deployed Engineers (FDEs) operate at the intersection of product engineering and customer impact.&lt;/p&gt;
+&lt;p&gt;As an Sr. FDE, you will be embedded within one of Cloudflare’s most strategic global customers, working side-by-side with their engineering teams to build and deploy solutions using Cloudflare’s platform. Unlike traditional Solutions Architects or consultants, you will write production code, shape technical architecture, and directly influence how Cloudflare products are used at massive scale.&lt;/p&gt;
 &lt;p&gt;You will operate as a technical extension of both organizations - helping the customer ship faster while surfacing real-world product insights back to Cloudflare engineering.&lt;/p&gt;
 &lt;p&gt;This role is ideal for engineers who want to:&lt;/p&gt;
 &lt;ul&gt;
@@ -77,7 +77,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;A visible public profile, including open-source contributions, technical blogging, or speaking engagements at industry conferences.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Compensation&lt;/h2&gt;
-&lt;p&gt;For Netherlands based hires: Estimated annual salary is between 101,000 - 130,000.&lt;/p&gt;
+&lt;p&gt;For Netherlands based hires: Estimated annual salary is between EUR 101,000 - 130,000.&lt;/p&gt;
 &lt;h3&gt;Equity&lt;/h3&gt;
 &lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;
