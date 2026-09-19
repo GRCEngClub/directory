@@ -11,9 +11,9 @@ role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5427893008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5427893008"
 posted_date: "2026-09-18"
 expires_date: "2026-10-18"
-location: "Remote-Friendly (Travel Required) | San Francisco, CA"
+location: "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC"
 work_modes:
-  - "Remote"
+  - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:

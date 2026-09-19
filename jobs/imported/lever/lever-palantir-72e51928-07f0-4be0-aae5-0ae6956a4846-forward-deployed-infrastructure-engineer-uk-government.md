@@ -71,7 +71,13 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 - Strong coder with shown proficiency in programming languages such as Java, Go, Python, JavaScript, or similar languages
 
-- Security clearance or the ability to obtain a clearance
+- Active or eligible for DV UK security clearance
+
+- Ability to be physically located in our facility (or 15-minutes away) during open hours
+
+- Sole British National
+
+- Ability to work in a facility as a lone worker
 
 Life at Palantir
 

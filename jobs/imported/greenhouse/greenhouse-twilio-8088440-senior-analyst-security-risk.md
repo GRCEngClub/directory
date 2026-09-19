@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/twilio/jobs/8088440"
 apply_url: "https://job-boards.greenhouse.io/twilio/jobs/8088440"
-posted_date: "2026-09-17"
-expires_date: "2026-10-17"
+posted_date: "2026-09-18"
+expires_date: "2026-10-18"
 location: "Remote - Canada"
 work_modes:
   - "Remote"

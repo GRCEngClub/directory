@@ -67,11 +67,17 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 ### What We Require
 
-- Strong engineering background, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics, and Data Science.
+- Strong engineering background, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics, and Data Science
 
-- Strong coder with shown proficiency in programming languages such as Java, Go, Python, JavaScript, or similar languages.
+- Strong coder with shown proficiency in programming languages such as Java, Go, Python, JavaScript, or similar languages
 
-- Active UK Security clearance, or eligibility and willingness to obtain a UK Security clearance.
+- Active or eligible for DV UK security clearance
+
+- Ability to be physically located in our facility (or 15-minutes away) during open hours
+
+- Sole British National
+
+- Ability to work in a facility as a lone worker
 
 Life at Palantir
 
