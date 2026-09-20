@@ -77,7 +77,7 @@ projects:
     description: "Converter pack for AWS CloudFormation-native Landing Zone to Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
   - name: "LZA Compliance Framework Impact Tracker"
     url: "https://lzacfit.org"
-    description: "Quantifying how the AWS Landing Zone Accelerator Universal Configuration enables customers achieve compliance against a range of international frameworks through the lens of the evolving LZA Compliance Workbook."
+    description: "Quantifying how the AWS Landing Zone Accelerator Universal Configuration enables customers toachieve compliance against a range of international frameworks through the lens of the evolving LZA Compliance Workbook."
   - name: "lzatracer"
     url: "https://lzatracer.net"
     description: "lzatracer scores an AWS Landing Zone Accelerator (LZA) variant against the LZA Universal Configuration (UC) — the AWS-published reference LZA config for regulated cloud deployments — via a fingerprint catalog derived from the LZA Compliance Workbook."
