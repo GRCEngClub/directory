@@ -16,6 +16,7 @@ leads:
     linkedin: https://www.linkedin.com/in/mpgehrisch/
   - name: Timothy Lee
     role: Secretary
+    linkedin: https://www.linkedin.com/in/timlee-ai-governance-security-risk-compliance
   - name: Mark Janowski
     role: Treasurer
     linkedin: https://linkedin.com/in/markjanowski
