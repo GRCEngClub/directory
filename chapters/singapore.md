@@ -12,4 +12,5 @@ leads:
     role: President
   - name: Lim Jun Jie
     role: Vice President
+    linkedin: https://www.linkedin.com/in/limjunjie-profile/
 ---
