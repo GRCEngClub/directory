@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Notion/79c18580-c927-456c-9d5f-72efbc6c43cb"
 apply_url: "https://jobs.ashbyhq.com/Notion/79c18580-c927-456c-9d5f-72efbc6c43cb/application"
-posted_date: "2026-09-21"
-expires_date: "2026-10-21"
+posted_date: "2026-09-22"
+expires_date: "2026-10-22"
 location: "Hyderabad, India"
 work_modes:
   - "Hybrid / On-site"
