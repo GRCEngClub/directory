@@ -9,9 +9,9 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
 apply_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
-posted_date: "2026-09-17"
-expires_date: "2026-10-17"
-location: "Hybrid - San Francisco, New York City, Austin"
+posted_date: "2026-09-22"
+expires_date: "2026-10-22"
+location: "Remote - United States"
 work_modes:
   - "Remote"
 job_types:
@@ -39,11 +39,11 @@ summary: "About Vercel: Vercel is the agentic infrastructure company. We free pe
 &lt;p&gt;&lt;span data-sheets-root="1"&gt;We are building the platform for that future, trusted by companies like&nbsp;&lt;strong&gt;OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide&lt;/strong&gt;. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role:&lt;/h2&gt;
 &lt;p&gt;We are looking for a GRC Analyst to join our Governance, Risk &amp; Compliance (GRC) team. You will have the opportunity to manage and maintain ongoing compliance with security and privacy frameworks, policies, procedures, and commercial assessments, including ISO 27001, SOC 2, HIPAA, PCI DSS, and more. Your role will be instrumental in ensuring that our company operates ethically, responsibly, and in accordance with regulatory requirements.&lt;/p&gt;
 &lt;p&gt;You will collaborate with cross-functional teams to promote a culture of accountability and integrity throughout the organization and foster an environment where everyone understands the importance of adhering to established guidelines and ethical practices. You will report to the Head of GRC and will be located ((remote, onsite, hybrid)).&lt;/p&gt;
-&lt;p&gt;Think you may not have all the skills and are hesitant to apply? There is no “perfect” candidate and encourage you to apply if you think that you can bring value to our team and are passionate and committed to upholding the highest standards of compliance and ethics.&lt;/p&gt;
+&lt;p&gt;Think you may not have all the skills and are hesitant to apply? There is no “perfect” candidate and we encourage you to apply if you think that you can bring value to our team and are passionate and committed to upholding the highest standards of compliance and ethics.&lt;/p&gt;
 &lt;p&gt;If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday, even if the role is listed as remote. For location-specific details, please connect with our recruiting team.&lt;/p&gt;
 &lt;h2&gt;What you will do:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Collaborate with internal teams&lt;/strong&gt; to maintain an effective suite of internal controls and driving remediation efforts to completion with clear documentation of progress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborate with internal teams&lt;/strong&gt; to maintain an effective suite of internal controls and drive remediation efforts to completion with clear documentation of progress.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Build strong working relationships&lt;/strong&gt; across the business so compliance accountability is shared and stakeholders are informed.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Streamline annual audits&lt;/strong&gt; by managing audit deliverables, developing treatment plans, and coordinating across teams to document and track completion to ensure audit success.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Monitor and improve controls&lt;/strong&gt;, processes, and evidence management practices, identify opportunities to automate and streamline GRC operations, and contribute to controls maturity scoring and reporting&lt;/li&gt;
@@ -56,12 +56,12 @@ summary: "About Vercel: Vercel is the agentic infrastructure company. We free pe
 &lt;li&gt;Experience collaborating closely with internal partners to seamlessly incorporate policies and technical controls into the SDLC.&lt;/li&gt;
 &lt;li&gt;Strong project management skills and sense of ownership with the ability to communicate and collaborate effectively, and execute projects across various business units and levels.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Bonus if you have :&lt;/h2&gt;
+&lt;h2&gt;Bonus if you have:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Strong experience with cloud infrastructure (e.g., Azure, AWS)&lt;/li&gt;
 &lt;li&gt;Familiarity with compliance or software development tools and systems (e.g., Drata, Linear, Datadog, etc.)&lt;/li&gt;
 &lt;li&gt;Experience with frontend development and open source components&lt;/li&gt;
-&lt;li&gt;Relevant industry certifications (i.e., CISM, CISSP, CCEP) is a plus, but not required&lt;/li&gt;
+&lt;li&gt;Relevant industry certifications (i.e., CISM, CISSP, CCEP) are a plus, but not required&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;

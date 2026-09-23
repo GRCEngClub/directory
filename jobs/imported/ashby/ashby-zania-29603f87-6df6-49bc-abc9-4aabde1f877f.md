@@ -1,5 +1,5 @@
 ---
-title: "GRC Domain Lead + Products"
+title: "GRC Solutions Architect"
 company: "Zania"
 slug: "ashby-zania-29603f87-6df6-49bc-abc9-4aabde1f877f"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Zania?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f"
 apply_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f/application"
-posted_date: "2026-09-22"
-expires_date: "2026-10-22"
+posted_date: "2026-09-23"
+expires_date: "2026-10-23"
 location: "Palo Alto, CA"
 work_modes:
   - "Hybrid / On-site"

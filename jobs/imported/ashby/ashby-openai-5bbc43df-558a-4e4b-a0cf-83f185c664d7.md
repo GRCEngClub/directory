@@ -1,26 +1,26 @@
 ---
-title: "Forward Deployed Engineer - Tokyo"
+title: "Manager, Forward Deployed Engineering- NYC"
 company: "Openai"
-slug: "ashby-openai-51b17595-3a70-43be-a333-3a3952303284"
+slug: "ashby-openai-5bbc43df-558a-4e4b-a0cf-83f185c664d7"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/51b17595-3a70-43be-a333-3a3952303284"
-apply_url: "https://jobs.ashbyhq.com/openai/51b17595-3a70-43be-a333-3a3952303284/application"
+role_url: "https://jobs.ashbyhq.com/openai/5bbc43df-558a-4e4b-a0cf-83f185c664d7"
+apply_url: "https://jobs.ashbyhq.com/openai/5bbc43df-558a-4e4b-a0cf-83f185c664d7/application"
 posted_date: "2026-09-23"
 expires_date: "2026-10-23"
-location: "Tokyo, Japan"
+location: "New York City"
 work_modes:
   - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
   - "Compliance Automation"
-  - "Risk Management"
   - "Security Governance"
   - "Cloud Security"
+  - "Privacy"
 frameworks: []
 languages:
   - "Python"
@@ -34,38 +34,32 @@ About the team
 
 OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of customer delivery and core platform development.
 
-About the role
+About the role As a foundational FDE manager, you’ll lead FDE through high-stakes, ambiguous customer deployments and own technical and business value outcomes end to end. You’ll grow a team that can operate under pressure and help OpenAI learn from the field.
 
-Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontier models in production alongside our most strategic customers. You will own discovery, technical scoping, system design, build, and production rollout, partnering directly with customer engineering and domain teams.
+You’ll partner closely with Product, Research, Sales, and GTM to ensure fieldwork informs roadmap priorities, drives new exploration, and supports safe deployment at scale. Your decisions will influence how OpenAI is trusted by the customers closest to our deployment work. Your success will be measured by how consistently your team ships, how clearly you deliver signal to Research and Product, and how durable your team and delivery model prove to be.
 
-You will measure success through production adoption, measurable workflow impact, and eval-driven feedback that changes product and model roadmaps. You’ll work closely with our Product, Research, Partnerships, GRC, Security, and GTM teams.
-
-This role is based in Tokyo. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. Travel is expected in this role, mainly within Japan.
-
-To succeed in this position you must be bilingual—fluent in both Japanese and English (spoken and written). Please note that your resume must be submitted in English, and the interview process will include conversations in both languages.
+This role is based in New York City We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. This role also will require travel up to 25%.
 
 In this role you will
 
-- Own technical delivery across multiple deployments from first prototype to stable production
-- Build full-stack systems that deliver customer value and sharpen how we learn
-- Embed closely with customer teams, understand their needs, and guide adoption of what you build
-- Scope work, sequence delivery, and remove blockers early
-- Make trade-offs between scope, speed, and quality; adjust plans to protect delivery
-- Contribute directly in the code when progress or clarity depends on it
-- Codify working patterns into tools, playbooks, or building blocks that others can use
-- Share field feedback that helps Research and Product understand where the models succeed and where they can improve
-- Keep teams moving through clarity and follow-through
+- Lead and grow a team of FDE delivering production systems with frontier models
+- Own end-to-end delivery outcomes through clarity, speed, tight coordination, and technical quality
+- Codify what works into tools, playbooks, and roadmap inputs that create leverage for both OpenAI and our wider developer community
+- Notice early indicators and raise them with urgency, whether in product behavior, customer environments, or delivery practices
+- Use judgement to distinguish what requires action and what does not
+- Set a high bar for FDE performance and support each person’s growth through direct, actionable feedback
+- Define how we staff and support field teams that can scale without added complexity
 
 You might thrive in this role if you
 
-- Bring 5+ years of engineering or technical deployment experience that includes customer-facing work
-- Have scoped and delivered complex systems in fast-moving or ambiguous environments
-- Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks
-- Have built or deployed systems powered by LLMs or generative models and understand how model behaviour affects product experience
-- Simplify complexity and make fast, sound decisions under pressure
-- Communicate clearly with engineers, product teams, and customer stakeholders
-- Spot risks early and adjust without slowing down
-- Model calm and judgment when the stakes are high
+- Bring 10+ years of engineering or technical delivery experience, including 2+ years managing high-performing FDE or customer-facing engineers.
+- Have led high-pressure technical projects from prototype to production.
+- Write and review production-grade code across frontend and backend using Javascript or Python.
+- Simplify complex work and make fast, sound decisions under pressure.
+- Elevate team performance through clarity, not process.
+- Operate with urgency in ambiguous or evolving environments.
+- Translate field experience into sharp, actionable feedback for Product and Research.
+- Build deep trust with your team by modeling calm, focus, and judgment when it matters most.
 
 About OpenAI
 
