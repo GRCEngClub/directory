@@ -27,6 +27,7 @@ const REGION = {
   Japan: "Asia",
   "Saudi Arabia": "Asia",
   "United Arab Emirates": "Asia",
+  Philippines: "Asia",
 };
 
 // Refuse to run on implausibly small input: a truncated or broken download
