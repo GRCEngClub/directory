@@ -29,14 +29,12 @@ frameworks:
 languages:
   - "Rust"
 compensation: "$134,000 - $202,000"
-summary: "About Vercel: Vercel is the agentic infrastructure company. We free people and agents to ship what’s next. For more than a decade, Vercel has shaped how the web is built. As the..."
+summary: "About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to..."
 ---
 
 &lt;div class="content-intro"&gt;&lt;h2&gt;About Vercel:&lt;/h2&gt;
-&lt;p&gt;&lt;span data-sheets-root="1"&gt;Vercel is the agentic infrastructure company. We free people and agents to ship what’s next.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-sheets-root="1"&gt;For more than a decade, Vercel has shaped how the web is built. As the team behind Next.js, v0, and AI SDK, we create products that help builders move from idea to production with speed, security, and exceptional developer experience.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-sheets-root="1"&gt;Now, software is entering a new era, and the next generation of products will not just be used by people. They will be built, extended, and operated by agents.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-sheets-root="1"&gt;We are building the platform for that future, trusted by companies like&nbsp;&lt;strong&gt;OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide&lt;/strong&gt;. Whether you’re building our products, supporting our customers, growing our community, or shaping our story, you’ll help define what comes next.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role:&lt;/h2&gt;
+&lt;p&gt;&lt;span data-sheets-root="1"&gt;Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-sheets-root="1"&gt;Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role:&lt;/h2&gt;
 &lt;p&gt;We are looking for a GRC Analyst to join our Governance, Risk &amp; Compliance (GRC) team. You will have the opportunity to manage and maintain ongoing compliance with security and privacy frameworks, policies, procedures, and commercial assessments, including ISO 27001, SOC 2, HIPAA, PCI DSS, and more. Your role will be instrumental in ensuring that our company operates ethically, responsibly, and in accordance with regulatory requirements.&lt;/p&gt;
 &lt;p&gt;You will collaborate with cross-functional teams to promote a culture of accountability and integrity throughout the organization and foster an environment where everyone understands the importance of adhering to established guidelines and ethical practices. You will report to the Head of GRC and will be located ((remote, onsite, hybrid)).&lt;/p&gt;
 &lt;p&gt;Think you may not have all the skills and are hesitant to apply? There is no “perfect” candidate and we encourage you to apply if you think that you can bring value to our team and are passionate and committed to upholding the highest standards of compliance and ethics.&lt;/p&gt;

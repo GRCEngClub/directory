@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-23"
+expires_date: "2026-10-23"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -62,7 +62,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;&lt;strong&gt;Financial Acumen:&lt;/strong&gt; Experience managing or advising on project-based fund pools to maximize the value of a customer's strategic investment.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Compensation may be adjusted depending on work location.&nbsp;&lt;br&gt;This role is eligible to earn incentive compensation under Cloudflare’s Sales Compensation Plan. The estimated annual salary range includes the on-target incentive compensation that may be attained in this role under the Sales Compensation Plan.&lt;br&gt;&lt;br&gt;For New York City, New Jersey based hires: Estimated annual salary of $184,000 - $253,000&lt;br&gt;&lt;br&gt;&lt;strong&gt;Equity&lt;/strong&gt;&lt;br&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;br&gt;Cloudflare offers a complete package of benefits and programs to support you and your family.&nbsp; Our benefits programs can help you pay health care expenses, support caregiving, build capital for the future and make life a little easier and fun!&nbsp; The below is a description of our benefits for employees in the United States, and benefits may vary for employees based outside the U.S.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Health &amp; Welfare Benefits&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compensation may be adjusted depending on work location.&nbsp;&lt;br&gt;For New York City, New Jersey based hires: Estimated annual salary of $184,000 - $253,000&lt;br&gt;&lt;br&gt;&lt;strong&gt;Equity&lt;/strong&gt;&lt;br&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;br&gt;Cloudflare offers a complete package of benefits and programs to support you and your family.&nbsp; Our benefits programs can help you pay health care expenses, support caregiving, build capital for the future and make life a little easier and fun!&nbsp; The below is a description of our benefits for employees in the United States, and benefits may vary for employees based outside the U.S.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Health &amp; Welfare Benefits&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Medical/Rx Insurance&lt;/li&gt;
 &lt;li&gt;Dental Insurance&lt;/li&gt;

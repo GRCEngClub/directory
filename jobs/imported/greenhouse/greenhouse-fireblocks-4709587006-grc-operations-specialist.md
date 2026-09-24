@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/fireblocks/jobs?content=true"
 role_url: "https://www.fireblocks.com/careers/position?gh_jid=4709587006"
 apply_url: "https://www.fireblocks.com/careers/position?gh_jid=4709587006"
-posted_date: "2026-09-21"
-expires_date: "2026-10-21"
+posted_date: "2026-09-23"
+expires_date: "2026-10-23"
 location: "Tel Aviv-Yafo, Tel Aviv District, Israel"
 work_modes:
   - "Hybrid / On-site"

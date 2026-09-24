@@ -30,9 +30,10 @@ frameworks:
 languages:
   - "Rust"
 compensation: "$150K – $190K"
-summary: "Northwood is a modern space infrastructure company bringing the benefits of space to the masses through advanced communications technology. We are building a global network of..."
+summary: "About Northwood: Northwood is a modern space infrastructure company bringing the benefits of space to the masses through advanced communications technology. We are building a..."
 ---
 
+About Northwood:
 Northwood is a modern space infrastructure company bringing the benefits of space to the masses through advanced communications technology. We are building a global network of phased array ground stations that enable real-time, reliable communication for satellite missions such as national security, global connectivity, and disaster response. With a vertically integrated approach, Northwood designs, builds, and rapidly deploys scalable systems that power the next generation of space missions. If you like solving complex challenges and seeing your work deployed around the world with real impact, Northwood is the place to do it.
 
 Role:
