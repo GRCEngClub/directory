@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
 apply_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
-posted_date: "2026-09-22"
-expires_date: "2026-10-22"
+posted_date: "2026-09-25"
+expires_date: "2026-10-25"
 location: "Remote - United States"
 work_modes:
   - "Remote"
@@ -61,7 +61,7 @@ summary: "About Vercel: Vercel is the agentic infrastructure company, freeing pe
 &lt;li&gt;Experience with frontend development and open source components&lt;/li&gt;
 &lt;li&gt;Relevant industry certifications (i.e., CISM, CISSP, CCEP) are a plus, but not required&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;strong&gt;Compensation &amp; Benefits:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Competitive compensation package, including equity.&lt;/li&gt;
 &lt;li&gt;Inclusive Healthcare Package.&lt;/li&gt;
@@ -71,4 +71,8 @@ summary: "About Vercel: Vercel is the agentic infrastructure company, freeing pe
 &lt;/ul&gt;
 &lt;p&gt;The San Francisco, CA base pay range for this role is $134,000-$202,000. Actual salary will be based on job-related skills, experience, and location. Compensation outside of San Francisco may be adjusted based on employee location. The total compensation package may include benefits, equity-based compensation, and eligibility for a company bonus or variable pay program depending on the role. Your recruiter can share more details during the hiring process.&lt;/p&gt;
 &lt;p&gt;&nbsp;&lt;/p&gt;
-&lt;div id="te-floating-button-container"&gt;&lt;/div&gt;
+&lt;div id="te-floating-button-container"&gt;&lt;/div&gt;&lt;div class="content-conclusion"&gt;&lt;h2&gt;&lt;strong&gt;Disclosures:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Privacy: &lt;/strong&gt;Please review our J&lt;span style="text-decoration: underline;"&gt;ob Applicant Privacy Policy&lt;/span&gt; for more information on how we handle your data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equal Opportunity:&nbsp;&lt;/strong&gt;Vercel is committed to fostering and empowering an inclusive community within our organization. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, national origin, citizenship, age, marital status, veteran status, disability status, or any other characteristic protected by law. Vercel encourages everyone to apply for our available positions, even if they don't necessarily check every box on the job description.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;

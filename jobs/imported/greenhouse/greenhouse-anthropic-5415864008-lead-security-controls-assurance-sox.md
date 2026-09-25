@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5415864008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5415864008"
-posted_date: "2026-09-22"
-expires_date: "2026-10-22"
+posted_date: "2026-09-25"
+expires_date: "2026-10-25"
 location: "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC"
 work_modes:
   - "Hybrid / On-site"
@@ -35,7 +35,7 @@ summary: "About Anthropic Anthropic’s mission is to create reliable, interpret
 &lt;div class="content-intro"&gt;&lt;h2&gt;&lt;strong&gt;About Anthropic&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Anthropic's Security Governance, Risk, and Compliance (GRC) team is the connective tissue that holds the company accountable to its security and control commitments. We translate regulatory, customer, and voluntary obligations into controls that teams act on, and give leadership a bird's-eye view of how well we're meeting them. We're building toward continuous assurance, to challenge and evidence the performance of controls continuously rather than through periodic audits.&lt;/p&gt;
-&lt;p&gt;As Anthropic prepares for life as a public company, the Sarbanes-Oxley (SOX) control environment over our technology stack is one of the most consequential things this team owns. As part of Security GRC's technical controls assurance function, you will be the voice on what the IT general controls must achieve to support SOX 404 compliance. In partnership with Internal Audit, you will define control requirements and acceptance criteria for the in-scope engineering systems and infrastructure that underpin financial reporting. You will pair with engineering as they design and implement against those requirements, and validate that what ships actually meets the bar before Internal Audit and our external auditors test it. You are the product owner for control design methodology and continuous control monitoring, initially around ITGCs, but extending into other areas of security and compliance to drive visibility where and when we need it.&nbsp;&lt;/p&gt;
+&lt;p&gt;As Anthropic scales to meet public-company standards, the Sarbanes-Oxley (SOX) control environment over our technology stack is one of the most consequential things this team owns. As part of Security GRC's technical controls assurance function, you will be the voice on what the IT general controls must achieve to support SOX 404 compliance. In partnership with Internal Audit, you will define control requirements and acceptance criteria for the in-scope engineering systems and infrastructure that underpin financial reporting. You will pair with engineering as they design and implement against those requirements, and validate that what ships actually meets the bar before Internal Audit and our external auditors test it. You are the product owner for control design methodology and continuous control monitoring, initially around ITGCs, but extending into other areas of security and compliance to drive visibility where and when we need it.&nbsp;&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;Key responsibilities&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

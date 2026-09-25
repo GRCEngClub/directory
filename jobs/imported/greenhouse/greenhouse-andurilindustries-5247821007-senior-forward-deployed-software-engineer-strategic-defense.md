@@ -1,19 +1,19 @@
 ---
-title: "Forward Deployed Engineer, Air Defense (FDE)"
+title: "Senior Forward Deployed Software Engineer, Strategic Defense"
 company: "Andurilindustries"
-slug: "greenhouse-andurilindustries-5057206007-forward-deployed-engineer-air-defense-fde"
+slug: "greenhouse-andurilindustries-5247821007-senior-forward-deployed-software-engineer-strategic-defense"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true"
-role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5057206007?gh_jid=5057206007"
-apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5057206007?gh_jid=5057206007"
-posted_date: "2026-09-24"
-expires_date: "2026-10-24"
-location: "Costa Mesa, California, United States"
+role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5247821007?gh_jid=5247821007"
+apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5247821007?gh_jid=5247821007"
+posted_date: "2026-09-25"
+expires_date: "2026-10-25"
+location: "Costa Mesa, California, United States; Washington, District of Columbia, United States"
 work_modes:
-  - "Remote"
+  - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
@@ -23,17 +23,17 @@ specializations:
   - "Cloud Security"
 frameworks: []
 languages:
+  - "Python"
   - "Go"
   - "Rust"
 compensation: ""
 summary: "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise,..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;p&gt;Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D command and control center. As the world enters an era of strategic competition, Anduril is committed to bringing cutting-edge autonomy, AI, computer vision, sensor fusion, and networking technology to the military in months, not years.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;ABOUT THE ROLE&lt;/h3&gt;
-&lt;div&gt;Anduril’s Deployment Operations group is seeking a Forward Deployed Engineer (internally know at Anduril as Technical Operations Engineer) to join our Air Defense team. This is a Costa Mesa based role and not eligible for remote/hybrid work.&lt;/div&gt;
-&lt;div&gt;&lt;br&gt;As a member of Anduril’s Technical Operations team, you will be responsible for deploying and supporting Anduril’s products all over the world. You will go forward with products early on in their lifecycle and work with engineering teams to iteratively improve them over time. The challenges you will encounter are innumerable and unpredictable, but you will be expected to take ownership of delivering the technical solution.&lt;/div&gt;
-&lt;div&gt;&lt;br&gt;You must be both a teacher and a student, able to coach teammates on systems that you’ve gained intimate familiarity with and then transition into mastering the next system. You’ll also guide users through product employment and troubleshooting, advise account managers on how to structure an operation to ensure technical success, and communicate specific recommendations for product refinement to engineering teams.&lt;br&gt;&lt;br&gt;&lt;strong&gt;WHAT YOU'LL DO&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;
-&lt;div&gt;
+&lt;div class="content-intro"&gt;&lt;p&gt;Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D command and control center. As the world enters an era of strategic competition, Anduril is committed to bringing cutting-edge autonomy, AI, computer vision, sensor fusion, and networking technology to the military in months, not years.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;ABOUT THE TEAM&lt;/h3&gt;
+&lt;p&gt;The Strategic Defense team at Anduril is at the forefront of incubating and maturing AI-native offerings for the integrated air and missile defense domain. We're the architects of mission autonomy and resilient mesh architectures, delivering scalable software solutions that meet some of the most urgent national security needs. By working hand-in-hand with elite teams in AI, Edge Hardware, Space Solutions, Networking, and Test Engineering we craft cutting-edge, end-to-end systems that redefine mission success for major strategic capabilities.&lt;/p&gt;
+&lt;h3&gt;ABOUT THE JOB&lt;/h3&gt;
+&lt;p&gt;Anduril’s Strategic Defense business line is seeking a Forward Deployed Software Engineer to join our team. &lt;br&gt;&lt;br&gt;You will be responsible for deploying and supporting Anduril’s products all over the world. You will go forward with products early on in their lifecycle and work with engineering teams to iteratively improve them over time. The challenges you will encounter are innumerable and unpredictable, but you will be expected to take ownership of delivering the technical solution.&lt;br&gt;&lt;br&gt;You must be both a teacher and a student, able to coach teammates on systems that you’ve gained intimate familiarity with and then transition into mastering the next system. You’ll also guide users through product employment and troubleshooting, advise account managers on how to structure an operation to ensure technical success, and communicate specific recommendations for product refinement to engineering teams.&lt;br&gt;&lt;br&gt;&lt;strong&gt;WHAT YOU'LL DO&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Support military air defense projects by executing technical operations, conducting field maintenance, providing customer field support and training&lt;/li&gt;
 &lt;li&gt;Tackle complex issues related to hardware, software, and networking in unstructured situations, driving them to resolution&lt;/li&gt;
@@ -46,31 +46,24 @@ summary: "Anduril Industries is a defense technology company with a mission to t
 &lt;li&gt;Conduct post-incident reviews and implement preventive measures&lt;/li&gt;
 &lt;li&gt;Maintain up-to-date documentation&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div&gt;&lt;strong&gt;REQUIRED QUALIFICATIONS&lt;/strong&gt;&lt;br&gt;
+&lt;h4&gt;&lt;strong&gt;REQUIRED QUALIFICATIONS&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;3+ years of experience of strong problem solving in unstructured environments at the interface of hardware, software, and networking.&lt;/li&gt;
-&lt;li&gt;Ability to climb towers to install, maintain, and repair sensor equipment and components including cameras, radars, and Pan Tilt Units (PTU).&lt;/li&gt;
-&lt;li&gt;Strong mechanical aptitude to troubleshoot and repair critical site infrastructure including generators, solar power systems, and hydraulic systems.&lt;/li&gt;
-&lt;li&gt;Experience performing preventative maintenance on tower structure components including guy wires, anchors, lightning protection systems and other structural elements to ensure structural integrity and safety.&lt;/li&gt;
-&lt;li&gt;Ability to meet health and medical requirements in advance of deployments in accordance with DFARS &lt;a&gt;252.225-7040&lt;/a&gt;, DoDI 3020.41, and/or any additional requirements outlined by region or supporting force, as applicable.&lt;/li&gt;
-&lt;li&gt;Ability to travel to remote regions of the world for up to two months at a time (up to 80% of the year).&lt;/li&gt;
-&lt;li&gt;Ability to relocate, if not already local to be onsite in Costa Mesa, CA&lt;/li&gt;
-&lt;li&gt;Eligible to obtain and maintain a U.S. Top Secret/Secret clearance.&lt;/li&gt;
+&lt;li&gt;Ability to travel to Asia Pacific region for up to one months at a time (up to 50% of the year).&lt;/li&gt;
+&lt;li&gt;Strong engineering background from industry or school, ideally in areas/fields such as Computer Science, Software Engineering, Mathematics, or Physics&lt;/li&gt;
+&lt;li&gt;Experience working with a variety of programming languages such as Go, Rust, or Python&lt;/li&gt;
+&lt;li&gt;Experience working with frontend frameworks such as React or Angular&lt;/li&gt;
+&lt;li&gt;Experience building software solutions involving significant amounts of data processing and analysis&lt;/li&gt;
+&lt;li&gt;Ability to quickly understand and navigate complex systems and established code bases&lt;/li&gt;
+&lt;li&gt;A desire to work on critical software that has a real-world impact&lt;/li&gt;
 &lt;/ul&gt;
-&lt;strong&gt;PREFERRED QUALIFICATIONS&lt;/strong&gt;&lt;br&gt;
+&lt;h4&gt;&lt;strong&gt;PREFERRED QUALIFICATIONS&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;B.S. in mechanical engineering, aerospace engineering, computer science, or related technical field&lt;/li&gt;
-&lt;li&gt;Network+ and Linux+ or equivalent experience preferred.&lt;/li&gt;
-&lt;li&gt;Prior tower climbing experience with relevant certifications (Tower Climbing, OSHA 10/30).&lt;/li&gt;
-&lt;li data-stringify-indent="0" data-stringify-border="0"&gt;Experience with Fiber and RF systems (PtP, PtMP, mesh), understanding basic antenna concepts &amp; spectrum analysis.&lt;/li&gt;
-&lt;li data-stringify-indent="0" data-stringify-border="0"&gt;Terminating power cables with NEMA connectors or RJ45 connectors.&lt;/li&gt;
-&lt;li&gt;Ability to lift 50-70 lbs.&lt;/li&gt;
-&lt;li&gt;Experience operating specialized equipment including aerial lifts and forklifts.&lt;/li&gt;
-&lt;li&gt;Ability to develop complex operational and logistics plans to move people and things quickly, over long distances, in unfamiliar locations.&lt;/li&gt;
-&lt;li&gt;Prior military or overseas contracting experience.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;&lt;div class="content-pay-transparency"&gt;&lt;div class="pay-input"&gt;&lt;div class="title"&gt;US Salary Range&lt;/div&gt;&lt;div class="pay-range"&gt;&lt;span&gt;$113,000&lt;/span&gt;&lt;span class="divider"&gt;&mdash;&lt;/span&gt;&lt;span&gt;$155,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;span data-contrast="auto"&gt;The salary range for this role is an estimate based on a wide range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations. Highly competitive equity grants are included in the majority of full time offers; and are considered part of Anduril's total compensation package. Additionally, Anduril offers top-tier benefits for full-time employees, including:&lt;/span&gt;&lt;span data-ccp-props="{"134233117":false,"134233118":false,"335551550":0,"335551620":0,"335559738":240,"335559739":240}"&gt;&nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;li&gt;5+ years of experience of strong problem solving in unstructured environments at the interface of hardware, software, and networking&lt;/li&gt;
+&lt;li&gt;B.S. in computer science, or related technical field&lt;/li&gt;
+&lt;li&gt;Network+ and Linux+ or equivalent experience preferred&lt;/li&gt;
+&lt;li&gt;Prior military or overseas contracting experience&lt;/li&gt;
+&lt;li&gt;Experience with Kubernetes&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="content-pay-transparency"&gt;&lt;div class="pay-input"&gt;&lt;div class="title"&gt;US Salary Range&lt;/div&gt;&lt;div class="pay-range"&gt;&lt;span&gt;$191,000&lt;/span&gt;&lt;span class="divider"&gt;&mdash;&lt;/span&gt;&lt;span&gt;$253,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;span data-contrast="auto"&gt;The salary range for this role is an estimate based on a wide range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations. Highly competitive equity grants are included in the majority of full time offers; and are considered part of Anduril's total compensation package. Additionally, Anduril offers top-tier benefits for full-time employees, including:&lt;/span&gt;&lt;span data-ccp-props="{"134233117":false,"134233118":false,"335551550":0,"335551620":0,"335559738":240,"335559739":240}"&gt;&nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&nbsp;&lt;/p&gt;
 &lt;h3 class="detailElios"&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;span data-contrast="auto"&gt;At Anduril, we invest in our people. Our comprehensive, competitive benefits package (available at little to no cost to employees) ensures you’re supported in health, recovery, and whatever comes next.&nbsp;&lt;/span&gt;&lt;em&gt;&lt;span data-contrast="auto"&gt;For more information, &lt;a href="https://www.anduril.com/careers"&gt;Explore Our Benefits&lt;/a&gt;.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
