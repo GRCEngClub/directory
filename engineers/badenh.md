@@ -33,6 +33,11 @@ available_for:
   - "hiring"
   - "freelance"
   - "collaboration"
+
+title: "Security & Compliance Engineer"
+location: "Australia, New Zealand, Southeast Asia"
+linkedin: "https://www.linkedin.com/in/badenhughes/"
+
 projects:
   - name: "AWS Landing Zone Accelerator and Australia's Information Security Manual (ISM)"
     url: "https://aws.amazon.com/blogs/security/fast-track-ism-ready-cloud-environments-and-irap-assessments-with-landing-zone-accelerator-on-aws/"
@@ -66,7 +71,17 @@ projects:
     description: "OSCAL version of Thailand's NCSC Cybersecurity Standards for Cloud Systems (BE 2567/2024)"
   - name: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL"
     url: "https://github.com/badenh/my-ncsb-oscal"
-    description: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL. Includes 3 maturity level profiles based on the Self Assessment Template."     
+    description: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL. Includes 3 maturity level profiles based on the Self Assessment Template."
+  - name: "cfn2lza: Convert CloudFormation-native AWS Landing Zone into Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
+    url: "https://github.com/badenh/cfn2lza"
+    description: "Converter pack for AWS CloudFormation-native Landing Zone to Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
+  - name: "LZA Compliance Framework Impact Tracker"
+    url: "https://lzacfit.org"
+    description: "Quantifying how the AWS Landing Zone Accelerator Universal Configuration enables customers to achieve compliance against a range of international frameworks through the lens of the evolving LZA Compliance Workbook."
+  - name: "lzatracer"
+    url: "https://lzatracer.net"
+    description: "lzatracer scores an AWS Landing Zone Accelerator (LZA) variant against the LZA Universal Configuration (UC) — the AWS-published reference LZA config for regulated cloud deployments — via a fingerprint catalog derived from the LZA Compliance Workbook."
+    
 ---
 
 ## About Me
