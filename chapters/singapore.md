@@ -13,4 +13,7 @@ leads:
   - name: Lim Jun Jie
     role: Vice President
     linkedin: https://www.linkedin.com/in/limjunjie-profile/
+  - name: Harshita Poddar
+    role: Director of Marketing
+    linkedin: https://www.linkedin.com/in/harshita-poddar
 ---

@@ -11,4 +11,7 @@ leads:
   - name: Ashish Bhadouria
     role: President
     linkedin: https://www.linkedin.com/in/ashishbhadouria/
+  - name: Andrey Prozorov
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/andreyprozorov/
 ---

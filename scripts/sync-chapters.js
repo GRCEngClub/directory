@@ -19,6 +19,7 @@ const REGION = {
   "United Kingdom": "Europe",
   Kenya: "Africa",
   India: "Asia",
+  Pakistan: "Asia",
   Qatar: "Asia",
   Singapore: "Asia",
   Australia: "Oceania",
