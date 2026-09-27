@@ -11,4 +11,7 @@ leads:
   - name: Kashif Hassan
     role: President
     linkedin: https://www.linkedin.com/in/skashifhassan
+  - name: Salman Khwaja
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/salmaankhwaja/
 ---
