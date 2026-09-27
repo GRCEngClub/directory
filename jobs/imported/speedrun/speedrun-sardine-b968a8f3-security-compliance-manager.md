@@ -38,8 +38,6 @@ Sardine is the leading agentic risk platform for fighting financial crime. Our i
 
 Our culture:
 
-- We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo. However, we maintain a remote-first work culture. #WorkFromAnywhere
-
 - We hire talented, self-motivated individuals with extreme ownership and high growth orientation.
 
 - We value performance and not hours worked. We believe you shouldn't have to miss your family dinner, your kid's school play, friends get-together, or doctor's appointments for the sake of adhering to an arbitrary work schedule.
