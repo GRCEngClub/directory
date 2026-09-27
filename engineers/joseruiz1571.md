@@ -47,12 +47,13 @@ projects:
 ---
 ## About Me
 
-Jose Ruiz-Vazquez is an AI GRC Engineer and Vice President of the GRC Engineering Club's Austin chapter. He builds the evidence and assurance layer for AI agent governance: the structured records, attestations, and control mappings that let a system, an auditor, or a buyer verify what an agent did and what it was allowed to do. Two decades as an information professional taught him how to give unstructured knowledge a shape other people can query; he applies that to policy, risk, and agent behavior in OSCAL, OPA, and signed evidence pipelines mapped to NIST AI RMF, ISO 42001, and the EU AI Act. His open-source tooling (Colophon, mlassure, mltrack, the Governance Card Stack) is at github.com/joseruiz1571. He holds CGE-P and CGE-AUD.
+Jose Ruiz-Vazquez is an AI GRC Engineer and Vice President of the GRC Engineering Club's Austin chapter. He builds the evidence and assurance layer for AI agent governance: the structured records, attestations, and control mappings that let a system, an auditor, or a buyer verify what an agent did and what it was allowed to do. Two decades as an information professional taught him how to give unstructured knowledge a shape other people can query; he applies that to policy, risk, and agent behavior in OSCAL, OPA, and signed evidence pipelines mapped to NIST AI RMF, ISO 42001, and the EU AI Act. His open-source tooling (Colophon, mlassure, mltrack, the Governance Card Stack) is on [GitHub](https://github.com/joseruiz1571). He holds CGE-P and CGE-AUD.
 
 ## Experience Highlights
 
-- Mileva Security Labs — AI Security Fundamentals (aisecurityfundamentals.com), L1 Foundation and L3 Practitioner. Facilitate courses; engineer hands-on labs on model failure modes and agent oversight.
+- Mileva Security Labs — [AI Security Fundamentals](https://aisecurityfundamentals.com), L1 Foundation and L3 Practitioner. Facilitate courses; engineer hands-on labs on model failure modes and agent oversight.
 - grc-pipeline-challenge — GRC Engineering Club challenge, 3rd place. Terraform, Rego, signed evidence vault, OSCAL claims.
+- [Open Source AI Gap Map](https://github.com/currentai-org/os-ai-map/issues/93) (Current AI): proposed the Assurance & compliance evidence category, now in the map's data with 22 scored products.
 - GRCEngClub/claude-grc-engineering — NIST AI RMF 1.0 framework plugin, merged.
 
 ## Get in Touch
