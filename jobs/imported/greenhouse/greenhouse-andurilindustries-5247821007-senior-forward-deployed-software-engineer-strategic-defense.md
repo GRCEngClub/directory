@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true"
 role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5247821007?gh_jid=5247821007"
 apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5247821007?gh_jid=5247821007"
-posted_date: "2026-09-25"
-expires_date: "2026-10-25"
+posted_date: "2026-09-28"
+expires_date: "2026-10-28"
 location: "Costa Mesa, California, United States; Washington, District of Columbia, United States"
 work_modes:
   - "Hybrid / On-site"
@@ -48,7 +48,7 @@ summary: "Anduril Industries is a defense technology company with a mission to t
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;REQUIRED QUALIFICATIONS&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Ability to travel to Asia Pacific region for up to one months at a time (up to 50% of the year).&lt;/li&gt;
+&lt;li&gt;Ability to travel to Asia Pacific region for up to one months at a time (up to 50% of the year)&lt;/li&gt;
 &lt;li&gt;Strong engineering background from industry or school, ideally in areas/fields such as Computer Science, Software Engineering, Mathematics, or Physics&lt;/li&gt;
 &lt;li&gt;Experience working with a variety of programming languages such as Go, Rust, or Python&lt;/li&gt;
 &lt;li&gt;Experience working with frontend frameworks such as React or Angular&lt;/li&gt;
@@ -59,6 +59,7 @@ summary: "Anduril Industries is a defense technology company with a mission to t
 &lt;h4&gt;&lt;strong&gt;PREFERRED QUALIFICATIONS&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;5+ years of experience of strong problem solving in unstructured environments at the interface of hardware, software, and networking&lt;/li&gt;
+&lt;li&gt;Fluent in Mandarin&lt;/li&gt;
 &lt;li&gt;B.S. in computer science, or related technical field&lt;/li&gt;
 &lt;li&gt;Network+ and Linux+ or equivalent experience preferred&lt;/li&gt;
 &lt;li&gt;Prior military or overseas contracting experience&lt;/li&gt;

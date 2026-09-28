@@ -42,13 +42,11 @@ Our culture:
 
 - We value performance and not hours worked. We believe you shouldn't have to miss your family dinner, your kid's school play, friends get-together, or doctor's appointments for the sake of adhering to an arbitrary work schedule.
 
+- We're a remote-first team spread across time zones, so no office to report to - work from wherever helps you do your best work. Just a couple of things to keep in mind: pay is based on where you're located, and you'll need to keep a home base in the country you're hired in. So while we love the "coffee shop today, mountains tomorrow" life, this isn't a passport-optional, work-from-anywhere-on-Earth kind of remote - think flexible within your country, not borderless.
+
 Location:
 
 - Remote - US
-
-- From Home / Beach / Mountain / Cafe / Anywhere!
-
-- We are a remote-first company with a globally distributed team. You can find your productive zone and work from there.
 
 About the role
 As Security Compliance Lead, you own Sardine’s security compliance and GRC function end-to-end and reduce risk to our environment through effective communication, partnership, and program ownership. You are the primary point of contact for auditors, regulators, and industry stakeholders, and you partner with engineering, IT, product, security, and legal teams to run successful compliance and review exercises across multiple frameworks.

@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8184169?gh_jid=8184169"
-posted_date: "2026-09-17"
-expires_date: "2026-10-17"
+posted_date: "2026-09-27"
+expires_date: "2026-10-27"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -35,7 +35,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li style="font-weight: bold;"&gt;&lt;strong&gt;London, United Kingdom&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;As an FDE, you'll work as a hands-on, consultative build partner to a portfolio of Cloudflare's most strategic customers — companies building complex, ambitious applications on our developer platform. You'll work shoulder-to-shoulder with their engineering teams to shape architecture, prototype alongside them, review code, and unblock the hard technical problems that stand between them and production — so they can build faster and scale further on Cloudflare.&lt;/p&gt;
+&lt;p&gt;As an Forward Deployed Engineer (FDE), you'll work as a hands-on, consultative build partner to a portfolio of Cloudflare's most strategic customers — companies building complex, ambitious applications on our developer platform. You'll work shoulder-to-shoulder with their engineering teams to shape architecture, prototype alongside them, review code, and unblock the hard technical problems that stand between them and production — so they can build faster and scale further on Cloudflare.&lt;/p&gt;
 &lt;p&gt;This is a one-to-many motion. Rather than embedding full-time with a single account, you'll work in parallel, bringing patterns, reference implementations, lessons learned from across your portfolio to every customer you work with. Customers come to us building on the developer platform, but when we engage we support the full breadth of the Cloudflare platform.&lt;/p&gt;
 &lt;p&gt;You operate as a technical force multiplier — helping customers ship, raising the quality of what they build, and surfacing real-world product insights back to Cloudflare's Product and Engineering teams.&lt;/p&gt;
 &lt;h2&gt;What You'll Do&lt;/h2&gt;
@@ -69,7 +69,8 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;ul&gt;
 &lt;li&gt;Direct experience building on Cloudflare Workers or the broader Cloudflare Developer Platform.&lt;/li&gt;
 &lt;li&gt;A visible public profile, including open-source contributions, technical blogging, or speaking engagements at industry conferences.&lt;/li&gt;
-&lt;/ul&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;span style="font-family: arial, sans-serif;"&gt;At Cloudflare, we know that great candidates come from diverse backgrounds with non-linear paths. You don’t need to tick every single box to be right for this role. If you are excited about building a better Internet and ready to make an impact, please apply.&lt;/span&gt;&lt;/em&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div class="content-conclusion"&gt;&lt;h3&gt;What Makes Cloudflare Special?&lt;/h3&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.cloudflare.com/protecting-free-expression-online/"&gt;&lt;strong&gt;Project Galileo&lt;/strong&gt;&lt;/a&gt;&lt;span style="font-weight: 400;"&gt;: Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://www.cloudflare.com/athenian/"&gt;Athenian Project&lt;/a&gt;&lt;/strong&gt;&lt;span style="font-weight: 400;"&gt;: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states.&lt;/span&gt;&lt;/p&gt;

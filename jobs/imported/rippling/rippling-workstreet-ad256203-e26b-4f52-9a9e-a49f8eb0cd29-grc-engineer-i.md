@@ -1,7 +1,7 @@
 ---
-title: "GRC Engineer I (Special Programs)"
+title: "GRC Engineer I "
 company: "Workstreet"
-slug: "rippling-workstreet-ad256203-e26b-4f52-9a9e-a49f8eb0cd29-grc-engineer-i-special-programs"
+slug: "rippling-workstreet-ad256203-e26b-4f52-9a9e-a49f8eb0cd29-grc-engineer-i"
 status: "published"
 source: "Rippling"
 sources:
