@@ -1,16 +1,16 @@
 ---
 title: "GRC Security Analyst"
 company: "Clearcapital"
-slug: "lever-clearcapital-f9bfbe73-bc5c-4114-aa0f-f956f738183e-grc-security-analyst"
+slug: "lever-clearcapital-0383fd4f-aedf-4af4-8165-1976d594539e-grc-security-analyst"
 status: "published"
 source: "Lever"
 sources:
   - "Lever"
 source_url: "https://jobs.lever.co/clearcapital"
-role_url: "https://jobs.lever.co/clearcapital/f9bfbe73-bc5c-4114-aa0f-f956f738183e"
-apply_url: "https://jobs.lever.co/clearcapital/f9bfbe73-bc5c-4114-aa0f-f956f738183e/apply"
-posted_date: "2026-06-17"
-expires_date: "2026-07-17"
+role_url: "https://jobs.lever.co/clearcapital/0383fd4f-aedf-4af4-8165-1976d594539e"
+apply_url: "https://jobs.lever.co/clearcapital/0383fd4f-aedf-4af4-8165-1976d594539e/apply"
+posted_date: "2026-09-28"
+expires_date: "2026-10-28"
 location: "Reno, NV"
 work_modes:
   - "Remote"
