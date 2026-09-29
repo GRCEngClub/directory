@@ -11,4 +11,7 @@ leads:
   - name: Grejay Ocomen
     role: President
     linkedin: https://www.linkedin.com/in/grejay-venezuela-ocomen
+  - name: Eric John Dolor
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/eric-john-dolor-70053443b/
 ---
