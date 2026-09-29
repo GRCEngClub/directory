@@ -1,10 +1,10 @@
 ---
 city: Central Florida
-slug: orlando
+slug: centralflorida
 status: provisional
 country: United States
 region: North America
-chapter_url: https://grcengclub.com/chapters/orlando
+chapter_url: https://grcengclub.com/chapters/centralflorida
 meetings: Meeting schedule coming soon
 summary: Tampa and Orlando are one market. Financial hubs, healthcare systems, and the defense commands that run RMF, CMMC, and DFARS every day, all along the I-4 corridor. Central Florida gets the room for people who want to automate it, not just check it.
 leads:
