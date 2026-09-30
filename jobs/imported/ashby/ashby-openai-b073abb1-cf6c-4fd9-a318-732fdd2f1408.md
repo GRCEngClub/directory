@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/b073abb1-cf6c-4fd9-a318-732fdd2f1408"
 apply_url: "https://jobs.ashbyhq.com/openai/b073abb1-cf6c-4fd9-a318-732fdd2f1408/application"
-posted_date: "2026-09-29"
-expires_date: "2026-10-29"
+posted_date: "2026-09-30"
+expires_date: "2026-10-30"
 location: "San Francisco"
 work_modes:
   - "Hybrid / On-site"

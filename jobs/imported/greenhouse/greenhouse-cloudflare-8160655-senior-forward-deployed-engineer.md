@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
-posted_date: "2026-09-04"
-expires_date: "2026-10-04"
+posted_date: "2026-09-29"
+expires_date: "2026-10-29"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -53,6 +53,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;li&gt;Identify opportunities to accelerate the adoption of Cloudflare services, unlocking new capabilities across each customer's tech stack.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Desirable Skills, Knowledge, and Experience&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;span style="font-family: arial, sans-serif;"&gt;At Cloudflare, we know that great candidates come from diverse backgrounds with non-linear paths. You don’t need to tick every single box to be right for this role. If you are excited about building a better Internet and ready to make an impact, please apply.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Proven Engineering Pedigree:&lt;/strong&gt; 7+ years of professional software engineering experience. You are a builder at heart, with a track record of delivering production-grade systems, not just advising on them.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production Ownership &amp; Operational Maturity:&lt;/strong&gt; You have owned mission-critical services with real-world users. You understand the gravity of on-call rotations, the urgency of incident response, and the architectural rigor required to maintain "five nines" uptime.&lt;/li&gt;
