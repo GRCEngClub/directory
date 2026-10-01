@@ -1,5 +1,5 @@
 ---
-title: "GRC Solutions Architect"
+title: "Senior GRC Lead: Risk & Compliance"
 company: "Zania"
 slug: "ashby-zania-29603f87-6df6-49bc-abc9-4aabde1f877f"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Zania?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f"
 apply_url: "https://jobs.ashbyhq.com/Zania/29603f87-6df6-49bc-abc9-4aabde1f877f/application"
-posted_date: "2026-09-30"
-expires_date: "2026-10-30"
+posted_date: "2026-10-01"
+expires_date: "2026-10-31"
 location: "Palo Alto, CA"
 work_modes:
   - "Hybrid / On-site"
@@ -47,7 +47,7 @@ Zania is building agentic AI for Governance, Risk, and Compliance (GRC) to solve
 
 ## The Role
 
-As a Risk and Compliance Expert at Zania, you are the senior GRC voice our customers rely on. This is a non-technical, customer-facing domain expert role, not a software engineering position. We are looking for someone with in-depth knowledge of specific GRC domains who can serve as the ultimate compliance authority.
+As a Risk and Compliance Expert at Zania, you are the senior GRC voice our customers rely on. This is a non-technical, customer-facing domain expert role. We are looking for someone with in-depth knowledge of specific GRC domains who can serve as the ultimate compliance authority.
 
 You will own the customer relationship post-sale, leading transformations and implementations. Because you will be interacting heavily with CISOs and VPs of Risk, you must be exceptionally structured in your communication and highly skilled at managing relationships. You will set clear success goals with every customer, drive engagements toward those milestones with urgency, and know exactly when you have landed the outcome you both committed to.
 
