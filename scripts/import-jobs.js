@@ -476,6 +476,21 @@ async function fetchJson(url, headers) {
   return response.json();
 }
 
+async function fetchText(url, headers) {
+  const response = await fetch(url, {
+    headers: Object.assign({
+      "User-Agent": USER_AGENT,
+      "Accept": "text/html,application/xhtml+xml"
+    }, headers || {})
+  });
+
+  if (!response.ok) {
+    throw new Error("Request failed: " + response.status + " " + response.statusText + " for " + url);
+  }
+
+  return response.text();
+}
+
 async function resetDir(dir) {
   await fs.rm(dir, { recursive: true, force: true });
   await fs.mkdir(dir, { recursive: true });
@@ -844,6 +859,90 @@ async function importRemoteOk() {
   return entries.map(normalizeRemoteOkJob).filter(Boolean);
 }
 
+// UK aggregators are discovery sources only. We retain board attribution,
+// use an advertised external URL where present, and never bypass blocks/login.
+const REED_GRC_SEARCH_URL = "https://www.reed.co.uk/jobs/grc-jobs?keywords=grc";
+
+function decodeHtmlEntities(value) {
+  return String(value || "")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#x27;|&#39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ");
+}
+
+function extractNextData(html) {
+  const match = String(html || "").match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/i);
+  if (!match) return null;
+  try {
+    return JSON.parse(decodeHtmlEntities(match[1]));
+  } catch (_error) {
+    return null;
+  }
+}
+
+function collectReedJobDetails(html) {
+  const data = extractNextData(html);
+  const results = data && data.props && data.props.pageProps && data.props.pageProps.searchResults;
+  const groups = [results && results.jobs, results && results.promotedJobs];
+  const seen = new Set();
+  const details = [];
+  groups.forEach(function(group) {
+    (Array.isArray(group) ? group : []).forEach(function(entry) {
+      const detail = entry && entry.jobDetail;
+      const id = detail && String(detail.jobId || "");
+      if (!id || seen.has(id)) return;
+      seen.add(id);
+      details.push(detail);
+    });
+  });
+  return details;
+}
+
+function normalizeReedJob(detail) {
+  const title = detail && detail.jobTitle;
+  const snippet = detail && detail.jobDescriptionSnippet || "";
+  const company = detail && detail.ouName || "Unknown company";
+  const location = [detail && detail.displayLocationName, detail && detail.countyLocation]
+    .filter(Boolean).join(", ") || "United Kingdom";
+  const text = [title, company, location, snippet].join(" ");
+  if (!title || !looksRelevant(title, text)) return null;
+
+  const id = String(detail.jobId || "");
+  if (!id) return null;
+  const roleUrl = safeHttpUrl(detail.externalUrl)
+    || "https://www.reed.co.uk/jobs/" + slugify(title) + "/" + encodeURIComponent(id);
+  const postedDate = toIsoDate(detail.dateCreated || detail.displayDate);
+  const salaryFrom = Number(detail.salaryFrom) || 0;
+  const salaryTo = Number(detail.salaryTo) || 0;
+
+  return buildNormalizedJob({
+    title,
+    company: String(company).trim(),
+    slug: slugify(["reed", id, title].join("-")).slice(0, 120),
+    source: "Reed",
+    sources: ["Reed"],
+    source_url: REED_GRC_SEARCH_URL,
+    role_url: roleUrl,
+    apply_url: roleUrl,
+    posted_date: postedDate,
+    expires_date: detail.expiryDate ? toIsoDate(detail.expiryDate) : addDays(postedDate, 30),
+    location,
+    work_modes: /remote/i.test(String(detail.workingOption || "")) ? ["Remote"] : ["Hybrid / On-site"],
+    job_types: [detail.isPartTime && !detail.isFullTime ? "Part-time" : "Full-time"],
+    compensation: salaryFrom || salaryTo ? formatCompensation(salaryFrom, salaryTo, "GBP") : "",
+    summary: snippet,
+    body: snippet
+  });
+}
+
+async function importReed(fetcher) {
+  const html = await (fetcher || fetchText)(REED_GRC_SEARCH_URL);
+  return collectReedJobDetails(html).map(normalizeReedJob).filter(Boolean);
+}
+
 async function importGreenhouse() {
   const boards = configuredBoards("GREENHOUSE_BOARDS", catalogGreenhouseBoards);
   if (!boards.length) return [];
@@ -1147,6 +1246,7 @@ async function main() {
   total += await runSource("lever", configuredBoards("LEVER_BOARDS", catalogLeverBoards).length > 0, importLever);
   total += await runSource("rippling", configuredBoards("RIPPLING_BOARDS", catalogRipplingBoards).length > 0, importRippling);
   total += await runSource("speedrun", envFlag("SPEEDRUN_ENABLED", true), importSpeedrun);
+  total += await runSource("reed", envFlag("REED_ENABLED", true), importReed);
 
   if (total === 0) {
     console.log("No jobs matched the current GRC filters.");
@@ -1163,13 +1263,16 @@ if (require.main === module) {
 
 module.exports = {
   canonicalizeApplyUrl,
+  collectReedJobDetails,
   collectSpeedrunJobs,
   extractApplyUrlFromJobFile,
   extractCompensation,
   htmlToMarkdown,
+  importReed,
   importSpeedrun,
   looksRelevant,
   mergeSpeedrunCandidates,
+  normalizeReedJob,
   normalizeSpeedrunJob,
   serializeJob
 };

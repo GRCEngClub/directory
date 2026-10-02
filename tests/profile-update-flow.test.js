@@ -35,7 +35,7 @@ test('submission workflow accepts new profiles only', function () {
 
   assert.match(
     workflow,
-    /if: startsWith\(github\.event\.issue\.title, 'New Profile:'\)/
+    /if: github\.event_name == 'workflow_dispatch' \|\| startsWith\(github\.event\.issue\.title, 'New Profile:'\)/
   );
   assert.doesNotMatch(workflow, /Update Profile:/);
 });
