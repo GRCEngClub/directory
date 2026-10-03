@@ -29,6 +29,7 @@ jobs:
         env:
           GREENHOUSE_BOARDS: ${{ secrets.GREENHOUSE_BOARDS }}
           ASHBY_JOB_BOARDS: ${{ secrets.ASHBY_JOB_BOARDS }}
+          REED_ENABLED: "true"
         run: npm run import:jobs
 
       - name: Commit and push changes
