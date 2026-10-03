@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/15ff9f15-c986-4ac3-ac2e-cd0f029afbd5"
 apply_url: "https://jobs.ashbyhq.com/openai/15ff9f15-c986-4ac3-ac2e-cd0f029afbd5/application"
-posted_date: "2026-10-02"
-expires_date: "2026-11-01"
+posted_date: "2026-10-03"
+expires_date: "2026-11-02"
 location: "Singapore"
 work_modes:
   - "Hybrid / On-site"
@@ -56,7 +56,7 @@ In this role you will
 
 You might thrive in this role if you
 
-- Speak fluent business-level Korean.
+- Speak fluent business-level Korean, as you will be working with Korean-speaking customers
 - Bring 5+ years of engineering or technical deployment experience that includes customer-facing work.
 - Have scoped and delivered complex systems in fast-moving or ambiguous environments.
 - Write and review production-grade code across frontend and backend using Python, JavaScript, or comparable stacks.
