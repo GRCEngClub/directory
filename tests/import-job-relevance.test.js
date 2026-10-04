@@ -4,7 +4,9 @@ const assert = require("node:assert/strict");
 const { looksRelevant, collectReedJobDetails, normalizeReedJob } = require("../scripts/import-jobs");
 const {
   greenhouseBoards,
-  ashbyBoards
+  ashbyBoards,
+  workableBoards,
+  leverBoards
 } = require("../scripts/job-board-sources");
 
 test("looksRelevant accepts FedRAMP authorization specialist titles", () => {
@@ -34,6 +36,17 @@ test("catalog includes high-signal boards from sheet triage gaps", () => {
   assert.ok(ashbyBoards.includes("Zania"));
   assert.ok(ashbyBoards.includes("antithesis"));
   assert.ok(ashbyBoards.includes("Second-Front-Systems"));
+});
+
+test("catalog includes live-verified UK ATS boards", () => {
+  assert.ok(ashbyBoards.includes("transficc"));
+  assert.ok(ashbyBoards.includes("lemfi"));
+  assert.ok(ashbyBoards.includes("Sierra"));
+  assert.ok(workableBoards.includes("bridewell"));
+  assert.ok(workableBoards.includes("control-risks-6"));
+  assert.ok(workableBoards.includes("indra-uk"));
+  assert.ok(leverBoards.includes("zopa"));
+  assert.ok(leverBoards.includes("farfetch"));
 });
 
 test("Reed discovery reads SSR results and preserves board attribution", () => {
