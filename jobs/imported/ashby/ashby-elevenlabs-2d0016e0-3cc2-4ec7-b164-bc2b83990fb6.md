@@ -1,19 +1,19 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - LATAM"
+title: "Forward Deployed Engineer - Software Engineer - United Kingdom"
 company: "Elevenlabs"
-slug: "ashby-elevenlabs-39d438fa-8070-4660-968b-055493860c4c"
+slug: "ashby-elevenlabs-2d0016e0-3cc2-4ec7-b164-bc2b83990fb6"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/elevenlabs/39d438fa-8070-4660-968b-055493860c4c"
-apply_url: "https://jobs.ashbyhq.com/elevenlabs/39d438fa-8070-4660-968b-055493860c4c/application"
-posted_date: "2026-10-04"
-expires_date: "2026-11-03"
-location: "Mexico"
+role_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6"
+apply_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6/application"
+posted_date: "2026-10-06"
+expires_date: "2026-11-05"
+location: "London"
 work_modes:
-  - "Hybrid / On-site"
+  - "Remote"
 job_types:
   - "Full-time"
 specializations:
@@ -71,6 +71,8 @@ What you will do:
 
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
-- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location As we build out a team in the Spanish LATAM region, the successful candidate is preferred to be based within the Spanish LATAM Region. We will also consider candidates who can travel frequently to meet with customers on-site and collaborate in person with the team. Fluency in English and Spanish and a deep understanding of the regional and cultural nuances is required.
+- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in the United Kingdom. There is a preference for candidates to be based in London, with the option to work out of our office. Expect regular travel for customer onsites.
+
+#LI-remote
 
 We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.

@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - Sweden"
+title: "Forward Deployed Engineer - Software Engineer - Mexico"
 company: "Elevenlabs"
-slug: "ashby-elevenlabs-c6fc071f-c80e-4d3b-921a-3ec02a2ad25d"
+slug: "ashby-elevenlabs-8a573932-b1fb-4df7-9023-e13a6cecbbbb"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d"
-apply_url: "https://jobs.ashbyhq.com/elevenlabs/c6fc071f-c80e-4d3b-921a-3ec02a2ad25d/application"
-posted_date: "2026-10-04"
-expires_date: "2026-11-03"
-location: "Sweden"
+role_url: "https://jobs.ashbyhq.com/elevenlabs/8a573932-b1fb-4df7-9023-e13a6cecbbbb"
+apply_url: "https://jobs.ashbyhq.com/elevenlabs/8a573932-b1fb-4df7-9023-e13a6cecbbbb/application"
+posted_date: "2026-10-06"
+expires_date: "2026-11-05"
+location: "Mexico"
 work_modes:
   - "Remote"
 job_types:
@@ -73,8 +73,10 @@ What you will do:
 
 - Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
-- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in Sweden, with a preference of Stockholm. Expect regular travel for customer onsites. Fluency in English and Swedish and a deep understanding of the regional and cultural nuances is required.
+- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions.
 
-#LI-remote
+Location
+
+- This role is remote-first, so it can be executed from anywhere in Mexico, with a preference of Mexico City. Expect regular travel for customer onsites. Fluency in English and Spanish and a deep understanding of the regional and cultural nuances is required.
 
 We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or other legally protected statuses.

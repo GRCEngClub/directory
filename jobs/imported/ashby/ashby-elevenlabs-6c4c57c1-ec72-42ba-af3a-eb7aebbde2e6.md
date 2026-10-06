@@ -1,5 +1,5 @@
 ---
-title: "Forward Deployed Engineer - Software Engineer - North America"
+title: "Forward Deployed Engineer - Software Engineer - USA"
 company: "Elevenlabs"
 slug: "ashby-elevenlabs-6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6/application"
-posted_date: "2026-10-04"
-expires_date: "2026-11-03"
+posted_date: "2026-10-06"
+expires_date: "2026-11-05"
 location: "San Francisco"
 work_modes:
   - "Remote"

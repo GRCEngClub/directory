@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Sierra?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Sierra/687a56db-9f2a-42f9-94a0-fa06730c1e10"
 apply_url: "https://jobs.ashbyhq.com/Sierra/687a56db-9f2a-42f9-94a0-fa06730c1e10/application"
-posted_date: "2026-10-04"
-expires_date: "2026-11-03"
+posted_date: "2026-10-06"
+expires_date: "2026-11-05"
 location: "San Francisco, CA"
 work_modes:
   - "Hybrid / On-site"
@@ -40,7 +40,7 @@ Sierra is the leading platform for customer-facing AI agents, working with many 
 
 We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and a commitment to balancing Family along the way. These values are the foundation of our work, and we are committed to upholding them in everything we do.
 
-Our co-founders areBret Taylor (https://www.linkedin.com/in/brettaylor/) andClay Bavor (https://www.linkedin.com/in/claybavor/). Bret currently serves as Board Chair of OpenAI. Previously, he was co-CEO of Salesforce (which had acquired the company he founded, Quip) and CTO of Facebook. Bret was also one of Google's earliest product managers and co-creator of Google Maps. Before founding Sierra, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google’s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace.
+Our co-founders are Bret Taylor (https://www.linkedin.com/in/brettaylor/) and Clay Bavor (https://www.linkedin.com/in/claybavor/). Bret currently serves as Board Chair of OpenAI. Previously, he was co-CEO of Salesforce (which had acquired the company he founded, Quip) and CTO of Facebook. Bret was also one of Google's earliest product managers and co-creator of Google Maps. Before founding Sierra, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google’s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace.
 
 ## What you'll do
 

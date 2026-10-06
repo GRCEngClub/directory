@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/15ff9f15-c986-4ac3-ac2e-cd0f029afbd5"
 apply_url: "https://jobs.ashbyhq.com/openai/15ff9f15-c986-4ac3-ac2e-cd0f029afbd5/application"
-posted_date: "2026-10-04"
-expires_date: "2026-11-03"
+posted_date: "2026-10-06"
+expires_date: "2026-11-05"
 location: "Singapore"
 work_modes:
   - "Hybrid / On-site"

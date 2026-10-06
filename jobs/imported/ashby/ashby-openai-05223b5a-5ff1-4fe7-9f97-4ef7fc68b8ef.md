@@ -1,17 +1,17 @@
 ---
-title: "Forward Deployed Engineer - UAE"
+title: "Forward Deployed Engineer - Munich"
 company: "Openai"
-slug: "ashby-openai-e9d435e1-1b9e-4715-84ce-75f372e5559c"
+slug: "ashby-openai-05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/e9d435e1-1b9e-4715-84ce-75f372e5559c"
-apply_url: "https://jobs.ashbyhq.com/openai/e9d435e1-1b9e-4715-84ce-75f372e5559c/application"
+role_url: "https://jobs.ashbyhq.com/openai/05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef"
+apply_url: "https://jobs.ashbyhq.com/openai/05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef/application"
 posted_date: "2026-10-06"
 expires_date: "2026-11-05"
-location: "Abu Dhabi, UAE"
+location: "Munich, Germany"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -27,20 +27,20 @@ languages:
   - "JavaScript"
   - "Rust"
 compensation: ""
-summary: "About the team OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve..."
+summary: "About the team OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of..."
 ---
 
 About the team
 
-OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We embed deeply with users to solve high-leverage problems. We move quickly from prototype to deployment and surface patterns that shape the platform. We operate at the intersection of customer delivery and core development. We work closely with Product, Research, and Go-To-Market (GTM).
+OpenAI’s Forward Deployed Engineering team partners with customers to turn research breakthroughs into production systems. We operate at the intersection of customer delivery and core platform development.
 
 About the role
 
-Forward Deployed Engineers lead complex deployments of frontier models in production. You will embed with customers where model performance matters, delivery is urgent, and ambiguity is the default. You will use this to map their problems,You will use this to map their problems, structure delivery, and ship fast. You will scope, sequence, and build full-stack solutions that create measurable value. You will also drive clarity across internal and external teams. You will identify reusable patterns and share field signal that influences the roadmap.
+Forward Deployed Engineers (FDEs) lead complex end-to-end deployments of frontier models in production alongside our most strategic customers. You will own discovery, technical scoping, system design, build, and production rollout, partnering directly with customer engineering and domain teams.
 
-Success in this role means owning the delivery state across workstreams. You will hold the bar on quality and pace and help OpenAI learn through execution.
+You will measure success through production adoption, measurable workflow impact, and eval-driven feedback that changes product and model roadmaps. You’ll work closely with our Product, Research, Partnerships, GRC, Security, and GTM teams.
 
-This role is based in Abu Dhabi. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
+This role is based in Munich. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% is required.
 
 In this role you will
 
