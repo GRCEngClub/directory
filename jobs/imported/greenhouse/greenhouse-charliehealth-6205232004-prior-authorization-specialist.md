@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/charliehealth/jobs?content=true"
 role_url: "https://www.charliehealth.com/careers?gh_jid=6205232004"
 apply_url: "https://www.charliehealth.com/careers?gh_jid=6205232004"
-posted_date: "2026-09-28"
-expires_date: "2026-10-28"
+posted_date: "2026-10-07"
+expires_date: "2026-11-06"
 location: "Nashville, TN"
 work_modes:
   - "Hybrid / On-site"

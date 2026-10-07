@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/73ba8a21-bf66-4f37-8e94-05143a481fb8"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/73ba8a21-bf66-4f37-8e94-05143a481fb8/application"
-posted_date: "2026-10-06"
-expires_date: "2026-11-05"
+posted_date: "2026-10-07"
+expires_date: "2026-11-06"
 location: "Turkey"
 work_modes:
   - "Remote"
@@ -69,9 +69,11 @@ What you will do:
 
 ## Requirements
 
-- Experience working with customers. It’s ok if you only worked with customers in student clubs or side projects, as long as you are interested in working closely with them on a technical capacity
+- Experience working with customers deploying technical solutions in a customers environment on-premise within Turkey.
 - Proficiency in Python and strong software development knowledge, inclusive of a deep understanding of software development, software architecture, and APIs integration.
-- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions. Location This role is remote-first, so it can be executed from anywhere in Turkey, however there is a preference for candidates to be based out of Ankara. Fluency in English and Turkish and a deep understanding of the regional and cultural nuances is required.
+- Excellent communication and problem-solving skills. Especially in terms of ability to summarize complex technical knowledge and using logic in pursuing optimal solutions.
+- Location
+- This role is remote-first, so it can be executed from anywhere in Turkey, however there is a preference for candidates to be based out of Istanbul. Fluency in English and Turkish and a deep understanding of the regional and cultural nuances is required.
 
 #LI-remote
 

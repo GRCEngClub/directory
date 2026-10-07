@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Second-Front-Systems?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Second-Front-Systems/c3e28130-10df-4930-9259-4b4d879db0b0"
 apply_url: "https://jobs.ashbyhq.com/Second-Front-Systems/c3e28130-10df-4930-9259-4b4d879db0b0/application"
-posted_date: "2026-10-06"
-expires_date: "2026-11-05"
+posted_date: "2026-10-07"
+expires_date: "2026-11-06"
 location: "Remote"
 work_modes:
   - "Remote"
@@ -18,107 +18,27 @@ job_types:
   - "Full-time"
 specializations:
   - "Compliance Automation"
-  - "Security Governance"
+  - "Risk Management"
   - "Audit & Assurance"
   - "Cloud Security"
 frameworks:
-  - "FedRAMP"
   - "NIST 800-53"
+  - "NIST RMF"
 languages:
-  - "Python"
   - "Terraform"
-  - "SQL"
-  - "Bash"
   - "Rust"
-compensation: "$119,000 - $160,000"
-summary: "Security Authorization Specialist About the Role Second Front Systems (2F) is seeking an ambitious, highly autonomous, and detail-driven Security Authorization Specialist to join..."
+compensation: "$150,000 - $175,000"
+summary: "Security Authorization Specialist Second Front Systems (2F) is seeking a detail-oriented, mission-focused Security Authorization Specialist to join our cybersecurity team. We are..."
 ---
 
-# Security Authorization Specialist
+Security Authorization Specialist Second Front Systems (2F) is seeking a detail-oriented, mission-focused Security Authorization Specialist to join our cybersecurity team. We are a fast-growing company operating at the intersection of advanced technology and national security, with a mission to accelerate the delivery of secure software to the nation’s defenders. In this role, you will support the security authorization activities that keep our Game Warden platform and supporting systems authorized across Department of Defense environments. You will develop and maintain authorization packages, coordinate security control assessments, evaluate technical evidence, and work with engineering teams to resolve issues that could affect an authorization decision. The Security Authorization Specialist will support systems throughout the Risk Management Framework lifecycle, from initial package development through assessment, authorization, and continuous monitoring. You will work extensively in eMASS, manage DISA PPSM registrations, produce assessor-ready documentation, coordinate evidence collection, and help ensure system changes remain aligned with approved security requirements. This role is well suited for someone who understands how DoD authorizations work in practice and can translate complex technical implementations into clear, accurate, and defensible security documentation. Note: Candidates must reside in one of our approved hiring hubs: • DC/Maryland/Virginia • Raleigh/Durham/Chapel Hill, NC • Denver/Colorado Springs, CO • Dallas/Fort Worth, TX This is a full-time position.
 
-## About the Role
+What You'll Do • Prepare, submit, and maintain security authorization packages for systems operating within Department of Defense environments. • Convert technical designs, operational processes, and security capabilities into accurate control implementation statements and supporting documentation. • Architect authorization records in eMASS, ensuring control responses, inherited controls, artifacts, assessment results, and system information remain complete and current. • Establish authorization timelines and coordinate activities across system owners, engineers, assessors, government sponsors, and cybersecurity leadership. • Organize evidence collection for control reviews, readiness activities, and formal assessments. Confirm that submitted materials directly address assessment objectives and accurately represent the system. • Review vulnerability scans, STIG checklists, configuration results, architecture diagrams, policies, and procedures to identify gaps before they affect an authorization decision. • Work with Product, Platform, DevSecOps, and Engineering teams to determine how cloud services, Kubernetes, containers, CI/CD pipelines, and supporting technologies satisfy security requirements. • Track assessment findings and POA&M items from identification through closure. Coordinate remediation plans, document risk decisions, validate corrective actions, and assemble closure evidence. • Manage the continuous monitoring cadence for assigned systems, including recurring control reviews, vulnerability reporting, patch status, IAVM compliance, POA&M reporting, and security posture updates. • Maintain accurate DISA PPSM records for system ports, protocols, services, and data flows. Reconcile registrations with the authorization boundary, network architecture, and applicable Category Assurance List requirements. • Prepare, submit, and maintain security authorization packages for systems operating within Department of Defense environments. • Convert technical designs, operational processes, and security capabilities into accurate control implementation statements and supporting documentation. • Administer authorization records in eMASS, ensuring control responses, inherited controls, artifacts, assessment results, and system information remain complete and current. • Establish authorization timelines and coordinate activities across system owners, engineers, assessors, government sponsors, and cybersecurity leadership. • Organize evidence collection for control reviews, readiness activities, and formal assessments, confirming that submitted materials directly address assessment objectives. • Review vulnerability scans, STIG checklists, configuration results, architecture diagrams, policies, and procedures to identify gaps before they affect an authorization decision.
 
-Second Front Systems (2F) is seeking an ambitious, highly autonomous, and detail-driven Security Authorization Specialist to join our mission-driven team. We are a dynamic, fast-growing entrepreneurial company at the intersection of cutting-edge technology and national security, committed to delivering transformative solutions that empower our nation’s defenders. This is an opportunity to play a leadership role in the security, trust posture, and operational execution of a company that is redefining how software is delivered and secured in the defense sector.
+What You Bring • 5-7 years of experience supporting DoD security authorization, Risk Management Framework, information assurance, security control assessment, or related cybersecurity compliance activities. • Direct involvement in preparing, assessing, or maintaining DoD authorization packages throughout the ATO and continuous monitoring lifecycle. • Hands-on proficiency with eMASS, including system registration, control documentation, artifact management, inheritance, assessment results, and package maintenance. • Practical experience with DISA PPSM and the documentation of ports, protocols, services, network boundaries, and system data flows. • Applied knowledge of NIST SP 800-37, NIST SP 800-53 Revision 4 or Revision 5, DoD RMF, and related DoD authorization guidance. • Familiarity with the DoD security ecosystem, including DISA STIGs, STIG Viewer, SCAP Compliance Checker, ACAS, IAVM requirements, the DISA Cloud Computing Security Requirements Guide, and continuous monitoring expectations. • Strong technical writing skills, with experience creating control implementation statements, System Security Plans, POA&Ms, assessment responses, and evidence packages that can withstand assessor review. • Enough technical depth to understand cloud infrastructure, identity and access management, containerized workloads, Kubernetes, CI/CD pipelines, vulnerability management, and modern software delivery practices. • The ability to analyze technical implementations and supporting evidence, recognize control gaps, and recommend practical steps to strengthen authorization readiness. • Experience managing concurrent priorities, assessment deadlines, findings, evidence requests, and stakeholder dependencies without losing attention to detail. • Clear and confident communication skills, particularly when coordinating among engineers, assessors, cybersecurity leaders, system owners, and government authorization stakeholders. • Three to five years of experience supporting DoD security authorization, Risk Management Framework, information assurance, security control assessment, or related cybersecurity compliance activities. • Direct involvement in preparing, assessing, or maintaining DoD authorization packages throughout the ATO and continuous monitoring lifecycle. • Hands-on proficiency with eMASS, including system registration, control documentation, artifact management, inheritance, assessment results, and package maintenance. • Practical experience with DISA PPSM and the documentation of ports, protocols, services, network boundaries, and system data flows. • Applied knowledge of NIST SP 800-37, NIST SP 800-53 Revision 4 or Revision 5, DoD RMF, and related DoD authorization guidance. • Familiarity with the DoD security ecosystem, including DISA STIGs, STIG Viewer, SCAP Compliance Checker, ACAS, IAVM requirements, and the DISA Cloud Computing Security Requirements
 
-At 2F, we thrive on innovation and purpose, combining a startup’s agility with a clear mission to support national security. As a Security Authorization Specialist, you will be the primary engine driving the authorization work behind the deployment and scaling of our revolutionary Game Warden platform—an industry-leading tool that is accelerating the secure adoption of mission-critical SaaS solutions for the U.S. government. If you’re ready to own complex compliance work streams, guide technical teams, and make a measurable impact on national security, we want to hear from you.
+Preferred • Active TS/SCI clearance or current eligibility. • Experience supporting DoD Impact Level 4 or Impact Level 5 cloud authorizations. • Experience applying the DISA Cloud Computing Security Requirements Guide or supporting agency-specific authorization and reciprocity processes. • Experience supporting authorizations for cloud platforms, software-as-a-service products, platform-as-a-service environments, or DevSecOps solutions. • Familiarity with GRC and evidence-automation platforms such as Xacta, RegScale, Drata, or comparable tools. • Experience configuring GRC integrations or creating reusable evidence-collection workflows. • Exposure to infrastructure as code, including Terraform, and cloud-native monitoring or observability tools used to produce continuous control evidence. • Experience supporting Security Control Assessments, independent validation activities, or government authorization reviews. • Previous work in cleared or classified environments involving government security, assessment, and authorization stakeholders. • A strong interest in national security and Second Front Systems’ mission to accelerate the secure delivery of mission-critical software to the U.S. government. The base salary for this position will fall between $150,000 and $175,000. Your ultimate compensation will be determined by professional background, technical proficiency, seniority, and regional cost factors. Furthermore, this opportunity includes potential eligibility for equity awards and discretionary bonuses, rounding out a comprehensive total rewards offering. Success at 2F Looks Like: • A proactive and solutions oriented mindset • Viewing obstacles as opportunities for growth • Having a bias toward action and tangible, measurable results • Being team-oriented with a focus on personal responsibility and autonomy Perks & Benefits: This role is a full time position. As a public benefit corporation, we’re a team of purpose-driven trailblazers transforming the future of U.S. national security. We hire the best to do their best and, as such, we are committed to providing the perks and benefits you need to be successful—both in- and outside the workplace.
 
-The Security Authorization Specialist will fully own the technical implementation and documentation work streams that keep Game Warden authorized across FedRAMP and related US agency ATO programs. You will lead the authoring of control narratives, build and maintain rigorous authorization evidence, and drive continuous monitoring so our authorizations remain unassailable.
+Perks of Joining Our Team: • Competitive salary • 100% employer-paid medical, dental, and vision coverage for you and your dependents • 401(k) with a 3% company contribution • Comprehensive wellness benefits, including a One Medical membership, mental health resources, family planning support, and more • Equity incentive plan • New hire technology and home office stipend • Annual professional development stipend • Flexible paid time off, plus all federal holidays • Generous parental leave • Flexible remote work opportunities • Employee referral bonus program Visit our careers page to learn more. Who We Are: Second Front Systems (2F) is a public-benefit software company powering software for the free world. We eliminate the friction that slows innovation, enabling faster, more secure development and deployment of software across government and regulated networks. Built by national security veterans and backed by top-tier venture capital, our platform is trusted by the world’s leading organizations to cut deployment timelines from years to weeks. We move fast, solve hard problems, and deliver trusted capabilities where they’re needed most. Our work strengthens global security and gives the United States and its allies a lasting competitive advantage. Learn more at secondfront.com (http://secondfront.com). One last thing: We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law. Are you ready to join our team: To apply, click the “Apply for This Job” button at the top or bottom of this page and complete the application form. This position will remain open until filled, and applications will be reviewed on a rolling basis. State notices:
 
-Note: This role requires U.S. citizenship due to government contract requirements. Additionally, candidates must reside in one of our approved hiring hubs: DC/MD/VA | Raleigh/Durham/Chapel Hill, NC | Denver/Colorado Springs, CO | Dallas/Fort Worth, TX.
-
-## What You’ll Do (Scope of Responsibility)
-
-- Lead Authorization Work streams: Independently drive the end-to-end authorization lifecycle for Game Warden across FedRAMP and US agency ATO packages, managing initial authorizations, annual assessments, and significant change requests.
-- Artifact Ownership: Author, refine, and maintain high-quality System Security Plans (SSPs), control implementation narratives, Plans of Action & Milestones (POA&Ms), and supporting authorization artifacts. Ensure everything accurately reflects our modern cloud architecture, controls, and operating reality.
-- Proactive Continuous Monitoring: Manage day-to-day continuous monitoring activities, including monthly POA&M updates, vulnerability and patch reporting, significant change reviews, and annual control assessments. Drive findings and control gaps to closure with engineering teams.
-- Technical Point of Contact: Serve as the primary front-line technical point of contact for 3PAOs, agency reviewers, and sponsor authorization officials during assessments, readiness reviews, and audits.
-- Engineering Partnership: Partner closely with Product, Engineering, Security Operations, and Cybersecurity Assessment teams to map complex cloud-native controls to FedRAMP and NIST 800-53 requirements, ensuring defensible evidence collection.
-- Translate Policy to Tech: Act as a bridge between compliance and engineering. Translate dense regulatory requirements into clear, actionable, technical guidance that developers can actually implement.
-- Leverage GRC Automation: Utilize and help optimize our GRC and evidence automation tooling to streamline control mapping and evidence collection. Write basic scripts or queries (e.g., Python, Bash, SQL, simple API calls) to automate repetitive compliance tasks and save the team time.
-- Process Evolution: Contribute to the continuous improvement of 2F’s authorization processes, tooling, and evidence workflows as we scale our portfolio across frameworks and environments.
-
-## Skills You’ll Bring to Our Team
-
-- Experience: 7+ years of experience in security compliance, cybersecurity authorization, or GRC work, with deep, hands-on experience driving FedRAMP Moderate/High or DoD Impact Level packages.
-- Framework Expertise: Strong, practical working knowledge of NIST 800-53 (Rev 4/5), NIST 800-37 (RMF), and FedRAMP-specific guidance and templates.
-- Cloud Architecture Literacy: Solid understanding of modern cloud environments and how cloud-native patterns (AWS services, containers, Kubernetes, CI/CD pipelines) map to technical controls.
-- Assessment Track Record: Proven success supporting 3PAO assessments, annual reviews, or agency ATO efforts from the vendor or integrator side.
-- Communication: Exceptional written communication skills; a proven ability to produce assessor-ready technical documentation and clear control narratives.
-- Clearance & Certifications: Active U.S. Top Secret (TS) security clearance required; eligibility for access to Sensitive Compartmented Information (SCI) required.
-- Active professional security certification such as CISSP, CISM, or Security+.
-
-## Preferred Qualifications
-
-- DoD Authorizations: Hands-on experience with DoD IL4/IL5 authorizations, DISA Cloud Computing SRG, or agency-specific ATO processes.
-- GRC Tooling: Experience with modern GRC and evidence automation platforms (e.g., Drata, Xacta, RegScale, or similar), including configuring integrations and building reusable evidence workflows.
-- Compliance-as-Code: Exposure to infrastructure-as-code (Terraform) and cloud-native observability tooling in support of automated, continuous control evidence.
-- Mission Focused: Prior experience working in cleared or classified environments with government authorization stakeholders, and a strong interest in matters of national security.
-
-## Compensation
-
-The expected base salary range for this role is $119,000 – $160,000 . Final compensation will be based on factors such as experience, skills, level, and geographic location. This role may also be eligible for discretionary bonuses and equity grants as part of the total compensation package.
-
-## Success at 2F Looks Like:
-
-- Viewing obstacles as opportunities for growth
-- Having a bias toward action and tangible, measurable results
-- Striving to be both compassionate and direct with your feedback
-- Being team-oriented and inclusive with your actions
-
-## Perks & Benefits
-
-As a public benefit corporation, we’re a team of purpose-driven trailblazers transforming the future of U.S. national security. We hire the best to do their best and, as such, we are committed to providing the perks and benefits you need to be successful—both in- and outside the workplace.
-
-We offer you:
-
-- Competitive Salary
-- 100% Healthcare, vision and dental coverage
-- 401(k) + 3% company contribution
-- Additional benefit perks (One Medical membership, mental health resources and family planning assistance)
-- Equity incentive plan
-- Tech + office supplies stipend
-- Annual professional development stipend
-- Flexible paid time off + federal holidays off
-- Parental leave
-- Work virtually, near one of our hub locations
-- Referral Bonus
-
-## Who We Are
-
-Second Front Systems (2F) is a public-benefit software company powering software for the free world. We eliminate the friction that slows innovation, enabling faster, more secure development and deployment of software across government and regulated networks. Built by national security veterans and backed by top-tier venture capital, our platform is trusted by the world’s leading organizations to cut deployment timelines from years to weeks. We move fast, solve hard problems, and deliver trusted capabilities where they’re needed most. Our work strengthens global security and gives the United States and its allies a lasting competitive advantage. Learn more at secondfront.com (http://secondfront.com).
-
-### One Last Thing...
-
-We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity or expression, pregnancy, age, national origin, disability status, genetic information, protected veteran status, or any other characteristic protected by law.
-
-This position will remain open until filled, and applications will be reviewed on a rolling basis.
-
-### State Notices
-
-Colorado:
-
-In accordance with Colorado law, applicants may redact their date of birth, dates of attendance, and dates of graduation from any uploaded documents.
-
-Maryland:
-
-UNDER MARYLAND LAW, AN EMPLOYER MAY NOT REQUIRE OR DEMAND, AS A CONDITION OF EMPLOYMENT, PROSPECTIVE EMPLOYMENT, OR CONTINUED EMPLOYMENT, THAT AN INDIVIDUAL SUBMIT TO OR TAKE A POLYGRAPH EXAMINATION OR SIMILAR TEST. AN EMPLOYER WHO VIOLATES THIS LAW IS GUILTY OF A MISDEMEANOR AND SUBJECT TO A FINE NOT EXCEEDING $100.
+Colorado: In accordance with Colorado law, applicants may redact their date of birth, dates of attendance, and dates of graduation from any uploaded documents. Maryland: Under Maryland law, an employer may not require or demand, as a condition of employment, prospective employment, or continued employment, that an individual submit to or take a polygraph examination or similar test. An employer who violates this law is guilty of a misdemeanor and subject to a fine not exceeding $100.

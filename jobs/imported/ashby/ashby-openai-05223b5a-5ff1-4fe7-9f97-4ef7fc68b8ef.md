@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef"
 apply_url: "https://jobs.ashbyhq.com/openai/05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef/application"
-posted_date: "2026-10-06"
-expires_date: "2026-11-05"
+posted_date: "2026-10-07"
+expires_date: "2026-11-06"
 location: "Munich, Germany"
 work_modes:
   - "Hybrid / On-site"

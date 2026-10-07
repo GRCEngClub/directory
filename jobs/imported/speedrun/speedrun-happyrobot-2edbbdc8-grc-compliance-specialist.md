@@ -34,7 +34,7 @@ summary: "About HappyRobot HappyRobot is the infrastructure for enterprises to b
 ---
 
 About HappyRobot
-HappyRobot is the infrastructure for enterprises to build and orchestrate AI workforces. Our AI workers don't just communicate through voice and email - they make decisions, take action, and run operations autonomously across entire enterprise systems. Born in Y Combinator (S23) and backed by a16z, Base10, Prysm Capital and Eurazeo with over $150M raised, we power critical operations for global enterprises worldwide.
+HappyRobot is the infrastructure for enterprises to build and orchestrate AI workforces. Our AI workers don't just communicate through voice and email - they make decisions, take action, and run operations autonomously across entire enterprise systems. Born in Y Combinator (S23) and backed by a16z, Base10, Prysm Capital and Eurazeo with over $200M raised, we power critical operations for global enterprises worldwide.
 
 Our platform is battle-tested in the most demanding environments, where AI has real consequences. We started in logistics, built our own voice stack, models, and orchestration layer from the ground up, and are now bringing that infrastructure to every enterprise that runs the real economy. Learn more about our vision in our manifesto.
 
