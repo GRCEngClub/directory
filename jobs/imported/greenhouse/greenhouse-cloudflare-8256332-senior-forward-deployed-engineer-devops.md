@@ -1,19 +1,19 @@
 ---
-title: "Senior Forward Deployed Engineer"
+title: "Senior Forward Deployed Engineer (DevOps)"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-8160655-senior-forward-deployed-engineer"
+slug: "greenhouse-cloudflare-8256332-senior-forward-deployed-engineer-devops"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-role_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
-apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
-posted_date: "2026-10-08"
-expires_date: "2026-11-07"
+role_url: "https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332"
+apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332"
+posted_date: "2026-10-07"
+expires_date: "2026-11-06"
 location: "Hybrid"
 work_modes:
-  - "Hybrid / On-site"
+  - "Remote"
 job_types:
   - "Full-time"
 specializations:
@@ -23,56 +23,70 @@ specializations:
   - "Security Operations"
 frameworks: []
 languages:
+  - "Python"
+  - "Terraform"
   - "Rust"
-compensation: ""
+compensation: "$194,000 - $266,000"
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
 ---
 
 &lt;div class="content-intro"&gt;&lt;h3&gt;About Us&lt;/h3&gt;
 &lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
 &lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Available Locations&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Austin, Texas, US&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Hybrid | Austin, San Francisco&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;As an FDE, you'll work as a hands-on, consultative build partner to a portfolio of Cloudflare's most strategic customers — companies building complex, ambitious applications on our developer platform. You'll work shoulder-to-shoulder with their engineering teams to shape architecture, prototype alongside them, review code, and unblock the hard technical problems that stand between them and production — so they can build faster and scale further on Cloudflare.&lt;/p&gt;
-&lt;p&gt;This is a one-to-many motion. Rather than embedding full-time with a single account, you'll work in parallel, bringing patterns, reference implementations, lessons learned from across your portfolio to every customer you work with. Customers come to us building on the developer platform, but when we engage we support the full breadth of the Cloudflare platform.&lt;/p&gt;
-&lt;p&gt;You operate as a technical force multiplier — helping customers ship, raising the quality of what they build, and surfacing real-world product insights back to Cloudflare's Product and Engineering teams.&lt;/p&gt;
-&lt;h2&gt;What you'll do&lt;/h2&gt;
+&lt;p&gt;Cloudflare's Senior Forward Deployed Infrastructure Engineers work where Cloudflare's infrastructure meets customer impact.&lt;/p&gt;
+&lt;p&gt;As a Forward Deployed Infrastructure Engineer, you will be embedded with one of Cloudflare's most strategic customers, collaborating to ensure modern cloud compute capacity is available, reliable, and ready when needed. You will guide new capacity from delivery to production, partnering with Cloudflare's data center and hardware teams to ensure systems pass validation, come online smoothly, and uphold Cloudflare's high standards.&lt;/p&gt;
+&lt;p&gt;You will serve as a bridge connecting Cloudflare's infrastructure, hardware, and data center teams with the customer's engineering organization. You'll ensure teams work from a shared vision, clear operational roadblocks, and feed real-world insights back into how Cloudflare builds and evolves its platform.&lt;/p&gt;
+&lt;p&gt;This role is ideal for engineers who want to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Act as the hands-on technical build partner across a portfolio of strategic customers building on the Cloudflare platform, driving each engagement forward from idea to launch.&lt;/li&gt;
-&lt;li&gt;Shape scalable, resilient architectures on Cloudflare and guide customers on the design decisions that matter — before they become bottlenecks.&lt;/li&gt;
-&lt;li&gt;Hands-on development alongside customer teams to prototype, configure, and build reference implementations that demonstrate the right way to solve a problem on Cloudflare.&lt;/li&gt;
-&lt;li&gt;Review customer code and share the best practices that raise the quality, performance, and security of what they build.&lt;/li&gt;
-&lt;li&gt;Diagnose and resolve hard technical problems across the stack, removing the blockers between customers and a successful launch.&lt;/li&gt;
-&lt;li&gt;Write reference code, samples, and technical guidance that customers can learn from, build on, and reuse.&lt;/li&gt;
-&lt;li&gt;Support the full breadth of the Cloudflare platform when engaged — from Workers, storage (KV, R2, D1), and Durable Objects to AI (Workers AI, AI Gateway, Vectorize), security, networking, and observability.&lt;/li&gt;
-&lt;li&gt;Join Customer Engineering rituals — design reviews, planning sessions, and technical working sessions.&lt;/li&gt;
-&lt;li&gt;Surface real-world edge cases, friction, and product gaps directly to Cloudflare's Product and Engineering teams to shape the product roadmap.&lt;/li&gt;
-&lt;li&gt;Establish and maintain trusted technical relationships with customer engineers and technical leaders (Staff+ engineers, Directors, and VPs).&lt;/li&gt;
-&lt;li&gt;Identify opportunities to accelerate the adoption of Cloudflare services, unlocking new capabilities across each customer's tech stack.&lt;/li&gt;
+&lt;li&gt;Stay deeply technical and hands-on with real production infrastructure.&lt;/li&gt;
+&lt;li&gt;Guide outcomes from hardware delivery through running workloads.&lt;/li&gt;
+&lt;li&gt;Shape how Cloudflare delivers compute capacity at scale.&lt;/li&gt;
+&lt;li&gt;Build long-term, trust-based partnerships with world-class engineering teams.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Desirable Skills, Knowledge, and Experience&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;&lt;span style="font-family: arial, sans-serif;"&gt;At Cloudflare, we know that great candidates come from diverse backgrounds with non-linear paths. You don’t need to tick every single box to be right for this role. If you are excited about building a better Internet and ready to make an impact, please apply.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Proven Engineering Pedigree:&lt;/strong&gt;&nbsp;7+ years of professional software engineering experience, including time in a customer-facing engineering role — such as forward deployed, solutions or sales engineering, professional services, or developer relations — where you worked hands-on with external engineering teams. You are a builder at heart, with a track record of delivering production-grade systems, not just advising on them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: You are experienced with modern languages like TypeScript, Rust, and Go.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Active Practitioner&lt;/strong&gt;: You have a "ship-first" mentality and maintain a high velocity, staying current with modern frameworks, languages, and deployment patterns.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Full-Stack Architectural Depth&lt;/strong&gt;: Broad technical fluency across the entire stack — from frontend performance and backend logic to data/storage and distributed infrastructure.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Production Maturity&lt;/strong&gt;: You've owned mission-critical services with real-world users. You understand production rigor, the urgency of incident response, and the architectural discipline required to run highly available systems.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI-Native Development:&lt;/strong&gt; You have integrated AI-augmented workflows (e.g., Windsurf, OpenCode) into your daily development cycle to accelerate prototyping and delivery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Systems Design &amp; Strategic Thinking:&lt;/strong&gt; Ability to decompose complex business requirements into scalable, resilient technical architectures. You can visualize the "big picture" without losing sight of the implementation details.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud Ecosystem Fluency:&lt;/strong&gt; Deep experience with at least one major cloud provider (AWS, GCP, or Azure), including an understanding of serverless, networking, and security primitives.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;High Agency &amp; Navigating Ambiguity:&lt;/strong&gt; You are a self-starter who thrives in "zero-to-one" environments. You don't wait for a ticket; you identify the problem and own the solution from end-to-end.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Executive Presence:&lt;/strong&gt; Comfortable engaging in high-stakes technical and strategic discussions with VP-level stakeholders, with the ability to translate complex engineering trade-offs into business impact.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacity Onboarding &amp; Delivery:&lt;/strong&gt; Lead bringing new compute capacity online for the customer, collaborating on planning, provisioning, validation, and handover to production. Drive turn-ups that are predictable, efficient, and repeatable.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware &amp; Spec Validation:&lt;/strong&gt; Partner with teams to ensure delivered systems meet agreed specifications. Define acceptance criteria and validation workflows, including burn-in, benchmarking, and health checks across compute, storage, and networking. Work alongside on-site data center teams to execute checks and resolve issues.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standards &amp; Operational Readiness:&lt;/strong&gt; Champion Cloudflare's build, configuration, security, and observability standards prior to capacity launch. Ensure comprehensive monitoring, alerting, and runbooks are established for all production systems.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-Team Alignment:&lt;/strong&gt; Act as the central point of collaboration between Cloudflare's infrastructure, hardware engineering, data center operations, supply chain, and network teams, alongside the customer's engineering group.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technical Accountability:&lt;/strong&gt; Serve as the primary technical point of contact for the customer's infrastructure, guiding account strategy and technical direction for supporting Cloudflare resources.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability &amp; Incident Response:&lt;/strong&gt; Engage in operational rhythms with the customer and Cloudflare, including standups, capacity reviews, change management, and incident response. Facilitate blameless root-cause analysis and post-incident improvements&lt;br&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automation &amp; Tooling:&lt;/strong&gt; Develop production-quality automation and tooling for provisioning, validation, and fleet management to continually improve rollout efficiency.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacity Planning &amp; Forecasting:&lt;/strong&gt; Partner with the customer to understand future demand, forecast capacity needs, and proactively identify constraints.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feedback Loop &amp; Product Influence:&lt;/strong&gt; Surface real-world operational issues and platform opportunities with Cloudflare's Infrastructure, Hardware, and Product teams to inform future roadmaps.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategic Relationship Management:&lt;/strong&gt; Cultivate trusted technical relationships with senior stakeholders (Staff+ engineers, Directors, and VPs) across both organizations.&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;On-Site Presence:&lt;/strong&gt; Spend time regularly on-site at customer offices to foster close communication and partnership with their engineering teams.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Bonus Points&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Desirable Skills, Knowledge, and Experience&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;At Cloudflare, we know that great candidates come from diverse backgrounds with non-linear paths. You don’t need to tick every single box to be right for this role. If you are excited about building a better Internet and ready to make an impact, please apply.&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Direct experience building on Cloudflare Workers, or the broader Cloudflare Developer Platform.&lt;/li&gt;
-&lt;li&gt;A visible public profile, including open-source contributions, technical blogging, or speaking engagements at industry conferences.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infrastructure &amp; SRE Background:&lt;/strong&gt; Solid experience in infrastructure engineering, SRE, or production engineering, with a track record of running and scaling large-scale production systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacity &amp; Fleet Operations:&lt;/strong&gt; Practical experience bringing server capacity online, encompassing provisioning, imaging, configuration management, and fleet-scale lifecycle management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware Fluency:&lt;/strong&gt; Familiarity with server hardware, firmware, BMC/IPMI/Redfish, and diagnostics. Ability to set validation standards, triage issues remotely, and partner with on-site technicians. Experience with GPUs or specialized accelerators is a plus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux &amp; Networking:&lt;/strong&gt; Strong understanding of Linux systems and core networking principles (TCP/IP, BGP, DNS, load balancing, and data center topologies).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automation &amp; Development:&lt;/strong&gt; Proficiency in languages such as Go, Python, or Rust, along with experience using infrastructure-as-code and configuration management tools (e.g., Terraform, Ansible, Salt).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production Ownership:&lt;/strong&gt; Experience supporting mission-critical services, including on-call rotations, incident response, SLO management, and reliability engineering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Observability:&lt;/strong&gt; Familiarity with monitoring, metrics, and logging frameworks (e.g., Prometheus, Grafana, ClickHouse) to maintain system health proactively.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containers &amp; Orchestration:&lt;/strong&gt; Exposure to Kubernetes or similar platforms and workload scheduling on newly provisioned capacity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-Augmented Workflows:&lt;/strong&gt; Interest or experience in leveraging modern AI tools to streamline automation, debugging, and documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Program-Level Coordination:&lt;/strong&gt; Demonstrated ability to coordinate complex, multi-team delivery efforts across regions and time zones with clear communication and alignment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proactive Problem-Solving:&lt;/strong&gt; A self-motivated approach to identifying bottlenecks—whether technical or procedural—and collaborating with partners to implement durable fixes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stakeholder Communication:&lt;/strong&gt; Ability to engage comfortably in strategic technical discussions with executive-level stakeholders, translating infrastructure context into business outcomes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Prior experience at a hyperscaler, cloud provider, or large-scale data center environment.&lt;/li&gt;
+&lt;li&gt;Familiarity with Cloudflare's platform and network architecture.&lt;/li&gt;
+&lt;li&gt;Experience in customer-embedded or partner-facing technical infrastructure roles.&lt;/li&gt;
+&lt;li&gt;A history of sharing knowledge, such as technical writing, internal mentorship, open-source contributions, or community presentations.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Compensation&lt;/h2&gt;
 &lt;p&gt;Compensation may be adjusted depending on work location.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For Bay Area based hires: Estimated annual salary of $194,000 - $266,000.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Equity&lt;/h3&gt;
 &lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;
 &lt;h3&gt;Benefits&lt;/h3&gt;
