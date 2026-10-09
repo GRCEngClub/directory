@@ -1,16 +1,16 @@
 ---
 title: "Senior Forward Deployed Engineer"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-8110209-senior-forward-deployed-engineer"
+slug: "greenhouse-cloudflare-8265704-senior-forward-deployed-engineer"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-role_url: "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209"
-apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209"
-posted_date: "2026-10-02"
-expires_date: "2026-11-01"
+role_url: "https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704"
+apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8265704?gh_jid=8265704"
+posted_date: "2026-10-08"
+expires_date: "2026-11-07"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"

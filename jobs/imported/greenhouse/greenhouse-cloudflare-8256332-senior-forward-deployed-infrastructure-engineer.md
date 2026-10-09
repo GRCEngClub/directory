@@ -1,7 +1,7 @@
 ---
-title: "Senior Forward Deployed Engineer (DevOps)"
+title: "Senior Forward Deployed Infrastructure Engineer"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-8256332-senior-forward-deployed-engineer-devops"
+slug: "greenhouse-cloudflare-8256332-senior-forward-deployed-infrastructure-engineer"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8256332?gh_jid=8256332"
-posted_date: "2026-10-07"
-expires_date: "2026-11-06"
+posted_date: "2026-10-08"
+expires_date: "2026-11-07"
 location: "Hybrid"
 work_modes:
   - "Remote"

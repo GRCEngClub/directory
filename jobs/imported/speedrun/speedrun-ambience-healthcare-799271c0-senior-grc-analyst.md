@@ -1,14 +1,14 @@
 ---
-title: "GRC Analyst "
+title: "Senior GRC Analyst "
 company: "Ambience Healthcare"
-slug: "speedrun-ambience-healthcare-799271c0-grc-analyst"
+slug: "speedrun-ambience-healthcare-799271c0-senior-grc-analyst"
 status: "published"
 source: "a16z Speedrun"
 sources:
   - "a16z Speedrun"
 source_url: "https://speedrun-talent-network.com/api/v1/jobs"
-role_url: "https://speedrun-talent-network.com/jobs/grc-analyst-ambience-healthcare-799271c0?utm_source=grcengclub&utm_medium=agent"
-apply_url: "https://speedrun-talent-network.com/jobs/grc-analyst-ambience-healthcare-799271c0?utm_source=grcengclub&utm_medium=agent"
+role_url: "https://speedrun-talent-network.com/jobs/senior-grc-analyst-ambience-healthcare-799271c0?utm_source=grcengclub&utm_medium=agent"
+apply_url: "https://speedrun-talent-network.com/jobs/senior-grc-analyst-ambience-healthcare-799271c0?utm_source=grcengclub&utm_medium=agent"
 posted_date: "2026-09-29"
 expires_date: "2026-10-29"
 location: "San Francisco"

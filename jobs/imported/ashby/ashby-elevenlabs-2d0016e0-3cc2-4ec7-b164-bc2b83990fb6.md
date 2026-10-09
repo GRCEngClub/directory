@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6/application"
-posted_date: "2026-10-08"
-expires_date: "2026-11-07"
+posted_date: "2026-10-09"
+expires_date: "2026-11-08"
 location: "London"
 work_modes:
   - "Remote"

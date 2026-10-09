@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/66e76c14-bb6e-4e26-a333-744bbe35abbb"
 apply_url: "https://jobs.ashbyhq.com/openai/66e76c14-bb6e-4e26-a333-744bbe35abbb/application"
-posted_date: "2026-10-08"
-expires_date: "2026-11-07"
+posted_date: "2026-10-09"
+expires_date: "2026-11-08"
 location: "San Francisco"
 work_modes:
   - "Hybrid / On-site"
@@ -42,7 +42,7 @@ This is urgent, fast-paced work that has far-reaching implications for the compa
 
 ## About the role
 
-Models are becoming increasingly capable—moving from tools that assist humans to agents that can plan, execute, and adapt in the real world. As we push toward AGI, cybersecurity becomes one of the most important and urgent frontiers: the same systems that can accelerate productivity can also accelerate exploitation.
+As we push toward AGI, cybersecurity becomes one of the most important and urgent frontiers: the same systems that can accelerate productivity can also accelerate exploitation.
 
 As a Researcher for cybersecurity risks, you will help design and implement an end-to-end mitigation stack to reduce severe cyber misuse across OpenAI’s products. This role requires strong technical depth and close cross-functional collaboration to ensure safeguards are enforceable, scalable, and effective. You’ll contribute directly to building protections that remain robust as products, model capabilities, and attacker behaviors evolve.
 

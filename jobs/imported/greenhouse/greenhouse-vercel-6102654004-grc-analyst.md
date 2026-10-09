@@ -9,11 +9,11 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
 apply_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
-posted_date: "2026-09-25"
-expires_date: "2026-10-25"
-location: "Remote - United States"
+posted_date: "2026-10-08"
+expires_date: "2026-11-07"
+location: "Hybrid - San Francisco, New York City, London"
 work_modes:
-  - "Remote"
+  - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:
@@ -24,6 +24,7 @@ specializations:
 frameworks:
   - "SOC 2"
   - "ISO 27001"
+  - "NIST RMF"
   - "PCI-DSS"
   - "HIPAA"
 languages:
@@ -34,33 +35,30 @@ summary: "About Vercel: Vercel is the agentic infrastructure company, freeing pe
 
 &lt;div class="content-intro"&gt;&lt;h2&gt;About Vercel:&lt;/h2&gt;
 &lt;p&gt;&lt;span data-sheets-root="1"&gt;Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-sheets-root="1"&gt;Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role:&lt;/h2&gt;
-&lt;p&gt;We are looking for a GRC Analyst to join our Governance, Risk &amp; Compliance (GRC) team. You will have the opportunity to manage and maintain ongoing compliance with security and privacy frameworks, policies, procedures, and commercial assessments, including ISO 27001, SOC 2, HIPAA, PCI DSS, and more. Your role will be instrumental in ensuring that our company operates ethically, responsibly, and in accordance with regulatory requirements.&lt;/p&gt;
-&lt;p&gt;You will collaborate with cross-functional teams to promote a culture of accountability and integrity throughout the organization and foster an environment where everyone understands the importance of adhering to established guidelines and ethical practices. You will report to the Head of GRC and will be located ((remote, onsite, hybrid)).&lt;/p&gt;
-&lt;p&gt;Think you may not have all the skills and are hesitant to apply? There is no “perfect” candidate and we encourage you to apply if you think that you can bring value to our team and are passionate and committed to upholding the highest standards of compliance and ethics.&lt;/p&gt;
-&lt;p&gt;If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday, even if the role is listed as remote. For location-specific details, please connect with our recruiting team.&lt;/p&gt;
-&lt;h2&gt;What you will do:&lt;/h2&gt;
+&lt;p&gt;&lt;span data-sheets-root="1"&gt;Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the role:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We are looking for a Governance, Risk and Compliance (GRC) Analyst who wants to build GRC with AI, and you do not need to be an engineer to do it. We encourage and equip you to use AI tooling to build automations for audit evidence and customer security questionnaires, alongside assessing AI tools and vendors and managing audits. This is a hybrid role based in San Francisco, New York City, or London with three days a week in the office.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Collaborate with internal teams&lt;/strong&gt; to maintain an effective suite of internal controls and drive remediation efforts to completion with clear documentation of progress.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Build strong working relationships&lt;/strong&gt; across the business so compliance accountability is shared and stakeholders are informed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Streamline annual audits&lt;/strong&gt; by managing audit deliverables, developing treatment plans, and coordinating across teams to document and track completion to ensure audit success.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Monitor and improve controls&lt;/strong&gt;, processes, and evidence management practices, identify opportunities to automate and streamline GRC operations, and contribute to controls maturity scoring and reporting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enable go-to-market teams and accelerate deal cycles&lt;/strong&gt; by supporting security questionnaires, addressing compliance inquiries, and maintaining clear, customer-facing documentation on Vercel’s security and compliance posture.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Design and manage company training&lt;/strong&gt; and enhance visibility on compliance-specific topics for internal stakeholders to ensure an understanding of compliance, ethics, and regulatory requirements within the organization.&lt;/li&gt;
+&lt;li&gt;Assess AI tools and vendors against security, privacy, and compliance requirements, and run company compliance and ethics training&lt;/li&gt;
+&lt;li&gt;Maintain the internal controls behind ISO 27001, System and Organization Controls 2 (SOC 2), Health Insurance Portability and Accountability Act (HIPAA), and Payment Card Industry Data Security Standard (PCI DSS) compliance, and drive remediation to completion with documented progress&lt;/li&gt;
+&lt;li&gt;Use AI tooling to build automations that collect audit evidence, monitor controls, and draft security questionnaire responses, and report on controls maturity scores&lt;/li&gt;
+&lt;li&gt;Manage annual audit deliverables, write treatment plans, and track completion across teams&lt;/li&gt;
+&lt;li&gt;Answer customer compliance inquiries and maintain customer-facing security and compliance documentation&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;About you:&lt;/h2&gt;
+&lt;h2&gt;&lt;strong&gt;What you need:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;At least 3 years of relevant experience in supporting the audit lifecycle in a cloud-centric environment (SOC 2, ISO 27001, PCI, HIPAA, etc.), with strong organizational skills to be flexible and proactive in a high-growth, start-up environment.&lt;/li&gt;
-&lt;li&gt;Experience collaborating closely with internal partners to seamlessly incorporate policies and technical controls into the SDLC.&lt;/li&gt;
-&lt;li&gt;Strong project management skills and sense of ownership with the ability to communicate and collaborate effectively, and execute projects across various business units and levels.&lt;/li&gt;
+&lt;li&gt;3+ years supporting the audit lifecycle for SOC 2, ISO 27001, PCI DSS, or HIPAA in a cloud-based environment&lt;/li&gt;
+&lt;li&gt;Applied security or privacy controls to AI systems or AI vendors, such as model access, data handling, or third-party risk review&lt;/li&gt;
+&lt;li&gt;Built security policies and technical controls into the software development lifecycle (SDLC) with engineering partners&lt;/li&gt;
+&lt;li&gt;Led compliance projects across multiple business units and seniority levels&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Bonus if you have:&lt;/h2&gt;
+&lt;h2&gt;&lt;strong&gt;Bonus if you:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Strong experience with cloud infrastructure (e.g., Azure, AWS)&lt;/li&gt;
-&lt;li&gt;Familiarity with compliance or software development tools and systems (e.g., Drata, Linear, Datadog, etc.)&lt;/li&gt;
-&lt;li&gt;Experience with frontend development and open source components&lt;/li&gt;
-&lt;li&gt;Relevant industry certifications (i.e., CISM, CISSP, CCEP) are a plus, but not required&lt;/li&gt;
+&lt;li&gt;Built an automation or internal tool, with code or AI coding tools, even outside an engineering role&lt;/li&gt;
+&lt;li&gt;Worked with AI governance frameworks such as ISO/IEC 42001 or the National Institute of Standards and Technology (NIST) AI Risk Management Framework&lt;/li&gt;
+&lt;li&gt;Hold a Certified Information Security Manager (CISM), Certified Information Systems Security Professional (CISSP), or Certified Compliance &amp; Ethics Professional (CCEP) certification&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;Compensation &amp; Benefits:&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Competitive compensation package, including equity.&lt;/li&gt;

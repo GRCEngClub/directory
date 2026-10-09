@@ -1,5 +1,5 @@
 ---
-title: "Forward Deployed Engineer, Gov"
+title: "Forward Deployed Software Engineer, Gov"
 company: "Openai"
 slug: "ashby-openai-db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f"
 status: "published"
@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f"
 apply_url: "https://jobs.ashbyhq.com/openai/db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f/application"
-posted_date: "2026-10-08"
-expires_date: "2026-11-07"
+posted_date: "2026-10-09"
+expires_date: "2026-11-08"
 location: "Washington, DC"
 work_modes:
   - "Hybrid / On-site"
@@ -37,7 +37,7 @@ The OpenAI for Government team is a dynamic, mission-driven group leveraging fro
 
 About the role
 
-Forward Deployed Engineers (FDEs) lead complex deployments of frontier models in production. You will embed with our most strategic government and public sector customers—where model performance matters, delivery is urgent, and ambiguity is the default. You’ll map their problems, structure delivery, and ship fast. This includes scoping, sequencing, and building full-stack solutions that create measurable value, while driving clarity across internal and external teams.
+Forward Deployed Software Engineers (FDSEs) lead complex deployments of frontier models in production. You will embed with our most strategic government and public sector customers—where model performance matters, delivery is urgent, and ambiguity is the default. You’ll map their problems, structure delivery, and ship fast. This includes scoping, sequencing, and building full-stack solutions that create measurable value, while driving clarity across internal and external teams.
 
 You will work directly with defense, intelligence, and federal stakeholders as their technical thought partner, guiding adoption, maximizing mission impact, and ensuring successful deployments at scale. Along the way, you’ll identify reusable patterns, codify best practices, and share field signal that influences OpenAI’s roadmap.
 
