@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Sierra?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Sierra/687a56db-9f2a-42f9-94a0-fa06730c1e10"
 apply_url: "https://jobs.ashbyhq.com/Sierra/687a56db-9f2a-42f9-94a0-fa06730c1e10/application"
-posted_date: "2026-10-09"
-expires_date: "2026-11-08"
+posted_date: "2026-10-10"
+expires_date: "2026-11-09"
 location: "San Francisco, CA"
 work_modes:
   - "Hybrid / On-site"

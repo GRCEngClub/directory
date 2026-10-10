@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Sierra?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5"
 apply_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5/application"
-posted_date: "2026-10-09"
-expires_date: "2026-11-08"
+posted_date: "2026-10-10"
+expires_date: "2026-11-09"
 location: "London"
 work_modes:
   - "Hybrid / On-site"

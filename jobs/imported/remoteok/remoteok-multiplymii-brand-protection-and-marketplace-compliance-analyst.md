@@ -92,4 +92,4 @@ We understand that searching for a new job can be challenging, and weâre he
 
 The interview process includes a Recruiter Interview, Client Interview, and Assessment. As part of the process, candidates complete a hands-on task during the technical interview. Throughout each stage, we keep you informed and provide feedback as quickly as possible, ensuring you feel valued and supported throughout your journey with us.
 
-Please mention the word **BLOOM** and tag RNC4xNTEuMjE0LjEwNw== when applying to show you read the job post completely (#RNC4xNTEuMjE0LjEwNw==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
+Please mention the word **BLOOM** and tag RMTcyLjE4Mi4xOTQuMjEx when applying to show you read the job post completely (#RMTcyLjE4Mi4xOTQuMjEx). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.

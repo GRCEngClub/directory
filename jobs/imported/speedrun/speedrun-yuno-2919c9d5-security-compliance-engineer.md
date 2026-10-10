@@ -1,17 +1,17 @@
 ---
 title: "Security Compliance Engineer"
 company: "Yuno"
-slug: "speedrun-yuno-17c617f6-security-compliance-engineer"
+slug: "speedrun-yuno-2919c9d5-security-compliance-engineer"
 status: "published"
 source: "a16z Speedrun"
 sources:
   - "a16z Speedrun"
 source_url: "https://speedrun-talent-network.com/api/v1/jobs"
-role_url: "https://speedrun-talent-network.com/jobs/security-compliance-engineer-yuno-17c617f6?utm_source=grcengclub&utm_medium=agent"
-apply_url: "https://speedrun-talent-network.com/jobs/security-compliance-engineer-yuno-17c617f6?utm_source=grcengclub&utm_medium=agent"
-posted_date: "2026-01-14"
-expires_date: "2026-02-13"
-location: "Argentina"
+role_url: "https://speedrun-talent-network.com/jobs/security-compliance-engineer-yuno-2919c9d5?utm_source=grcengclub&utm_medium=agent"
+apply_url: "https://speedrun-talent-network.com/jobs/security-compliance-engineer-yuno-2919c9d5?utm_source=grcengclub&utm_medium=agent"
+posted_date: "2026-10-09"
+expires_date: "2026-11-08"
+location: "Spain"
 work_modes:
   - "Remote"
 job_types:
