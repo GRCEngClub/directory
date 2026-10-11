@@ -31,6 +31,7 @@ frameworks:
 
 certifications:
   - CGE-P
+  - CGE-AUD
   - SSCP
   - CySA+
   - PenTest+
