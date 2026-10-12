@@ -23,4 +23,7 @@ leads:
   - name: Ky Kyler
     role: Director of Practitioner Development
     linkedin: https://www.linkedin.com/in/ky-k-a723b932/
+  - name: Matt Kaufman
+    role: Treasurer
+    linkedin: https://www.linkedin.com/in/matt-k-6113b732
 ---
