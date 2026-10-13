@@ -2,9 +2,8 @@
 name: "Lahad Israel"
 github: "lahad-israel"
 specializations:
-  - "Tech Support"
-  - "Azure"
-  - "Cybersecurity"
+  - "Cloud Security"
+  - "Security Operations"
 title: "System Analyst"
 location: "Austin, TX"
 linkedin: "https://www.linkedin.com/in/lahad-israel-486898197/"
