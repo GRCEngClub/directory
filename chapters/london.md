@@ -1,7 +1,7 @@
 ---
 city: London, UK
 slug: london
-status: provisional
+status: official
 country: United Kingdom
 region: Europe
 chapter_url: https://grcengclub.com/chapters/london
