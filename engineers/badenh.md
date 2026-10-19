@@ -2,7 +2,6 @@
 name: "Baden Hughes"
 github: "badenh"
 specializations:
-  - "AWS"
   - "Cloud Security"
   - "Compliance Automation"
   - "AI Governance"
