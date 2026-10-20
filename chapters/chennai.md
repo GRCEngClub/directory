@@ -5,8 +5,8 @@ status: provisional
 country: India
 region: Asia
 chapter_url: https://grcengclub.com/chapters/chennai
-meetings: Monthly, hybrid
-summary: Chennai runs captive security teams for AstraZeneca, Ford, PayPal, and Citi, the GRC and TPRM practices of TCS, Cognizant, Infosys, and Wipro, and a SaaS layer from Zoho to Freshworks. Thousands of practitioners doing audits and control testing in spreadsheets, and nowhere local to learn controls as code. South India's first GRC engineering chapter starts here.
+meetings: Quarterly, hybrid. More often as we grow.
+summary: "From OMR to Ambattur, Chennai runs compliance for the world. We're the practitioners turning that work into code. Each session pairs a short demo with hands-on building: evidence automation, control monitoring, policy-as-code. Auditors, engineers and students are all welcome, alongside the communities you already belong to. South India's first GRC engineering chapter starts here."
 leads:
   - name: Thiruselvan Packirisamy
     role: President
