@@ -13,4 +13,6 @@ leads:
     linkedin: https://www.linkedin.com/in/john-flack
   - name: Adarian Dewberry
     role: Vice President
+  - name: Joshua McLawhorn
+    role: Secretary
 ---
