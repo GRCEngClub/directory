@@ -26,4 +26,7 @@ leads:
   - name: Matt Kaufman
     role: Treasurer
     linkedin: https://www.linkedin.com/in/matt-k-6113b732
+  - name: Soraya St. Clair
+    role: Director of Marketing
+    linkedin: https://www.linkedin.com/in/sorayastclair
 ---
