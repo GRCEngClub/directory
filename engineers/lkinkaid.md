@@ -3,12 +3,12 @@
 name: Larry Kinkaid
 github: lkinkaid
 specializations:
-  - AI Governance
-  - Audit & Assurance
-  - Cloud Governance
   - Compliance Automation
-  - Risk Management
   - Security Governance
+  - Audit & Assurance
+  - AI Governance
+  - Risk Management
+  - Cloud Governance
   - Third-Party Risk
 # Options: AI Governance, Audit & Assurance, Cloud Governance, Cloud Security, Compliance Automation,
 #   DevSecOps, Identity & Access Management, Incident Response, Offensive Security, Privacy,
@@ -18,11 +18,12 @@ specializations:
 # Programming languages & tools (optional)
 # Options: Bash, Go, JavaScript, OPA/Rego, OSCAL, PowerShell, Python, Rust, SQL, Terraform
 languages:
+  - Terraform
+  - OPA/Rego
   - Python
   - Bash
-  - OPA/Rego
   - PowerShell
-  - Terraform
+  - OSCAL
 
 # OPTIONAL FIELDS - Remove or leave blank if not applicable
 title: Manager - Cybersecurity Consulting
@@ -40,9 +41,13 @@ frameworks:
   - ISO 27701
   - ISO 42001
   - HITRUST
-  - PCI DSS
+  - HIPAA
+  - PCI-DSS
   - FedRAMP
   - CMMC
+  - NIST 800-53
+  - NIST 800-171
+  - NIST CSF
 
 # Professional certifications (optional)
 certifications:
@@ -61,12 +66,17 @@ available_for:
   - consulting
   - open-source
   - collaboration
+  - speaking
+  - mentoring
 
 # Notable projects (optional)
 projects:
   - name: cgep-labs
     url: https://github.com/lkinkaid/cgep-labs
-    description: Hands-on compliance-as-code labs built for the Certified Governance Expert - Practitioner (CGE-P). Features production-ready Terraform primitives, automated policy validation, and verifiable compliance evidence artifacts.
+    description: Hands-on compliance-as-code labs built for the Certified GRC Engineer Practitioner (CGE-P). Features production-ready Terraform primitives, automated policy validation, and verifiable compliance evidence artifacts.
+  - name: HIPAA GRC Engineering Capstone (CGE-P)
+    url: https://github.com/lkinkaid/cgep-app-starter
+    description: Hardened a deliberately non-compliant Patient Intake API on AWS against the HIPAA Security Rule. Terraform remediations for all eight starter gaps, five Rego policies with tests, a CI gate that plans, policy-checks, Cosign-signs, and vaults evidence, and an OSCAL catalog, profile, and component definition linking controls to resources and evidence.
 ---
 
 ## About Me
@@ -74,6 +84,8 @@ projects:
 I'm a cybersecurity leader with 13+ years of experience spanning IT audit, governance, risk, compliance, and security advisory. Today, I lead cybersecurity consulting engagements and serve as a Virtual CISO, helping organizations develop scalable security programs and navigate frameworks.
 
 I joined the GRC Engineering Club to intentionally step outside my comfort zone, strengthen my hands-on technical skills, and learn how engineering practices can make GRC more automated, scalable, and integrated with the systems we govern. I'm particularly interested in policy-as-code, infrastructure-as-code, continuous control monitoring, and finding practical ways to bring these concepts into real-world security and compliance programs.
+
+Most recently, I worked through the Certified GRC Engineer Practitioner (CGE-P) labs and capstone, hardening a deliberately non-compliant AWS workload against the HIPAA Security Rule with Terraform, OPA/Rego policy gates in CI, signed and vaulted evidence, and OSCAL documentation.
 
 ## Experience Highlights
 
@@ -84,4 +96,7 @@ I joined the GRC Engineering Club to intentionally step outside my comfort zone,
 
 ## Get in Touch
 
-lkinkaid@gmail.com
+I'm always happy to connect with other GRC, security, and audit practitioners. Whether you want to compare notes on compliance automation, talk through a framework or audit question, or just introduce yourself and say hello, feel free to reach out.
+
+- Personal: lrkinkaid@gmail.com
+- Work: lkinkaid@barradvisory.com
