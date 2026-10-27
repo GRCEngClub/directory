@@ -16,4 +16,7 @@ leads:
   - name: Harshita Poddar
     role: Director of Marketing
     linkedin: https://www.linkedin.com/in/harshita-poddar
+  - name: Zara Teo
+    role: Director of Events
+    linkedin: https://linkedin.com/in/zarateo
 ---
