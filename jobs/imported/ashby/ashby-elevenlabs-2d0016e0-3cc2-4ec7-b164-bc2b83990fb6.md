@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6"
 apply_url: "https://jobs.ashbyhq.com/elevenlabs/2d0016e0-3cc2-4ec7-b164-bc2b83990fb6/application"
-posted_date: "2026-10-28"
-expires_date: "2026-11-27"
+posted_date: "2026-10-29"
+expires_date: "2026-11-28"
 location: "London"
 work_modes:
   - "Remote"
@@ -52,7 +52,7 @@ Everything we do is the result of the creativity and commitment of our team - bu
 - Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.
 - Learning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.
 - Social travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.
-- Annual company offsite: Each year, we bring the entire team together in a new location - past offsites have included Croatia and Italy.
+- Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Cancún
 - Co-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.
 
 ## About the role
