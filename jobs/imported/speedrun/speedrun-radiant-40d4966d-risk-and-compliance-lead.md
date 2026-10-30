@@ -104,6 +104,8 @@ Benefits and Perks
 
 - 8-weeks of paid parental leave for all parents. Additional paid pregnancy leave for CA employees.
 
+- Nuclear Engineering Certificate Program: 100% covered educational program with Penn State University, for eligible employees, to rapidly upscale into nuclear.
+
 - Daily catered lunch. Free snacks and drinks.
 
 - Flexible PTO policy. Remote workday allocation.
