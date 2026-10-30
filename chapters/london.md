@@ -13,4 +13,16 @@ leads:
     linkedin: https://www.linkedin.com/in/yash-gorasiya/
   - name: Princess Okoro
     role: Vice President
+  - name: Iuliana Silvasan
+    role: Secretary
+  - name: Ruben Clarke
+    role: Treasurer
+  - name: Funke Omolere
+    role: Director of Membership
+  - name: Nero Ologide
+    role: Director of Practitioner Development
+  - name: Shaid Hussain
+    role: Director of Events
+  - name: Harry West
+    role: Director of Marketing
 ---
