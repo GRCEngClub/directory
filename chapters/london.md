@@ -15,12 +15,14 @@ leads:
     role: Vice President
   - name: Iuliana Silvasan
     role: Secretary
+    linkedin: https://www.linkedin.com/in/iulianasilvasan/
   - name: Ruben Clarke
     role: Treasurer
   - name: Funke Omolere
     role: Director of Membership
   - name: Nero Ologide
     role: Director of Practitioner Development
+    linkedin: https://www.linkedin.com/in/ologide-oghenero-a59814114/
   - name: Shaid Hussain
     role: Director of Events
   - name: Harry West
