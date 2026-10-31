@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/junipersquare/7b29741c-ec80-4dc3-8fdc-2a0766d89322"
 apply_url: "https://jobs.ashbyhq.com/junipersquare/7b29741c-ec80-4dc3-8fdc-2a0766d89322/application"
-posted_date: "2026-10-30"
-expires_date: "2026-11-29"
+posted_date: "2026-10-31"
+expires_date: "2026-11-30"
 location: "USA"
 work_modes:
   - "Remote"
@@ -84,7 +84,7 @@ Nice to have
 
 ## Compensation
 
-Compensation for this position includes a base salary with equity, and a variety of benefits. The U.S. base salary range for this role is $165,000-$200,000. Actual base salaries will be based on candidate-specific factors, including experience, skillset, and location, and local minimum pay requirements as applicable.
+Compensation for this position includes a base salary with equity, and a variety of benefits. The U.S. base salary range for this role is $165,000-$200,000 USD. Actual base salaries will be based on candidate-specific factors, including experience, skillset, and location, and local minimum pay requirements as applicable.
 
 Benefits include:
 

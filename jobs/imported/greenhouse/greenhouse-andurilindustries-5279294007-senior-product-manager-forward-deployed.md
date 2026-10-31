@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true"
 role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5279294007?gh_jid=5279294007"
 apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5279294007?gh_jid=5279294007"
-posted_date: "2026-10-29"
-expires_date: "2026-11-28"
+posted_date: "2026-10-31"
+expires_date: "2026-11-30"
 location: "Colorado Springs, Colorado, United States"
 work_modes:
   - "Hybrid / On-site"

@@ -11,9 +11,9 @@ role_url: "https://speedrun-talent-network.com/jobs/security-engineer-grc-plaid-
 apply_url: "https://speedrun-talent-network.com/jobs/security-engineer-grc-plaid-587e83dd?utm_source=grcengclub&utm_medium=agent"
 posted_date: "2026-07-16"
 expires_date: "2026-08-15"
-location: "San Francisco HQ"
+location: "Remote United States"
 work_modes:
-  - "Hybrid / On-site"
+  - "Remote"
 job_types:
   - "Full-time"
 specializations:

@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
 apply_url: "https://job-boards.greenhouse.io/vercel/jobs/6102654004"
-posted_date: "2026-10-20"
-expires_date: "2026-11-19"
+posted_date: "2026-10-30"
+expires_date: "2026-11-29"
 location: "Hybrid - San Francisco, New York City, London"
 work_modes:
   - "Hybrid / On-site"
