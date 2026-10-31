@@ -3,6 +3,9 @@ name: Process Profile Submission
 on:
   issues:
     types: [opened, reopened]
+
+permissions:
+  contents: read
   # Manual retry path: if a run fails (e.g. runner outage) the issue stays open
   # and never re-triggers, so let maintainers reprocess it by issue number.
   workflow_dispatch:
