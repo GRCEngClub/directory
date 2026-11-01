@@ -12,6 +12,7 @@ frameworks:
   - "ISO 27017"
   - "ISO 27018"
   - "ISO 42001"
+  - "NIST 800-53"
   - "NIST AI RMF"
   - "NIST CSF"
   - "NIST RMF"
@@ -33,7 +34,7 @@ available_for:
   - "freelance"
   - "collaboration"
 
-title: "Security & Compliance Engineer"
+title: "Security Tooling & Compliance Engineer"
 location: "Australia, New Zealand, Southeast Asia"
 linkedin: "https://www.linkedin.com/in/badenhughes/"
 
@@ -50,7 +51,7 @@ projects:
   - name: "DitchDistance"
     url: "https://ditchdistance.org"
     description: "Tool for comparing and measuring differences between Australia's Information Security Manual (AUISM) and New Zealand's Information Security Manual (NZISM)"
-  - name: "NSIZM OSCAL"
+  - name: "NZISM OSCAL"
     url: "https://github.com/badenh/nzism-oscal"
     description: "Unofficial version of New Zealand's Information Security Manual in OSCAL format"
   - name: "AWS Service Matrix"
@@ -71,13 +72,21 @@ projects:
   - name: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL"
     url: "https://github.com/badenh/my-ncsb-oscal"
     description: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL. Includes 3 maturity level profiles based on the Self Assessment Template."
+  - name: "Japan's Common Standards for Cybersecurity Measures for Government Agencies - expressed in OSCAL"
+    url: "https://github.com/badenh/jp-nco-kijyun-cmgara-fy23-oscal"
+    description: "OSCAL rendering of the English translation of Japan's Common Standards for Cybersecurity Measures for Government Agencies and Related Agencies (FY2023) (政府機関等のサイバーセキュリティ 対策のための統一基準, 令和5年度版)"
   - name: "cfn2lza: Convert CloudFormation-native AWS Landing Zone into Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
     url: "https://github.com/badenh/cfn2lza"
     description: "Converter pack for AWS CloudFormation-native Landing Zone to Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
   - name: "lzatracer"
     url: "https://lzatracer.net"
     description: "lzatracer scores an AWS Landing Zone Accelerator (LZA) variant against the LZA Universal Configuration (UC) — the AWS-published reference LZA config for regulated cloud deployments — via a fingerprint catalog derived from the LZA Compliance Workbook."
-    
+  - name: "AWSCtrlCatLens"
+    url: "https://awsctrlcatlens.com/"
+    description: "awsctrlcatlens is an automatically-refreshed, machine-generated index over the AWS Control Catalog. AWS exposes a list of controls through controlcatalog:ListControls, but not the questions that security and compliance engineers and cloud architects actually ask: which controls are deployable in which region, which controls govern this service, how do controls map to security frameworks, which controls share a single intent but multiple sources?"
+  - name: "AWS Region-Service Matrix"
+    url: "https://arsm.info/"
+    description: "Builds a view from AWS' own public inventories and data feeds to show what is available where. Uses AWS Systems Manager global-infrastructure parameters — service × region matrix, region metadata; AWS Regional Product Services — cross-check + service doc URLs and AWS Products directory — categories, launch dates. Search by many features, track changes on a region or service basis."
 ---
 
 ## About Me
