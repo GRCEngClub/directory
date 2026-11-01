@@ -72,7 +72,7 @@ projects:
   - name: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL"
     url: "https://github.com/badenh/my-ncsb-oscal"
     description: "Malaysia's National Cyber Security Baseline (NCSB) — Garis Asas Keselamatan Siber Negara — expressed in OSCAL. Includes 3 maturity level profiles based on the Self Assessment Template."
-  - mame: "Japan's Common Standards for Cybersecurity Measures for Government Agencies - expressed in OSCAL"
+  - name: "Japan's Common Standards for Cybersecurity Measures for Government Agencies - expressed in OSCAL"
     url: "https://github.com/badenh/jp-nco-kijyun-cmgara-fy23-oscal"
     description: "OSCAL rendering of the English translation of Japan's Common Standards for Cybersecurity Measures for Government Agencies and Related Agencies (FY2023) (政府機関等のサイバーセキュリティ 対策のための統一基準, 令和5年度版)"
   - name: "cfn2lza: Convert CloudFormation-native AWS Landing Zone into Landing Zone Accelerator on AWS (LZA) Universal Configuration (UC)."
