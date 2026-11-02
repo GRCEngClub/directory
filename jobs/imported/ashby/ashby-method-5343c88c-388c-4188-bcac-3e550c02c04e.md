@@ -1,16 +1,16 @@
 ---
 title: "Forward Deployed Product Manager"
 company: "Method"
-slug: "ashby-method-7dbff2aa-adc5-4e40-af02-2c42039bda52"
+slug: "ashby-method-5343c88c-388c-4188-bcac-3e550c02c04e"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Method?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/Method/7dbff2aa-adc5-4e40-af02-2c42039bda52"
-apply_url: "https://jobs.ashbyhq.com/Method/7dbff2aa-adc5-4e40-af02-2c42039bda52/application"
-posted_date: "2026-11-01"
-expires_date: "2026-12-01"
+role_url: "https://jobs.ashbyhq.com/Method/5343c88c-388c-4188-bcac-3e550c02c04e"
+apply_url: "https://jobs.ashbyhq.com/Method/5343c88c-388c-4188-bcac-3e550c02c04e/application"
+posted_date: "2026-11-02"
+expires_date: "2026-12-02"
 location: "New York, NY"
 work_modes:
   - "Remote"
