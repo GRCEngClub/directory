@@ -30,7 +30,6 @@ available_for:
   - "speaking"
   - "consulting"
   - "open-source"
-  - "hiring"
   - "freelance"
   - "collaboration"
 
@@ -63,6 +62,9 @@ projects:
   - name: "Singapore ICT&SS Policy Reform (post-IM8) Cybersecurity Controls in OSCAL"
     url: "https://github.com/badenh/sg-ictss-oscal"
     description: "Singapore's ICT&SS full and updated Controls Catalog/Profiles/Resolved Profiles in OSCAL Format - synced with current and progressively changing website controls collection rather than one-off IM8 export and including the missing high risk cloud profile"
+  - name: "Association of Banks in Singapore's Control Objectives and Procedures for Outsourced Service Providers (OSPAR) control set in OSCAL"
+    url: "https://github.com/badenh/sg-ospar2.0-oscal"
+    description: "Association of Banks in Singapore's Control Objectives and Procedures for Outsourced Service Providers (OSPAR) control set in OSCAL"
   - name: "Hong Kong Baseline IT Security Policy [S17] in OSCAL Format"
     url: "https://github.com/badenh/hk-s17-baseline-itsecpol-oscal"
     description: "Hong Kong Baseline IT Security Policy [S17] in OSCAL Format"
