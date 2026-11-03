@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Second-Front-Systems?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Second-Front-Systems/54d01d47-ac09-49ca-85e0-136e15b7ab87"
 apply_url: "https://jobs.ashbyhq.com/Second-Front-Systems/54d01d47-ac09-49ca-85e0-136e15b7ab87/application"
-posted_date: "2026-11-02"
-expires_date: "2026-12-02"
+posted_date: "2026-11-03"
+expires_date: "2026-12-03"
 location: "Remote"
 work_modes:
   - "Remote"
@@ -35,6 +35,8 @@ summary: "Second Front Systems is looking for a senior technical leader with fie
 
 Second Front Systems is looking for a senior technical leader with field deployment experience Senior Forward Deployed Engineer to strengthen our Federal Sales engineering organization. Operating at customer sites ranging from connected networks to classified SCIFs with DDIL constraints, you will be responsible for owning technical relationships for high-visibility defense and intelligence community missions, leading deployments into denied environments, and mentoring forward deployed engineers across the bench. You will set architectural direction for Game Warden integration into customer networks, resolve mission-critical issues in zero-connectivity scenarios, and translate field realities into product roadmap priorities, ensuring that 2F's most sensitive engagements deliver on technical commitments and customers achieve operational objectives. We need someone capable of managing complex deployments in classified environments with full accountability for technical outcomes, diagnosing and resolving critical failures in real-time without escalation paths or external dependencies, and mentoring junior engineers and establishing technical standards that scale across customer engagements. As a key partner to engineering, Security/Compliance, and Product leadership, you will feed customer operational challenges and platform gaps directly into development priorities, ensure 2F's platform serves warfighter needs, serving as the senior technical authority for 2F's most demanding customer relationships. Note: Candidates must reside in one of our approved hiring hubs: • DC/Maryland/Virginia • Raleigh/Durham/Chapel Hill, NC • Denver/Colorado Springs, CO • Dallas/Fort Worth, TX
 
+Travel will be required to Rome, NY!
+
 What You'll Do
 
 • Own end-to-end technical delivery for 2F's highest-complexity government and defense engagements — architecting, deploying, and sustaining Game Warden and integrated customer workloads across classified networks, DDIL environments, and multiple Impact Levels (IL2–IL6) and JWICS.
@@ -50,8 +52,6 @@ What You'll Do
 • Drive accreditation and continuous ATO (cATO) outcomes in partnership with the security/compliance team — producing and validating evidence against NIST 800-53, RMF, STIGs, and FedRAMP controls, and owning remediation of findings from 3PAO assessments and penetration tests.
 
 • Maintain rigorous configuration management, security documentation, and audit-ready evidence across all engagements, and supporting the 2F team in customer security reviews and audits.
-
-• Travel to client locations as needed for complex system deployments, updates and troubleshooting during high impact operational exercises, integration and training events.
 
 What You Bring • 7-10 years of experience in systems deployment, DevSecOps, or platform engineering in regulated/classified government environments, including demonstrated ownership of complex, mission-critical deployments (not just support/execution).
 
