@@ -84,11 +84,11 @@ projects:
 
 ## About Me
 
-I'm a GRC Engineer focused on compliance automation for public safety technology. My background spans Identity Governance and Administration (IGA) in financial services — privileged access monitoring, user access reviews, RBAC analysis, and security grids — and compliance-focused technical support at public safety technology companies operating in CJIS and FedRAMP High environments serving federal, state, and local agencies.
+I'm a GRC Engineer focused on compliance automation for public safety technology. My background spans Identity Governance and Administration (IGA) in financial services — privileged access monitoring, user access reviews, RBAC analysis, and security grids — and product support at public safety software companies whose platforms run under CJIS and FedRAMP High and serve federal, state, and local agencies.
 
-That combination shaped how I think about compliance: not as a checkbox exercise, but as something that should be engineered into systems. Working in a FedRAMP High environment every day while supporting customers who handle criminal justice information gave me a front-row seat to the operational reality of frameworks like CJIS, FedRAMP, and NIST 800-53, how controls actually work in production, not just on paper.
+That combination shaped how I think about compliance: not as a checkbox exercise, but as something that should be engineered into systems. Supporting customers on a FedRAMP High platform that handles criminal justice information showed me why these controls matter. I learned CJIS, FedRAMP, and NIST 800-53 on my own and built tools against them.
 
-I build AWS and Python compliance automation at the intersection of CJIS and FedRAMP, now centered on GRC Engineering × Data Engineering × Identity Governance — treating audit evidence as a data product, with dbt and DuckDB pipelines over collector output. Shipped work includes OSCAL tooling for FedRAMP 20x, Terraform modules for Infrastructure-as-Code, and commercial framework coverage across SOC 2 and ISO 27001; federal depth stays the differentiator. Next focus is OPA/Rego for policy-as-code.
+I build AWS and Python compliance automation at the intersection of CJIS and FedRAMP, now centered on GRC Engineering × Data Engineering × Identity Governance — treating audit evidence as a data product, with dbt and DuckDB pipelines over collector output. Shipped work includes OSCAL tooling for FedRAMP 20x, Terraform modules for Infrastructure-as-Code, and commercial framework coverage across SOC 2 and ISO 27001. My federal focus comes from self-study and building against NIST 800-53 and FedRAMP High. Next focus is OPA/Rego for policy-as-code.
 
 ## Experience Highlights
 
