@@ -30,14 +30,16 @@ frameworks:
 languages:
   - "Rust"
 compensation: ""
-summary: "Position Summary The Senior Security Consultant leads Global Compliance Advisory engagements that may include NIST 800-53, SOC2 and ISO 27001 frameworks. Engagements which may..."
+summary: "About Coalfire Coalfire is on a mission to make the world a safer place by solving our clients’ hardest cybersecurity challenges. We work at the cutting edge of technology to..."
 ---
 
-### Position Summary
+About Coalfire
 
-The Senior Security Consultant leads Global Compliance Advisory engagements that may include NIST 800-53, SOC2 and ISO 27001 frameworks. Engagements which may include identifying compliance gaps, advising, developing compliance documentation, and/or evaluating the security and compliance of client systems and services to meet requirements. This role will have a strong understanding of NIST 800-53, SOC2 and/or ISO 27001 framework requirements. They will collaborate with Project Managers, Directors and other Delivery team members to effectively execute project timelines and associated deliverables.
+Coalfire is on a mission to make the world a safer place by solving our clients’ hardest cybersecurity challenges. We work at the cutting edge of technology to advise, assess, automate, and ultimately help companies all across the world navigate the ever-changing cybersecurity landscape. We are headquartered in Chicago, Illinois with offices across the U.S., Argentina, and the U.K.
 
-### This role is a hybrid work schedule requiring in-office presence at least 3x/week.
+But that’s not who we are – that’s just what we do.
+
+We are thought leaders, consultants, and cybersecurity experts, but above all else, we are a team of passionate problem-solvers who are hungry to learn, grow, and make a difference.
 
 About Coalfire
 
