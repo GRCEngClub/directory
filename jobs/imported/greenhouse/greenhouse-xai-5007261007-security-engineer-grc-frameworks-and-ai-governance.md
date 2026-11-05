@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5007261007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5007261007"
-posted_date: "2026-10-28"
-expires_date: "2026-11-27"
+posted_date: "2026-11-05"
+expires_date: "2026-12-05"
 location: " Palo Alto, CA; New York, NY; Washington, DC"
 work_modes:
   - "Hybrid / On-site"
@@ -32,9 +32,9 @@ compensation: "$100,000 - $198,000"
 summary: "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;p&gt;SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars.&lt;br&gt;&lt;br&gt;SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are building the full Super Intelligence stack: from our Colossus supercomputers, to Grok models, to our suite of applications, including Grok Bot, Grok Build, Grok Imagine, Grok Voice, and X. We're creating a powerful flywheel where more compute trains better models, better models power more useful products, and what we learn from people using those products shapes what we build next.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;SECURITY ENGINEER, GRC FRAMEWORKS &amp; AI GOVERNANCE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="content-intro"&gt;&lt;p&gt;SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars.&lt;br&gt;&lt;br&gt;SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are building the full Super Intelligence stack: from our Colossus supercomputers, to Grok models, to our suite of applications, including Grok Bot, Grok Build, Grok Imagine, Grok Voice, and X. We're creating a powerful flywheel where more compute trains better models, better models power more useful products, and what we learn from people using those products shapes what we build next.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;strong&gt;SECURITY ENGINEER, GRC FRAMEWORKS &amp; AI GOVERNANCE&lt;/strong&gt;&lt;/h4&gt;
 &lt;div&gt;We are seeking a Governance, Risk, and Compliance (GRC) Engineer to join our security and AI governance team at SpaceXSI. You will set the standards the organization builds to, design and implement controls, and automate the unglamorous parts of compliance so a fast-moving team can ship safely. The ideal candidate combines deep fluency across modern security and AI frameworks with GRC engineering skills: you translate control requirements into technical implementations, partner with engineers to bake compliance into architecture and CI/CD, and replace point-in-time checklist work with continuous, engineered assurance. You will collaborate across engineering, legal, product, and leadership to keep our AI systems audit-ready across enterprise, commercial, and public-sector environments.&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;RESPONSIBILITIES:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Execute security compliance implementation and audits across core frameworks including SOC 2, NIST CSF, NIST SP 800-53, ISO 27001, ISO 42001, and the EU AI Act, including control design, mapping, gap assessment, evidence collection, and remediation tracking&lt;/li&gt;
 &lt;li&gt;Build and maintain Compliance-as-Code and continuous compliance capabilities — policy-as-code, automated control validation, continuous evidence pipelines, and monitoring integrated into development and deployment workflows — so the company can move fast without cutting corners&lt;/li&gt;
@@ -46,13 +46,13 @@ summary: "SpaceX was founded under the belief that a future where humanity is ou
 &lt;li&gt;Own and cultivate relationships with external auditors, assessors (e.g., QSAs where applicable), and regulators; serve as the bridge between auditors and internal teams so requests are reasonable, clear, and relevant to our stack&lt;/li&gt;
 &lt;li&gt;Champion a culture of security and compliance across the company — educating teams on why controls exist, not only enforcing them&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;BASIC QUALIFICATIONS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;BASIC QUALIFICATIONS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Bachelor's degree in computer science, information security, cybersecurity, or an engineering/STEM field&lt;/li&gt;
 &lt;li&gt;3+ years of experience in GRC, security compliance, or technology audit roles with hands-on GRC engineering responsibilities&lt;/li&gt;
 &lt;li&gt;Experience implementing and maintaining security compliance frameworks in cloud environments (AWS, GCP, or Azure)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Experience with Compliance-as-Code practices and GRC automation tooling (e.g., Vanta, Drata, or similar), with a bias toward continuous monitoring&lt;/li&gt;
 &lt;li&gt;Expert-level working knowledge of several of the following: SOC 2, NIST CSF, NIST SP 800-53, ISO 27001, and ISO 42001 — including building and running controls, not only reading the frameworks&lt;/li&gt;
@@ -69,14 +69,14 @@ summary: "SpaceX was founded under the belief that a future where humanity is ou
 &lt;li&gt;Certifications such as CISSP, CISA, CISM, CRISC, CGEIT, ISO 27001 Lead Implementer/Auditor, or similar preferred&lt;/li&gt;
 &lt;li&gt;Experience with public sector or federal compliance programs (e.g., FedRAMP, NIST 800-171, CMMC) is a plus&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;ADDITIONAL REQUIREMENTS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;ADDITIONAL REQUIREMENTS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;This role may also include additional tasks and responsibilities as needed to support the team and evolving business priorities&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;COMPENSATION AND BENEFITS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;COMPENSATION AND BENEFITS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;$100,000 - $198,000 USD&lt;/p&gt;
 &lt;p&gt;Base salary is just one part of our total rewards package at SpaceXSI, which also includes equity, comprehensive medical, vision, and dental coverage, access to a 401(k) retirement plan, short &amp; long-term disability insurance, life insurance, and various other discounts and perks.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ITAR REQUIREMENTS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;ITAR REQUIREMENTS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State. Learn more about the ITAR &lt;a class="notion-link-token notion-focusable-token notion-enable-hover" href="https://deccs.pmddtc.state.gov/deccs" data-token-index="1"&gt;&lt;span class="link-annotation-unknown-block-id--1213793699"&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;div class="content-conclusion"&gt;&lt;p&gt;&lt;em&gt;SpaceXSI is an equal opportunity employer. For details on data processing, view our&nbsp;&lt;/em&gt;&lt;em&gt;&lt;a href="https://x.ai/legal/recruitment-privacy-notice" target="_blank"&gt;Recruitment Privacy Notice&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;

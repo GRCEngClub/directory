@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/idme/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/idme/jobs/7907316003"
 apply_url: "https://job-boards.greenhouse.io/idme/jobs/7907316003"
-posted_date: "2026-11-03"
-expires_date: "2026-12-03"
+posted_date: "2026-11-05"
+expires_date: "2026-12-05"
 location: "United States (U.S.)"
 work_modes:
   - "Remote"
@@ -33,13 +33,13 @@ summary: "Company Overview IDMe is the next-generation digital identity wallet t
 &lt;p&gt;IDMe is the next-generation digital identity wallet that simplifies how individuals securely prove their identity online. Consumers can verify their identity with IDMe once and seamlessly login across websites without having to create a new login and verify their identity again. Over 175 million users experience streamlined login and identity verification with IDMe at 22 federal agencies, 50 state government agencies, and more than 100 healthcare organizations. Over 600 consumer brands use IDMe to verify communities and user segments to honor service and build more authentic relationships. IDMe’s technology meets the federal standards for consumer authentication set by the Commerce Department and is approved as a NIST 800-63-3 IAL2 / AAL2 credential service provider by the Kantara Initiative. IDMe is committed to “No Identity Left Behind” to enable all people to have a secure digital identity. To learn more, visit&nbsp;&lt;a href="https://network.id.me/"&gt;https://network.id.me/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;IDMe is a full-time, in-office culture. Unless a specific job description explicitly states otherwise, all roles are on-site five days per week at one of our offices in McLean, VA; Mountain View, CA; New York City, NY; or Tampa, FL. Certain roles — such as field-based sales or other remote-by-design positions — may have different work arrangements as noted in their individual postings.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-weight: 400;"&gt;At IDMe, we embrace the thoughtful use of AI tools in our daily work and there are even occasions where we leverage AI in our hiring process. However, during the interview process, we want to understand your individual skills and experiences. Therefore, we have guidelines on how AI can be appropriately used during your application and interviews which can be found &lt;a href="https://insider.id.me/candidate-ai-use-in-interviewing/" target="_blank"&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the Role&lt;/h2&gt;
-&lt;p&gt;ID.me is looking for a Manager of Forward Deployed Engineering to sit within Product Operations and act as the connective tissue between our customers, our product team, and engineering. This role owns a small team of forward-deployed engineers who embed directly with customers, diagnose real-world integration challenges, and translate what they learn into clear, structured input the product ontology and engineering teams can act on. You'll be equally comfortable in a customer war room and in a backlog-grooming session — someone who can build trust with a customer's technical stakeholders one hour and prioritize your team's next two sprints the next.&lt;/p&gt;
+&lt;p&gt;IDMe is looking for a Manager of Forward Deployed Engineering to sit within Product Operations and act as the connective tissue between our customers, our product team, and engineering. This role owns a small team of forward-deployed engineers who embed directly with customers, diagnose real-world integration challenges, and translate what they learn into clear, structured input the product ontology and engineering teams can act on. You'll be equally comfortable in a customer war room and in a backlog-grooming session — someone who can build trust with a customer's technical stakeholders one hour and prioritize your team's next two sprints the next.&lt;/p&gt;
 &lt;p&gt;&nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;em&gt;&lt;strong&gt;This role is fully remote and does require travel 20% to customer sites.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;What You'll Do&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Customer problem communication&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Serve as the primary translator between customers and ID.me's product ontology and engineering teams — turning ambiguous, in-the-field customer problems into precise technical requirements, data model implications, and well-scoped engineering asks.&lt;/li&gt;
+&lt;li&gt;Serve as the primary translator between customers and IDMe's product ontology and engineering teams — turning ambiguous, in-the-field customer problems into precise technical requirements, data model implications, and well-scoped engineering asks.&lt;/li&gt;
 &lt;li&gt;Document and route customer-reported issues, edge cases, and feature gaps so product ontology and engineering have the context they need without having to talk to the customer directly.&lt;/li&gt;
 &lt;li&gt;Build repeatable processes (templates, intake forms, escalation paths) that keep customer problems from getting lost or garbled between teams.&lt;/li&gt;
 &lt;/ul&gt;
@@ -52,9 +52,9 @@ summary: "Company Overview IDMe is the next-generation digital identity wallet t
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Customer relationships&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Build durable, trusted relationships with customer technical and business stakeholders, acting as a face of ID.me during implementation, expansion, and escalation moments.&lt;/li&gt;
+&lt;li&gt;Build durable, trusted relationships with customer technical and business stakeholders, acting as a face of IDMe during implementation, expansion, and escalation moments.&lt;/li&gt;
 &lt;li&gt;Travel on-site or join deep working sessions with customers as needed to understand their environment firsthand.&lt;/li&gt;
-&lt;li&gt;Represent the voice of the customer internally, and represent ID.me's technical roadmap and constraints externally, in a way that keeps both sides aligned.&lt;/li&gt;
+&lt;li&gt;Represent the voice of the customer internally, and represent IDMe's technical roadmap and constraints externally, in a way that keeps both sides aligned.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What You'll Bring&lt;/h2&gt;
 &lt;ul&gt;

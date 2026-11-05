@@ -9,9 +9,9 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5261818007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5261818007"
-posted_date: "2026-10-29"
-expires_date: "2026-11-28"
-location: "Tokyo, Japan"
+posted_date: "2026-11-05"
+expires_date: "2026-12-05"
+location: "Japan"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -28,9 +28,9 @@ compensation: ""
 summary: "SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively..."
 ---
 
-&lt;div class="content-intro"&gt;&lt;p&gt;SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars.&lt;br&gt;&lt;br&gt;SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are building the full Super Intelligence stack: from our Colossus supercomputers, to Grok models, to our suite of applications, including Grok Bot, Grok Build, Grok Imagine, Grok Voice, and X. We're creating a powerful flywheel where more compute trains better models, better models power more useful products, and what we learn from people using those products shapes what we build next.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;SR. SECURITY ENGINEER, GRC APAC FINTECH &amp; FINANCIAL SERVICES&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="content-intro"&gt;&lt;p&gt;SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today, SpaceX is actively developing the technologies to make this possible, with the ultimate goal of making life multiplanetary and expanding consciousness to the stars.&lt;br&gt;&lt;br&gt;SpaceXSI is building Super Intelligence to help humanity understand the universe. Our teams are building the full Super Intelligence stack: from our Colossus supercomputers, to Grok models, to our suite of applications, including Grok Bot, Grok Build, Grok Imagine, Grok Voice, and X. We're creating a powerful flywheel where more compute trains better models, better models power more useful products, and what we learn from people using those products shapes what we build next.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;strong&gt;SR. SECURITY ENGINEER, GRC APAC FINTECH &amp; FINANCIAL SERVICES&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;We are seeking an experienced Governance, Risk, and Compliance (GRC) Engineer focused on Japanese information security and financial services regulation to help scale compliance for SpaceXSI and X Money in Tokyo, Japan. As we expand deeper into the regulated Japanese market, maintaining a robust, transparent, and technically sound information security GRC program is critical. You will architect the systems and processes that automate trust — a pragmatic operator who understands that GRC exists to enable the business, balancing rigorous standards with the velocity of a high-growth company. The ideal candidate brings hands-on experience with JFSA supervisory expectations, APPI, and local Japanese banking and payments technology controls, plus GRC engineering skills: Compliance-as-Code, continuous evidence collection, and deep partnership with engineering so controls are designed into the platform rather than bolted on after the fact.&nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;RESPONSIBILITIES:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;RESPONSIBILITIES:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Own and evolve Japan financial services and payments compliance posture across JFSA supervisory expectations (including technology risk management, incident reporting, and third-party technology risk), APPI, and local Japanese banking and payments technology controls supporting X Money&lt;/li&gt;
 &lt;li&gt;Build and maintain Compliance-as-Code capabilities — policy-as-code, automated control validation, continuous evidence collection, and monitoring integrated into CI/CD — so audit and supervisory readiness scales with the business rather than depending on manual, point-in-time checks&lt;/li&gt;
@@ -44,13 +44,13 @@ summary: "SpaceX was founded under the belief that a future where humanity is ou
 &lt;li&gt;Develop, maintain, and continuously improve policies, standards, and procedures aligned to JFSA, APPI, and local banking and payments technology requirements, mapped to the control library shared with US Fintech to avoid duplicate control sets&lt;/li&gt;
 &lt;li&gt;Champion pragmatic governance — prioritize issues that represent real security or business risk over checkbox compliance&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;BASIC QUALIFICATIONS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;BASIC QUALIFICATIONS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Bachelor's degree in computer science, information security, cybersecurity, risk management, or an engineering/STEM discipline&lt;/li&gt;
 &lt;li&gt;8+ years of experience owning or materially operating a GRC, information security compliance, or ISMS program in fintech, banking, payments, SaaS, or other regulated technology environments with primary Japan exposure&lt;/li&gt;
 &lt;li&gt;Professional fluency in English&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Demonstrable experience owning or materially operating an ISMS and control library, and experience supporting client security assurance, external audits, or regulatory evidence processes&lt;/li&gt;
 &lt;li&gt;Hands-on experience with JFSA supervisory expectations and local Japanese banking and payments technology controls — including implementing or operating controls, not only reading the requirements&lt;/li&gt;
@@ -72,7 +72,7 @@ summary: "SpaceX was founded under the belief that a future where humanity is ou
 &lt;li&gt;Prior experience working with or within JFSA-supervised financial institutions, banking or payments providers, or supervised fintechs in Japan&lt;/li&gt;
 &lt;li&gt;Japanese language proficiency a plus&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;ADDITIONAL REQUIREMENTS:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;ADDITIONAL REQUIREMENTS:&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Must be based in Japan&lt;/li&gt;
 &lt;li&gt;This is a full-time, onsite role requiring five days a week in the office&lt;/li&gt;
