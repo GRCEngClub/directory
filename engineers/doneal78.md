@@ -6,7 +6,7 @@ specializations:
   - "Security Operations"
   - "Identity & Access Management"
   - "Security Automation"
-  - "Compliance as Code"
+  - "Compliance Automation"
 title: "IT Risk & GRC | Compliance as Code | Certified GRC Engineer (CGE-AUD)"
 location: "Cabot, AR"
 linkedin: "https://www.linkedin.com/in/david-oneal/"
@@ -14,7 +14,7 @@ blog: "https://davidoneal.dev"
 frameworks:
   - "NIST 800-53"
   - "SOC 2"
-  - "ISO 27001 (Lead Auditor training)"
+  - "ISO 27001"
 languages:
   - "Python"
   - "Terraform"
@@ -22,7 +22,6 @@ languages:
   - "Bash"
   - "GitHub Actions"
   - "OSCAL"
-  - "AWS (Security Hub, Config, CloudTrail, IAM)"
 available_for:
   - "mentoring"
   - "consulting"
@@ -39,13 +38,13 @@ projects:
     description: "Pulls AWS Security Hub and Config results, maps 457 findings across seven SOC 2 criteria, and writes an Excel evidence workbook."
   - name: "Terraform Compliance Baseline"
     url: "https://github.com/doneal78/grc-terraform-baseline"
-    description: "Python scanner and Terraform baseline for a personal AWS lab account. Moved the lab from 40% AT RISK to 78% NEEDS IMPROVEMENT after remediation. Companion checker: https://github.com/doneal78/grc-compliance-checker"
+    description: "Python scanner and Terraform baseline for a personal AWS lab account. Moved the lab from 40% AT RISK to 78% NEEDS IMPROVEMENT after remediation."
   - name: "OSCAL System Security Plan"
     url: "https://github.com/doneal78/grc-oscal-ssp"
     description: "21 NIST 800-53 Rev 5 controls, with the authorization boundary, network architecture, and data flow."
   - name: "GRC Assurance Engine"
     url: "https://github.com/doneal78/grc-assurance-engine"
-    description: "Flask app for vendor and AI-tool risk assessments with inherent and residual risk scoring, evidence freshness checks, NIST 800-53 mapping, and a risk register. Live demo: https://grc-assurance.davidoneal.dev"
+    description: "Flask app for vendor and AI-tool risk assessments with inherent and residual risk scoring, evidence freshness checks, NIST 800-53 mapping, and a risk register."
 ---
 
 ## About Me
@@ -54,7 +53,7 @@ I spent nearly three years as a SOC analyst at Bank OZK, about five months handl
 
 That clicked most as a consultant. I was writing risk classifications, SOPs, and remediation documentation that clients used for audits, and I kept thinking about how much of that evidence work was still manual when it didn't need to be. So I started building.
 
-My GRC engineering portfolio on GitHub came out of that: a CI/CD pipeline that enforces NIST 800-53 controls with Terraform, OPA/Rego, GitHub Actions, Cosign, and OSCAL; a SOC 2 evidence pipeline that pulls from AWS Security Hub and Config; a Python scanner and Terraform baseline that took my AWS lab account from 40% to 78% compliance; an OSCAL System Security Plan; and a vendor and AI-tool risk assessment app. I also do the weekly GRC Engineering Club challenges and write a LinkedIn newsletter, From Alerts to Evidence, about this work.
+My GRC engineering portfolio on GitHub came out of that: a CI/CD pipeline that enforces NIST 800-53 controls with Terraform, OPA/Rego, GitHub Actions, Cosign, and OSCAL; a SOC 2 evidence pipeline that pulls from AWS Security Hub and Config; a Python scanner ([grc-compliance-checker](https://github.com/doneal78/grc-compliance-checker)) and Terraform baseline that took my AWS lab account from 40% to 78% compliance; an OSCAL System Security Plan; and a vendor and AI-tool risk assessment app ([live demo](https://grc-assurance.davidoneal.dev/)). I also do the weekly GRC Engineering Club challenges and write a LinkedIn newsletter, From Alerts to Evidence, about this work. I'm finishing ISO/IEC 27001:2022 Lead Auditor training now.
 
 Compliance work doesn't have to be as slow and manual as it still is at most organizations. Policy as code, automated evidence collection, and compliance as code through Terraform aren't exotic ideas anymore. They just aren't widely used yet, and that's the gap I want to work in.
 
