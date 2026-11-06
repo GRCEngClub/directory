@@ -11,7 +11,7 @@ role_url: "https://job-boards.greenhouse.io/xai/jobs/5213773007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5213773007"
 posted_date: "2026-11-05"
 expires_date: "2026-12-05"
-location: " Palo Alto, CA; Austin, TX; Bastrop, TX; New York, NY"
+location: "Austin, TX; Bastrop, TX; New York, NY; Palo Alto, CA"
 work_modes:
   - "Hybrid / On-site"
 job_types:

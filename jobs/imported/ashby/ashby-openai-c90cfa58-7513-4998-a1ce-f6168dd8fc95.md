@@ -1,16 +1,16 @@
 ---
-title: "Forward Deployed Engineer (FDE), Financial Services- NYC "
+title: "Forward Deployed Engineer (FDE), Financial Services- NYC"
 company: "Openai"
-slug: "ashby-openai-7f76be3a-38d0-4ff4-b997-9f1672e78bc0"
+slug: "ashby-openai-c90cfa58-7513-4998-a1ce-f6168dd8fc95"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/openai/7f76be3a-38d0-4ff4-b997-9f1672e78bc0"
-apply_url: "https://jobs.ashbyhq.com/openai/7f76be3a-38d0-4ff4-b997-9f1672e78bc0/application"
-posted_date: "2026-11-05"
-expires_date: "2026-12-05"
+role_url: "https://jobs.ashbyhq.com/openai/c90cfa58-7513-4998-a1ce-f6168dd8fc95"
+apply_url: "https://jobs.ashbyhq.com/openai/c90cfa58-7513-4998-a1ce-f6168dd8fc95/application"
+posted_date: "2026-11-06"
+expires_date: "2026-12-06"
 location: "New York City"
 work_modes:
   - "Hybrid / On-site"
@@ -30,11 +30,11 @@ compensation: ""
 summary: "About the team OpenAI’s Forward Deployed Engineering team partners with banks, asset managers, insurers, and private capital firms to deploy production-grade AI systems in..."
 ---
 
-## About the team
+About the team
 
 OpenAI’s Forward Deployed Engineering team partners with banks, asset managers, insurers, and private capital firms to deploy production-grade AI systems in high-stakes financial environments. We operate at the intersection of customer delivery and core platform development, embedding deeply with customers to translate frontier model capabilities into reliable, auditable systems that create measurable business impact. Our work turns early deployments into repeatable solution patterns, operating standards, and evaluation practices that scale across regulated financial institutions.
 
-## About the role
+About the role
 
 We are hiring a Forward Deployed Engineer (FDE) to lead end-to-end deployments of OpenAI’s models inside financial services organizations where correctness, latency, explainability, and control matter. You will work with customers who are experts in investment banking, trading, risk, compliance, underwriting, research, operations, or investment decision-making, translating complex workflows, data constraints, and regulatory requirements into production systems.
 
@@ -44,7 +44,7 @@ You will also play a central role in shaping OpenAI’s Financial Services offer
 
 This role is based in New York. We use a hybrid work model of 3 days in the office per week. We offer relocation assistance. Travel up to 50% may be required.
 
-## In this role, you will
+In this role, you will:
 
 - Design and ship production AI systems around models, owning integrations, data flows, reliability, observability, and on-call readiness across financial workflows.
 - Lead discovery and scoping from pre-sales through post-production, translating ambiguous business problems into hypothesis-driven problem framing, system requirements, and delivery plans with measurable outcomes.
@@ -55,7 +55,7 @@ This role is based in New York. We use a hybrid work model of 3 days in the offi
 - Distill deployment learnings into hardened primitives, reference architectures, playbooks, and tooling that scale across financial institutions.
 - Surface field feedback that informs model behavior, product capabilities, and platform gaps in real-world financial use cases.
 
-## You might thrive in this role if you
+You might thrive in this role if you:
 
 - Bring 5+ years of software engineering, ML engineering, or technical deployment experience with customer-facing ownership in financial services or adjacent regulated industries.
 - Have owned complex AI or data-driven systems end-to-end, from scoping through production adoption, in environments where errors carry real financial or regulatory consequences.

@@ -11,7 +11,7 @@ role_url: "https://job-boards.greenhouse.io/xai/jobs/5198194007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5198194007"
 posted_date: "2026-11-05"
 expires_date: "2026-12-05"
-location: " Palo Alto, CA; New York, NY; Washington, DC"
+location: "New York, NY; Palo Alto, CA; Washington, DC"
 work_modes:
   - "Hybrid / On-site"
 job_types:
