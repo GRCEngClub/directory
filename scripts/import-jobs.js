@@ -476,6 +476,35 @@ async function fetchJson(url, headers) {
   return response.json();
 }
 
+function sleep(ms) {
+  return new Promise(function(resolve) { setTimeout(resolve, ms); });
+}
+
+// Like fetchJson, but retries 429/5xx responses with exponential backoff,
+// honoring Retry-After when the upstream provides it. Use for APIs that
+// rate-limit burst traffic (e.g. the a16z Speedrun detail endpoint).
+async function fetchJsonWithRetry(url, headers, attempts) {
+  const maxAttempts = attempts || 4;
+  let lastError = null;
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    const response = await fetch(url, {
+      headers: Object.assign({ "User-Agent": USER_AGENT }, headers || {})
+    });
+    if (response.ok) return response.json();
+    lastError = new Error("Request failed: " + response.status + " " + response.statusText + " for " + url);
+    const retryable = response.status === 429 || response.status >= 500;
+    if (!retryable || attempt === maxAttempts - 1) throw lastError;
+    const retryAfter = Number(response.headers.get("retry-after"));
+    const delayMs = Number.isFinite(retryAfter) && retryAfter > 0
+      ? Math.min(retryAfter * 1000, 60000)
+      : Math.min(1000 * Math.pow(2, attempt) + Math.floor(Math.random() * 250), 15000);
+    console.warn("[retry] " + response.status + " for " + url
+      + "; waiting " + delayMs + "ms (attempt " + (attempt + 1) + "/" + maxAttempts + ")");
+    await sleep(delayMs);
+  }
+  throw lastError;
+}
+
 async function fetchText(url, headers) {
   const response = await fetch(url, {
     headers: Object.assign({
@@ -799,14 +828,20 @@ async function collectSpeedrunJobs(fetcher, options) {
   }
   const candidates = mergeSpeedrunCandidates(payloads);
   const imported = [];
-  const batchSize = 8;
+  // Small batches + a pause between them: the Speedrun detail endpoint
+  // rate-limits bursts (429), which once silently zeroed out this source.
+  const batchSize = settings.batchSize || 2;
+  const batchDelayMs = settings.batchDelayMs === undefined ? 500 : settings.batchDelayMs;
+  let detailFailures = 0;
 
   for (let i = 0; i < candidates.length; i += batchSize) {
+    if (i > 0 && batchDelayMs > 0) await sleep(batchDelayMs);
     const batch = candidates.slice(i, i + batchSize);
     const details = await Promise.all(batch.map(function(listing) {
       const detailUrl = SPEEDRUN_API_BASE + "/jobs/" + encodeURIComponent(listing.id) + "?source=grcengclub";
       return fetcher(detailUrl).catch(function(error) {
         console.warn("[speedrun] failed to fetch detail for " + listing.id + ": " + error.message);
+        detailFailures += 1;
         return null;
       });
     }));
@@ -822,6 +857,11 @@ async function collectSpeedrunJobs(fetcher, options) {
         if (upstreamApplyUrl) seenApplyUrls.add(upstreamApplyUrl);
       }
     });
+  }
+
+  if (candidates.length > 0 && imported.length === 0 && detailFailures > 0) {
+    throw new Error("Speedrun had " + candidates.length + " candidates but every usable detail fetch failed ("
+      + detailFailures + " failures); treating source as degraded instead of empty");
   }
 
   return imported;
@@ -848,7 +888,7 @@ async function importSpeedrun() {
     if (applyUrl) existingApplyUrls.add(applyUrl);
   });
 
-  const jobs = await collectSpeedrunJobs(fetchJson, { existingApplyUrls });
+  const jobs = await collectSpeedrunJobs(fetchJsonWithRetry, { existingApplyUrls });
   console.log("[speedrun] filtered against " + existingApplyUrls.size + " existing apply URLs");
   return jobs;
 }
@@ -1223,13 +1263,43 @@ async function importRippling() {
   return imported;
 }
 
+async function countExistingImportedJobs(key) {
+  try {
+    const entries = await fs.readdir(path.join(IMPORT_ROOT, key));
+    return entries.filter(function(entry) { return String(entry).endsWith(".md"); }).length;
+  } catch (error) {
+    if (error.code === "ENOENT") return 0;
+    throw error;
+  }
+}
+
 async function runSource(key, enabled, importer) {
   if (!enabled) {
     console.log("[" + key + "] skipped");
     return 0;
   }
 
-  const jobs = await importer();
+  let jobs;
+  try {
+    jobs = await importer();
+  } catch (error) {
+    // A degraded or unreachable upstream must never wipe previously
+    // imported listings (a16z Speedrun was zeroed out by 429s once).
+    const kept = await countExistingImportedJobs(key);
+    console.warn("[" + key + "] import failed: " + (error.message || error)
+      + "; keeping " + kept + " existing listings");
+    return kept;
+  }
+
+  if (jobs.length === 0) {
+    const kept = await countExistingImportedJobs(key);
+    if (kept > 0) {
+      console.warn("[" + key + "] importer returned 0 jobs but " + kept
+        + " existing listings are present; skipping wipe (possible upstream outage or rate limiting)");
+      return kept;
+    }
+  }
+
   await writeImportedJobs(key, jobs);
   console.log("[" + key + "] wrote " + jobs.length + " jobs");
   return jobs.length;
