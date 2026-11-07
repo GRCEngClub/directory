@@ -293,6 +293,30 @@ test("collectSpeedrunJobs deduplicates repeated upstream application URLs in one
   assert.equal(jobs.length, 1);
 });
 
+test("collectSpeedrunJobs throws when every detail fetch fails instead of returning empty", async () => {
+  const listing = {
+    id: "job-429",
+    title: "Security Compliance Engineer",
+    company: "Example",
+    location: "Remote",
+    remote: true,
+    url: "https://speedrun-talent-network.com/jobs/job-429?utm_source=grcengclub"
+  };
+  const fetcher = async (url) => {
+    if (url.includes("/jobs?")) return { jobs: [listing] };
+    throw new Error("Request failed: 429 Too Many Requests");
+  };
+
+  await assert.rejects(
+    collectSpeedrunJobs(fetcher, {
+      searchTerms: ["security compliance"],
+      pagesPerTerm: 1,
+      batchDelayMs: 0
+    }),
+    /detail fetch failed/
+  );
+});
+
 test("extractApplyUrlFromJobFile reads generated frontmatter safely", () => {
   const markdown = [
     "---",
