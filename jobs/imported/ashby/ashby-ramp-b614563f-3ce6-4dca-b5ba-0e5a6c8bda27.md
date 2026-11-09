@@ -9,9 +9,9 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
 apply_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27/application"
-posted_date: "2026-11-08"
-expires_date: "2026-12-08"
-location: "New York, NY (HQ)"
+posted_date: "2026-11-09"
+expires_date: "2026-12-09"
+location: "NYC"
 work_modes:
   - "Hybrid / On-site"
 job_types:
