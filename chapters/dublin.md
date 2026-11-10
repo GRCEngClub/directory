@@ -17,4 +17,6 @@ leads:
   - name: Saurabh Singh
     role: Secretary
     linkedin: https://www.linkedin.com/in/saurabhsinghprofile/
+  - name: Tom McNamara
+    role: Director of Events
 ---
