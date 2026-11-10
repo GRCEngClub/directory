@@ -14,4 +14,7 @@ leads:
   - name: Akeem Williams
     role: Vice President
     linkedin: https://www.linkedin.com/in/williamsakeem/
+  - name: Faye Dixon
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/fayedixon/
 ---
