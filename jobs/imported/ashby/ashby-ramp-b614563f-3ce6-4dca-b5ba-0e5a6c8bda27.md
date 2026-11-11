@@ -1,5 +1,5 @@
 ---
-title: "Software Engineer, Forward Deployed AI Solutions"
+title: "Software Engineer, Forward Deployed, AI Solutions"
 company: "Ramp"
 slug: "ashby-ramp-b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
 status: "published"
@@ -9,9 +9,9 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27"
 apply_url: "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27/application"
-posted_date: "2026-11-09"
-expires_date: "2026-12-09"
-location: "NYC"
+posted_date: "2026-11-11"
+expires_date: "2026-12-11"
+location: "New York, NY (HQ)"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -41,41 +41,41 @@ The median Ramp customer saves 7.5% and grows revenue 16% in their first year �
 
 If you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.
 
-# About the Role
+## About the Role
 
-As a software engineer on the AI Solutions team, you will co-lead customer engagements with an AI Solutions Strategist . The Strategist owns business discovery, ROI narrative, stakeholder alignment, and rollout planning. The engineer owns technical discovery, solution design, prototyping, implementation, and production readiness.
+Companies are adopting AI across more teams, but most still struggle to produce real workflows, measurable outcomes, and efficient spend. Ramp’s AI Solutions team helps customers turn that spend into working systems: agents, automations, and integrations that run real finance operations, built on top of Ramp’s growing AI product stack, including Glass, Inspect, Router, and Token Spend Management.
 
-This is a deeply client-facing role. You will spend significant time with customers and end users, moving projects from bootcamp and workflow discovery through implementation, launch, and steady production usage.
+As a software engineer on AI Solutions, you'll co-lead customer engagements with an AI Solutions Strategist while also helping turn repeated customer needs into platform capabilities across Ramp’s AI product stack. The Strategist owns business discovery, the ROI story, stakeholder alignment, and rollout planning. You own the technical side: discovery, solution design, prototyping, implementation, production readiness, and the product feedback loop back into our platform and AI primitives.
 
-## What You’ll Do
+This is a deeply client-facing, hands-on building role based in New York, with occasional travel depending on engagements. You'll take projects from a customer's first workflow-discovery sessions through launch and into steady, measurable production use — then turn what you learned into reusable product patterns the next customer can adopt without starting from zero.
 
-- Translate customer goals into clear system requirements and non-functional requirements covering security, privacy, reliability, performance, scalability, and cost.
-- Partner directly with customers to understand current workflows, constraints, systems, data quality, and adoption blockers.
-- Create and maintain solution architecture artifacts: System context and data flow diagrams
-- Integration plan across Ramp and customer systems
-- Security model covering permissions, access patterns, and auditability
-- Evaluation plan covering quality metrics, acceptance tests, and red-teaming
-- Operational plan covering monitoring, alerting, incident response, and runbooks
+## What You'll Do
 
-- Leverage core Ramp primitives to build efficiently, reusing existing product capabilities wherever possible.
-- Prototype and validate workflows with end users to de-risk the approach and prove product-market fit.
-- Drive projects from bootcamp and technical discovery through implementation, production launch, and operational handoff.
-- Ensure deployed workflows are reliable, supportable, measurable, and adopted by customer teams.
-- Convert deployments into reusable patterns, components, and playbooks for future AI Solutions projects.
+- Ship production AI workflows for the companies we partner with — agents, automations, and integrations their teams use every day.
+- Translate customer work into platform work by identifying needs across deployments and helping improve Ramp’s AI primitives.
+- Make the next deployment easier by turning customer specific work into reusable components, product feedback, reference architectures, and playbooks.
+- Run technical discovery with customers: current workflows, systems, data quality, constraints, and what's blocking adoption.
+- Turn customer goals into concrete requirements , including security, privacy, reliability, performance, scalability, and cost.
+- Prototype fast with end users to de-risk the approach before you build it out.
+- Own the technical plan end to end: architecture and data flow, integrations across Ramp and customer systems, permissions and auditability, evals and acceptance tests, and monitoring and runbooks.
+- Measure what you ship — quality, adoption, and cost — and stay with it until it's reliable, supportable, and handed off.
 
 ## What You Need
 
-- Experience shipping production software in high-ownership environments.
-- Ability to work directly with enterprise customers from discovery through production implementation.
-- Experience in solutions architecture, technical consulting, forward deployed engineering, or pre-sales engineering.
-- Strong fundamentals in ML/GenAI, including problem decomposition, evaluation, and deployment trade-offs.
-- Strong coding ability in at least one of: Python, TypeScript/JavaScript, Java, Go, or similar.
-- Ability to design secure, scalable systems and produce clear technical documentation.
-- Comfort working across APIs, integrations, data pipelines, customer systems, and cloud infrastructure.
-- Experience with cloud architecture on AWS, GCP, or Azure, and distributed systems patterns.
-- Experience building LLM systems, including RAG, agents, monitoring, and evals.
-- Willingness to travel up to ~50% as needed, flexible based on project needs and client needs
-- Nice to have: Familiarity with finance operations workflows such as AP, procurement, expenses, close, reconciliation, and reporting.
+- A track record of building from 0 to 1 in ambiguous environments: finding the real problem, shipping a first version quickly, learning from users, and hardening it over time.
+- Hands-on experience building LLM systems — agents, RAG, evals, and monitoring — and sound judgment on trade-offs like quality, latency, cost, and model choice.
+- Strong coding ability in Python, TypeScript/JavaScript, Java, Go, or similar.
+- Comfort working across APIs, integrations, data pipelines, and cloud infrastructure (AWS, GCP, or Azure), and designing systems that are secure and scale.
+- Experience working directly with customers or end users: you can scope an ambiguous problem with a room of stakeholders and write clear technical docs afterward.
+- Strong written communication. You can produce technical plans, customer facing explanations, handoff docs, and clearly explain tradeoffs.
+- Willingness to travel up to ~50%, flexible based on project and customer needs.
+
+Nice to have
+
+- Background in forward deployed engineering, solutions architecture, technical consulting, or sales engineering.
+- Familiarity with finance operations workflows such as AP, procurement, expenses, close, reconciliation, and reporting.
+- Experience turning repeated customer needs into reusable product primitives, internal tools, or implementation playbooks.
+- Experience optimizing AI cost or performance, such as model routing, caching, or token spend analysis.
 
 ## Benefits available to all full-time Ramp employees (Global)
 

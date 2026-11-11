@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/zscaler/jobs/5239707007"
 apply_url: "https://job-boards.greenhouse.io/zscaler/jobs/5239707007"
-posted_date: "2026-11-09"
-expires_date: "2026-12-09"
+posted_date: "2026-11-10"
+expires_date: "2026-12-10"
 location: "Remote - USA"
 work_modes:
   - "Remote"
@@ -50,7 +50,7 @@ summary: "Zscaler (NASDAQ: ZS) accelerates digital transformation so customers c
 &lt;ul&gt;
 &lt;li&gt;Foundational understanding of AI/ML technologies and experience leveraging, securing, or positioning AI-driven solutions to optimize outcomes within your functional domain&lt;/li&gt;
 &lt;li&gt;5+ years of experience coordinating federal assessments, collecting and validating control evidence, and driving remediation of risks at a cloud service provider&lt;/li&gt;
-&lt;li&gt;Deep understanding of NIST 800-53 Rev 5, FedRAMP, DoD Cloud Computing SRG, CNSSI 1253, and proficiency with fundamental security concepts and continuous monitoring processes&lt;/li&gt;
+&lt;li&gt;Deep understanding of NIST 800-53 Rev 5, FedRAMP 20X, DoD Cloud Computing SRG, CNSSI 1253, and proficiency with fundamental security concepts and continuous monitoring processes&lt;/li&gt;
 &lt;li&gt;Experience evaluating security incidents against established regulatory and contractual criteria to determine reportability against U.S. Federal incident reporting obligations, documenting assessment rationale, tracking timelines, and partnering cross-functionally to streamline reporting workflows&lt;/li&gt;
 &lt;li&gt;Must be a U.S. citizen due to the nature of customers.&lt;/li&gt;
 &lt;li&gt;Bachelor’s degree in Information Systems, Computer Science, Cybersecurity, or a related field (or equivalent practical experience) with strong organizational, analytical, and communication skills to manage multiple priorities and drive follow-through&lt;/li&gt;

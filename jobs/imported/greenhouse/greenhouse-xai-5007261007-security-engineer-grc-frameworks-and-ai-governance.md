@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5007261007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5007261007"
-posted_date: "2026-11-05"
-expires_date: "2026-12-05"
+posted_date: "2026-11-11"
+expires_date: "2026-12-11"
 location: "New York, NY; Palo Alto, CA; Washington, DC"
 work_modes:
   - "Hybrid / On-site"

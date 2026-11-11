@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Sierra?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5"
 apply_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5/application"
-posted_date: "2026-11-09"
-expires_date: "2026-12-09"
+posted_date: "2026-11-11"
+expires_date: "2026-12-11"
 location: "London"
 work_modes:
   - "Hybrid / On-site"
@@ -38,7 +38,7 @@ Sierra is the leading platform for customer-facing AI agents, working with many 
 
 We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and a commitment to balancing Family along the way. These values are the foundation of our work, and we are committed to upholding them in everything we do.
 
-Our co-founders are Bret Taylor (https://www.linkedin.com/in/brettaylor/) and Clay Bavor (https://www.linkedin.com/in/claybavor/). Bret currently serves as Board Chair of OpenAI. Previously, he was co-CEO of Salesforce (which had acquired the company he founded, Quip) and CTO of Facebook. Bret was also one of Google's earliest product managers and co-creator of Google Maps. Before founding Sierra, Clay spent 18 years at Google, where he most recently led Google Labs. Earlier, he started and led Google’s AR/VR effort, Project Starline, and Google Lens. Before that, Clay led the product and design teams for Google Workspace.
+Sierra was co-founded by Bret Taylor (https://www.linkedin.com/in/brettaylor/) and Clay Bavor (https://www.linkedin.com/in/claybavor/) who first met while working together at Google over 20 years ago. Bret currently serves as Chairman of the Board of Open AI. Previously, he was co-CEO of Salesforce and CTO of Facebook. Clay spent 18 years at Google, where he most recently led Google Labs.
 
 ## What you’ll do
 
@@ -92,13 +92,17 @@ We want our benefits to reflect our values and offer the following to full-time 
 - Life insurance and disability benefits
 - Retirement plan dependent on country of employment
 - Parental leave
-- Fertility and family building benefits through Carrot
-- Lunch, as well as delicious snacks and coffee to keep you energized
+- Fertility and family building benefits
+- Lunch, as well as delicious snacks and coffee to keep you energized when working onsite
 - Discretionary benefit stipend giving people the ability to spend where it matters most
 - Free alphorn lessons
 
-These benefits are further detailed in Sierra's policies, may vary by region, and are subject to change at any time, consistent with the terms of any applicable compensation or benefits plans. Eligible full-time employees can participate in Sierra's equity plans subject to the terms of the applicable plans and policies.
+These benefits are further detailed in Sierra's policies, may vary by region and employment type, and are subject to change at any time, consistent with the terms of any applicable compensation or benefits plans. Eligible full-time employees can participate in Sierra's equity plans subject to the terms of the applicable plans and policies.
 
 ## Be you, with us
 
-We're working to bring the transformative power of AI to every organization in the world. To do so, it is important to us that the diversity of our employees represents the diversity of our customers. We believe that our work and culture are better when we encourage, support, and respect different skills and experiences represented within our team. We encourage you to apply even if your experience doesn't precisely match the job description. We strive to evaluate all applicants consistently without regard to race, color, religion, gender, national origin, age, disability, veteran status, pregnancy, gender expression or identity, sexual orientation, citizenship, or any other legally protected class.
+We're working to bring the transformative power of AI to every organization in the world. To do so, it is important to us that the diversity of our employees represents the diversity of our customers. We believe that our work and culture are better when we encourage, support, and respect different skills and experiences represented within our team. We encourage you to apply through the link on this page even if your experience doesn't precisely match the job description.
+
+Sierra is a proud equal opportunity employer. All qualified applicants will receive consideration for employment without regard to any characteristic protected by applicable federal, state or local laws, including veteran status and disability status. Hiring decisions are made by people, based on merit. If you need a reasonable accommodation for a disability, a religious practice, pregnancy or any related condition at any point in the application or interview process, contact us at accommodations@sierra.ai. Requests are handled confidentially and do not affect your candidacy.
+
+We will consider qualified applicants with arrest and conviction records in accordance with applicable fair chance laws.

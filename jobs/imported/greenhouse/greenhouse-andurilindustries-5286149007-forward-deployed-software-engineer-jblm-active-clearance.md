@@ -9,11 +9,11 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true"
 role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5286149007?gh_jid=5286149007"
 apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5286149007?gh_jid=5286149007"
-posted_date: "2026-11-05"
-expires_date: "2026-12-05"
-location: "Remote"
+posted_date: "2026-11-11"
+expires_date: "2026-12-11"
+location: "Tacoma, Washington, United States"
 work_modes:
-  - "Remote"
+  - "Hybrid / On-site"
 job_types:
   - "Full-time"
 specializations:

@@ -1,17 +1,17 @@
 ---
-title: "Software Engineer, Forward Deployed"
+title: "Software Engineer, Forward Deployed, Enterprise Product"
 company: "Ramp"
-slug: "ashby-ramp-29a5da77-37f0-402a-92bc-072778e77ed8"
+slug: "ashby-ramp-09360e92-fc95-4ba6-9611-dfefd60b13ce"
 status: "published"
 source: "Ashby"
 sources:
   - "Ashby"
 source_url: "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true"
-role_url: "https://jobs.ashbyhq.com/ramp/29a5da77-37f0-402a-92bc-072778e77ed8"
-apply_url: "https://jobs.ashbyhq.com/ramp/29a5da77-37f0-402a-92bc-072778e77ed8/application"
-posted_date: "2026-11-09"
-expires_date: "2026-12-09"
-location: "NYC"
+role_url: "https://jobs.ashbyhq.com/ramp/09360e92-fc95-4ba6-9611-dfefd60b13ce"
+apply_url: "https://jobs.ashbyhq.com/ramp/09360e92-fc95-4ba6-9611-dfefd60b13ce/application"
+posted_date: "2026-11-11"
+expires_date: "2026-12-11"
+location: "New York, NY (HQ)"
 work_modes:
   - "Hybrid / On-site"
 job_types:
@@ -41,7 +41,7 @@ If you want to build systems that directly shape how companies move and manage b
 
 # About the Role
 
-As a Forward Deployed Engineer, you’ll solve the hardest problems standing between Ramp and the world’s largest and most complex companies — shaping and shipping the product capabilities that unlock our growth upmarket. You'll be part of our Core FDE org, which is an agent-first, high-pace, customer-facing engineering team. On FDE, you will interact directly with customers and deliver solutions end to end — understanding pain points, shaping product decisions, and building agents that autonomously expand Ramp's capabilities.
+As a Software Engineer, Enterprise Product, you’ll solve the hardest problems standing between Ramp and the world’s largest and most complex companies — shaping and shipping the product capabilities that unlock our growth upmarket. You'll be part of our Core FDE org, which is an agent-first, high-pace, customer-facing engineering team. On FDE, you will interact directly with customers and deliver solutions end to end — understanding pain points, shaping product decisions, and building agents that autonomously expand Ramp's capabilities.
 
 Check out our Engineering Blog (https://engineering.ramp.com/) and FDE post (https://engineering.ramp.com/post/forward-deployed-engineering) for more context on our work!
 
