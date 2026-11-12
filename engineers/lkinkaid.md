@@ -4,9 +4,9 @@ name: Larry Kinkaid
 github: lkinkaid
 specializations:
   - Compliance Automation
+  - AI Governance
   - Security Governance
   - Audit & Assurance
-  - AI Governance
   - Risk Management
   - Cloud Governance
   - Third-Party Risk
@@ -71,32 +71,30 @@ available_for:
 
 # Notable projects (optional)
 projects:
-  - name: cgep-labs
+  - name: CGE-P Compliance-as-Code Labs
     url: https://github.com/lkinkaid/cgep-labs
-    description: Hands-on compliance-as-code labs built for the Certified GRC Engineer Practitioner (CGE-P). Features production-ready Terraform primitives, automated policy validation, and verifiable compliance evidence artifacts.
-  - name: HIPAA GRC Engineering Capstone (CGE-P)
+    description: Hands-on compliance-as-code labs built for the Certified GRC Engineer Practitioner (CGE-P). Features reusable Terraform configurations, automated policy validation, and verifiable compliance evidence artifacts.
+  - name: CGE-P HIPAA Engineering Capstone
     url: https://github.com/lkinkaid/cgep-app-starter
-    description: Hardened a deliberately non-compliant Patient Intake API on AWS against the HIPAA Security Rule. Terraform remediations for all eight starter gaps, five Rego policies with tests, a CI gate that plans, policy-checks, Cosign-signs, and vaults evidence, and an OSCAL catalog, profile, and component definition linking controls to resources and evidence.
+    description: Hardened a deliberately non-compliant AWS Patient Intake API against HIPAA Security Rule requirements using Terraform, tested Rego policies, CI enforcement, signed evidence artifacts, and OSCAL control mappings.
 ---
 
 ## About Me
 
-I'm a cybersecurity leader with 13+ years of experience spanning IT audit, governance, risk, compliance, and security advisory. Today, I lead cybersecurity consulting engagements and serve as a Virtual CISO, helping organizations develop scalable security programs and navigate frameworks.
+I'm a cybersecurity leader with 13+ years of experience spanning IT audit, governance, risk, compliance, and security advisory. Today, I lead cybersecurity consulting engagements and serve as a Virtual CISO, helping organizations develop scalable security programs and achieve and maintain compliance across frameworks like SOC 2, ISO 27001, and HITRUST.
 
-I joined the GRC Engineering Club to intentionally step outside my comfort zone, strengthen my hands-on technical skills, and learn how engineering practices can make GRC more automated, scalable, and integrated with the systems we govern. I'm particularly interested in policy-as-code, infrastructure-as-code, continuous control monitoring, and finding practical ways to bring these concepts into real-world security and compliance programs.
+I joined the GRC Engineering Club to bring a more hands-on engineering approach to the security and compliance programs I help organizations build, using engineering practices to make GRC more automated, scalable, and integrated with the systems we govern. I'm particularly interested in policy-as-code, infrastructure-as-code, continuous control monitoring, and finding practical ways to bring these concepts into real-world security and compliance programs.
 
-Most recently, I worked through the Certified GRC Engineer Practitioner (CGE-P) labs and capstone, hardening a deliberately non-compliant AWS workload against the HIPAA Security Rule with Terraform, OPA/Rego policy gates in CI, signed and vaulted evidence, and OSCAL documentation.
+Most recently, I completed the Certified GRC Engineer Practitioner (CGE-P) labs and HIPAA capstone, both linked in my projects.
 
 ## Experience Highlights
 
-- 13+ years of cybersecurity, GRC, and audit experience spanning enterprise IT audit, compliance program ownership, security advisory, and GRC Engineering.
 - Lead a cybersecurity consulting practice supporting 60+ enterprise clients, while managing and developing a team of cybersecurity consultants.
 - Serve as a Virtual CISO and trusted advisor to high-growth organizations, developing security strategies, risk management programs, and audit readiness across SOC 2, ISO 27001, HITRUST, CMMC, and other frameworks.
-- Built enterprise GRC experience leading SOX ITGC and PCI DSS compliance programs and designing governance programs based on the CIS Controls.
+- Led SOX ITGC and PCI DSS compliance programs and designed governance programs based on the CIS Controls.
 
 ## Get in Touch
 
 I'm always happy to connect with other GRC, security, and audit practitioners. Whether you want to compare notes on compliance automation, talk through a framework or audit question, or just introduce yourself and say hello, feel free to reach out.
 
-- Personal: lrkinkaid@gmail.com
-- Work: lkinkaid@barradvisory.com
+- Email: lrkinkaid@gmail.com
