@@ -1,7 +1,7 @@
 ---
-title: "Forward Deployed Engineer (FDE)"
+title: "Forward Deployed Engineer (FDE) - Professional Services"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-7572075-forward-deployed-engineer-fde"
+slug: "greenhouse-cloudflare-7572075-forward-deployed-engineer-fde-professional-services"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
 role_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
 apply_url: "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
-posted_date: "2026-11-10"
-expires_date: "2026-12-10"
+posted_date: "2026-11-13"
+expires_date: "2026-12-13"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"

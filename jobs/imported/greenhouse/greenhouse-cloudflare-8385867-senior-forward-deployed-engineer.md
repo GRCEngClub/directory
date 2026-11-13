@@ -1,16 +1,16 @@
 ---
 title: "Senior Forward Deployed Engineer"
 company: "Cloudflare"
-slug: "greenhouse-cloudflare-8160655-senior-forward-deployed-engineer"
+slug: "greenhouse-cloudflare-8385867-senior-forward-deployed-engineer"
 status: "published"
 source: "Greenhouse"
 sources:
   - "Greenhouse"
 source_url: "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true"
-role_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
-apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8160655?gh_jid=8160655"
-posted_date: "2026-11-10"
-expires_date: "2026-12-10"
+role_url: "https://boards.greenhouse.io/cloudflare/jobs/8385867?gh_jid=8385867"
+apply_url: "https://boards.greenhouse.io/cloudflare/jobs/8385867?gh_jid=8385867"
+posted_date: "2026-11-13"
+expires_date: "2026-12-13"
 location: "Hybrid"
 work_modes:
   - "Hybrid / On-site"
@@ -24,7 +24,7 @@ specializations:
 frameworks: []
 languages:
   - "Rust"
-compensation: ""
+compensation: "$244,000 - $290,000"
 summary: "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other..."
 ---
 
@@ -32,7 +32,7 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&lt;/p&gt;
 &lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Available Locations&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Austin, Texas, US&lt;/li&gt;
+&lt;li&gt;Austin | Denver | San Francisco | New York&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;About the Role&lt;/h2&gt;
 &lt;p&gt;As an FDE, you'll work as a hands-on, consultative build partner to a portfolio of Cloudflare's most strategic customers — companies building complex, ambitious applications on our developer platform. You'll work shoulder-to-shoulder with their engineering teams to shape architecture, prototype alongside them, review code, and unblock the hard technical problems that stand between them and production — so they can build faster and scale further on Cloudflare.&lt;/p&gt;
@@ -73,8 +73,10 @@ summary: "About Us At Cloudflare, we are on a mission to help build a better Int
 &lt;/ul&gt;
 &lt;h2&gt;Compensation&lt;/h2&gt;
 &lt;p&gt;Compensation may be adjusted depending on work location.&lt;/p&gt;
+&lt;p&gt;For Bay Area based hires: Estimated annual salary of $244,000 - $290,000&lt;br&gt;For New York based hires: Estimated annual salary of $234,000 - $280,000&lt;br&gt;For Colorado based hires: Estimated annual salary of $212,000 - $255,000&lt;br&gt;&lt;br&gt;&lt;strong&gt;Commissions:&lt;/strong&gt; This role is eligible to earn incentive compensation under Cloudflare’s Sales Compensation Plan. The estimated annual salary range includes the on-target incentive compensation that may be attained in this role under the Sales Compensation Plan.&lt;/p&gt;
 &lt;h3&gt;Equity&lt;/h3&gt;
 &lt;p&gt;This role is eligible to participate in Cloudflare’s equity plan.&lt;/p&gt;
+&lt;p&gt;Applications will be accepted until January 15th, 2027.&nbsp;&lt;/p&gt;
 &lt;h3&gt;Benefits&lt;/h3&gt;
 &lt;p&gt;Cloudflare offers a complete package of benefits and programs to support you and your family.&nbsp; Our benefits programs can help you pay health care expenses, support caregiving, build capital for the future and make life a little easier and fun!&nbsp; The below is a description of our benefits for employees in the United States, and benefits may vary for employees based outside the U.S.&lt;/p&gt;
 &lt;h3&gt;Health &amp; Welfare Benefits&lt;/h3&gt;

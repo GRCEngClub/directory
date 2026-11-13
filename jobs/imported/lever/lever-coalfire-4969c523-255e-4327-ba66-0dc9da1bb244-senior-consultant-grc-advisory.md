@@ -72,7 +72,8 @@ We are thought leaders, consultants, and cybersecurity experts, but above all el
 
 - NIST 800-171 (CMMC)
 
-- Dependent on the framework(s) you will be supporting, you must have one or more of the following certifications: ISO/IEC 27001 Lead Auditor
+- Dependent on the framework(s) you will be supporting, you must have one or more of the following certifications:
+- ISO/IEC 27001 Lead Auditor
 
 - ISO/IEC 27001 Lead Implementor
 
