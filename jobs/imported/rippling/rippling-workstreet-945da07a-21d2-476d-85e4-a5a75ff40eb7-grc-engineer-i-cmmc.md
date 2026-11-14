@@ -1,16 +1,16 @@
 ---
-title: "GRC Engineer (CMMC)"
+title: "GRC Engineer I (CMMC)"
 company: "Workstreet"
-slug: "rippling-workstreet-f221e9e0-3ebb-490a-8864-7e508bcab07f-grc-engineer-cmmc"
+slug: "rippling-workstreet-945da07a-21d2-476d-85e4-a5a75ff40eb7-grc-engineer-i-cmmc"
 status: "published"
 source: "Rippling"
 sources:
   - "Rippling"
 source_url: "https://ats.rippling.com/workstreet/jobs"
-role_url: "https://ats.rippling.com/workstreet/jobs/f221e9e0-3ebb-490a-8864-7e508bcab07f"
-apply_url: "https://ats.rippling.com/workstreet/jobs/f221e9e0-3ebb-490a-8864-7e508bcab07f"
-posted_date: "2026-08-18"
-expires_date: "2026-09-17"
+role_url: "https://ats.rippling.com/workstreet/jobs/945da07a-21d2-476d-85e4-a5a75ff40eb7"
+apply_url: "https://ats.rippling.com/workstreet/jobs/945da07a-21d2-476d-85e4-a5a75ff40eb7"
+posted_date: "2026-11-13"
+expires_date: "2026-12-13"
 location: "Remote (United States)"
 work_modes:
   - "Remote"

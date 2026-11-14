@@ -28,7 +28,7 @@ frameworks:
   - "NIST 800-53"
   - "NIST 800-171"
 languages: []
-compensation: "$200K – $250K • Offers Equity"
+compensation: "$200K – $250K • Offers Equity • Offers Bonus"
 summary: "Spacecraft represent the most pressing unmet need across the entire aerospace industry. As more launch vehicles come online and the cost to orbit decreases, more companies..."
 ---
 
@@ -76,6 +76,8 @@ Apex believes in creating a work environment that you look forward to embracing 
 What We Offer For Full-time Employees:
 
 - Shared upside: Receive equity in Apex, letting you benefit from the work you create
+
+- Cash bonus eligibility: share in Apex’s success with eligibility for a performance-based cash bonus on top of your salary, rewarding the impact you make
 
 - Best-in-class healthcare: 100% company-paid medical, dental, and vision for you and your dependents, plus $100k life insurance at no cost
 

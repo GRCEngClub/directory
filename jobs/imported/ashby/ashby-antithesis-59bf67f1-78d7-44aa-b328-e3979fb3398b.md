@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/antithesis?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/antithesis/59bf67f1-78d7-44aa-b328-e3979fb3398b"
 apply_url: "https://jobs.ashbyhq.com/antithesis/59bf67f1-78d7-44aa-b328-e3979fb3398b/application"
-posted_date: "2026-11-13"
-expires_date: "2026-12-13"
+posted_date: "2026-11-14"
+expires_date: "2026-12-14"
 location: "London, UK"
 work_modes:
   - "Hybrid / On-site"
