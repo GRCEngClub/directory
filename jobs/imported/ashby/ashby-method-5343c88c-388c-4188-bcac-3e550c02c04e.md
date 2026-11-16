@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Method?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/method/5343c88c-388c-4188-bcac-3e550c02c04e"
 apply_url: "https://jobs.ashbyhq.com/method/5343c88c-388c-4188-bcac-3e550c02c04e/application"
-posted_date: "2026-11-15"
-expires_date: "2026-12-15"
+posted_date: "2026-11-16"
+expires_date: "2026-12-16"
 location: "New York, NY"
 work_modes:
   - "Remote"
@@ -82,7 +82,7 @@ The annual US base salary range for this role is: $180,000-$220,000.
 
 ## In-office Policy
 
-For most roles are Method, we expect a regular in-person presence at one of our hubs in NYC, Austin, SF or DC. We have embedded flexibility to work remotely for a week here and there, but the general expectation is a minimum 2-3 days/week in office on average. What does not work is full-time remote.
+For most roles at Method, we expect a regular in-person presence at one of our hubs in NYC, Austin, SF or DC. We have embedded flexibility to work remotely for a week here and there, but the general expectation is a minimum 2-3 days/week in office on average. What does not work is full-time remote.
 
 ## Accommodations
 
