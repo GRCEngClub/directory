@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs?content=true"
 role_url: "https://boards.greenhouse.io/andurilindustries/jobs/5155536007?gh_jid=5155536007"
 apply_url: "https://boards.greenhouse.io/andurilindustries/jobs/5155536007?gh_jid=5155536007"
-posted_date: "2026-11-03"
-expires_date: "2026-12-03"
+posted_date: "2026-11-17"
+expires_date: "2026-12-17"
 location: "Honolulu, Hawaii, United States"
 work_modes:
   - "Hybrid / On-site"
@@ -36,7 +36,7 @@ summary: "Anduril Industries is a defense technology company with a mission to t
 &lt;li&gt;Drive software solutions end-to-end, partnering closely with end-users to translate complex needs into features while balancing user experience with engineering constraints.&lt;/li&gt;
 &lt;li&gt;Collaborate across multiple teams to plan, build, and test complex, cross-functional functionality.&lt;/li&gt;
 &lt;li&gt;Ensure system health and rapid resolution by creating and analyzing monitoring metrics, triaging production issues, root-causing failures, and coordinating next steps.&lt;/li&gt;
-&lt;li&gt;Travel 10% – 30% of the time to meet customers wherever in the world they are, collaborate with teammates across the globe, understand real-world operating conditions, and build, test, and deploy capabilities directly in the field.&lt;/li&gt;
+&lt;li&gt;Be embedded onsite at customer locations at least 50% of the timen (primarily military sites), working alongside end-users to navigate real-world operating environments and build, test, and deploy mission-critical capabilities directly in the field.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;REQUIRED QUALIFICATIONS&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

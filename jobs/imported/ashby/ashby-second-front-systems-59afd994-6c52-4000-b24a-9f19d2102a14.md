@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Second-Front-Systems?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Second-Front-Systems/59afd994-6c52-4000-b24a-9f19d2102a14"
 apply_url: "https://jobs.ashbyhq.com/Second-Front-Systems/59afd994-6c52-4000-b24a-9f19d2102a14/application"
-posted_date: "2026-11-16"
-expires_date: "2026-12-16"
+posted_date: "2026-11-17"
+expires_date: "2026-12-17"
 location: "Remote"
 work_modes:
   - "Remote"
@@ -23,7 +23,7 @@ specializations:
   - "Identity & Access Management"
 frameworks: []
 languages: []
-compensation: "$160,000 - $190,000"
+compensation: "$150,000 - $190,000"
 summary: "Second Front Systems is looking for an operationally experienced, technically rigorous Senior Forward Deployed Engineer - Implementation to strengthen our implementation function..."
 ---
 
@@ -54,7 +54,7 @@ What You Bring
 
 Preferred
 
-The base salary for this position will fall between $160,000 and $190,000. Your ultimate compensation will be determined by professional background, technical proficiency, seniority, and regional cost factors. Furthermore, this opportunity includes potential eligibility for equity awards and discretionary bonuses, rounding out a comprehensive total rewards offering.
+The base salary for this position will fall between $150,000 and $190,000. Your ultimate compensation will be determined by professional background, technical proficiency, seniority, and regional cost factors. Furthermore, this opportunity includes potential eligibility for equity awards and discretionary bonuses, rounding out a comprehensive total rewards offering.
 
 ## Success at 2F Looks Like:
 
