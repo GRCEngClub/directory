@@ -14,4 +14,6 @@ leads:
   - name: Philip Alger
     role: Vice President
     linkedin: https://www.linkedin.com/in/palaric
+  - name: Linda Ridley
+    role: Director of Membership
 ---
