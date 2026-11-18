@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/1ddf1fcf-a647-4016-92c3-2da4b45d1b15"
 apply_url: "https://jobs.ashbyhq.com/openai/1ddf1fcf-a647-4016-92c3-2da4b45d1b15/application"
-posted_date: "2026-11-17"
-expires_date: "2026-12-17"
+posted_date: "2026-11-18"
+expires_date: "2026-12-18"
 location: "Singapore"
 work_modes:
   - "Hybrid / On-site"
@@ -34,7 +34,7 @@ OpenAI’s Forward Deployed Engineering (FDE) team partners with customers to tu
 
 About the Role
 
-As a Manager of our Deployment Leads in APAC, you’ll lead and grow a team of DLs through high-stakes customer deployments, owning technical and business outcomes end to end. You’ll help build the function as you lead it, navigating significant ambiguity to define its scope and ways of working.
+As the founding Deployment Lead Manager for Asia Pacific outside Japan, you’ll lead and grow a team of DLs already working with customers across the region. Based in Singapore, you’ll partner with regional FDE and go-to-market leaders to decide which opportunities to pursue and where your team can have the greatest impact. On the most important engagements, you’ll work directly with DLs, engineers and customers to shape the scope, win the work and deliver it through production and adoption. You’ll help build the function as you lead it, navigating significant ambiguity and giving DLs the support and autonomy to lead in their own markets.
 
 You’ll partner with FDE, Product, Research, and GTM to balance customer-specific solutions with reusable capabilities and ensure field insights inform product priorities. Drawing on your experience leading complex technical deployments and products, you’ll guide decisions on scope, feasibility, sequencing, and delivery readiness, helping your team make sound tradeoffs and build lasting customer trust.
 
@@ -46,17 +46,17 @@ In this role, you will:
 
 - Lead and grow a team of DLs delivering production systems with frontier models
 - Own end-to-end delivery outcomes, from scoping through production, adoption, and handoff
-- Set direction and build trust across technical teams, GTM, and customer executives
+- Help DLs and FDEs shape and win strategic engagements, then deliver the outcomes they committed to with the customer.
 - Codify what works into practical playbooks, consistent delivery practices, and product roadmap inputs
 - Set a high bar for DL performance through hands-on coaching, actionable feedback, and career development
-- Make staffing decisions, develop future DL leaders, and build a team that scales without unnecessary complexity
+- Make staffing decisions across markets with regional FDE leaders. Give local DLs clear ownership, step into critical pursuits and deployments where they need your help, and identify where the team needs to hire next.
 
-You might thrive in this role if you:
+You might thrive in this role if you
 
 - Bring 8+ years of customer-facing technical delivery or product leadership experience, including 2+ years managing high-performing teams.
-- Have personally led complex technical deployments from prototype through production, adoption, and handoff.
+- Have personally led complex technical deployments from prototype through production, adoption, and handoff. You’ve also helped win or expand an engagement by shaping the scope with engineers, influencing what the customer chose to fund, and delivering against the commitments you helped make.
 - Have a strong product mindset, ideally with product management experience, and can balance customer-specific needs with reusable solutions.
-- Thrive in ambiguity and enjoy building new functions: creating structure where little exists, making sound decisions with incomplete information, and adapting as priorities evolve.
+- You’ve built or grown a customer-facing technical team across multiple markets. You can point to an engagement you helped land and deliver yourself, and one where someone you developed took the lead.
 - Build deep trust across technical teams, Product, Research, GTM, and customer leadership.
 - Have a strong track record of hiring, coaching, and developing technical, customer-facing talent; elevate team performance through clarity, not process.
 

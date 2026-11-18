@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Sierra?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5"
 apply_url: "https://jobs.ashbyhq.com/Sierra/2bba25d3-f5c1-4d84-b3fb-846b40597ff5/application"
-posted_date: "2026-11-17"
-expires_date: "2026-12-17"
+posted_date: "2026-11-18"
+expires_date: "2026-12-18"
 location: "London"
 work_modes:
   - "Hybrid / On-site"
@@ -77,11 +77,11 @@ You will act as a strategic partner to Platform, Security, Product, Agent Develo
 
 ## Our values
 
-- Trust: We build trust with our customers with our accountability, empathy, quality, and responsiveness. We build trust in AI by making it more accessible, safe, and useful. We build trust with each other by showing up for each other professionally and personally, creating an environment that enables all of us to do our best work.
-- Customer Obsession: We deeply understand our customers’ business goals and relentlessly focus on driving outcomes, not just technical milestones. Everyone at the company knows and spends time with our customers. When our customer is having an issue, we drop everything and fix it.
-- Craftsmanship: We get the details right, from the words on the page to the system architecture. We have good taste. When we notice something isn’t right, we take the time to fix it. We are proud of the products we produce. We continuously self-reflect to continuously self-improve.
-- Intensity: We know we don’t have the luxury of patience. We play to win. We care about our product being the best, and when it isn’t, we fix it. When we fail, we talk about it openly and without blame so we succeed the next time.
-- Family: We know that balance and intensity are compatible, and we model it in our actions and processes. We are the best technology company for parents. We support and respect each other and celebrate each other’s personal and professional achievements.
+- Trust: We do the right thing, even when no one is looking, and even when it’s hard. When we screw up, we take accountability, fully and completely. We act in such a way that if all of our actions were completely visible to our customers, we would be proud.
+- Customer Obsession: Our entire business is designed to ensure every agent built on Sierra succeeds, and that we are accountable to our customers and their success. We do whatever it takes to make our customers successful, and we go the extra mile in how we show up as a partner with unreasonable hospitality.
+- Craftsmanship: A great company is the aggregation of thousands of things done well. As they say, “how you do anything is how you do everything”. Most important is craftsmanship in building agents that are so great that people thank them at the end of a call. That’s the standard.
+- Intensity: We operate with urgency, and we want to win. We are never complacent. We fight to win every deal, big or small, using the full force of the company. And when we fail, we talk about it openly and without blame so we succeed the next time.
+- Family: We know that balance and intensity are compatible, and we model it in our actions and processes. We work hard, and turn on the afterburners when needed. But we pick up our parents at the airport when they’re visiting from out of town. We go to our kids’ events. And we show up for one another, in moments of celebration and hardship.
 
 ## What we offer
 

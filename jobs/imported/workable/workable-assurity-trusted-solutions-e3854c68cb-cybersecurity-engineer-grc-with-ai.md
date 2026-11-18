@@ -70,7 +70,7 @@ The remuneration package will commensurate with your qualifications and experien
 
 We thank you for your interest and please note that only shortlisted candidates will be notified.
 
-By submitting your application, you agree that your personal data may be collected, used and disclosed by Assurity Trusted Solutions Pte. Ltd. (ATS), GovTech and their service providers and agents in accordance with ATS’s privacy statement which can be found at: https://www.assurity.sg/ (https://www.assurity.sg/) or such other successor site.
+By submitting your application, you agree that your personal data may be collected, used (we may utilise automated tools to assist in flagging out missing or incomplete submissions) and disclosed by Assurity Trusted Solutions Pte. Ltd. (ATS), GovTech and their service providers and agents in accordance with ATS’s privacy statement which can be found at: https://www.assurity.sg/ (https://www.assurity.sg/) or such other successor site.
 
 Benefits
 

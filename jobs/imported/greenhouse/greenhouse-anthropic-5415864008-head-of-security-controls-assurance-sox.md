@@ -1,7 +1,7 @@
 ---
-title: "Lead - Security Controls Assurance - SOX"
+title: "Head of Security Controls Assurance - SOX"
 company: "Anthropic"
-slug: "greenhouse-anthropic-5415864008-lead-security-controls-assurance-sox"
+slug: "greenhouse-anthropic-5415864008-head-of-security-controls-assurance-sox"
 status: "published"
 source: "Greenhouse"
 sources:
@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/anthropic/jobs/5415864008"
 apply_url: "https://job-boards.greenhouse.io/anthropic/jobs/5415864008"
-posted_date: "2026-10-23"
-expires_date: "2026-11-22"
+posted_date: "2026-11-18"
+expires_date: "2026-12-18"
 location: "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC"
 work_modes:
   - "Hybrid / On-site"

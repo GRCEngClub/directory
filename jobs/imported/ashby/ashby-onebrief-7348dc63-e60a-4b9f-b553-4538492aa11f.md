@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/onebrief?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/onebrief/7348dc63-e60a-4b9f-b553-4538492aa11f"
 apply_url: "https://jobs.ashbyhq.com/onebrief/7348dc63-e60a-4b9f-b553-4538492aa11f/application"
-posted_date: "2026-11-17"
-expires_date: "2026-12-17"
+posted_date: "2026-11-18"
+expires_date: "2026-12-18"
 location: "United States | Remote"
 work_modes:
   - "Remote"

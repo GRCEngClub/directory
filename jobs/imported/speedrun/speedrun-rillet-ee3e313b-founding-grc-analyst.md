@@ -44,8 +44,8 @@ The people who thrive at Rillet do not wait for assignments. They internalize th
 Our work revolves around our customers. The people who succeed here are energized by delivering what matters most, even when it was not part of the original plan.
 Rillet is built on deep accounting expertise, and it takes people from many disciplines to build a category-defining company. You do not need to be an accountant to thrive here. You do need to care deeply about the problems we solve and the impact our customers can create. Together, we combine the precision of accounting with the speed, creativity, and ambition of AI-native software to power the financial core of the world’s fastest-growing companies while redefining what finance teams should expect from their software.
 Who We Need
-As our Founding GRC Analyst, you will build Rillet's governance, risk, and compliance program from the ground up. This is a unique opportunity to establish the security and compliance foundation for a high-growth fintech company handling sensitive financial data for the world's fastest-growing companies. You will own our SOC 2 Type II certification, lead customer security reviews, and build scalable compliance processes that enable rather than slow down our product velocity. You will partner directly with engineering leadership to embed security into our development lifecycle and with sales leadership to accelerate enterprise deals through trust and transparency.
-We're looking for teammates who value in-person collaboration and are within commutable distance of our NYC or San Francisco offices (or willing to relocate). Team members are required to work in-office Tuesdays and Thursdays, plus one additional flexible in-office day. Certain roles may require additional in-office time based on function.
+As our founding Senior GRC Analyst, you will build Rillet's governance, risk, and compliance program from the ground up. This is a unique opportunity to establish the security and compliance foundation for a high-growth fintech company handling sensitive financial data for the world's fastest-growing companies. You will own our compliance frameworks, lead customer reviews, and build scalable compliance processes that enable rather than slow down our product velocity. You will partner directly with engineering leadership to embed security into our development lifecycle and with sales leadership to accelerate enterprise deals through trust and transparency.
+At Rillet, we embrace flexible work arrangements. We have a preference for hybrid and are looking for candidates based within commuting distance of our San Francisco or New York City office, where the team works in person on Tuesdays and Thursdays plus one additional flexible day each week. For the right candidate, we’re open to discussing remote flexibility.
 
 What You'll Do
 
@@ -67,13 +67,13 @@ Who We're Looking For
 
 - Deep understanding of security frameworks (SOC 2, ISO 27001, NIST CSF) and data privacy regulations (GDPR, CCPA), with the ability to translate requirements into practical controls
 
-- Technical fluency to collaborate effectively with engineering teams on security architecture, vulnerability management, and cloud security (AWS/GCP/Azure)
+- Entrepreneurial mindset with extreme ownership—you don't need a playbook or a large team, you build what needs to exist.
+
+- Technical fluency to collaborate effectively with engineering teams on security architecture, vulnerability management, and cloud security (AWS)
 
 - Track record of building compliance programs that enable fast product iteration rather than slowing teams down, with a bias toward automation and scalable processes
 
 - Exceptional communication skills with the ability to translate complex security concepts for executives, engineers, and customers alike
-
-- Entrepreneurial mindset with extreme ownership—you don't need a playbook or a large team, you build what needs to exist.
 
 Note: All official Rillet recruiting communications will come from an @rillet.com email address. If you’re contacted from another domain, please disregard the message and report it as spam.
 
