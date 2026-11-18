@@ -13,4 +13,7 @@ leads:
     linkedin: https://www.linkedin.com/in/infosec-ryan-mcgregor/
   - name: Scott Jones
     role: Vice President
+  - name: Ciaran McNeil
+    role: Secretary
+    linkedin: https://www.linkedin.com/in/ciaran-mcneil/
 ---
