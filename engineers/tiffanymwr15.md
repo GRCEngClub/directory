@@ -3,6 +3,7 @@ name: "Tiffany Walker-Roper"
 github: "tiffanymwr15"
 specializations:
   - "Audit & Assurance"
+  - "AI Security"
   - "Privacy"
   - "Risk Management"
   - "Security Governance"
@@ -24,7 +25,9 @@ frameworks:
   - "PCI-DSS"
 certifications:
   - "CGE-P"
+  - "CGE-AUD"
   - "AIGP"
+  - "TAISE"
   - "CYSA+"
   - "ISO 27001 Lead Auditor"
 available_for:
@@ -46,13 +49,13 @@ projects:
 
 I am a privacy and security professional specializing in AI governance and GRC engineering, combining legal and technical expertise across highly regulated environments. I build based on my interests, including practical GRC automation and AI threat modeling tools built with AI-assisted development, as well as experimenting with applying governance frameworks (NIST AI RMF, EU AI Act, ISO 42001) to AI systems. 
 
-Throughout my career, I have worked across a range of spaces - from being a litigation paralegal to fintech compliance to GRC at a cloud provider and a stint in Big 4 doing privacy and 3rd party security consulting - I'm presently a contractor in the defense industry as the Information Governance Lead for an advanced military engine program. My breadth of industry exposure helped me learn how to design and implement scalable compliance frameworks where they are needed most, get in the weeds of broken processes, and build solutions that hold up when it matters. 
+Throughout my career, I have worked across a range of spaces - from being a litigation paralegal to fintech compliance to GRC at a cloud provider and a stint in Big 4 doing privacy and 3rd party security consulting - I'm presently a contractor in the aerospace industry as an Information Governance Lead. My breadth of industry exposure helped me learn how to design and implement scalable compliance frameworks where they are needed most, get in the weeds of broken processes, and build solutions that hold up when it matters. 
 
 From conducting CCPA and CPRA readiness assessments to completing SIG-Lite and HECVAT questionnaires to serving as the assessor on the other side of the table, I have operated across the full spectrum of privacy and vendor risk work. That range allows me to bridge compliance strategy and technical implementation to create real organizational value. 
 
 What I am most passionate about in GRC is the intersection with AI governance - how do we apply GRC principles to AI systems, to agents, and protect the data in effective and scalable ways? What does AI GRC look like in reality? How do we apply GRC engineering to AI systems that are handling the most sensitive data - like PHI? Where do we put the onus on vendors to demonstrate that their new AI functionality is not a prompt injection away from a massive breach? These are the questions that modern GRC programs are facing in the age of AI, and they require technical solutions - a spreadsheet is not going to demonstrate anything here. I joined the GRC Engineering Club to sharpen my technical skills and think about how we solve these challenges. 
 
-Beyond my day-to-day work, I am a contributing member of an IEEE Standards Association subcommittee focused on human-centricity in technology, where we are developing a privacy nutrition label framework and scoring methodology. I am proud to serve as the 2026 Young Privacy Professional for the CT IAPP Chapter. I am also currently pursuing a Master of Science in Cybersecurity and Information Assurance with an expected completion in Spring 2027.
+Beyond my day-to-day work, I am a contributing member of the IEEE Standards Association Industry Connections program on Digital Trust, where we have published our first whitepaper on the TRACER Framework to operationalize human-centricity in connected systems. I served as the 2026 Young Privacy Professional for the CT IAPP Chapter. I am also currently pursuing a Master of Science in Cybersecurity and Information Assurance with an expected completion in Spring 2027. I'm the President of the Hartford Chapter of the GRC Engineering Club.
 
 ## Experience Highlights
 
