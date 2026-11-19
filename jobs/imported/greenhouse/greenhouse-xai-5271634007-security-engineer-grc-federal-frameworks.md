@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/xai/jobs/5271634007"
 apply_url: "https://job-boards.greenhouse.io/xai/jobs/5271634007"
-posted_date: "2026-11-11"
-expires_date: "2026-12-11"
+posted_date: "2026-11-18"
+expires_date: "2026-12-18"
 location: "Austin, TX; New York, NY; Palo Alto, CA; Washington, DC"
 work_modes:
   - "Hybrid / On-site"
@@ -49,7 +49,7 @@ summary: "SpaceX was founded under the belief that a future where humanity is ou
 &lt;/ul&gt;
 &lt;h4&gt;&lt;strong&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;BASIC QUALIFICATIONS:&lt;/span&gt;&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Bachelor's degree in computer science, information security, cybersecurity, or in an engineering/STEM discipline&lt;/li&gt;
+&lt;li&gt;Bachelor's degree in computer science, information security, cybersecurity, business or in an engineering/business/STEM discipline&lt;/li&gt;
 &lt;li&gt;3+ years of experience in governance, risk management, compliance, or technology audit roles&lt;/li&gt;
 &lt;li&gt;1+ years of experience with FedRAMP/IL5 compliance, vulnerability management, and continuous monitoring&lt;/li&gt;
 &lt;/ul&gt;

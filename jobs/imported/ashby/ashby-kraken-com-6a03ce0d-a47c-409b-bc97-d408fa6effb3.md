@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/kraken.com?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/kraken.com/6a03ce0d-a47c-409b-bc97-d408fa6effb3"
 apply_url: "https://jobs.ashbyhq.com/kraken.com/6a03ce0d-a47c-409b-bc97-d408fa6effb3/application"
-posted_date: "2026-11-18"
-expires_date: "2026-12-18"
+posted_date: "2026-11-19"
+expires_date: "2026-12-19"
 location: "United States"
 work_modes:
   - "Remote"
