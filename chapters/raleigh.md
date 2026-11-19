@@ -15,4 +15,8 @@ leads:
     role: Vice President
   - name: Joshua McLawhorn
     role: Secretary
+  - name: Andrew Smith
+    role: Treasurer
+  - name: Jessica Barnwell
+    role: Director of Events
 ---

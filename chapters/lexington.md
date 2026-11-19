@@ -11,4 +11,7 @@ leads:
   - name: Chad Cottle
     role: President
     linkedin: https://www.linkedin.com/in/chadcottle/
+  - name: Nick Oswalt
+    role: Vice President
+    linkedin: https://www.linkedin.com/in/nick-oswalt/
 ---
