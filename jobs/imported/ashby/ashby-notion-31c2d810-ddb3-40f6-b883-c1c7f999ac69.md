@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/Notion?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/notion/31c2d810-ddb3-40f6-b883-c1c7f999ac69"
 apply_url: "https://jobs.ashbyhq.com/notion/31c2d810-ddb3-40f6-b883-c1c7f999ac69/application"
-posted_date: "2026-11-19"
-expires_date: "2026-12-19"
+posted_date: "2026-11-20"
+expires_date: "2026-12-20"
 location: "Dublin, Ireland"
 work_modes:
   - "Hybrid / On-site"
