@@ -36,7 +36,7 @@ We’re looking for a sharp, pragmatic, and detail-oriented Contracting & Compli
 This role will be based onsite at our Company HQ in El Segundo, CA.  A remote working relationship is not available for this position.
 Overall Responsibilities
 
-- Manage the end-to-end contract lifecycle, including proposal review, contract negotiation, execution, and compliance monitoring.
+- Manage the end-to-end contract lifecycle for U. S. Government and commercial contracts, including proposal review, contract negotiation, execution, and compliance monitoring.
 
 - Act as the primary internal point of contact for all DoD contract matters—ensuring we meet deliverables, terms, and reporting requirements.
 
@@ -59,6 +59,8 @@ Required Skills
 - Deep working knowledge of FAR, DFARS, ITAR, and other regulatory frameworks relevant to U.S. defense contracting.
 
 - Experience managing the full lifecycle of DoD contracts, including fixed-price, cost-plus, and OTA agreements.
+
+- Experience managing commercial contracts.
 
 - Highly organized, process-oriented, and capable of balancing compliance with speed in a startup environment.
 

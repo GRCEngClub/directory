@@ -74,5 +74,6 @@ Depending on your location, an Applicant Privacy Notice may apply to you. You ca
 
 #LI-KV1
 
+We are an AI company and we use AI to improve all of our processes, including in the recruitment process. While we do use AI to help improve efficiency in our recruitment process, we do not rely on AI to make any automated decisions and ensure that a human reviews AI output.
 Harvey is an equal opportunity employer and does not discriminate on the basis of race, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition, or any other basis protected by law.
 We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made by emailing accommodations@harvey.ai

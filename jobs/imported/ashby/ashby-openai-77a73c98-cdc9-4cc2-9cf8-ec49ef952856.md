@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/77a73c98-cdc9-4cc2-9cf8-ec49ef952856"
 apply_url: "https://jobs.ashbyhq.com/openai/77a73c98-cdc9-4cc2-9cf8-ec49ef952856/application"
-posted_date: "2026-11-20"
-expires_date: "2026-12-20"
+posted_date: "2026-11-21"
+expires_date: "2026-12-21"
 location: "Tokyo, Japan"
 work_modes:
   - "Hybrid / On-site"
