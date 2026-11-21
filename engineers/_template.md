@@ -5,7 +5,7 @@ github: your-github-username
 specializations:
   - Cloud Security
   - Compliance Automation
-# Options: AI Governance, Audit & Assurance, Cloud Governance, Cloud Security, Compliance Automation,
+# Options: AI Governance, AI Security, Audit & Assurance, Cloud Governance, Cloud Security, Compliance Automation,
 #   DevSecOps, Identity & Access Management, Incident Response, Offensive Security, Privacy,
 #   Risk Management, Security Architecture, Security Governance, Security Operations,
 #   Third-Party Risk, Vulnerability Management
