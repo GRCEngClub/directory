@@ -10,6 +10,7 @@ summary: The club lands in Southeast Asia. Singapore is the regulatory and finan
 leads:
   - name: Andre Thong
     role: President
+    linkedin: https://www.linkedin.com/in/andrethong/
   - name: Lim Jun Jie
     role: Vice President
     linkedin: https://www.linkedin.com/in/limjunjie-profile/
