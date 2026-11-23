@@ -18,6 +18,7 @@ const REGION = {
   Sweden: "Europe",
   "United Kingdom": "Europe",
   Kenya: "Africa",
+  Tunisia: "Africa",
   India: "Asia",
   Pakistan: "Asia",
   Qatar: "Asia",
