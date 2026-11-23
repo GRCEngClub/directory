@@ -5,7 +5,9 @@ specializations:
   - "AI Governance"
 location: "Austin, Texas, United States"
 linkedin: "https://linkedin.com/in/joseruiz1571"
+website: "https://builtbyjrv.com"
 blog: "https://controlledvocabulary.substack.com/"
+credly: "https://www.credly.com/users/joseruiz1571/badges"
 frameworks:
   - "EU AI Act"
   - "ISO 42001"
@@ -40,21 +42,25 @@ projects:
     description: "Agentic AI-control assurance. Deterministic collectors, citation-guarded LLM judgments, Cosign-signed evidence bundles, schema-valid OSCAL Assessment Results."
   - name: "mltrack"
     url: "https://github.com/joseruiz1571/mltrack"
-    description: "Python CLI for AI model inventory and compliance tracking. SR 11-7 review cycles, NIST AI RMF, ISO 42001. 615 tests. Shipped v1."
+    description: "Python CLI for AI model inventory and compliance tracking. SR 11-7 review cycles, NIST AI RMF, ISO 42001. 641 tests in CI. Feature-complete at v0.1.0."
   - name: "governance-card-stack"
     url: "https://github.com/joseruiz1571/governance-card-stack"
     description: "OSCAL-aligned Agent Card schema (autonomy levels, MITRE ATLAS mappings, signed-evidence refs) with an OPA/Conftest fail-closed CI gate."
+  - name: "control-wording-study"
+    url: "https://github.com/joseruiz1571/control-wording-study"
+    description: "A measurement: reword a NIST SP 800-53 control without changing what it asks, and 10 of 40 automated verdicts changed. Frozen logs and one command to rebuild the tables."
 ---
 ## About Me
 
-Jose Ruiz-Vazquez is an AI GRC Engineer and Vice President of the GRC Engineering Club's Austin chapter. He builds the evidence and assurance layer for AI agent governance: the structured records, attestations, and control mappings that let a system, an auditor, or a buyer verify what an agent did and what it was allowed to do. Two decades as an information professional taught him how to give unstructured knowledge a shape other people can query; he applies that to policy, risk, and agent behavior in OSCAL, OPA, and signed evidence pipelines mapped to NIST AI RMF, ISO 42001, and the EU AI Act. His open-source tooling (Colophon, mlassure, mltrack, the Governance Card Stack) is on [GitHub](https://github.com/joseruiz1571). He holds CGE-P and CGE-AUD.
+Jose Ruiz-Vazquez is an AI GRC Engineer and President of the GRC Engineering Club's Austin chapter. He builds the evidence and assurance layer for AI agent governance: the structured records, attestations, and control mappings that let a system, an auditor, or a buyer verify what an agent did and what it was allowed to do. Two decades as an information professional taught him how to give unstructured knowledge a shape other people can query; he applies that to policy, risk, and agent behavior in OSCAL, OPA, and signed evidence pipelines mapped to NIST AI RMF, ISO 42001, and the EU AI Act. His open-source tooling (Colophon, mlassure, mltrack, the Governance Card Stack) and a public study of how control wording changes automated verdicts is on [GitHub](https://github.com/joseruiz1571). He holds CGE-P and CGE-AUD.
 
 ## Experience Highlights
 
 - Mileva Security Labs — [AI Security Fundamentals](https://aisecurityfundamentals.com), L1 Foundation and L3 Practitioner. Facilitate courses; engineer hands-on labs on model failure modes and agent oversight.
 - grc-pipeline-challenge — GRC Engineering Club challenge, 3rd place. Terraform, Rego, signed evidence vault, OSCAL claims.
 - [Open Source AI Gap Map](https://github.com/currentai-org/os-ai-map/issues/93) (Current AI): proposed the Assurance & compliance evidence category, now in the map's data with 22 scored products.
-- GRCEngClub/claude-grc-engineering — NIST AI RMF 1.0 framework plugin, merged.
+- GRCEngClub/claude-grc-engineering: four pull requests merged, including the NIST AI RMF 1.0 and NIST AI 600-1 framework plugins.
+- LF Decentralized Trust, Proof-of-Control standard: two crosswalk corrections merged.
 
 ## Get in Touch
 
