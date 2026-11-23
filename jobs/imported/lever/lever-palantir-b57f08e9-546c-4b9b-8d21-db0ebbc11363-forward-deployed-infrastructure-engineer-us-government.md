@@ -73,7 +73,7 @@ Palantir builds the world&rsquo;s leading software for data-driven decisions and
 
 - Strong coder with shown proficiency in programming languages such as Java, Go, Python, JavaScript, or similar languages
 
-- Active US Security clearance, or eligibility and willingness to obtain a US Security clearance
+- Active US Security Clearance at or above the Top Secret level
 
 Salary
 

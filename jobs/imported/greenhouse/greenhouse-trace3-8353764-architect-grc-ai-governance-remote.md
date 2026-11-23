@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/trace3/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/trace3/jobs/8353764"
 apply_url: "https://job-boards.greenhouse.io/trace3/jobs/8353764"
-posted_date: "2026-11-04"
-expires_date: "2026-12-04"
+posted_date: "2026-11-23"
+expires_date: "2026-12-23"
 location: "Dallas, TX, United States"
 work_modes:
   - "Hybrid / On-site"
@@ -50,7 +50,6 @@ summary: "Who is Trace3 ? Trace3 is a leading Transformative IT Authority, provi
 &lt;p&gt;We are humble individuals who understand how our job impacts the company's mission. We treat others with respect, admit mistakes, give credit where it’s due and demonstrate transparency. We “bring the weather” by exhibiting positive leadership and solution-focused thinking. We hug people in their trials, struggles, and failures – not just their success. We appreciate the individuality of the people around us.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;JOB SUMMARY:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&nbsp;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The Architect, Governance, Risk &amp; Compliance (GRC) is a senior, delivery-focused consultant responsible for leading and executing GRC engagements for Trace3 clients. This role performs framework-based security program assessments, risk assessments, and business impact analyses, and translates findings into practical, prioritized roadmaps that help clients build resilient, scalable, and compliant security programs. The Architect works directly with CISOs, risk and compliance leaders, control owners, and technical teams from engagement kickoff through final executive readout.&lt;/p&gt;
 &lt;p&gt;The GRC Architect will also help clients establish governance over the use of artificial intelligence, aligning AI adoption with emerging frameworks, regulations, and internal risk tolerance. This is a delivery role: the Architect is accountable for engagement quality, on-time completion of deliverables, and client satisfaction. A key function of this role will be to build deep relationships, gain trust, and enable client success.&lt;/p&gt;
 &lt;p&gt;&nbsp;&lt;/p&gt;
