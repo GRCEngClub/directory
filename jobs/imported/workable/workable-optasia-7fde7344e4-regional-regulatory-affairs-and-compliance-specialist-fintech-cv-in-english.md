@@ -19,10 +19,11 @@ job_types:
 specializations:
   - "Compliance Automation"
   - "Risk Management"
+  - "Security Governance"
   - "Audit & Assurance"
-  - "Cloud Security"
 frameworks: []
 languages:
+  - "OPA/Rego"
   - "Rust"
 compensation: ""
 summary: "Optasia is a real-time financial intelligence company. We build precision intelligence that unlocks financial opportunity at scale, running millions of automated credit decisions..."
@@ -83,3 +84,23 @@ Nice to have
 - A professional compliance qualification (for example ICA or CAMS) or a law degree.
 - A network across regulators, industry associations or the fintech ecosystem in key markets
 - A genuine passion for financial inclusion.
+
+Benefits
+
+Why Optasia?
+
+Optasia is a real-time financial intelligence company turning potential into financial progress.
+
+Our AI-powered platform turns permitted behavioural data and real-time signals into precise, responsible credit decisions. It runs millions of automated decisions every day inside the systems of telcos, banks, digital wallets and other partners, across high-growth markets in Africa, Asia and the Middle East.
+
+The work is demanding, and it matters. You’ll solve for limited formal credit data, unstable connectivity and informal incomes in live production, with risk tightly governed at every step. What you build helps people who were underrepresented in traditional credit histories get practical access to financial services.
+
+We are listed on the Johannesburg Stock Exchange (JSE: OPA), with our head office in Dubai. Our Credo shapes how we work: we start with why, we walk the talk, and we work as One Tribe across teams, countries and cultures.
+
+What we offer
+
+- Flexible working, including our work-from-anywhere policy
+- Competitive pay and a performance-based bonus scheme
+- An extra day off on your birthday
+- The equipment you need to do your best work
+- Support for your well-being and your career growth

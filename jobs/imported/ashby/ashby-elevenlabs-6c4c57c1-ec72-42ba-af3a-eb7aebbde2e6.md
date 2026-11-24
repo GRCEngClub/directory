@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/ElevenLabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6"
 apply_url: "https://jobs.ashbyhq.com/ElevenLabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6/application"
-posted_date: "2026-11-23"
-expires_date: "2026-12-23"
+posted_date: "2026-11-24"
+expires_date: "2026-12-24"
 location: "San Francisco"
 work_modes:
   - "Remote"
