@@ -9,8 +9,8 @@ sources:
 source_url: "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs?content=true"
 role_url: "https://job-boards.greenhouse.io/zscaler/jobs/5292785007"
 apply_url: "https://job-boards.greenhouse.io/zscaler/jobs/5292785007"
-posted_date: "2026-11-11"
-expires_date: "2026-12-11"
+posted_date: "2026-11-25"
+expires_date: "2026-12-25"
 location: "Santa Clara, California, USA"
 work_modes:
   - "Hybrid / On-site"
