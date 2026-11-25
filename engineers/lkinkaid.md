@@ -4,9 +4,9 @@ name: Larry Kinkaid
 github: lkinkaid
 specializations:
   - Compliance Automation
-  - AI Governance
-  - Security Governance
   - Audit & Assurance
+  - Security Governance
+  - AI Governance
   - Risk Management
   - Cloud Governance
   - Third-Party Risk
@@ -51,6 +51,7 @@ frameworks:
 
 # Professional certifications (optional)
 certifications:
+  - CGE-P
   - CISSP
   - CISA
   - CRISC
@@ -63,38 +64,39 @@ certifications:
 # What you're available for (optional)
 # Options (all lowercase): mentoring, speaking, consulting, open-source, hiring, freelance, collaboration
 available_for:
+  - collaboration
   - consulting
   - open-source
-  - collaboration
   - speaking
   - mentoring
 
 # Notable projects (optional)
 projects:
+  - name: CGE-P HIPAA Engineering Capstone
+    url: https://github.com/lkinkaid/cgep-app-starter
+    description: Remediated eight starter gaps with Terraform in a sandbox AWS Patient Intake API. A Rego policy gate in GitHub Actions blocked an S3 versioning regression and produced signed evidence of the failed check. OSCAL maps selected HIPAA Security Rule safeguards to the implementation and its evidence.
   - name: CGE-P Compliance-as-Code Labs
     url: https://github.com/lkinkaid/cgep-labs
     description: Hands-on compliance-as-code labs built for the Certified GRC Engineer Practitioner (CGE-P). Features reusable Terraform configurations, automated policy validation, and verifiable compliance evidence artifacts.
-  - name: CGE-P HIPAA Engineering Capstone
-    url: https://github.com/lkinkaid/cgep-app-starter
-    description: Hardened a deliberately non-compliant AWS Patient Intake API against HIPAA Security Rule requirements using Terraform, tested Rego policies, CI enforcement, signed evidence artifacts, and OSCAL control mappings.
 ---
 
 ## About Me
 
-I'm a cybersecurity leader with 13+ years of experience spanning IT audit, governance, risk, compliance, and security advisory. Today, I lead cybersecurity consulting engagements and serve as a Virtual CISO, helping organizations develop scalable security programs and achieve and maintain compliance across frameworks like SOC 2, ISO 27001, and HITRUST.
+I help organizations build security programs their teams can run day to day and auditors can verify. I bring 13+ years of experience across IT audit, governance, risk, compliance, and security advisory. Today, I lead cybersecurity consulting engagements and serve as a virtual CISO.
 
 I joined the GRC Engineering Club to bring a more hands-on engineering approach to the security and compliance programs I help organizations build, using engineering practices to make GRC more automated, scalable, and integrated with the systems we govern. I'm particularly interested in policy-as-code, infrastructure-as-code, continuous control monitoring, and finding practical ways to bring these concepts into real-world security and compliance programs.
 
-Most recently, I completed the Certified GRC Engineer Practitioner (CGE-P) labs and HIPAA capstone, both linked in my projects.
+I earned the Certified GRC Engineer Practitioner (CGE-P) credential after completing the hands-on labs and HIPAA capstone linked below.
 
 ## Experience Highlights
 
-- Lead a cybersecurity consulting practice supporting 60+ enterprise clients, while managing and developing a team of cybersecurity consultants.
+- Lead a cybersecurity consulting practice with 60+ active clients while managing and developing a team of cybersecurity consultants.
 - Serve as a Virtual CISO and trusted advisor to high-growth organizations, developing security strategies, risk management programs, and audit readiness across SOC 2, ISO 27001, HITRUST, CMMC, and other frameworks.
+- Set up and support client programs for SOC 2, ISO 27001, ISO 27701, and ISO 42001 using Vanta and Drata. Automate evidence collection and tailor workflows to how each client operates.
 - Led SOX ITGC and PCI DSS compliance programs and designed governance programs based on the CIS Controls.
 
 ## Get in Touch
 
-I'm always happy to connect with other GRC, security, and audit practitioners. Whether you want to compare notes on compliance automation, talk through a framework or audit question, or just introduce yourself and say hello, feel free to reach out.
+I'm always happy to connect with other GRC, security, and audit practitioners. Whether you want to compare notes on compliance automation, talk through a framework or audit question, or just introduce yourself and say hello, feel free to reach out. I'm also open to conversations about roles that bring security governance and engineering closer together.
 
-- Email: lrkinkaid@gmail.com
+[LinkedIn](https://www.linkedin.com/in/lrkinkaid/) is the best way to reach me. Feel free to send me a message or a connection request with a quick note about what you'd like to discuss.
