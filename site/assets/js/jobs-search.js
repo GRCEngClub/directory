@@ -7,7 +7,10 @@
   var cards = Array.from(document.querySelectorAll(".job-card"));
   var cardGrid = document.querySelector(".jobs-directory .card-grid");
   var chips = Array.from(document.querySelectorAll(".chip"));
-  var clearBtn = document.getElementById("clear-filters");
+  var clearButtons = Array.from(document.querySelectorAll("[data-clear-filters]"));
+  var compactClear = document.querySelector("[data-compact-clear]");
+  var compactPillsEl = document.querySelector("[data-compact-pills]");
+  var compactNounEl = document.querySelector("[data-compact-noun]");
   var countEl = document.getElementById("results-count");
   var compactCountEl = document.querySelector("[data-compact-results]");
   var noResults = document.getElementById("no-results");
@@ -59,62 +62,53 @@
 
   var _skipUrlSync = false;
 
-  var FADE_MS = 250;
-  var pendingTimers = new Map();
-
   function getChip(filterKey, value) {
     return chipCache[filterKey + ":" + value] || null;
   }
 
   function hideCard(card) {
-    if (card.classList.contains("hidden")) return;
-    if (pendingTimers.has(card)) {
-      clearTimeout(pendingTimers.get(card));
-      pendingTimers.delete(card);
-    }
-    card.classList.add("fading");
-    var timer = setTimeout(function () {
-      card.classList.add("hidden");
-      pendingTimers.delete(card);
-    }, FADE_MS);
-    pendingTimers.set(card, timer);
+    card.hidden = true;
   }
 
   function showCard(card) {
-    if (!card.classList.contains("hidden") && !card.classList.contains("fading")) return;
-    if (pendingTimers.has(card)) {
-      clearTimeout(pendingTimers.get(card));
-      pendingTimers.delete(card);
-    }
-    card.classList.remove("hidden", "fading");
+    card.hidden = false;
+  }
+
+  function buildPills(container, pills) {
+    if (!container) return;
+    container.textContent = "";
+    pills.forEach(function (pill) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "active-filter-pill";
+      btn.dataset.filterKey = pill.key;
+      btn.dataset.filterValue = pill.value;
+      btn.setAttribute("aria-label", "Remove filter: " + pill.label);
+      var text = document.createElement("span");
+      text.textContent = pill.label;
+      var x = document.createElement("span");
+      x.className = "pill-x";
+      x.setAttribute("aria-hidden", "true");
+      x.textContent = "\u00d7";
+      btn.appendChild(text);
+      btn.appendChild(x);
+      container.appendChild(btn);
+    });
   }
 
   function updateSummary() {
-    if (!summaryEl || !pillsEl) return;
-
     var pills = [];
     FILTER_KEYS.forEach(function (key) {
       activeFilters[key].forEach(function (value) {
         var chip = getChip(key, value);
-        pills.push({
-          key: key,
-          value: value,
-          label: chip ? chip.textContent : value
-        });
+        if (chip) pills.push({ key: key, value: value, label: chip.textContent.trim() });
       });
     });
 
-    summaryEl.style.display = pills.length ? "" : "none";
-    pillsEl.innerHTML = "";
-
-    pills.forEach(function (pill) {
-      var btn = document.createElement("button");
-      btn.className = "active-filter-pill";
-      btn.dataset.filterKey = pill.key;
-      btn.dataset.filterValue = pill.value;
-      btn.innerHTML = pill.label + ' <span class="pill-x">\u00d7</span>';
-      pillsEl.appendChild(btn);
-    });
+    if (summaryEl) summaryEl.hidden = !pills.length;
+    buildPills(pillsEl, pills);
+    buildPills(compactPillsEl, pills);
+    if (compactClear) compactClear.hidden = !(pills.length || searchInput.value.trim());
   }
 
   function updateBadgeCounts() {
@@ -122,7 +116,7 @@
       var badge = badgeCache[key];
       if (!badge) return;
       badge.textContent = activeFilters[key].length;
-      badge.style.display = activeFilters[key].length ? "" : "none";
+      badge.hidden = !activeFilters[key].length;
     });
   }
 
@@ -159,7 +153,7 @@
         params.set(key, activeFilters[key].join(","));
       }
     });
-    history.replaceState(null, "", params.toString() ? "?" + params.toString() : window.location.pathname);
+    history.replaceState(null, "", window.location.pathname + (params.toString() ? "?" + params.toString() : ""));
   }
 
   function restoreFiltersFromUrl() {
@@ -167,13 +161,20 @@
     var query = params.get("q");
     if (query) searchInput.value = query;
     var sort = params.get("sort");
-    if (sort && sortSelect) sortSelect.value = sort;
+    if (sort && sortSelect && sortSelect.querySelector('option[value="' + sort.replace(/[^a-zA-Z]/g, "") + '"]')) {
+      sortSelect.value = sort;
+    }
 
     FILTER_KEYS.forEach(function (key) {
       var value = params.get(key);
       if (!value) return;
 
-      activeFilters[key] = value.split(",");
+      // Only accept values that exist as filter options.
+      activeFilters[key] = value.split(",").map(function (item) {
+        return item.trim().toLowerCase();
+      }).filter(function (item) {
+        return Boolean(getChip(key, item));
+      });
       activeFilters[key].forEach(function (item) {
         var chip = getChip(key, item);
         if (chip) {
@@ -230,7 +231,10 @@
 
     if (countEl) countEl.textContent = visible;
     if (compactCountEl) compactCountEl.textContent = visible;
-    if (noResults) noResults.style.display = visible === 0 ? "" : "none";
+    if (compactNounEl) {
+      compactNounEl.textContent = visible === 1 ? compactNounEl.dataset.singular : compactNounEl.dataset.plural;
+    }
+    if (noResults) noResults.hidden = visible !== 0;
     if (!_skipUrlSync) syncFiltersToUrl();
     updateSummary();
     updateBadgeCounts();
@@ -399,7 +403,7 @@
     });
   });
 
-  pillsEl && pillsEl.addEventListener("click", function (event) {
+  function removeFilter(event) {
     var pill = event.target.closest(".active-filter-pill");
     if (!pill) return;
 
@@ -412,18 +416,25 @@
     }
     activeFilters[key] = activeFilters[key].filter(function (item) { return item !== value; });
     updateCards();
+  }
+
+  if (pillsEl) pillsEl.addEventListener("click", removeFilter);
+  if (compactPillsEl) compactPillsEl.addEventListener("click", removeFilter);
+
+  clearButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      searchInput.value = "";
+      FILTER_KEYS.forEach(function (key) { activeFilters[key] = []; });
+      syncChipState();
+      updateCards();
+    });
   });
 
-  clearBtn && clearBtn.addEventListener("click", function () {
-    searchInput.value = "";
-    FILTER_KEYS.forEach(function (key) { activeFilters[key] = []; });
-    syncChipState();
-    if (sortSelect) sortSelect.value = "newest";
-    history.replaceState(null, "", window.location.pathname);
-    updateCards();
+  var inputTimer;
+  searchInput.addEventListener("input", function () {
+    clearTimeout(inputTimer);
+    inputTimer = setTimeout(updateCards, 120);
   });
-
-  searchInput.addEventListener("input", updateCards);
   sortSelect && sortSelect.addEventListener("change", updateCards);
   restoreFiltersFromUrl();
 })();

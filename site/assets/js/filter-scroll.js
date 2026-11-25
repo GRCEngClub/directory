@@ -6,15 +6,14 @@
   var searchInput = filters.querySelector("#search-input");
   var backdrop = filters.querySelector("[data-filter-dismiss]");
   var toggleButtons = Array.from(filters.querySelectorAll("[data-filter-toggle]"));
-  var shortcutLabels = Array.from(filters.querySelectorAll(".filter-shortcut"));
   if (!toggleButtons.length) return;
   var manuallyCollapsed = true;
   var lastTrigger = null;
   var inertedElements = [];
 
-  shortcutLabels.forEach(function (label) {
-    label.textContent = /Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K";
-  });
+  // ⌘K on macOS only: Ctrl+K is the browser's own search shortcut on
+  // Windows and Linux, so there "/" is the only shortcut.
+  var isMac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
 
   function isTypingTarget(target) {
     if (!target) return false;
@@ -92,8 +91,10 @@
     }
   }
 
-  function openPalette(trigger) {
+  function openPalette(trigger, fromKeyboard) {
     if (trigger) lastTrigger = trigger;
+    // Keyboard-opened palettes appear instantly; pointer opens get the short entrance.
+    filters.classList.toggle("filters-instant", Boolean(fromKeyboard));
     if (manuallyCollapsed) {
       setCollapsed(false, false);
     } else if (searchInput) {
@@ -123,12 +124,12 @@
   }
 
   document.addEventListener("keydown", function (event) {
-    var commandShortcut = (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k";
+    var commandShortcut = isMac && event.metaKey && !event.ctrlKey && event.key.toLowerCase() === "k";
     var slashShortcut = event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey;
 
     if (commandShortcut || (slashShortcut && !isTypingTarget(event.target))) {
       event.preventDefault();
-      openPalette(document.querySelector(".filter-command-trigger"));
+      openPalette(document.querySelector(".filter-command-trigger"), true);
       return;
     }
 

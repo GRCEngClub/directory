@@ -5,11 +5,10 @@ eleventyComputed:
   title: "{{ collections.jobs.length }} Open GRC Engineering Jobs | GRC Engineer Directory"
   description: "Browse {{ collections.jobs.length }} open GRC engineering, IT audit, and compliance roles by framework, specialization, and work mode. A free GRC Engineering Club job board."
 ---
-<section class="jobs-hero">
-  <div class="jobs-hero-inner">
-    <p class="jobs-kicker">Jobs</p>
-    <h1>Open GRC Engineering Roles</h1>
-    <p class="jobs-hero-copy">Browse open GRC engineering roles by framework, specialization, work mode, and source.</p>
+<section class="hero page-hero">
+  <div class="hero-content">
+    <h1>Open GRC engineering roles</h1>
+    <p class="hero-tagline">Roles imported from public company job boards, filterable by framework, specialization, and work mode. "Listed" is the date the company published or last updated the posting.</p>
   </div>
 </section>
 
@@ -17,13 +16,13 @@ eleventyComputed:
 
 <section class="directory jobs-directory">
   {% if collections.jobs.length %}
-  <div class="directory-toolbar jobs-toolbar">
+  <div class="directory-toolbar jobs-toolbar" aria-hidden="true">
     <span>Role</span>
     <span>Company</span>
     <span>Work</span>
     <span>Focus</span>
-    <span>Posted</span>
-    <span>Actions</span>
+    <span>Listed</span>
+    <span>Apply</span>
   </div>
   <div class="card-grid">
     {% for job in collections.jobs %}
@@ -37,7 +36,10 @@ eleventyComputed:
   </div>
   {% endif %}
 
-  <p id="no-results" class="no-results" style="display:none" aria-live="polite">No jobs match your filters yet. Try removing a filter or broadening the search.</p>
+  <div id="no-results" class="no-results" hidden>
+    <p>No roles match these filters.</p>
+    <button type="button" class="btn btn-outline btn-compact" data-clear-filters>Clear filters</button>
+  </div>
 </section>
 
 <script src="/site/assets/js/jobs-search.js"></script>

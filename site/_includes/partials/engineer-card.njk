@@ -3,6 +3,8 @@
 {% set availableFor = engineer.data.available_for or [] %}
 {% set certifications = engineer.data.certifications or [] %}
 {% set languages = engineer.data.languages or [] %}
+{% set worksWithCount = frameworks.length + languages.length %}
+{% set profileUrl = "/engineers/" + engineer.data.github + "/" %}
 <article
   class="card engineer-card"
   data-specializations="{{ specializations | join(',') | lower }}"
@@ -18,82 +20,71 @@
 >
   <div class="card-header">
     <img
-      src="https://github.com/{{ engineer.data.github }}.png?size=200"
-      alt="{{ engineer.data.name }}"
+      src="https://github.com/{{ engineer.data.github }}.png?size=96"
+      alt=""
       class="card-avatar"
-      width="64"
-      height="64"
+      width="48"
+      height="48"
       loading="lazy"
+      decoding="async"
+      data-initial="{{ engineer.data.name | first }}"
     >
     <div class="card-identity">
-      <a href="/engineers/{{ engineer.data.github }}/" class="card-name">{{ engineer.data.name }}</a>
+      <a href="{{ profileUrl }}" class="card-name">{{ engineer.data.name }}</a>
       {% if engineer.data.title %}<p class="card-title">{{ engineer.data.title }}</p>{% endif %}
       {% if engineer.data.company %}<p class="card-company">{{ engineer.data.company }}</p>{% endif %}
       {% if engineer.data.location %}<p class="card-location">{{ engineer.data.location }}</p>{% endif %}
     </div>
   </div>
 
-  {% if availableFor.length %}
-  <div class="card-available" aria-label="Availability">
-    {% for item in availableFor %}
-      {% if loop.index0 < 3 %}
-      <span class="tag tag-available">{{ item }}</span>
-      {% endif %}
-    {% endfor %}
+  <div class="card-skill-group" data-tag-group data-limit="3">
+    <p class="card-skill-label">Available for</p>
+    {% if availableFor.length %}
+    <div class="card-tags">
+      {% for item in availableFor %}<span class="tag tag-available" data-key="available" data-value="{{ item | lower }}"{% if loop.index0 >= 3 %} hidden{% endif %}>{{ item | availabilityLabel }}</span>{% endfor %}
+      <span class="tag tag-muted tag-more"{% if availableFor.length <= 3 %} hidden{% endif %}>+{{ availableFor.length - 3 }}</span>
+    </div>
+    {% else %}
+    <p class="card-empty">Not listed</p>
+    {% endif %}
   </div>
-  {% endif %}
 
-  {% if specializations.length %}
-  <div class="card-skill-group">
+  <div class="card-skill-group" data-tag-group data-limit="3">
     <p class="card-skill-label">Specializes in</p>
+    {% if specializations.length %}
     <div class="card-tags">
-      {% for spec in specializations %}
-        {% if loop.index0 < 3 %}
-        <span class="tag tag-accent">{{ spec }}</span>
-        {% endif %}
-      {% endfor %}
-      {% if specializations.length > 3 %}<span class="tag tag-muted">+{{ specializations.length - 3 }}</span>{% endif %}
+      {% for spec in specializations %}<span class="tag tag-accent" data-key="specializations" data-value="{{ spec | lower }}"{% if loop.index0 >= 3 %} hidden{% endif %}>{{ spec }}</span>{% endfor %}
+      <span class="tag tag-muted tag-more"{% if specializations.length <= 3 %} hidden{% endif %}>+{{ specializations.length - 3 }}</span>
     </div>
+    {% else %}
+    <p class="card-empty">Not listed</p>
+    {% endif %}
   </div>
-  {% endif %}
 
-  {% if frameworks.length or languages.length %}
-  <div class="card-skill-group">
+  <div class="card-skill-group" data-tag-group data-limit="4">
     <p class="card-skill-label">Works with</p>
+    {% if worksWithCount or certifications.length %}
     <div class="card-tags">
-      {% for framework in frameworks %}
-        {% if loop.index0 < 2 %}
-        <span class="tag tag-outline">{{ framework }}</span>
-        {% endif %}
-      {% endfor %}
-      {% for language in languages %}
-        {% if loop.index0 < 2 %}
-        <span class="tag tag-language">{{ language }}</span>
-        {% endif %}
-      {% endfor %}
-      {% if frameworks.length + languages.length > 4 %}<span class="tag tag-muted">+{{ frameworks.length + languages.length - 4 }}</span>{% endif %}
+      {% for framework in frameworks %}<span class="tag tag-outline" data-key="frameworks" data-value="{{ framework | lower }}"{% if loop.index0 >= 4 %} hidden{% endif %}>{{ framework }}</span>{% endfor %}
+      {% for language in languages %}<span class="tag tag-language" data-key="languages" data-value="{{ language | lower }}"{% if frameworks.length + loop.index0 >= 4 %} hidden{% endif %}>{{ language }}</span>{% endfor %}
+      {% for cert in certifications %}<span class="tag tag-cert" data-key="certifications" data-value="{{ cert | lower }}" data-match-only hidden>{{ cert }}</span>{% endfor %}
+      <span class="tag tag-muted tag-more"{% if worksWithCount <= 4 %} hidden{% endif %}>+{{ worksWithCount - 4 }}</span>
     </div>
+    {% if not worksWithCount %}<p class="card-empty">Not listed</p>{% endif %}
+    {% else %}
+    <p class="card-empty">Not listed</p>
+    {% endif %}
   </div>
-  {% endif %}
 
   <div class="card-actions">
-    <a href="/engineers/{{ engineer.data.github }}/" class="btn btn-outline btn-compact">View profile</a>
-    {% if engineer.data.linkedin %}
-    <a href="{{ engineer.data.linkedin }}" class="btn btn-primary btn-compact" target="_blank" rel="noopener">Contact</a>
-    {% else %}
-    <a href="https://github.com/{{ engineer.data.github }}" class="btn btn-primary btn-compact" target="_blank" rel="noopener">GitHub</a>
-    {% endif %}
-
-    <div class="card-links">
-      {% for social in socials %}
-        {% set val = engineer.data[social.key] %}
-        {% if val or social.alwaysShow %}
-          {% set href = social | socialUrl(val or engineer.data.github) %}
-          <a href="{{ href }}" target="_blank" rel="noopener" aria-label="{{ social.label }}">
-            <span aria-hidden="true">{{ social.icon | safe }}</span>
-          </a>
-        {% endif %}
-      {% endfor %}
-    </div>
+    {% for social in socials %}
+      {% if (social.key == "linkedin" and engineer.data.linkedin) or (social.key == "github" and not engineer.data.linkedin) %}
+      <a href="{{ social | socialUrl(engineer.data[social.key]) }}" class="card-contact" target="_blank" rel="noopener">
+        <span class="card-contact-icon" aria-hidden="true">{{ social.icon | safe }}</span>
+        <span>{{ social.label }}</span>
+        <span class="sr-only">: {{ engineer.data.name }} (opens in new tab)</span>
+      </a>
+      {% endif %}
+    {% endfor %}
   </div>
 </article>

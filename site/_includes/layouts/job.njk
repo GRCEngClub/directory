@@ -12,7 +12,7 @@ layout: layouts/base.njk
   "employmentType": {{ ((job_types and job_types[0]) or "") | dump | safe }},
   "hiringOrganization": {
     "@type": "Organization",
-    "name": {{ company | dump | safe }}
+    "name": {{ company | companyName | dump | safe }}
   },
   "jobLocation": {
     "@type": "Place",
@@ -28,23 +28,17 @@ layout: layouts/base.njk
 
 <div class="job-page">
   <div class="profile-back">
-    <a href="/jobs/">&larr; Back to jobs</a>
+    <a href="/jobs/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg><span>Back to jobs</span></a>
   </div>
 
   <div class="job-page-grid">
     <article class="job-main">
       <div class="job-header">
-        <div class="job-card-eyebrow">
-          {% if sources and sources.length %}
-          <span class="job-source">{{ sources[0] }}</span>
-          {% endif %}
-          {% if posted_date %}
-          <span class="job-posted">Posted {{ posted_date | readableDate }}</span>
-          {% endif %}
-        </div>
-
         <h1 class="job-page-title">{{ title }}</h1>
-        <p class="job-page-company">{{ company }}{% if location %} <span aria-hidden="true">·</span> {{ location }}{% endif %}</p>
+        <p class="job-page-company">{{ company | companyName }}{% if location %} <span aria-hidden="true">·</span> {{ location }}{% endif %}</p>
+        {% if posted_date or (sources and sources.length) %}
+        <p class="job-posted">{% if posted_date %}Listed {{ posted_date | readableDate }}{% endif %}{% if posted_date and sources and sources.length %} <span aria-hidden="true">·</span> {% endif %}{% if sources and sources.length %}via {{ sources[0] }}{% endif %}</p>
+        {% endif %}
 
         {% if summary %}
         <p class="job-page-summary">{{ summary }}</p>
@@ -52,7 +46,7 @@ layout: layouts/base.njk
 
         <div class="job-page-tags">
           {% for mode in work_modes %}<span class="tag tag-available">{{ mode }}</span>{% endfor %}
-          {% for type in job_types %}<span class="tag tag-outline">{{ type }}</span>{% endfor %}
+          {% for type in job_types %}<span class="tag tag-plain">{{ type }}</span>{% endfor %}
           {% if compensation %}<span class="tag tag-language">{{ compensation }}</span>{% endif %}
         </div>
       </div>
@@ -116,9 +110,9 @@ layout: layouts/base.njk
         {% endif %}
 
         <dl class="job-facts">
-          {% if company %}<div><dt>Company</dt><dd>{{ company }}</dd></div>{% endif %}
+          {% if company %}<div><dt>Company</dt><dd>{{ company | companyName }}</dd></div>{% endif %}
           {% if location %}<div><dt>Location</dt><dd>{{ location }}</dd></div>{% endif %}
-          {% if posted_date %}<div><dt>Posted</dt><dd>{{ posted_date | readableDate }}</dd></div>{% endif %}
+          {% if posted_date %}<div><dt>Listed</dt><dd>{{ posted_date | readableDate }}</dd></div>{% endif %}
           {% if expires_date %}<div><dt>Expires</dt><dd>{{ expires_date | readableDate }}</dd></div>{% endif %}
           {% if sources and sources.length %}<div><dt>Source</dt><dd>{{ sources[0] }}</dd></div>{% endif %}
         </dl>

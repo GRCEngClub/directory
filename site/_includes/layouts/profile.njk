@@ -31,61 +31,56 @@ layout: layouts/base.njk
   portfolio: portfolio,
   credly: credly
 } %}
+{% set primarySocial = "linkedin" if linkedin else "github" %}
 <div class="profile">
   <div class="profile-back">
-    <a href="/">&larr; Back to directory</a>
+    <a href="/" data-directory-back>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+      <span>Back to directory</span>
+    </a>
   </div>
 
   <div class="profile-header">
     <img
       src="https://github.com/{{ github }}.png?size=200"
-      alt="{{ name }}"
+      alt=""
       class="profile-avatar"
-      width="120"
-      height="120"
+      width="96"
+      height="96"
       loading="eager"
       fetchpriority="high"
+      data-initial="{{ name | first }}"
     >
     <div class="profile-info">
       <h1 class="profile-name">{{ name }}</h1>
       {% if title %}<p class="profile-title">{{ title }}</p>{% endif %}
-      {% if company %}<p class="profile-company">{{ company }}</p>{% endif %}
-      {% if location %}<p class="profile-location">{{ location }}</p>{% endif %}
-      <div class="profile-socials">
+      {% if company or location %}
+      <p class="profile-meta">
+        {% if company %}<span>{{ company }}</span>{% endif %}
+        {% if company and location %}<span aria-hidden="true"> · </span>{% endif %}
+        {% if location %}<span>{{ location }}</span>{% endif %}
+      </p>
+      {% endif %}
+      <ul class="profile-socials" aria-label="Links">
         {% for social in socials %}
           {% set val = socialData[social.key] %}
           {% if val or social.alwaysShow %}
             {% set href = social | socialUrl(val or github) %}
-            <a href="{{ href }}" target="_blank" rel="noopener"><span aria-hidden="true">{{ social.icon | safe }}</span> {{ social.label }}</a>
+            <li><a href="{{ href }}" target="_blank" rel="noopener"><span aria-hidden="true">{{ social.icon | safe }}</span><span>{{ social.label }}</span></a></li>
           {% endif %}
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </div>
 
   <div class="profile-layout">
-    <main class="profile-main">
-      {% if content | trim %}
-      <div class="profile-body profile-panel">
-        {{ content | safe }}
-      </div>
-      {% endif %}
-
-      <section class="profile-expertise profile-panel">
+    <div class="profile-main">
+      <section class="profile-expertise profile-panel" aria-label="Expertise">
         {% if specializations and specializations.length %}
         <div class="profile-expertise-group">
           <h2>Specializations</h2>
           <div class="tags">
             {% for s in specializations %}<span class="tag tag-accent">{{ s }}</span>{% endfor %}
-          </div>
-        </div>
-        {% endif %}
-
-        {% if languages and languages.length %}
-        <div class="profile-expertise-group">
-          <h2>Languages & Tools</h2>
-          <div class="tags">
-            {% for l in languages %}<span class="tag tag-language">{{ l }}</span>{% endfor %}
           </div>
         </div>
         {% endif %}
@@ -107,79 +102,96 @@ layout: layouts/base.njk
           </div>
         </div>
         {% endif %}
+
+        {% if languages and languages.length %}
+        <div class="profile-expertise-group">
+          <h2>Languages &amp; tools</h2>
+          <div class="tags">
+            {% for l in languages %}<span class="tag tag-language">{{ l }}</span>{% endfor %}
+          </div>
+        </div>
+        {% endif %}
       </section>
+
+      {% if content | trim %}
+      <section class="profile-body profile-panel" aria-label="About">
+        {{ content | safe }}
+      </section>
+      {% endif %}
 
       {% if projects and projects.length %}
       <section class="profile-projects profile-panel">
         <h2>Projects</h2>
-        <div class="project-list">
+        <ul class="project-list">
           {% for p in projects %}
-          <div class="project-card">
+          <li class="project-item">
             {% if p.url %}
-            <a href="{{ p.url }}" target="_blank" rel="noopener" class="project-name" aria-label="{{ p.name }} (opens in new tab)">{{ p.name }} <span class="external-icon" aria-hidden="true">↗</span></a>
+            <a href="{{ p.url }}" target="_blank" rel="noopener" class="project-name">{{ p.name }}<svg class="external-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="sr-only"> (opens in new tab)</span></a>
             {% else %}
             <span class="project-name">{{ p.name }}</span>
             {% endif %}
             {% if p.description %}<p class="project-desc">{{ p.description }}</p>{% endif %}
-          </div>
+          </li>
           {% endfor %}
-        </div>
+        </ul>
       </section>
       {% endif %}
-    </main>
+    </div>
 
-    <aside class="profile-sidebar" aria-label="Profile contact details">
+    <aside class="profile-sidebar" aria-label="Availability and contact">
       <div class="profile-side-card">
-        <h2>Availability</h2>
+        <h2>Open to</h2>
         {% if available_for and available_for.length %}
         <div class="profile-side-tags">
-          {% for a in available_for %}<span class="tag tag-available">{{ a }}</span>{% endfor %}
+          {% for a in available_for %}<span class="tag tag-available">{{ a | availabilityLabel }}</span>{% endfor %}
         </div>
         {% else %}
         <p class="profile-side-text">Not listed</p>
         {% endif %}
+
+        {% for social in socials %}
+          {% if social.key == primarySocial %}
+          <a href="{{ social | socialUrl(socialData[social.key]) }}" class="btn btn-primary profile-contact-btn" target="_blank" rel="noopener">
+            <span aria-hidden="true">{{ social.icon | safe }}</span>
+            <span>{% if primarySocial == "linkedin" %}Contact on LinkedIn{% else %}View on GitHub{% endif %}</span>
+          </a>
+          {% endif %}
+        {% endfor %}
       </div>
 
-      <div class="profile-side-card">
-        <h2>Contact</h2>
-        <p class="profile-side-text">Sign in to GitHub to edit this profile and submit the change as your pull request.</p>
-        <div class="profile-cta-links">
-          {% for social in socials %}
-            {% set val = socialData[social.key] %}
-            {% if val or social.alwaysShow %}
-              {% set href = social | socialUrl(val or github) %}
-              {% if social.ctaPrimary and val %}
-                <a href="{{ href }}" class="btn btn-primary" target="_blank" rel="noopener">{{ social.ctaLabel }}</a>
-              {% elif social.alwaysShow %}
-                <a href="{{ href }}" class="btn {% if not linkedin %}btn-primary{% else %}btn-outline{% endif %}" target="_blank" rel="noopener">{{ social.ctaLabel }}</a>
-              {% else %}
-                <a href="{{ href }}" class="btn btn-outline" target="_blank" rel="noopener">{{ social.ctaLabel }}</a>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          <a href="https://github.com/GRCEngClub/directory/edit/main/engineers/{{ github }}.md" class="btn btn-outline" target="_blank" rel="noopener">Edit your profile on GitHub</a>
-        </div>
-        <button class="profile-share-btn" id="share-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg><span>Share this profile</span></button>
+      <div class="profile-owner">
+        <button class="profile-share-btn" id="share-btn" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg><span>Copy profile link</span></button>
         <span class="share-status" id="share-status" aria-live="polite"></span>
+        <p>Is this you? <a href="https://github.com/GRCEngClub/directory/edit/main/engineers/{{ github }}.md" target="_blank" rel="noopener">Edit your profile on GitHub</a></p>
+        <p class="profile-owner-note">Sign in to GitHub to edit this profile and submit the change as your pull request.</p>
       </div>
     </aside>
   </div>
 </div>
 <script>
 (function() {
+  var back = document.querySelector('[data-directory-back]');
+  if (back) {
+    try {
+      var q = sessionStorage.getItem('directoryQuery');
+      if (q && q.charAt(0) === '?') back.setAttribute('href', '/' + q + '#directory');
+    } catch (e) {}
+  }
+
   var btn = document.getElementById('share-btn');
   var status = document.getElementById('share-status');
   if (!btn) return;
+  var label = btn.querySelector('span');
   function onCopied() {
-    btn.querySelector('span').textContent = 'Copied!';
-    status.textContent = 'Profile URL copied to clipboard';
+    label.textContent = 'Link copied';
+    status.textContent = 'Profile link copied to clipboard';
     setTimeout(function() {
-      btn.querySelector('span').textContent = 'Share this profile';
+      label.textContent = 'Copy profile link';
       status.textContent = '';
     }, 2000);
   }
   btn.addEventListener('click', function() {
-    var url = window.location.href;
+    var url = window.location.href.split('#')[0];
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(onCopied).catch(function() {
         window.prompt('Copy this URL:', url);

@@ -127,6 +127,53 @@ module.exports = function (eleventyConfig) {
       .reduce((obj, [key, count]) => { obj[canonical[key]] = count; return obj; }, {});
   });
 
+  // Display labels for `available_for` values. Stored values stay lowercase
+  // (they drive filters and URLs); only the visible text changes. "hiring"
+  // means the engineer is hiring, so it reads "Is hiring" rather than
+  // "Hiring", which visitors took to mean "available to be hired".
+  const AVAILABILITY_LABELS = {
+    "open-source": "Open source",
+    hiring: "Is hiring"
+  };
+  eleventyConfig.addFilter("availabilityLabel", function (value) {
+    const raw = String(value || "").trim();
+    const key = raw.toLowerCase();
+    if (AVAILABILITY_LABELS[key]) return AVAILABILITY_LABELS[key];
+    return raw.charAt(0).toUpperCase() + raw.slice(1);
+  });
+
+  // Importers derive some company names from ATS board slugs ("Openai",
+  // "Andurilindustries"). Map the known ones to their real names for display.
+  const COMPANY_NAMES = {
+    openai: "OpenAI",
+    andurilindustries: "Anduril Industries",
+    "1password": "1Password",
+    xai: "xAI",
+    "kraken.com": "Kraken"
+  };
+  eleventyConfig.addFilter("companyName", function (value) {
+    const raw = String(value || "").trim();
+    return COMPANY_NAMES[raw.toLowerCase()] || raw;
+  });
+
+  // Top N values of a field with counts, for the "Browse the directory" lists.
+  eleventyConfig.addFilter("topValues", function (collection, field, limit, minCount) {
+    const counts = new Map();
+    collection.forEach((item) => {
+      asArray(item.data[field]).forEach((v) => {
+        if (!v) return;
+        const key = String(v).toLowerCase();
+        const entry = counts.get(key) || { label: String(v), value: key, count: 0 };
+        entry.count += 1;
+        counts.set(key, entry);
+      });
+    });
+    return [...counts.values()]
+      .filter((entry) => entry.count >= (minCount || 1))
+      .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
+      .slice(0, limit || 8);
+  });
+
   eleventyConfig.addFilter("lower", function (str) {
     return (str || "").toLowerCase();
   });

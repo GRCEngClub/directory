@@ -10,7 +10,6 @@
 >
   <div class="chapter-card-top">
     <div>
-      <p class="chapter-status chapter-status-{{ chapter.data.status | slugify }}">{{ chapter.data.status }}</p>
       <a href="{{ chapter.url }}" class="card-name chapter-card-city">{{ chapter.data.city }}</a>
       {% if chapter.data.region or chapter.data.country %}
       <p class="chapter-card-location">
@@ -19,6 +18,7 @@
         {% if chapter.data.country %}{{ chapter.data.country }}{% endif %}
       </p>
       {% endif %}
+      {% if chapter.data.status %}<p class="chapter-status chapter-status-{{ chapter.data.status | slugify }}">{{ chapter.data.status | capitalize }} chapter</p>{% endif %}
     </div>
     {% if chapter.data.members %}
     <p class="chapter-card-members"><strong>{{ chapter.data.members }}</strong> members</p>
@@ -41,8 +41,6 @@
         height="36"
         loading="lazy"
       >
-      {% else %}
-      <span class="chapter-card-lead-avatar chapter-lead-avatar-fallback" aria-hidden="true">{{ lead.name[0] }}</span>
       {% endif %}
       <div>
         {% if lead.github %}
@@ -56,10 +54,13 @@
     {% endfor %}
   </div>
 
-  <div class="chapter-card-actions">
-    <a href="{{ chapter.url }}" class="btn btn-outline btn-compact">View leads</a>
-    {% if chapter.data.chapter_url %}
-    <a href="{{ chapter.data.chapter_url }}" class="btn btn-primary btn-compact" target="_blank" rel="noopener">Chapter page</a>
-    {% endif %}
+  {% if chapter.data.chapter_url %}
+  <div class="card-actions chapter-card-actions">
+    <a href="{{ chapter.data.chapter_url }}" class="card-contact" target="_blank" rel="noopener">
+      <span>Chapter page</span>
+      <svg class="card-contact-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      <span class="sr-only">: {{ chapter.data.city }} on grcengclub.com (opens in new tab)</span>
+    </a>
   </div>
+  {% endif %}
 </article>

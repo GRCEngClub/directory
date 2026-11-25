@@ -5,7 +5,10 @@
   var cards = Array.from(document.querySelectorAll(".engineer-card"));
   var cardGrid = document.querySelector(".directory .card-grid");
   var chips = Array.from(document.querySelectorAll(".chip"));
-  var clearBtn = document.getElementById("clear-filters");
+  var clearButtons = Array.from(document.querySelectorAll("[data-clear-filters]"));
+  var compactClear = document.querySelector("[data-compact-clear]");
+  var compactPillsEl = document.querySelector("[data-compact-pills]");
+  var compactNounEl = document.querySelector("[data-compact-noun]");
   var countEl = document.getElementById("results-count");
   var compactCountEl = document.querySelector("[data-compact-results]");
   var noResults = document.getElementById("no-results");
@@ -68,31 +71,52 @@
     };
   }
 
-  /* --- Phased filter transitions --- */
-  var FADE_MS = 250;
-  var pendingTimers = new Map();
-
+  /* --- Show/hide cards immediately: filtering is high-frequency, so no fades --- */
   function hideCard(card) {
-    if (card.classList.contains("hidden")) return;
-    if (pendingTimers.has(card)) {
-      clearTimeout(pendingTimers.get(card));
-      pendingTimers.delete(card);
-    }
-    card.classList.add("fading");
-    var timer = setTimeout(function () {
-      card.classList.add("hidden");
-      pendingTimers.delete(card);
-    }, FADE_MS);
-    pendingTimers.set(card, timer);
+    card.hidden = true;
   }
 
   function showCard(card) {
-    if (!card.classList.contains("hidden") && !card.classList.contains("fading")) return;
-    if (pendingTimers.has(card)) {
-      clearTimeout(pendingTimers.get(card));
-      pendingTimers.delete(card);
-    }
-    card.classList.remove("hidden", "fading");
+    card.hidden = false;
+  }
+
+  /* --- Tag layout: matched tags first, then the rest, capped per group --- */
+  var tagGroups = cards.map(function (card) {
+    return Array.from(card.querySelectorAll("[data-tag-group]")).map(function (group) {
+      var list = group.querySelector(".card-tags");
+      return {
+        list: list,
+        limit: parseInt(group.dataset.limit || "3", 10),
+        tags: list ? Array.from(list.querySelectorAll(".tag[data-value]")) : [],
+        more: list ? list.querySelector(".tag-more") : null
+      };
+    }).filter(function (group) { return group.list; });
+  });
+
+  function layoutTags(cardIndex) {
+    tagGroups[cardIndex].forEach(function (group) {
+      var matched = [];
+      var rest = [];
+      group.tags.forEach(function (tag) {
+        var active = activeFilters[tag.dataset.key] || [];
+        var isMatch = active.indexOf(tag.dataset.value) !== -1;
+        tag.classList.toggle("is-match", isMatch);
+        if (isMatch) matched.push(tag);
+        else if (!tag.hasAttribute("data-match-only")) rest.push(tag);
+        else tag.hidden = true;
+      });
+      var ordered = matched.concat(rest);
+      var limit = Math.max(group.limit, matched.length);
+      ordered.forEach(function (tag, i) {
+        tag.hidden = i >= limit;
+        group.list.insertBefore(tag, group.more);
+      });
+      if (group.more) {
+        var overflow = ordered.length - Math.min(ordered.length, limit);
+        group.more.hidden = overflow <= 0;
+        group.more.textContent = "+" + overflow;
+      }
+    });
   }
 
   var _skipUrlSync = false;
@@ -141,13 +165,16 @@
         }
       }
 
-      if (show) { showCard(card); visible++; }
+      if (show) { showCard(card); layoutTags(i); visible++; }
       else { hideCard(card); }
     });
 
     if (countEl) countEl.textContent = visible;
     if (compactCountEl) compactCountEl.textContent = visible;
-    if (noResults) noResults.style.display = visible === 0 ? "" : "none";
+    if (compactNounEl) {
+      compactNounEl.textContent = visible === 1 ? compactNounEl.dataset.singular : compactNounEl.dataset.plural;
+    }
+    if (noResults) noResults.hidden = visible !== 0;
 
     if (!_skipUrlSync) syncFiltersToUrl();
     updateSummary();
@@ -238,51 +265,65 @@
     filterOptionInput.addEventListener("input", filterOptionChips);
   }
 
-  /* --- Active filter summary (event delegation + fragment batching) --- */
+  /* --- Active filter pills: rendered in the palette and in the always-visible bar --- */
+  function buildPills(container, pills) {
+    if (!container) return;
+    var fragment = document.createDocumentFragment();
+    pills.forEach(function (p) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "active-filter-pill";
+      btn.dataset.filterKey = p.key;
+      btn.dataset.filterValue = p.value;
+      btn.setAttribute("aria-label", "Remove filter: " + p.label);
+      var text = document.createElement("span");
+      text.textContent = p.label;
+      var x = document.createElement("span");
+      x.className = "pill-x";
+      x.setAttribute("aria-hidden", "true");
+      x.textContent = "\u00d7";
+      btn.appendChild(text);
+      btn.appendChild(x);
+      fragment.appendChild(btn);
+    });
+    container.textContent = "";
+    container.appendChild(fragment);
+  }
+
   function updateSummary() {
-    if (!summaryEl || !pillsEl) return;
     var pills = [];
     FILTER_KEYS.forEach(function (key) {
       activeFilters[key].forEach(function (val) {
         var chip = getChip(key, val);
-        var label = chip ? chip.textContent : val;
-        pills.push({ key: key, value: val, label: label });
+        if (chip) pills.push({ key: key, value: val, label: chip.textContent.trim() });
       });
     });
 
     var hasActive = pills.length > 0;
-    summaryEl.style.display = hasActive ? "" : "none";
-
-    var fragment = document.createDocumentFragment();
-    pills.forEach(function (p) {
-      var btn = document.createElement("button");
-      btn.className = "active-filter-pill";
-      btn.dataset.filterKey = p.key;
-      btn.dataset.filterValue = p.value;
-      btn.innerHTML = p.label + ' <span class="pill-x">\u00d7</span>';
-      fragment.appendChild(btn);
-    });
-    pillsEl.innerHTML = "";
-    pillsEl.appendChild(fragment);
+    var hasQuery = Boolean(searchInput && searchInput.value.trim());
+    if (summaryEl) summaryEl.hidden = !hasActive;
+    buildPills(pillsEl, pills);
+    buildPills(compactPillsEl, pills);
+    if (compactClear) compactClear.hidden = !(hasActive || hasQuery);
   }
 
-  /* Event delegation for pill clicks (single listener instead of per-pill) */
-  if (pillsEl) {
-    pillsEl.addEventListener("click", function (e) {
-      var pill = e.target.closest(".active-filter-pill");
-      if (!pill) return;
-      var key = pill.dataset.filterKey;
-      var value = pill.dataset.filterValue;
-      var chip = getChip(key, value);
-      if (chip) {
-        chip.classList.remove("active");
-        chip.setAttribute("aria-pressed", "false");
-      }
-      var idx = activeFilters[key].indexOf(value);
-      if (idx !== -1) activeFilters[key].splice(idx, 1);
-      updateCards();
-    });
+  function removeFilter(e) {
+    var pill = e.target.closest(".active-filter-pill");
+    if (!pill) return;
+    var key = pill.dataset.filterKey;
+    var value = pill.dataset.filterValue;
+    var chip = getChip(key, value);
+    if (chip) {
+      chip.classList.remove("active");
+      chip.setAttribute("aria-pressed", "false");
+    }
+    var idx = activeFilters[key].indexOf(value);
+    if (idx !== -1) activeFilters[key].splice(idx, 1);
+    updateCards();
   }
+
+  if (pillsEl) pillsEl.addEventListener("click", removeFilter);
+  if (compactPillsEl) compactPillsEl.addEventListener("click", removeFilter);
 
   /* --- Badge counts on group headers --- */
   function updateBadgeCounts() {
@@ -291,7 +332,7 @@
       if (!badge) return;
       var count = activeFilters[key].length;
       badge.textContent = count;
-      badge.style.display = count > 0 ? "" : "none";
+      badge.hidden = count === 0;
     });
   }
 
@@ -306,8 +347,9 @@
         params.set(key, activeFilters[key].join(","));
       }
     });
-    var newUrl = params.toString() ? "?" + params.toString() : window.location.pathname;
-    history.replaceState(null, "", newUrl);
+    var search = params.toString() ? "?" + params.toString() : "";
+    history.replaceState(null, "", window.location.pathname + search + window.location.hash);
+    try { sessionStorage.setItem("directoryQuery", search); } catch (e) {}
   }
 
   function restoreFiltersFromUrl() {
@@ -315,11 +357,19 @@
     var q = params.get("q");
     if (q) searchInput.value = q;
     var sort = params.get("sort");
-    if (sort && sortSelect) sortSelect.value = sort;
+    if (sort && sortSelect && sortSelect.querySelector('option[value="' + sort.replace(/[^a-zA-Z]/g, "") + '"]')) {
+      sortSelect.value = sort;
+    }
     FILTER_KEYS.forEach(function(key) {
       var val = params.get(key);
       if (val) {
-        activeFilters[key] = val.split(",");
+        // Only accept values that exist as filter options; anything else in
+        // the URL is ignored (and never rendered).
+        activeFilters[key] = val.split(",").map(function (v) {
+          return v.trim().toLowerCase();
+        }).filter(function (v) {
+          return Boolean(getChip(key, v));
+        });
         activeFilters[key].forEach(function(v) {
           var chip = getChip(key, v);
           if (chip) {
@@ -340,6 +390,7 @@
     _skipUrlSync = true;
     updateCards();
     _skipUrlSync = false;
+    try { sessionStorage.setItem("directoryQuery", window.location.search); } catch (e) {}
   }
 
   function parsePresetValues(value) {
@@ -396,7 +447,7 @@
     });
   }
 
-  /* --- Chip click with pop animation --- */
+  /* --- Chip click --- */
   chips.forEach(function (chip) {
     chip.addEventListener("click", function () {
       var group = chip.closest("[data-filter]");
@@ -414,12 +465,6 @@
         chip.classList.add("active");
         chip.setAttribute("aria-pressed", "true");
       }
-
-      // Pop animation
-      chip.classList.add("pop");
-      chip.addEventListener("animationend", function() {
-        chip.classList.remove("pop");
-      }, { once: true });
 
       updateCards();
     });
@@ -439,28 +484,15 @@
     sortSelect.addEventListener("change", updateCards);
   }
 
-  if (clearBtn) {
-    clearBtn.addEventListener("click", function () {
-      searchInput.value = "";
-      activeFilters.specializations = [];
-      activeFilters.frameworks = [];
-      activeFilters.languages = [];
-      activeFilters.available = [];
-      activeFilters.certifications = [];
-      syncChipState();
-      history.replaceState(null, "", window.location.pathname);
-      updateCards();
-    });
+  function clearAll() {
+    searchInput.value = "";
+    FILTER_KEYS.forEach(function (key) { activeFilters[key] = []; });
+    syncChipState();
+    updateCards();
   }
 
-  /* --- "/" keyboard shortcut to focus search --- */
-  document.addEventListener("keydown", function (e) {
-    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.isContentEditable) return;
-    if (e.key === "/" && searchInput) {
-      e.preventDefault();
-      searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
-      searchInput.focus();
-    }
+  clearButtons.forEach(function (btn) {
+    btn.addEventListener("click", clearAll);
   });
 
   /* --- Restore filters from URL on load --- */
