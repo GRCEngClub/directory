@@ -28,6 +28,10 @@ permalink: /index.html
       {% include "partials/engineer-card.njk" %}
     {% endfor %}
   </div>
+  <div class="show-more" data-show-more hidden>
+    <p class="show-more-status" data-show-more-status aria-live="polite"></p>
+    <button type="button" class="btn btn-outline">Show more</button>
+  </div>
   <div id="no-results" class="no-results" hidden>
     <p>No engineers match these filters.</p>
     <button type="button" class="btn btn-outline btn-compact" data-clear-filters>Clear filters</button>

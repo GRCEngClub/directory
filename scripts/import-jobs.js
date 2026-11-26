@@ -619,7 +619,9 @@ function normalizeAshbyJob(boardName, job) {
   const text = [job.title, job.jobTitle, job.location, summary, boardName].join(" ");
   if (!looksRelevant(job.title || job.jobTitle, text)) return null;
 
-  const postedDate = toIsoDate(job.publishedDate || job.updatedAt || Date.now());
+  // The Ashby posting API names this field `publishedAt`; reading only
+  // `publishedDate` stamped every Ashby listing with the import date.
+  const postedDate = toIsoDate(job.publishedAt || job.publishedDate || job.updatedAt || Date.now());
   const slug = slugify(["ashby", boardName, job.id || job.jobId || job.title].join("-"));
   const location = job.location || (job.primaryLocation && job.primaryLocation.label) || "Remote";
 

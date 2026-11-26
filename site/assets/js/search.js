@@ -15,6 +15,15 @@
   var summaryEl = document.getElementById("active-filters-summary");
   var pillsEl = document.getElementById("active-filter-pills");
   var presetButtons = Array.from(document.querySelectorAll(".filter-preset"));
+  var showMoreWrap = document.querySelector("[data-show-more]");
+  var showMoreBtn = showMoreWrap ? showMoreWrap.querySelector("button") : null;
+  var showMoreStatus = showMoreWrap ? showMoreWrap.querySelector("[data-show-more-status]") : null;
+
+  // Render matching rows in pages so the list stays scannable as it grows.
+  // Without JS every row is shown; filtering or searching starts from page one.
+  var PAGE_SIZE = 30;
+  var pageLimit = PAGE_SIZE;
+  var matchFlags = [];
 
   var FILTER_KEYS = ["specializations", "frameworks", "languages", "available", "certifications"];
   var activeFilters = {};
@@ -144,11 +153,57 @@
     });
   }
 
+  // Show the first `pageLimit` matches in current sort order; hide the rest.
+  // Returns the first row revealed beyond `previouslyShown`, for focus.
+  function renderPage(previouslyShown) {
+    var order = cardGrid ? Array.from(cardGrid.children) : cards;
+    var shown = 0;
+    var total = 0;
+    var firstNew = null;
+
+    order.forEach(function (card) {
+      var i = cards.indexOf(card);
+      if (i === -1) return;
+      if (matchFlags[i]) {
+        total++;
+        if (shown < pageLimit) {
+          showCard(card);
+          layoutTags(i);
+          if (previouslyShown !== undefined && shown === previouslyShown) firstNew = card;
+          shown++;
+          return;
+        }
+      }
+      hideCard(card);
+    });
+
+    if (showMoreWrap) {
+      var rest = total - shown;
+      showMoreWrap.hidden = rest <= 0;
+      if (showMoreBtn) showMoreBtn.textContent = "Show " + Math.min(PAGE_SIZE, rest) + " more";
+      if (showMoreStatus) showMoreStatus.textContent = "Showing " + shown + " of " + total;
+    }
+
+    return { shown: shown, firstNew: firstNew };
+  }
+
+  if (showMoreBtn) {
+    showMoreBtn.addEventListener("click", function () {
+      var before = Math.min(pageLimit, matchFlags.filter(Boolean).length);
+      pageLimit += PAGE_SIZE;
+      var result = renderPage(before);
+      // Keep keyboard and screen reader users at the newly revealed rows.
+      var link = result.firstNew && result.firstNew.querySelector(".card-name");
+      if (link) link.focus({ preventScroll: false });
+    });
+  }
+
   function updateCards() {
     var query = (searchInput.value || "").toLowerCase().trim();
     var visible = 0;
 
     sortCards();
+    pageLimit = PAGE_SIZE;
 
     cards.forEach(function (card, i) {
       var data = cardData[i];
@@ -165,9 +220,11 @@
         }
       }
 
-      if (show) { showCard(card); layoutTags(i); visible++; }
-      else { hideCard(card); }
+      matchFlags[i] = show;
+      if (show) visible++;
     });
+
+    renderPage();
 
     if (countEl) countEl.textContent = visible;
     if (compactCountEl) compactCountEl.textContent = visible;
