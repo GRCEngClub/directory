@@ -9,8 +9,8 @@ sources:
 source_url: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
 role_url: "https://jobs.ashbyhq.com/openai/b40efa93-da3c-4593-bc98-03d203cd0488"
 apply_url: "https://jobs.ashbyhq.com/openai/b40efa93-da3c-4593-bc98-03d203cd0488/application"
-posted_date: "2026-11-25"
-expires_date: "2026-12-25"
+posted_date: "2026-11-23"
+expires_date: "2026-12-23"
 location: "Dublin, Ireland"
 work_modes:
   - "Hybrid / On-site"
