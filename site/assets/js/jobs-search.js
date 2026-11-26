@@ -62,16 +62,58 @@
 
   var _skipUrlSync = false;
 
+  // Same paging as the engineer directory: 30 roles at a time, reset on any
+  // filter/search change. Rows past page one are server-marked data-paged.
+  var showMoreWrap = document.querySelector("[data-show-more]");
+  var showMoreBtn = showMoreWrap ? showMoreWrap.querySelector("button") : null;
+  var showMoreStatus = showMoreWrap ? showMoreWrap.querySelector("[data-show-more-status]") : null;
+  var PAGE_SIZE = 30;
+  var pageLimit = PAGE_SIZE;
+  var matchFlags = [];
+
+  function renderPage(previouslyShown) {
+    var order = cardGrid ? Array.from(cardGrid.children) : cards;
+    var shown = 0;
+    var total = 0;
+    var firstNew = null;
+
+    order.forEach(function (card) {
+      var i = cards.indexOf(card);
+      if (i === -1) return;
+      card.removeAttribute("data-paged");
+      if (matchFlags[i]) {
+        total++;
+        if (shown < pageLimit) {
+          card.hidden = false;
+          if (previouslyShown !== undefined && shown === previouslyShown) firstNew = card;
+          shown++;
+          return;
+        }
+      }
+      card.hidden = true;
+    });
+
+    if (showMoreWrap) {
+      var rest = total - shown;
+      showMoreWrap.hidden = rest <= 0;
+      if (showMoreBtn) showMoreBtn.textContent = "Show " + Math.min(PAGE_SIZE, rest) + " more";
+      if (showMoreStatus) showMoreStatus.textContent = "Showing " + shown + " of " + total;
+    }
+    return firstNew;
+  }
+
+  if (showMoreBtn) {
+    showMoreBtn.addEventListener("click", function () {
+      var before = Math.min(pageLimit, matchFlags.filter(Boolean).length);
+      pageLimit += PAGE_SIZE;
+      var firstNew = renderPage(before);
+      var link = firstNew && firstNew.querySelector("a");
+      if (link) link.focus();
+    });
+  }
+
   function getChip(filterKey, value) {
     return chipCache[filterKey + ":" + value] || null;
-  }
-
-  function hideCard(card) {
-    card.hidden = true;
-  }
-
-  function showCard(card) {
-    card.hidden = false;
   }
 
   function buildPills(container, pills) {
@@ -138,6 +180,10 @@
       return b.data.posted - a.data.posted || a.index - b.index;
     });
 
+    var current = Array.from(cardGrid.children).filter(function (el) { return cards.indexOf(el) !== -1; });
+    var unchanged = indexed.every(function (item, i) { return current[i] === item.card; });
+    if (unchanged) return;
+
     indexed.forEach(function (item) {
       cardGrid.appendChild(item.card);
     });
@@ -203,6 +249,7 @@
     var visible = 0;
 
     sortCards();
+    pageLimit = PAGE_SIZE;
 
     cards.forEach(function (card, index) {
       var data = cardData[index];
@@ -221,13 +268,11 @@
         }
       }
 
-      if (show) {
-        showCard(card);
-        visible += 1;
-      } else {
-        hideCard(card);
-      }
+      matchFlags[index] = show;
+      if (show) visible += 1;
     });
+
+    renderPage();
 
     if (countEl) countEl.textContent = visible;
     if (compactCountEl) compactCountEl.textContent = visible;

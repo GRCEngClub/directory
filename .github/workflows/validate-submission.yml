@@ -5,6 +5,10 @@ on:
     paths:
       - 'engineers/*.md'
       - '!engineers/_template.md'
+  # Profile PRs opened by process-submission.yml use GITHUB_TOKEN, which does
+  # not trigger pull_request workflows. That workflow dispatches this one on
+  # the profile branch instead, so the check still lands on the PR's commit.
+  workflow_dispatch:
 
 permissions:
   contents: read

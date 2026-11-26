@@ -35,8 +35,8 @@ certifications:
   - "GPEN"
   - "GCPN"
   - "GRTP"
-  - "CGEP"
-  - "SECURITY X"
+  - "CGE-P"
+  - "SecurityX"
 available_for:
   - "speaking"
   - "consulting"

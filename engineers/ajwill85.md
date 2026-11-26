@@ -48,10 +48,10 @@ certifications:
 
 
 available_for:
-  - Freelance
-  - Consulting
-  - Collaboration
-  - Hiring
+  - "freelance"
+  - "consulting"
+  - "collaboration"
+  - "hiring"
 
 projects:
   - name: GRC AI Governance Framework with Policy-as-Code

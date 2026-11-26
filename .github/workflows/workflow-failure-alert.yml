@@ -1,0 +1,75 @@
+name: Workflow Failure Alert
+
+# Opens (or comments on) one issue per failing workflow on main, and closes it
+# when that workflow next succeeds. Sync Chapters and profile submissions both
+# failed silently for weeks before anyone noticed.
+#
+# Note: a workflow file GitHub cannot parse never gets a name, so it cannot be
+# watched here; the validate step in CI is what catches those.
+
+on:
+  workflow_run:
+    workflows:
+      - "Deploy Site"
+      - "Import Jobs"
+      - "Sync Chapters"
+      - "Process Profile Submission"
+      - "Update README with Engineers"
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  alert:
+    if: >-
+      github.event.workflow_run.head_branch == 'main' &&
+      (github.event.workflow_run.conclusion == 'failure' ||
+       github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open, update, or close the failure issue
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
+        with:
+          script: |
+            const run = context.payload.workflow_run;
+            const title = `Workflow failing: ${run.name}`;
+            const { owner, repo } = context.repo;
+
+            const open = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', per_page: 100
+            });
+            const existing = open.find((issue) => !issue.pull_request && issue.title === title);
+
+            if (run.conclusion === 'success') {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: existing.number,
+                  body: `✅ Recovered: [run ${run.run_number}](${run.html_url}) succeeded. Closing.`
+                });
+                await github.rest.issues.update({
+                  owner, repo, issue_number: existing.number,
+                  state: 'closed', state_reason: 'completed'
+                });
+              }
+              return;
+            }
+
+            const line = `❌ [Run ${run.run_number}](${run.html_url}) failed (${run.event}, \`${run.head_sha.slice(0, 7)}\`).`;
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body: line });
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner, repo, title,
+              body: [
+                `The **${run.name}** workflow failed on \`main\`.`,
+                '',
+                line,
+                '',
+                'Further failures are added as comments. This issue closes itself when the workflow next succeeds.'
+              ].join('\n')
+            });

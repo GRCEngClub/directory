@@ -178,11 +178,14 @@ permalink: /submit/index.html
 
       <div class="form-group">
         <label class="form-label" for="field-certifications">Certifications</label>
-        <div class="form-hint">Type a certification and press Enter to add it.</div>
+        <div class="form-hint">Type a certification and press Enter to add it. Pick a suggestion when one matches, so your profile shows up under the same filter as everyone else's.</div>
         <div class="tag-input-wrap">
           <div class="tag-input-tags" id="cert-tags"></div>
-          <input type="text" id="field-certifications" placeholder="e.g. CISSP" aria-label="Add certification">
+          <input type="text" id="field-certifications" placeholder="e.g. CISSP" aria-label="Add certification" list="cert-suggestions" autocomplete="off">
         </div>
+        <datalist id="cert-suggestions">
+          {% for cert in collections.engineers | uniqueValues("certifications") %}<option value="{{ cert }}"></option>{% endfor %}
+        </datalist>
       </div>
 
       <div class="form-group">

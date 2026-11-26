@@ -9,6 +9,7 @@
   data-job-types="{{ (job.data.job_types or []) | join(',') | lower }}"
   data-sources="{{ (job.data.sources or []) | join(',') | lower }}"
   data-posted="{{ job.data.posted_date or '' }}"
+  {%- if paged %} data-paged{% endif %}
 >
   <div class="job-card-role">
     <a href="{{ job.url }}" class="card-name job-card-title">{{ job.data.title }}</a>

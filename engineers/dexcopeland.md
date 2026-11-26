@@ -38,7 +38,7 @@ frameworks:
 # Professional certifications (optional)
 certifications:
   - ISO 42001 Lead Auditor
-  - CySA
+  - "CySA+"
   - PenTest+
   - Google Professional Cloud Security Engineer
 

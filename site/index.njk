@@ -25,12 +25,14 @@ permalink: /index.html
   </div>
   <div class="card-grid">
     {% for engineer in collections.engineers %}
+      {% set paged = loop.index0 >= 30 %}
       {% include "partials/engineer-card.njk" %}
     {% endfor %}
   </div>
-  <div class="show-more" data-show-more hidden>
-    <p class="show-more-status" data-show-more-status aria-live="polite"></p>
-    <button type="button" class="btn btn-outline">Show more</button>
+  {% set engineerCount = collections.engineers.length %}
+  <div class="show-more" data-show-more{% if engineerCount <= 30 %} hidden{% endif %}>
+    <p class="show-more-status" data-show-more-status aria-live="polite">Showing 30 of {{ engineerCount }}</p>
+    <button type="button" class="btn btn-outline">Show {{ 30 if engineerCount - 30 > 30 else engineerCount - 30 }} more</button>
   </div>
   <div id="no-results" class="no-results" hidden>
     <p>No engineers match these filters.</p>

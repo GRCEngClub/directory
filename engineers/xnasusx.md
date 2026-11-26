@@ -45,7 +45,7 @@ languages:
 certifications:
   - "CISM"
   - "CRISC"
-  - "AWS-CCP"
+  - "AWS CCP"
   - "ISC2 CC"
   - "AAISM"
   - "AAIR"

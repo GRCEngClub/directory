@@ -34,7 +34,7 @@ languages:
   - "xml"
   - "Json"
 certifications:
-  - "Certified GRC Engineer, Auditor Specialty (CGE-AUD"
+  - "Certified GRC Engineer - Auditor Specialty (CGE-AUD)"
   - "ISO/IEC 42001 AI Management Systems Masterclass"
   - "ISO 9001:2015 Quality Management Systems"
   - "PECB - ISO/IEC 27001 Lead Auditor"

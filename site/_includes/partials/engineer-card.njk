@@ -17,6 +17,7 @@
   data-company="{{ (engineer.data.company or '') | lower }}"
   data-location="{{ (engineer.data.location or '') | lower }}"
   data-profile-depth="{{ specializations.length + frameworks.length + availableFor.length + certifications.length + languages.length }}"
+  {%- if paged %} data-paged{% endif %}
 >
   <div class="card-header">
     <img
