@@ -24,7 +24,15 @@ jobs:
       contents: write
       pull-requests: write
       issues: write
+      actions: write
     steps:
+      # Only for scripts/normalize-profile.js; trusted code from the default branch.
+      - name: Checkout repository scripts
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          sparse-checkout: scripts
+
       - name: Process submission and create PR
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         with:
@@ -179,6 +187,11 @@ jobs:
               return;
             }
 
+            // Collapse known spelling variants (e.g. "CYSA +" -> "CySA+") so the
+            // profile lands in the same filters as everyone else's.
+            const { normalizeMarkdown } = require(`${process.env.GITHUB_WORKSPACE}/scripts/normalize-profile.js`);
+            content = normalizeMarkdown(content).text;
+
             // Filename must match the frontmatter `github` value exactly —
             // validate-submission.yml rejects any casing mismatch.
             const filename = `engineers/${username}.md`;
@@ -256,6 +269,14 @@ jobs:
               branch: branchName
             });
 
+            // Flag submissions filed by someone other than the profile owner so a
+            // maintainer confirms consent before merging.
+            const submitter = (issue.user && issue.user.login) || '';
+            const ownerNote = submitter.toLowerCase() === normalizedUsername
+              ? `Submitted by the profile owner, @${submitter}.`
+              : `⚠️ Submitted by @${submitter}, not by the profile owner @${username}. Confirm the owner agreed to be listed before merging.`;
+            const prBody = `Automated PR from #${issue.number}\n\nAdds engineer directory profile for @${username}.\n\n${ownerNote}`;
+
             // --- Open PR (reuse the existing one when reprocessing) ---
             let pr;
             try {
@@ -265,7 +286,7 @@ jobs:
                 title: `Add profile: ${profileName} (@${username})`,
                 head: branchName,
                 base: 'main',
-                body: `Automated PR from #${issue.number}\n\nAdds engineer directory profile for @${username}.`
+                body: prBody
               });
               pr = created.data;
             } catch (e) {
@@ -278,6 +299,20 @@ jobs:
               });
               if (existing.data.length === 0) throw e;
               pr = existing.data[0];
+            }
+
+            // --- Run validation on the profile branch ---
+            // PRs opened with GITHUB_TOKEN don't trigger pull_request workflows,
+            // so dispatch the validator; its check attaches to the branch head.
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'validate-submission.yml',
+                ref: branchName
+              });
+            } catch (e) {
+              core.warning(`Could not dispatch validation for ${branchName}: ${e.message}`);
             }
 
             // --- Comment with PR link and close issue ---

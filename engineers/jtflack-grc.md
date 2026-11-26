@@ -38,7 +38,7 @@ frameworks:
   - "ISO 42001"
   - "NIST AI RMF"
   - "NIST RMF"
-  - "PCI DSS"
+  - "PCI-DSS"
   - "SOC 2"
 
 languages:

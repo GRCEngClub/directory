@@ -60,7 +60,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("engineers", function (api) {
     return api
       .getFilteredByGlob("engineers/*.md")
-      .filter((item) => item.page.fileSlug !== "_template");
+      .filter((item) => item.page.fileSlug !== "_template")
+      // Same order search.js uses for "Name A-Z", so the server-rendered first
+      // page matches what the script shows and nothing shifts on load.
+      .sort((a, b) =>
+        String(a.data.name || "").toLowerCase().localeCompare(String(b.data.name || "").toLowerCase())
+      );
   });
 
   eleventyConfig.addCollection("allJobs", function (api) {

@@ -38,7 +38,7 @@ certifications:
   - "CISA"
   - "CEH"
   - "Linux +"
-  - "CYSA +"
+  - "CySA+"
 available_for:
   - "consulting"
   - "hiring"

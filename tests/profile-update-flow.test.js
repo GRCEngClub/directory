@@ -23,11 +23,13 @@ function workflowScript() {
 
 async function runWorkflow(issue, github) {
   const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
-  const execute = new AsyncFunction('github', 'context', workflowScript());
+  const execute = new AsyncFunction('github', 'context', 'core', 'require', workflowScript());
+  process.env.GITHUB_WORKSPACE = path.join(__dirname, '..');
+  const core = { warning() {}, setFailed(message) { throw new Error(message); } };
   await execute(github, {
     payload: { issue },
     repo: { owner: 'GRCEngClub', repo: 'directory' }
-  });
+  }, core, require);
 }
 
 test('submission workflow accepts new profiles only', function () {
@@ -46,7 +48,8 @@ test('valid new profile submission creates the automated pull request', async fu
     files: [],
     pulls: [],
     comments: [],
-    updates: []
+    updates: [],
+    dispatches: []
   };
   const markdown = [
     '---',
@@ -54,6 +57,10 @@ test('valid new profile submission creates the automated pull request', async fu
     'github: "new-engineer"',
     'specializations:',
     '  - "Cloud Security"',
+    'certifications:',
+    '  - "CYSA +"',
+    'available_for:',
+    '  - "Hiring"',
     '---',
     ''
   ].join('\n');
@@ -61,6 +68,7 @@ test('valid new profile submission creates the automated pull request', async fu
   const issue = {
     number: 404,
     title: 'New Profile: new-engineer',
+    user: { login: 'New-Engineer' },
     body: `<!-- PROFILE_SUBMISSION_START -->\n${encoded}\n<!-- PROFILE_SUBMISSION_END -->`
   };
   const github = {
@@ -100,6 +108,11 @@ test('valid new profile submission creates the automated pull request', async fu
         async update(options) {
           calls.updates.push(options);
         }
+      },
+      actions: {
+        async createWorkflowDispatch(options) {
+          calls.dispatches.push(options);
+        }
       }
     }
   };
@@ -115,6 +128,13 @@ test('valid new profile submission creates the automated pull request', async fu
   assert.equal(calls.pulls.length, 1);
   assert.equal(calls.pulls[0].head, 'profile/new-engineer');
   assert.equal(calls.pulls[0].base, 'main');
+  assert.match(calls.pulls[0].body, /Submitted by the profile owner, @New-Engineer\./);
+  const written = Buffer.from(calls.files[0].content, 'base64').toString('utf8');
+  assert.match(written, /  - "CySA\+"/);
+  assert.match(written, /  - "hiring"/);
+  assert.equal(calls.dispatches.length, 1);
+  assert.equal(calls.dispatches[0].workflow_id, 'validate-submission.yml');
+  assert.equal(calls.dispatches[0].ref, 'profile/new-engineer');
   assert.match(calls.comments[0].body, /pull\/999/);
   assert.equal(calls.updates[0].state, 'closed');
   assert.equal(calls.updates[0].state_reason, 'completed');

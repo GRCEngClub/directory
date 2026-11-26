@@ -26,8 +26,14 @@ eleventyComputed:
   </div>
   <div class="card-grid">
     {% for job in collections.jobs %}
+      {% set paged = loop.index0 >= 30 %}
       {% include "partials/job-card.njk" %}
     {% endfor %}
+  </div>
+  {% set jobCount = collections.jobs.length %}
+  <div class="show-more" data-show-more{% if jobCount <= 30 %} hidden{% endif %}>
+    <p class="show-more-status" data-show-more-status aria-live="polite">Showing 30 of {{ jobCount }}</p>
+    <button type="button" class="btn btn-outline">Show {{ 30 if jobCount - 30 > 30 else jobCount - 30 }} more</button>
   </div>
   {% else %}
   <div class="jobs-empty">

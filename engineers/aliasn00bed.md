@@ -29,7 +29,7 @@ certifications:
   - "GPYC"
   - "GSEC"
   - "GFACT"
-  - "Cysa+"
+  - "CySA+"
   - "TAISE"
   - "GCIH"
 available_for:

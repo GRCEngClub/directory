@@ -33,7 +33,7 @@ certifications:
   - "SEC+"
   - "AWS CCP"
   - "AWS AI Practitioner"
-  - "CGEP"
+  - "CGE-P"
 available_for:
   - "mentoring"
   - "consulting"

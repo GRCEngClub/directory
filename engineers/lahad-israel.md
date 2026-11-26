@@ -10,7 +10,7 @@ linkedin: "https://www.linkedin.com/in/lahad-israel-486898197/"
 frameworks:
   - "HIPAA"
 certifications:
-  - "Microsoft Azure AZ-900"
+  - "Microsoft Azure (AZ-900)"
 ---
 
 ## About Me

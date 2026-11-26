@@ -36,7 +36,7 @@ languages:
 certifications:
   - "CISM"
   - "CRISC"
-  - "ISO42001 LA"
+  - "ISO 42001 LA"
   - "ISO27001 LI"
   - "CIPM"
   - "CGE-P"

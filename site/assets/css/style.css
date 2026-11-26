@@ -510,11 +510,11 @@ a {
 .filters-expanded-panel {
   display: block;
 }
-.filters.filter-palette-ready.filters-collapsed {
+.filters.filter-palette-ready.filters-collapsed, .js .filters:not(.filter-palette-ready) {
   padding-top: 0.55rem;
   padding-bottom: 0.55rem;
 }
-.filters.filter-palette-ready.filters-collapsed .filters-compact-bar {
+.filters.filter-palette-ready.filters-collapsed .filters-compact-bar, .js .filters:not(.filter-palette-ready) .filters-compact-bar {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -535,7 +535,7 @@ a {
   gap: 0.4rem;
 }
 .filter-command-trigger { margin-left: auto; }
-.filters.filter-palette-ready.filters-collapsed .filters-expanded-panel {
+.filters.filter-palette-ready.filters-collapsed .filters-expanded-panel, .js .filters:not(.filter-palette-ready) .filters-expanded-panel {
   display: none;
 }
 .filter-compact-label {
@@ -918,6 +918,15 @@ a {
   gap: 1.25rem;
   position: relative;
 }
+/* Directory paging before search.js runs: rows past the first page are
+   server-marked data-paged and hidden only when JS is on. */
+.js .card[data-paged] {
+  display: none;
+}
+html:not(.js) .show-more {
+  display: none;
+}
+
 .show-more {
   display: grid;
   justify-items: center;
@@ -1018,6 +1027,9 @@ a {
 }
 .card-name {
   display: inline-block;
+  /* 24px minimum touch target without changing the row's layout */
+  padding-block: 0.125rem;
+  margin-block: -0.125rem;
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.3;
@@ -2062,6 +2074,12 @@ a {
   color: var(--text-secondary);
   margin-bottom: 0.35rem;
 }
+/* Links inside sentences need more than color to stand out */
+.footer p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
 
 /* Submit Form Page */
 .submit-page {
@@ -2469,7 +2487,7 @@ a {
   .filter-toggle {
     width: 100%;
   }
-  .filters.filter-palette-ready.filters-collapsed .filter-toggle {
+  .filters.filter-palette-ready.filters-collapsed .filter-toggle, .js .filters:not(.filter-palette-ready) .filter-toggle {
     width: auto;
   }
   .controls-bar {
@@ -2709,7 +2727,7 @@ a {
     padding: 0.65rem 1rem;
     border-top: none;
   }
-  .filters:not(.filters-collapsed) {
+  html:not(.js) .filters:not(.filters-collapsed), .filters.filter-palette-ready:not(.filters-collapsed) {
     position: relative;
     top: auto;
     z-index: 1;
@@ -2719,11 +2737,11 @@ a {
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
   }
-  .filters.filter-palette-ready.filters-collapsed {
+  .filters.filter-palette-ready.filters-collapsed, .js .filters:not(.filter-palette-ready) {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  .filters.filter-palette-ready.filters-collapsed .filters-compact-bar { min-height: 44px; }
+  .filters.filter-palette-ready.filters-collapsed .filters-compact-bar, .js .filters:not(.filter-palette-ready) .filters-compact-bar { min-height: 44px; }
   .filters-compact-bar .filter-toggle {
     width: auto;
     min-height: 44px;

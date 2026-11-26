@@ -31,7 +31,7 @@ certifications:
   - "ISO/IEC 27701:2025 Lead Auditor"
   - "GIAC Certified Incident Handler, GCIH"
   - "GIAC Security Essentials Certification, GSEC"
-  - "GIAC Foundational Cybersecurity Technologies, GFACT"
+  - "GIAC Foundational Cybersecurity Technologies (GFACT)"
 available_for:
   - "consulting"
   - "open-source"

@@ -39,6 +39,8 @@
   </script>
   <script>
     (function() {
+      // Lets CSS pre-apply JS-only layout (e.g. directory paging) before first paint.
+      document.documentElement.classList.add('js');
       try {
         var saved = localStorage.getItem('theme');
         if (saved) document.documentElement.setAttribute('data-theme', saved);

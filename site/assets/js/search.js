@@ -148,6 +148,12 @@
       return a.data.name.localeCompare(b.data.name) || a.index - b.index;
     });
 
+    // Skip the DOM moves when the order is already right (the common case on
+    // load, since the server renders in name order).
+    var current = Array.from(cardGrid.children).filter(function (el) { return cards.indexOf(el) !== -1; });
+    var unchanged = indexed.every(function (item, i) { return current[i] === item.card; });
+    if (unchanged) return;
+
     indexed.forEach(function (item) {
       cardGrid.appendChild(item.card);
     });
@@ -164,6 +170,8 @@
     order.forEach(function (card) {
       var i = cards.indexOf(card);
       if (i === -1) return;
+      // Server-rendered paging hint; from here on `hidden` controls visibility.
+      card.removeAttribute("data-paged");
       if (matchFlags[i]) {
         total++;
         if (shown < pageLimit) {

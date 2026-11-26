@@ -28,7 +28,7 @@ certifications:
   - "CGE-AUD"
   - "AIGP"
   - "TAISE"
-  - "CYSA+"
+  - "CySA+"
   - "ISO 27001 Lead Auditor"
 available_for:
   - "hiring"
