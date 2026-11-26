@@ -14,7 +14,7 @@
   --border-subtle: oklch(32% 0.012 62);
   --border-muted: color-mix(in oklch, var(--border-subtle) 70%, transparent);
   --border-accent: var(--brand-primary);
-  --nav-bg: color-mix(in oklch, var(--bg-primary) 90%, transparent);
+  --nav-bg: var(--bg-primary);
   --available-bg: color-mix(in oklch, oklch(72% 0.16 150) 14%, transparent);
   --available-color: oklch(74% 0.16 150);
   --language-bg: color-mix(in oklch, oklch(67% 0.12 225) 14%, transparent);
@@ -47,7 +47,7 @@
   --border-subtle: oklch(85% 0.01 62);
   --border-muted: color-mix(in oklch, var(--border-subtle) 70%, transparent);
   --border-accent: var(--brand-primary);
-  --nav-bg: color-mix(in oklch, var(--bg-primary) 92%, transparent);
+  --nav-bg: var(--bg-primary);
   --available-bg: color-mix(in oklch, oklch(48% 0.14 150) 10%, transparent);
   --available-color: oklch(43% 0.14 150);
   --language-bg: color-mix(in oklch, oklch(45% 0.1 225) 10%, transparent);
@@ -77,7 +77,7 @@
     --border-subtle: oklch(85% 0.01 62);
     --border-muted: color-mix(in oklch, var(--border-subtle) 70%, transparent);
     --border-accent: var(--brand-primary);
-    --nav-bg: color-mix(in oklch, var(--bg-primary) 92%, transparent);
+    --nav-bg: var(--bg-primary);
     --available-bg: color-mix(in oklch, oklch(48% 0.14 150) 10%, transparent);
     --available-color: oklch(43% 0.14 150);
     --language-bg: color-mix(in oklch, oklch(45% 0.1 225) 10%, transparent);
@@ -241,8 +241,6 @@ a {
   top: 0;
   z-index: 100;
   background: var(--nav-bg);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-subtle);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
@@ -920,6 +918,20 @@ a {
   gap: 1.25rem;
   position: relative;
 }
+.show-more {
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+  padding: 2rem 1rem 0.5rem;
+}
+
+.show-more-status {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
 .no-results {
   display: grid;
   justify-items: center;
