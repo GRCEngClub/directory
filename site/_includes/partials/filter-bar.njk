@@ -1,9 +1,21 @@
-<div class="filters">
+<div class="filters" aria-label="Search and filter engineers">
   <div class="filters-compact-bar">
-    <span class="filter-compact-label"><strong data-compact-results>{{ collections.engineers.length }}</strong> engineers</span>
+    <div class="filter-compact-status">
+      <p class="filter-compact-label" aria-live="polite" aria-atomic="true"><strong data-compact-results>{{ collections.engineers.length }}</strong> <span data-compact-noun data-singular="engineer" data-plural="engineers">engineers</span></p>
+      <div class="compact-pills active-filter-pills" data-compact-pills aria-label="Active filters"></div>
+      <button class="btn-clear" type="button" data-clear-filters data-compact-clear hidden>Clear</button>
+    </div>
+    <div class="filter-quick" role="group" aria-label="Quick filters">
+      <button class="filter-preset" type="button" data-frameworks="fedramp" aria-pressed="false">FedRAMP</button>
+      <button class="filter-preset" type="button" data-specializations="cloud security" aria-pressed="false">Cloud security</button>
+      <button class="filter-preset" type="button" data-specializations="ai governance" aria-pressed="false">AI governance</button>
+      <button class="filter-preset" type="button" data-specializations="compliance automation" aria-pressed="false">Compliance automation</button>
+      <button class="filter-preset" type="button" data-available="consulting" aria-pressed="false">Consulting</button>
+    </div>
     <button class="filter-toggle filter-command-trigger" type="button" data-filter-toggle aria-expanded="false" aria-controls="filter-panel">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <span>Search &amp; filter</span>
-      <kbd class="filter-shortcut" aria-hidden="true">⌘K</kbd>
+      <kbd class="filter-shortcut" aria-hidden="true">/</kbd>
     </button>
   </div>
 
@@ -12,22 +24,17 @@
   <div class="filters-expanded-panel" id="filter-panel">
     <div class="controls-header">
       <div class="filter-palette-heading">
-        <p class="filter-palette-title">Search &amp; filters</p>
+        <p class="filter-palette-title">Search &amp; filter</p>
         <p class="results-count" aria-live="polite" aria-atomic="true"><span id="results-count">{{ collections.engineers.length }}</span> of {{ collections.engineers.length }} engineers</p>
       </div>
       <div class="controls-actions">
-        <div class="controls-meta" aria-label="Directory coverage">
-          <span>{{ collections.engineers | uniqueValues("frameworks") | length }} frameworks</span>
-          <span>{{ collections.engineers | uniqueValues("certifications") | length }} certifications</span>
-          <span>{{ collections.engineers | uniqueValues("available_for") | length }} availability types</span>
-        </div>
-        <button class="filter-toggle filter-palette-close" type="button" data-filter-toggle aria-expanded="true" aria-controls="filter-panel" aria-label="Close search and filters">Close</button>
+        <button class="filter-toggle filter-palette-close" type="button" data-filter-toggle aria-expanded="true" aria-controls="filter-panel">Done</button>
       </div>
     </div>
 
     <div class="controls-bar">
       <div class="search-box">
-        <input type="search" id="search-input" placeholder="Search name, title, company, location, skill..." aria-label="Search engineers">
+        <input type="search" id="search-input" placeholder="Name, title, company, location, or skill" aria-label="Search engineers" autocomplete="off">
       </div>
 
       <label class="sort-control" for="sort-select">
@@ -40,19 +47,10 @@
       </label>
     </div>
 
-    <div class="filter-presets" aria-label="Saved filter presets">
-      <span class="filter-presets-label">Presets</span>
-      <button class="filter-preset" type="button" data-frameworks="fedramp" aria-pressed="false">FedRAMP</button>
-      <button class="filter-preset" type="button" data-specializations="cloud security" aria-pressed="false">Cloud security</button>
-      <button class="filter-preset" type="button" data-specializations="ai governance" aria-pressed="false">AI governance</button>
-      <button class="filter-preset" type="button" data-specializations="compliance automation" aria-pressed="false">Compliance automation</button>
-      <button class="filter-preset" type="button" data-available="consulting" aria-pressed="false">Consulting</button>
-    </div>
-
-    <div id="active-filters-summary" class="active-filters-summary" style="display:none">
-      <span class="active-filters-label">Filters:</span>
+    <div id="active-filters-summary" class="active-filters-summary" hidden>
+      <span class="active-filters-label">Active</span>
       <div id="active-filter-pills" class="active-filter-pills"></div>
-      <button id="clear-filters" class="btn-clear">Clear all</button>
+      <button id="clear-filters" class="btn-clear" type="button" data-clear-filters>Clear all</button>
     </div>
 
     <div class="filter-workbench">
@@ -66,72 +64,73 @@
 
       <div class="filter-groups">
     <div class="filter-group open" data-group="specializations">
-      <button class="filter-group-header" aria-expanded="true">
+      <button class="filter-group-header" type="button" aria-expanded="true">
         <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
         <span>Specializations</span>
-        <span class="count-badge" style="display:none">0</span>
+        <span class="count-badge" hidden>0</span>
       </button>
       <div class="filter-chips" data-filter="specializations">
         {% set allSpecs = collections.engineers | uniqueValues("specializations") %}
         {% for spec in allSpecs %}
-        <button class="chip" data-value="{{ spec | lower }}" aria-pressed="false">{{ spec }}</button>
+        <button class="chip" type="button" data-value="{{ spec | lower }}" aria-pressed="false">{{ spec }}</button>
         {% endfor %}
       </div>
     </div>
 
     <div class="filter-group" data-group="frameworks">
-      <button class="filter-group-header" aria-expanded="false">
+      <button class="filter-group-header" type="button" aria-expanded="false">
         <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
         <span>Frameworks</span>
-        <span class="count-badge" style="display:none">0</span>
+        <span class="count-badge" hidden>0</span>
       </button>
       <div class="filter-chips" data-filter="frameworks">
         {% set allFrameworks = collections.engineers | uniqueValues("frameworks") %}
         {% for fw in allFrameworks %}
-        <button class="chip" data-value="{{ fw | lower }}" aria-pressed="false">{{ fw }}</button>
+        <button class="chip" type="button" data-value="{{ fw | lower }}" aria-pressed="false">{{ fw }}</button>
         {% endfor %}
       </div>
     </div>
 
     <div class="filter-group" data-group="certifications">
-      <button class="filter-group-header" aria-expanded="false">
+      <button class="filter-group-header" type="button" aria-expanded="false">
         <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
         <span>Certifications</span>
-        <span class="count-badge" style="display:none">0</span>
+        <span class="count-badge" hidden>0</span>
       </button>
       <div class="filter-chips" data-filter="certifications">
         {% set allCerts = collections.engineers | uniqueValues("certifications") %}
         {% for cert in allCerts %}
-        <button class="chip" data-value="{{ cert | lower }}" aria-pressed="false">{{ cert }}</button>
+        <button class="chip" type="button" data-value="{{ cert | lower }}" aria-pressed="false">{{ cert }}</button>
         {% endfor %}
       </div>
     </div>
 
     <div class="filter-group" data-group="languages">
-      <button class="filter-group-header" aria-expanded="false">
+      <button class="filter-group-header" type="button" aria-expanded="false">
         <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-        <span>Languages & Tools</span>
-        <span class="count-badge" style="display:none">0</span>
+        <span>Languages &amp; tools</span>
+        <span class="count-badge" hidden>0</span>
       </button>
       <div class="filter-chips" data-filter="languages">
         {% set allLanguages = collections.engineers | uniqueValues("languages") %}
         {% for lang in allLanguages %}
-        <button class="chip" data-value="{{ lang | lower }}" aria-pressed="false">{{ lang }}</button>
+        <button class="chip" type="button" data-value="{{ lang | lower }}" aria-pressed="false">{{ lang }}</button>
         {% endfor %}
       </div>
     </div>
 
     <div class="filter-group" data-group="available">
-      <button class="filter-group-header" aria-expanded="false">
+      <button class="filter-group-header" type="button" aria-expanded="false">
         <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-        <span>Available For</span>
-        <span class="count-badge" style="display:none">0</span>
+        <span>Available for</span>
+        <span class="count-badge" hidden>0</span>
       </button>
       <div class="filter-chips" data-filter="available">
         {% set allAvailable = collections.engineers | uniqueValues("available_for") %}
         {% for a in allAvailable %}
-        <button class="chip" data-value="{{ a | lower }}" aria-pressed="false">{{ a }}</button>
+        <button class="chip" type="button" data-value="{{ a | lower }}" aria-pressed="false">{{ a | availabilityLabel }}</button>
         {% endfor %}
+        <p class="filter-group-note">What each engineer says they're open to. "Is hiring" means they have open roles on their own team.</p>
       </div>
     </div>
     </div>

@@ -4,15 +4,11 @@ title: Chapter Leads - GRC Engineer Directory
 permalink: /chapters/index.html
 description: Meet the GRC Engineering Club chapter leads organizing local communities around the world.
 ---
-<section class="jobs-hero chapters-hero">
-  <div class="jobs-hero-inner">
-    <p class="jobs-kicker">Chapter Leads</p>
+<section class="hero page-hero chapters-hero">
+  <div class="hero-content">
     <h1>GRC Engineering chapter leads</h1>
-    <p class="jobs-hero-copy">Local leaders organizing GRC Engineering Club chapters in cities around the world. Find a chapter near you, meet the founding team, and connect with the people building community on the ground.</p>
-    <div class="chapter-page-actions">
-      <a href="https://grcengclub.com/chapters" class="btn btn-primary" target="_blank" rel="noopener">Start a chapter</a>
-      <a href="/" class="btn btn-outline">Browse engineers</a>
-    </div>
+    <p class="hero-tagline">The people organizing GRC Engineering Club chapters around the world. Find a chapter near you and meet its founding team.</p>
+    <p class="hero-actions"><a href="https://grcengclub.com/chapters" class="btn btn-outline" target="_blank" rel="noopener">Start a chapter</a></p>
   </div>
 </section>
 
@@ -20,7 +16,7 @@ description: Meet the GRC Engineering Club chapter leads organizing local commun
 
 <section class="directory chapters-directory">
   {% if collections.chapters.length %}
-  <div class="directory-toolbar chapters-toolbar">
+  <div class="directory-toolbar chapters-toolbar" aria-hidden="true">
     <span>Chapter</span>
     <span>Leads</span>
     <span>Actions</span>
@@ -37,7 +33,10 @@ description: Meet the GRC Engineering Club chapter leads organizing local commun
   </div>
   {% endif %}
 
-  <p id="no-results" class="no-results" style="display:none" aria-live="polite">No chapters match your filters. Try removing a filter or broadening the search.</p>
+  <div id="no-results" class="no-results" hidden>
+    <p>No chapters match these filters.</p>
+    <button type="button" class="btn btn-outline btn-compact" data-clear-filters>Clear filters</button>
+  </div>
 </section>
 
 <script src="/site/assets/js/chapters-search.js"></script>

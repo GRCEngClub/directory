@@ -1,9 +1,14 @@
 <aside class="filters" id="chapter-filters" aria-label="Filter chapter leads">
   <div class="filters-compact-bar">
-    <span class="filter-compact-label"><strong data-compact-results>{{ collections.chapters.length }}</strong> chapters</span>
+    <div class="filter-compact-status">
+      <p class="filter-compact-label" aria-live="polite" aria-atomic="true"><strong data-compact-results>{{ collections.chapters.length }}</strong> <span data-compact-noun data-singular="chapter" data-plural="chapters">chapters</span></p>
+      <div class="compact-pills active-filter-pills" data-compact-pills aria-label="Active filters"></div>
+      <button class="btn-clear" type="button" data-clear-filters data-compact-clear hidden>Clear</button>
+    </div>
     <button class="filter-toggle filter-command-trigger" type="button" data-filter-toggle aria-expanded="false" aria-controls="filter-panel">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <span>Search &amp; filter</span>
-      <kbd class="filter-shortcut" aria-hidden="true">⌘K</kbd>
+      <kbd class="filter-shortcut" aria-hidden="true">/</kbd>
     </button>
   </div>
 
@@ -18,11 +23,7 @@
         </p>
       </div>
       <div class="controls-actions">
-        <div class="controls-meta" aria-label="Chapter directory coverage">
-          <span>{{ collections.chapters | uniqueValues("region") | length }} regions</span>
-          <span>{{ collections.chapters | uniqueValues("country") | length }} countries</span>
-        </div>
-        <button class="filter-toggle filter-palette-close" type="button" data-filter-toggle aria-expanded="true" aria-controls="filter-panel" aria-label="Close chapter search and filters">Close</button>
+        <button class="filter-toggle filter-palette-close" type="button" data-filter-toggle aria-expanded="true" aria-controls="filter-panel">Done</button>
       </div>
     </div>
 

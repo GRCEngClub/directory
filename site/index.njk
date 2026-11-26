@@ -5,9 +5,8 @@ permalink: /index.html
 ---
 <section class="hero" id="hero">
   <div class="hero-content">
-    <p class="hero-kicker">GRC Engineer Directory</p>
     <h1>Find engineers by the work they do.</h1>
-    <p class="hero-tagline">Search real GRC practitioners by specialization, framework expertise, tooling, and availability.</p>
+    <p class="hero-tagline">GRC practitioners to hire, bring in as consultants, or learn from, searchable by specialization, framework, and tooling.</p>
   </div>
 </section>
 
@@ -16,30 +15,64 @@ permalink: /index.html
 
 {% include "partials/filter-bar.njk" %}
 
-<section class="directory">
-  <div class="directory-toolbar">
+<section class="directory" id="directory" aria-label="Engineers">
+  <div class="directory-toolbar" aria-hidden="true">
     <span>Engineer</span>
     <span>Available for</span>
-    <span>Specialization</span>
-    <span>Frameworks & tools</span>
-    <span>Actions</span>
+    <span>Specializes in</span>
+    <span>Works with</span>
+    <span>Contact</span>
   </div>
   <div class="card-grid">
     {% for engineer in collections.engineers %}
       {% include "partials/engineer-card.njk" %}
     {% endfor %}
   </div>
-  <p id="no-results" class="no-results" style="display:none" aria-live="polite">No engineers match your filters. Try removing a filter or broadening your search.</p>
+  <div id="no-results" class="no-results" hidden>
+    <p>No engineers match these filters.</p>
+    <button type="button" class="btn btn-outline btn-compact" data-clear-filters>Clear filters</button>
+  </div>
 </section>
 
-<section class="jobs-preview chapters-preview">
+{% set browseGroups = [
+  { title: "Specializations", field: "specializations", key: "specializations" },
+  { title: "Frameworks", field: "frameworks", key: "frameworks" },
+  { title: "Languages & tools", field: "languages", key: "languages" },
+  { title: "Available for", field: "available_for", key: "available" }
+] %}
+<section class="browse" aria-labelledby="browse-heading">
+  <div class="browse-header">
+    <h2 id="browse-heading">Browse the directory</h2>
+    <p class="browse-intro">The most common skills and frameworks across {{ collections.engineers.length }} profiles. Select one to filter the list.</p>
+  </div>
+  <div class="browse-grid">
+    {% for group in browseGroups %}
+    {% set rows = collections.engineers | topValues(group.field, 8, 2) %}
+    {% set maxCount = rows[0].count if rows.length else 1 %}
+    <div class="browse-group">
+      <h3>{{ group.title }}</h3>
+      <ol class="browse-list">
+        {% for row in rows %}
+        <li>
+          <a href="/?{{ group.key }}={{ row.value | urlencode }}#directory" class="browse-row" style="--share-ratio: {{ (row.count / maxCount) | round(3) }}">
+            <span class="browse-label">{% if group.key == "available" %}{{ row.label | availabilityLabel }}{% else %}{{ row.label }}{% endif %}</span>
+            <span class="browse-count">{{ row.count }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="jobs-preview chapters-preview" aria-labelledby="chapters-preview-heading">
   <div class="jobs-preview-header">
     <div>
-      <p class="jobs-kicker">Chapter Leads</p>
-      <h2>GRC Engineering chapter leads</h2>
-      <p class="jobs-preview-copy">Meet the local leaders organizing GRC Engineering Club chapters — presidents, VPs, and founding teams building community city by city.</p>
+      <h2 id="chapters-preview-heading">Chapter leads</h2>
+      <p class="jobs-preview-copy">The people organizing GRC Engineering Club chapters, city by city.</p>
     </div>
-    <a href="/chapters/" class="btn btn-outline">Browse chapter leads</a>
+    <a href="/chapters/" class="btn btn-outline">All chapters</a>
   </div>
 
   {% if chapterLeads.length %}
@@ -55,14 +88,13 @@ permalink: /index.html
   {% endif %}
 </section>
 
-<section class="jobs-preview">
+<section class="jobs-preview" aria-labelledby="jobs-preview-heading">
   <div class="jobs-preview-header">
     <div>
-      <p class="jobs-kicker">Open Roles</p>
-      <h2>Open GRC Engineering Roles</h2>
-      <p class="jobs-preview-copy">A community resource from the GRC Engineering Club that surfaces open GRC engineering roles alongside the member directory, using curated ATS imports.</p>
+      <h2 id="jobs-preview-heading">Open GRC engineering roles</h2>
+      <p class="jobs-preview-copy">Roles imported from public company job boards and curated by the GRC Engineering Club.</p>
     </div>
-    <a href="/jobs/" class="btn btn-outline">Browse jobs</a>
+    <a href="/jobs/" class="btn btn-outline">All jobs</a>
   </div>
 
   {% if activeJobs.length %}
@@ -78,39 +110,5 @@ permalink: /index.html
   {% endif %}
 </section>
 
-<section class="insights">
-  <h2>Community Insights</h2>
-  <p class="insights-intro">A snapshot of the skills, frameworks, and availability across the directory.</p>
-  <div class="insights-grid">
-    <div class="insight-card">
-      <h3>Top Specializations</h3>
-      <canvas id="chart-specs" aria-label="Bar chart showing top specializations across engineers" role="img"></canvas>
-    </div>
-    <div class="insight-card">
-      <h3>Framework Coverage</h3>
-      <canvas id="chart-frameworks" aria-label="Doughnut chart showing framework coverage across engineers" role="img"></canvas>
-    </div>
-    <div class="insight-card">
-      <h3>Availability</h3>
-      <canvas id="chart-available" aria-label="Polar area chart showing availability types across engineers" role="img"></canvas>
-    </div>
-    <div class="insight-card">
-      <h3>Languages & Tools</h3>
-      <canvas id="chart-languages" aria-label="Bar chart showing languages and tools used by engineers" role="img"></canvas>
-    </div>
-  </div>
-</section>
-
-<script id="chart-data" type="application/json">
-{
-  "specializations": {{ collections.engineers | countValues("specializations") | dump | safe }},
-  "frameworks": {{ collections.engineers | countValues("frameworks") | dump | safe }},
-  "available_for": {{ collections.engineers | countValues("available_for") | dump | safe }},
-  "languages": {{ collections.engineers | countValues("languages") | dump | safe }}
-}
-</script>
-
-<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <script src="/site/assets/js/search.js"></script>
 <script src="/site/assets/js/filter-scroll.js"></script>
-<script defer src="/site/assets/js/effects.js"></script>

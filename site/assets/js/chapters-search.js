@@ -5,6 +5,9 @@
   var resultCount = document.getElementById("result-count");
   var compactResultCount = filterRoot ? filterRoot.querySelector("[data-compact-results]") : null;
   var noResults = document.getElementById("no-results");
+  var compactPills = filterRoot ? filterRoot.querySelector("[data-compact-pills]") : null;
+  var compactClear = filterRoot ? filterRoot.querySelector("[data-compact-clear]") : null;
+  var compactNoun = filterRoot ? filterRoot.querySelector("[data-compact-noun]") : null;
   if (!filterRoot || !cardGrid) return;
 
   var cards = Array.prototype.slice.call(cardGrid.querySelectorAll(".chapter-card"));
@@ -45,14 +48,76 @@
         matchesFilter(card, "status", activeFilters.status) &&
         matchesFilter(card, "region", activeFilters.region);
 
-      card.classList.toggle("hidden", !show);
+      card.hidden = !show;
       if (show) visible += 1;
     });
 
     if (resultCount) resultCount.textContent = String(visible);
     if (compactResultCount) compactResultCount.textContent = String(visible);
-    if (noResults) noResults.style.display = visible ? "none" : "block";
+    if (noResults) noResults.hidden = visible !== 0;
+    if (compactNoun) compactNoun.textContent = visible === 1 ? compactNoun.dataset.singular : compactNoun.dataset.plural;
+    renderPills(query);
   }
+
+  function chipFor(key, value) {
+    var group = filterRoot.querySelector('.filter-chips[data-filter="' + key + '"]');
+    if (!group) return null;
+    return Array.prototype.find.call(group.querySelectorAll(".chip"), function (chip) {
+      return normalize(chip.getAttribute("data-value")) === value;
+    }) || null;
+  }
+
+  function renderPills(query) {
+    if (!compactPills) return;
+    compactPills.textContent = "";
+    var count = 0;
+    Object.keys(activeFilters).forEach(function (key) {
+      var value = activeFilters[key];
+      var chip = value ? chipFor(key, value) : null;
+      if (!chip) return;
+      count += 1;
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "active-filter-pill";
+      btn.setAttribute("data-filter-key", key);
+      btn.setAttribute("aria-label", "Remove filter: " + chip.textContent.trim());
+      var text = document.createElement("span");
+      text.textContent = chip.textContent.trim();
+      var x = document.createElement("span");
+      x.className = "pill-x";
+      x.setAttribute("aria-hidden", "true");
+      x.textContent = "\u00d7";
+      btn.appendChild(text);
+      btn.appendChild(x);
+      compactPills.appendChild(btn);
+    });
+    if (compactClear) compactClear.hidden = !(count || query);
+  }
+
+  function clearFilter(key) {
+    activeFilters[key] = null;
+    Array.prototype.forEach.call(filterRoot.querySelectorAll('.filter-chips[data-filter="' + key + '"] .chip'), function (chip) {
+      chip.classList.remove("active");
+      chip.setAttribute("aria-pressed", "false");
+    });
+  }
+
+  if (compactPills) {
+    compactPills.addEventListener("click", function (event) {
+      var pill = event.target.closest(".active-filter-pill");
+      if (!pill) return;
+      clearFilter(pill.getAttribute("data-filter-key"));
+      applyFilters();
+    });
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll("[data-clear-filters]"), function (btn) {
+    btn.addEventListener("click", function () {
+      Object.keys(activeFilters).forEach(clearFilter);
+      if (searchInput) searchInput.value = "";
+      applyFilters();
+    });
+  });
 
   function syncMobileTabs() {
     var openGroup = filterRoot.querySelector(".filter-group.open");

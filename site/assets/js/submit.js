@@ -1,6 +1,8 @@
 (function () {
   'use strict';
 
+  var REDUCE_MOTION = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var SCROLL_BEHAVIOR = REDUCE_MOTION ? 'auto' : 'smooth';
   var REPO_OWNER = 'GRCEngClub';
   var REPO_NAME = 'directory';
   var GH_USERNAME_RE = /^[a-z0-9]([a-z0-9-]{0,37}[a-z0-9])?$/;
@@ -83,7 +85,7 @@
 
     currentStep = n;
     if (n === 4) renderPreview();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: SCROLL_BEHAVIOR });
   }
 
   document.addEventListener('click', function (event) {
@@ -382,7 +384,7 @@
     }
 
     if (focusTarget && typeof focusTarget.scrollIntoView === 'function') {
-      focusTarget.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      focusTarget.scrollIntoView({ behavior: SCROLL_BEHAVIOR, block: 'center' });
     }
   }
 
@@ -807,7 +809,7 @@
     }
 
     submitFallback.focus({ preventScroll: true });
-    submitFallback.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    submitFallback.scrollIntoView({ behavior: SCROLL_BEHAVIOR, block: 'start' });
   }
 
   if (copyPayloadBtn) {
